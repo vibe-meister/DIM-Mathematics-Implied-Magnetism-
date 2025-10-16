@@ -1,1 +1,26 @@
-Magnetic Scalar Waves  Theory Notes
+Magnetic Scalar Waves — Theory Notes
+
+PDE and Parameters
+- Wave equation: Φ_tt − c² ΔΦ = 0 with c=1/√(με).
+- Domain Ω⊆ℝ^d, d∈{1,2,3}; initial data (Φ₀,Ψ₀) and BCs (Dirichlet/Neumann/Robin).
+
+Solutions and Dispersion
+- Plane waves: Φ=Re{A e^{i(k·x−ωt)}}, ω=c|k|; group=phase velocity=c.
+- d’Alembert (1D): Φ(x,t)=F(x−ct)+G(x+ct).
+- Fourier solution (ℝ^d): superposition with cos(c|k|t) and sin(c|k|t)/(c|k|).
+
+Energy and Conservation
+- Energy density e=½[(Φ_t)²+c²|∇Φ|²]; E(t)=∫ e dx; conserved for homogeneous BCs.
+
+Well‑Posedness
+- For Φ₀∈H¹, Ψ₀∈L², homogeneous admissible BCs ⇒ unique weak solution with energy conservation; stability in energy norm.
+
+Interpretation Notes
+- Treat Φ as an abstract scalar; to map to physical observables, define measurable quantities from Φ and ensure consistency with conservation and causality.
+
+Extensions
+- Inhomogeneous media: c(x), variable coefficients; use geometric optics/eikonal approximations.
+- Damping: Φ_tt − c²ΔΦ + 2γΦ_t = 0; energy decays at rate ∝γ.
+
+Reporting
+- Specify Ω, BCs, initial data regularity, and solution form; include energy identity and dispersion check.

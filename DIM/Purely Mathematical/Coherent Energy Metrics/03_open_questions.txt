@@ -1,1 +1,36 @@
-Open questions for metrics.
+Coherent Energy Metrics — Open Questions and Agenda
+
+1) Coherence factor generalizations
+- Define multivariate/mode-coupled coherence matrices and norms; show equivalences or dominance relations vs scalar F_coh.
+- Explore frequency-resolved F_coh(f) aggregation schemes that preserve bounds and monotonicity.
+
+2) Robust estimation
+- Design circular robust estimators for F_coh under outliers and multimodal phase distributions; derive breakdown points.
+- Joint estimation of (G_P, F_coh) with correlation ρ; derive CI with covariance terms.
+
+3) Hypothesis testing beyond Rayleigh
+- Compare Rayleigh, Kuiper, Watson tests for circular uniformity; set guidance by N and alternative distributions.
+- Sequential testing across windows while controlling false discovery.
+
+4) Weighted coherence theory
+- Characterize bias/variance of F_coh,w under noisy weights; propose weight regularization.
+- Optimize weights to minimize Var(κ̂) subject to unbiasedness.
+
+5) Finite-sample behavior
+- Exact/approximate distribution of F̂_coh for small N; tight concentration bounds.
+- Bootstrap validity under dependence across runs; block bootstrap strategies.
+
+6) Threshold design
+- Calibrate F_min, κ_min, δ thresholds vs. target false positive/negative rates.
+- Adaptive thresholds by SNR and N.
+
+7) Extensions
+- Define κ(f) surfaces and integrate with application-specific importance weights; prove consistency.
+- Link to Kuramoto dynamics to predict F_coh from coupling and noise; validate on simulated phase oscillators.
+
+Tasks
+- [ ] Monte Carlo suite: VM and uniform mixtures; measure E[F̂_coh], Var(F̂_coh), Rayleigh power.
+- [ ] Weight optimization prototype minimizing Var(κ̂).
+- [ ] Circular-robust estimator prototype and breakdown analysis.
+- [ ] Comparative test study (Rayleigh/Kuiper/Watson) with guidance table.
+- [ ] Draft standard reporting thresholds with rationale.

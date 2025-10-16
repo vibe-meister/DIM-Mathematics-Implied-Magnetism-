@@ -1,1 +1,19 @@
-Basis expansions, control/observability.
+Time-Dependent Magnetic Flux Vector — Proof Strategies
+
+Lemma 1 (Orthogonal projection estimates)
+- With orthonormal {1/T ∫ f_i f_j dt = δ_ij}, coefficients c_i=⟨r,f_i⟩ minimize ∥r−Σ c_i f_i∥².
+
+Lemma 2 (Principal sinusoid recovery)
+- Projections a_c=(2/T)∫ y cos(ωt)dt, a_s=(2/T)∫ y sin(ωt)dt recover B0,ϕ0 in noiseless case; small-noise bias O(σ²).
+
+Lemma 3 (Leakage bounds)
+- Leakage λ_i := |⟨cos(ωt+ϕ), f_i⟩|; if λ_i=0 for all i, principal and auxiliary subspaces decouple; otherwise bound bias by Σ λ_i|B_i|.
+
+Lemma 4 (Variance)
+- For white noise σ², Var(c_i)=σ²; Var(B̂0), Var(ϕ̂0) given by standard sinusoidal parameter estimation approximations.
+
+Lemma 5 (Regularization)
+- Ridge/LASSO shrink variance in collinear designs; trade bias vs variance; select via cross‑validation or information criteria.
+
+Validation
+- Simulate with known {f_i}, ω, ϕ0 to verify identifiability, leakage, and CI coverage.

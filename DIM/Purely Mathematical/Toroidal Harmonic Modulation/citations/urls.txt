@@ -1,0 +1,11 @@
+Toroidal Harmonic Modulation — Citations (URLs)
+
+Fourier series on the torus / T²:
+- https://en.wikipedia.org/wiki/Multiple_Fourier_series
+
+Discrete Fourier transform (2D) and sampling theorem basics:
+- https://en.wikipedia.org/wiki/Discrete_Fourier_transform
+- https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem
+
+Short-time Fourier transform (time-varying analysis):
+- https://en.wikipedia.org/wiki/Short-time_Fourier_transform

@@ -1,1 +1,15 @@
-Open questions for Rodin mapping.
+Rodin Coil Winding Sequence — Open Questions and Agenda
+
+1) Mapping f design
+- Optimize f to minimize leakage L and discrepancy D*_N; quantify tradeoffs.
+
+2) Multi‑layer strategies
+- Introduce layer index ℓ_n to improve coverage; analyze spectral impact.
+
+3) Robustness
+- Sensitivity to N, N_θ, N_ϕ; finite‑N effects; guidelines for small N.
+
+Tasks
+- [ ] Spectral/leakage calculator over (N_θ,N_ϕ,f) grid.
+- [ ] Discrepancy estimator and parameter sweep.
+- [ ] Layered mapping prototype and evaluation.

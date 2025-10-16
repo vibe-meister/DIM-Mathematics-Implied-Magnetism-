@@ -1,1 +1,15 @@
-Open questions for flux vector.
+Time-Dependent Magnetic Flux Vector — Open Questions and Agenda
+
+1) Basis design
+- Identify {f_i} that minimize leakage and maximize identifiability; compare Fourier vs. Slepian vs. wavelets.
+
+2) Jitter modeling
+- Incorporate phase jitter into estimation; derive bias/variance corrections.
+
+3) Joint estimation
+- Simultaneously estimate {B0,ϕ0} and {B_i} in one LS/NLLS framework; compare performance to staged approach.
+
+Tasks
+- [ ] Leakage calculator and basis selection procedure with metrics.
+- [ ] Jitter‑aware estimators and Monte Carlo validation.
+- [ ] Joint estimator prototype with regularization and model selection.

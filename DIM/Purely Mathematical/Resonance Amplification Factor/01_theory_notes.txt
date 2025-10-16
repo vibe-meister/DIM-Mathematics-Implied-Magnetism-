@@ -1,1 +1,25 @@
-Resonance Amplification  Theory Notes
+Resonance Amplification Factor — Theory Notes
+
+Definitions
+- Default bounded form: G_res^β(Δϕ) := Q_eff / (1 + β (1 − cos Δϕ)), β ≥ 0.
+- Small‑angle regularized form: G_res^ε(Δϕ) := Q_eff / (2 sin²(Δϕ/2) + ε), ε > 0 (≈ σ_ϕ²/2).
+- Expected‑coherence form: G_res^ρ := Q_eff / (1 + β (1 − ρ)) with ρ = E[cos Δϕ].
+
+Properties
+- Bounds: Q_eff/(1+2β) ≤ G_res^β(Δϕ) ≤ Q_eff; monotone decreasing in |Δϕ| on [0,π] for β>0.
+- Small‑angle: 1 − cos Δϕ ≈ Δϕ²/2 ⇒ G_res^β(Δϕ) ≈ Q_eff / (1 + β Δϕ²/2).
+- Continuity and finite values everywhere; avoids divergence at Δϕ→0.
+
+Parameter Selection
+- Half‑power phase Δϕ_h sets β: solve G_res^β(Δϕ_h)=Q_eff/2 ⇒ β = 1/(1 − cos Δϕ_h).
+- Choose ε from measured phase jitter variance σ_ϕ² via ε≈σ_ϕ²/2 when using G_res^ε.
+
+Estimation
+- Q_eff from ringdown or bandwidth: Q_eff = π f0 τ or f0/Δf_−3dB.
+- Δϕ from phase measurements; average over window; report σ_ϕ.
+- ρ from sample average ρ̂ = (1/N)Σ cos Δϕ_n when phases vary.
+
+Use Cases
+- Phase scheduling: maximize G_res^β by targeting Δϕ≈0 where feasible.
+- Robust assessments: prefer β form for bounded outputs; use ε form when jitter is known and small‑angle sensitivity needs emphasis.
+- Reporting: always specify chosen form (β/ε/ρ), parameters, and uncertainty.

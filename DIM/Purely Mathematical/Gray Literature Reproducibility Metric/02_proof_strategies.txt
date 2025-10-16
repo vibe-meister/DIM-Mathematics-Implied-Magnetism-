@@ -1,1 +1,16 @@
-Estimator design and confidence intervals.
+Gray Literature Reproducibility Metric — Proof Strategies
+
+Lemma 1 (Bounds)
+- Since 0≤y_i≤1 and 0≤δ_i≤1, 0≤r_i≤1 ⇒ 0≤R≤1 (and same for weighted with Σ w_i=1).
+
+Lemma 2 (Monotonicity)
+- Increasing any δ_i (holding others fixed) weakly decreases R; increasing any y_i weakly increases R.
+
+Lemma 3 (Sensitivity to weights)
+- For weighted R_w, ∂R_w/∂w_i = r_i; maximize robustness by limiting max w_i and enforcing Σ w_i=1.
+
+Variance and CI
+- Sample variance s_r² gives Var(R̂)≈s_r²/N under independence; bootstrap required if dependence suspected.
+
+Validation
+- Replicate R̂ from provided artifacts; perform sensitivity sweeps and influence diagnostics.

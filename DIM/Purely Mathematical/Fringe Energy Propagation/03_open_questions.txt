@@ -1,0 +1,15 @@
+Fringe Energy Propagation — Open Questions and Agenda
+
+1) Model mismatch
+- Effects of non‑exponential decays or chirps; robust extensions.
+
+2) Order selection rigor
+- Theoretical guarantees for AIC/BIC and stabilization under noise and short windows.
+
+3) Sampling design
+- Optimal Δt,K for given {α_n,ω_n} ranges to minimize estimator variance.
+
+Tasks
+- [ ] Implement Prony/Matrix Pencil/ESPRIT with stabilization plots.
+- [ ] CRLB and bootstrap CI toolkit; compare coverage.
+- [ ] Robust variants (e.g., Lp loss) for outliers and mismatch.

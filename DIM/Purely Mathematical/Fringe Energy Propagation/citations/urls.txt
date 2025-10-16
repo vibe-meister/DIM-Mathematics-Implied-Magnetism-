@@ -1,0 +1,9 @@
+Fringe Energy Propagation — Citations (URLs)
+
+Prony / Matrix Pencil / ESPRIT (overview):
+- https://en.wikipedia.org/wiki/Prony%27s_method
+- https://en.wikipedia.org/wiki/Matrix_pencil
+- https://en.wikipedia.org/wiki/Estimation_of_signal_parameters_via_rotational_invariance_techniques
+
+Cramér–Rao bound (estimation):
+- https://en.wikipedia.org/wiki/Cram%C3%A9r%E2%80%93Rao_bound

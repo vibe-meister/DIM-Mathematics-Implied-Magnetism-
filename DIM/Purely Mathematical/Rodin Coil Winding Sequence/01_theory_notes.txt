@@ -1,1 +1,21 @@
-Rodin Sequence  Theory Notes
+Rodin Coil Winding Sequence — Theory Notes
+
+Sequence
+- S_n = 2^n mod 9; period 6 (order of 2 modulo 9). Values in {0,…,8} with 9→0 convention when needed.
+
+Torus Mapping
+- g(n)=(θ_n,ϕ_n) with θ_n=2π n/N_θ, ϕ_n=2π f(S_n)/N_ϕ; optional layer ℓ_n.
+- Coverage: choose N_θ,N_ϕ coprime to reduce repeats; design f to distribute 6 residues across N_ϕ.
+
+Density and Spectrum
+- Empirical density ρ_N; Fourier ρ̂_N(k,m)=(1/N)Σ e^{−i(2πk n/N_θ + 2π m f(S_n)/N_ϕ)}.
+- Period‑6 structure yields a 6‑line comb in ϕ; Dirichlet‑like factors in θ.
+
+Design Objectives
+- Minimize leakage L outside target Ω by choosing (N_θ,N_ϕ,f); maximize coverage (low discrepancy D*_N).
+
+Estimation
+- Compute ρ̂_N on a grid; identify dominant (k,m); evaluate D*_N and L; iterate f and grid choices.
+
+Reporting
+- Document N,N_θ,N_ϕ,f, Ω, ρ̂_N heatmap, D*_N, L, and chosen parameters with rationale.

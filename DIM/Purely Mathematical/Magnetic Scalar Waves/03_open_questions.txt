@@ -1,1 +1,15 @@
-Open questions for scalar waves.
+Magnetic Scalar Waves — Open Questions and Agenda
+
+1) Boundary effects
+- Quantify reflections/transmissions for Robin BC; energy flux accounting.
+
+2) Inhomogeneous media
+- Well‑posedness and dispersion in c(x); adiabatic invariants and caustics.
+
+3) Damping and sources
+- Energy decay rates; Green’s functions with damping; forced response.
+
+Tasks
+- [ ] Derive and verify energy identity for each BC type.
+- [ ] Implement Fourier solution and compare to numerical solvers.
+- [ ] Extend to damped wave and quantify decay experimentally (simulated).

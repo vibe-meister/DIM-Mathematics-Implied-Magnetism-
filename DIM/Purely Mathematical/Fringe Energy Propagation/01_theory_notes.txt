@@ -1,0 +1,22 @@
+Fringe Energy Propagation — Theory Notes
+
+Model
+- B(t)=Σ_{n=1}^N A_n e^{−t/τ_n} cos(ω_n t+ϕ_n), t≥0; complex poles (−α_n+iω_n) with α_n=1/τ_n>0.
+
+Sampling and Preconditions
+- Samples y[k]=B(kΔt)+ε[k], k=0..K−1; ensure |ω_n|<π/Δt and KΔt≫1/min α_n.
+
+Estimation
+- Pole estimation via Prony/Matrix Pencil/ESPRIT; amplitudes via LS once poles known; alternatives: sparse recovery or NLLS.
+
+Order Selection
+- Use AIC/BIC or stabilization diagrams to select model order N.
+
+Uncertainty
+- Use CRLB as a lower bound; bootstrap residuals for CIs; report pole spread across stabilization.
+
+Windowing
+- Taper to reduce leakage; detrend/prewhiten as needed.
+
+Reporting
+- Δt,K, windowing, chosen N, parameters {α_n,ω_n,A_n,ϕ_n} with CIs, residual diagnostics, and stabilization plots.

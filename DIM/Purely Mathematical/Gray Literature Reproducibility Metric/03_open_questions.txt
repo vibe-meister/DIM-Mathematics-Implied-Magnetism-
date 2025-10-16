@@ -1,1 +1,15 @@
-Open questions for reproducibility metric.
+Gray Literature Reproducibility Metric — Open Questions and Agenda
+
+1) Penalty mappings
+- Calibrate u_i from effect sizes and uncertainties; define q_i for partial independence; rubric for d_i.
+
+2) Dependence modeling
+- Correlated experiments (shared labs/data); clustered bootstrap or hierarchical models.
+
+3) Threshold design
+- Choose τ_R, τ_δ, τ_ind to balance Type I/II errors; decision curves.
+
+Tasks
+- [ ] Build a penalty rubric with examples and inter‑rater agreement tests.
+- [ ] Implement bootstrap and clustered bootstrap CI.
+- [ ] Construct sensitivity dashboards for (α,β,γ) and influence.

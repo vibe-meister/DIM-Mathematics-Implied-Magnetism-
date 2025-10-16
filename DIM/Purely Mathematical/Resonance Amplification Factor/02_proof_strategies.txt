@@ -1,1 +1,24 @@
-Functional analysis vs ??, regularization.
+Resonance Amplification Factor — Proof Strategies
+
+Lemma 1 (Bounds and Monotonicity for β form)
+- For β≥0, define D(Δϕ)=1+β(1−cosΔϕ). Since 0≤(1−cosΔϕ)≤2, we have 1≤D≤1+2β ⇒ Q_eff/(1+2β)≤G_res^β≤Q_eff.
+- dD/dΔϕ = β sinΔϕ ⇒ dG/dΔϕ = −Q_eff β sinΔϕ / D². On [0,π], sinΔϕ≥0 ⇒ G decreases in Δϕ; symmetric in sign.
+
+Lemma 2 (Continuity and small‑angle behavior)
+- 1−cosΔϕ = 2 sin²(Δϕ/2) ⇒ D = 1 + 2β sin²(Δϕ/2) is continuous; near 0, sin(Δϕ/2)≈Δϕ/2 ⇒ D≈1 + β Δϕ²/2.
+- Hence G_res^β(Δϕ) ≈ Q_eff / (1 + β Δϕ²/2).
+
+Lemma 3 (Half‑power calibration)
+- Solve G_res^β(Δϕ_h) = Q_eff/2 ⇒ 1 + β (1 − cosΔϕ_h) = 2 ⇒ β = 1/(1 − cosΔϕ_h).
+
+Lemma 4 (ε form boundedness)
+- G_res^ε = Q_eff /(2 sin²(Δϕ/2)+ε) ≥ Q_eff/(2+ε) and ≤ Q_eff/ε; finite everywhere for ε>0. Monotone decreasing on [0,π].
+
+Lemma 5 (Estimator derivatives)
+- For G(Q,Δϕ)=Q/D with D as above, ∂G/∂Q=1/D, ∂G/∂Δϕ=Q β sinΔϕ / D². Use for delta‑method variance.
+
+Sketch: Coupled‑Resonator Consistency
+- For two weakly coupled resonators, amplitude response vs Δϕ and coupling k can be approximated by a rational function decreasing with phase misalignment; G_res^β captures this phenomenology with tunable β.
+
+Validation
+- Numerically verify bounds, monotonicity, and half‑power calibration; compare small‑angle approximation to exact β form.

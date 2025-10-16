@@ -1,0 +1,10 @@
+Magnetic Scalar Waves — Citations (URLs)
+
+Wave equation (mathematics):
+- https://en.wikipedia.org/wiki/Wave_equation
+
+Energy methods and well‑posedness (PDE):
+- https://en.wikipedia.org/wiki/Partial_differential_equation#Well-posed_problems
+
+Green’s functions (classical waves):
+- https://en.wikipedia.org/wiki/Green%27s_function

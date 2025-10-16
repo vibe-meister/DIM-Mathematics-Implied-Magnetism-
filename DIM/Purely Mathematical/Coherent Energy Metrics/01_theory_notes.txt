@@ -1,1 +1,36 @@
-Coherent Energy Metrics  Theory Notes
+Coherent Energy Metrics — Theory Notes
+
+Definitions
+- Power ratio: G_P := P_out / P_in, with P_in > 0 and both measured over window T and bandwidth B.
+- Phase coherence (order parameter): F_coh := |(1/N) Σ e^{i ϕ_n}| ∈ [0,1].
+- Composite metric: κ := G_P · F_coh.
+
+Variants
+- Weighted coherence: F_coh,w := |(Σ w_n e^{i ϕ_n})/(Σ w_n)| with w_n ≥ 0 (e.g., SNR, amplitude, reliability).
+- Reference-normalized ratio: G_P,ref := P_out / P_ref when P_in is ambiguous.
+- Frequency-resolved: {G_P(f), F_coh(f), κ(f)} with band aggregation.
+
+Invariances and Bounds
+- Scale invariance: scaling all powers by c > 0 leaves G_P, κ unchanged.
+- Permutation invariance across indices.
+- Bounds: 0 ≤ F_coh ≤ 1 ⇒ 0 ≤ κ ≤ G_P. Equality F_coh=1 iff all ϕ_n equal mod 2π.
+
+Concentration and Models
+- If ϕ_n ~ von Mises(μ, κ_vm), then E[F_coh] = A1(κ_vm) := I1(κ_vm)/I0(κ_vm); monotone in κ_vm.
+- For uniform phases (random), E[F_coh] ≈ 0 as N grows; finite-sample E[F̂_coh] ≈ 1/√N.
+
+Relation to Synchronization
+- F_coh equals the Kuramoto order parameter magnitude R = |(1/N) Σ e^{i ϕ_n}|; provides a bridge to synchronization theory.
+
+Uncertainty
+- Approximate Var(κ̂) ≈ (F̂_coh)^2 Var(Ĝ_P) + (Ĝ_P)^2 Var(F̂_coh) + cross-terms.
+- Bootstrap across runs/windows for CI; Rayleigh test Z=N R^2 for coherence significance.
+
+Regularization
+- For near-zero P_in, use G_P,ε := P_out/(P_in+ε) with explicit ε.
+- For small N or outliers, prefer circular robust estimators (e.g., circular median) and trimmed means for powers.
+
+Usage Patterns
+- Screening metric: κ ranks configurations by coherence-adjusted performance.
+- Optimization target: maximize κ subject to constraints on P_in, environment, or safety.
+- Reporting: always include (Ĝ_P, F̂_coh, κ̂), Rayleigh p-value, and CI.

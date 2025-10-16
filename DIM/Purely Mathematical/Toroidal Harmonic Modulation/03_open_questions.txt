@@ -1,1 +1,19 @@
-Open questions for toroidal modes.
+Toroidal Harmonic Modulation — Open Questions and Agenda
+
+1) Weighted sensing and incomplete coverage
+- Develop weighted orthonormal bases or WLS estimators for nonuniform w(θ,ϕ); derive error bounds.
+
+2) Geometry→spectrum mapping
+- Formalize mapping from winding geometry to dominant (k,m) indices; quantify leakage vs. parasitics.
+
+3) Finite-grid effects
+- Characterize bias from non-integer periodicities relative to grid; window design to mitigate leakage.
+
+4) Time‑varying fields
+- STFT parameter selection for tracking |A_{k,m}(t)| in noisy data; bounds on temporal resolution.
+
+Tasks
+- [ ] Build sampling/aliasing calculator and energy‑fraction selector for Ω.
+- [ ] Implement weighted least squares coefficient estimator and validate on synthetic nonuniform data.
+- [ ] Simulate geometry‑induced spectra and compare predicted vs. estimated modes.
+- [ ] Draft reporting template including truncation error and validation plots.

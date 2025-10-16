@@ -1,1 +1,20 @@
-PDE analysis, well-posedness, boundary conditions.
+Magnetic Scalar Waves — Proof Strategies
+
+Lemma 1 (Energy Identity)
+- Multiply Φ_tt − c²ΔΦ = 0 by Φ_t and integrate; use divergence theorem; track boundary flux; conclude dE/dt=boundary work.
+
+Lemma 2 (Dispersion Relation)
+- Substitute plane wave ansatz; obtain ω=c|k|; show finite propagation speed.
+
+Lemma 3 (Existence/Uniqueness)
+- Use semigroup theory or energy method for homogeneous BCs; uniqueness from energy identity; stability from Grönwall‑type arguments (trivial here with no forcing).
+
+Lemma 4 (Green’s Function)
+- d=3: G(x,t)=δ(t−|x|/c)/(4π|x|)H(t); derive solution via convolution with initial data or sources.
+
+Extensions
+- Damped wave: energy decay rate; derive dE/dt=−2γ∥Φ_t∥² plus boundary terms.
+- Variable c(x): use microlocal/GO tools; rays obey Hamiltonian flow |p|=1/c(x).
+
+Validation
+- Check energy conservation numerically and wave speed via manufactured solutions.

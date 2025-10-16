@@ -1,0 +1,8 @@
+Rodin Coil Winding Sequence — Citations (URLs)
+
+Modular arithmetic and Euler’s totient:
+- https://en.wikipedia.org/wiki/Modular_arithmetic
+- https://en.wikipedia.org/wiki/Euler%27s_totient_function
+
+Discrepancy theory (uniform distribution):
+- https://en.wikipedia.org/wiki/Discrepancy_theory

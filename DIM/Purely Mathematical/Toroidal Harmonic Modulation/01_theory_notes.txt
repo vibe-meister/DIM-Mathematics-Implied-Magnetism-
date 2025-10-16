@@ -1,1 +1,29 @@
-Toroidal Harmonic Modulation  Theory Notes
+Toroidal Harmonic Modulation — Theory Notes
+
+Definitions
+- Domain: T² with (θ,ϕ) ∈ [0,2π)×[0,2π); temporal variable t.
+- Basis: e_{k,m}(θ,ϕ) = exp(i(kθ+mϕ)), k,m∈ℤ; orthonormal under dμ=(1/(2π)²)dθdϕ.
+- Expansion: B(θ,ϕ) = Σ_{k,m} B_{k,m} e_{k,m}; Parseval: ∥B∥²=Σ|B_{k,m}|².
+- Prototype mode: B(θ,ϕ,t)=Re{A e^{i(kθ+mϕ+ωt+φ_0)}}.
+
+Properties
+- Orthogonality: ⟨e_{k,m},e_{k',m'}⟩=δ_{k,k'}δ_{m,m'}.
+- Completeness: Fourier series converges in L²(T²); smoother B ⇒ faster spectral decay.
+- Weighted inner products: ⟨f,g⟩_w = ∫ fg* w dμ; use WLS for coefficients under nonuniform sensing.
+
+Sampling & Estimation
+- Uniform grid θ_p=2πp/M_θ, ϕ_q=2πq/M_ϕ; DFT estimate \hat B_{k,m} = (1/(M_θM_ϕ)) Σ B(θ_p,ϕ_q)e^{−i(kθ_p+mϕ_q)}.
+- Aliasing limits: |k|<M_θ/2, |m|<M_ϕ/2; apply spatial windows to reduce leakage.
+
+Error and Energy Allocation
+- Truncation error E_trunc=Σ_{(k,m)∉Ω}|B_{k,m}|² for kept set Ω; select Ω by energy fraction.
+- With i.i.d. noise σ² per sample, Var(\hat B_{k,m})≈σ²/(M_θM_ϕ).
+
+Geometry Link
+- Winding periodicities along θ,ϕ map to dominant (k,m). Coprime design minimizes unintended clustering.
+
+Temporal Handling
+- For time-varying coefficients A_{k,m}(t), use STFT per (k,m) to track |A_{k,m}(t)| and phase.
+
+Reporting
+- Document sampling (M_θ,M_ϕ), windows, index ranges, \hat B table or dominant modes, truncation error, and validation checks (orthogonality, Parseval).

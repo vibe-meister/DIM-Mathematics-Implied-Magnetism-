@@ -1,0 +1,16 @@
+Fringe Energy Propagation — Proof Strategies
+
+Lemma 1 (Identifiability)
+- Distinct poles z_n=e^{(−α_n+iω_n)Δt} are identifiable when they are separated and SNR is sufficient; conditioning worsens as poles cluster.
+
+Lemma 2 (Pole recovery)
+- ESPRIT/Matrix Pencil: construct Hankel matrices and solve generalized eigenproblem to estimate z_n; derive α_n,ω_n from z_n.
+
+Lemma 3 (Amplitude estimation)
+- With poles fixed, linear LS over basis {e^{−α_n t}cos(ω_n t), e^{−α_n t}sin(ω_n t)} recovers A_n,ϕ_n.
+
+Lemma 4 (CRLB sketch)
+- For Gaussian noise, form Fisher information for parameters (α_n,ω_n,A_n,ϕ_n); invert for lower variance bounds.
+
+Validation
+- Simulate known multi‑mode signals; compare recovered parameters; analyze residuals and stabilization diagrams.

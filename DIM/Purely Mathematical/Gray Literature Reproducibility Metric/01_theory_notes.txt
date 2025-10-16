@@ -1,1 +1,19 @@
-Reproducibility Metric  Theory Notes
+Gray Literature Reproducibility Metric — Theory Notes
+
+Definition
+- Experiments i=1..N with reproducibility indicator y_i∈{0,1} and penalty δ_i∈[0,1]; r_i := y_i(1−δ_i); aggregated R=(1/N)Σ r_i (or weighted R_w=Σ w_i r_i).
+
+Penalty Components
+- Uncertainty u_i (normalized error vs effect size), independence q_i (lab/shared resources), documentation d_i (data/scripts availability). Combine δ_i=αu_i+βq_i+γd_i, α+β+γ=1.
+
+Estimation and CI
+- R̂ from observed {y_i,δ_i}; Var(R̂)≈s_r²/N; bootstrap over experiments for CI and robustness to dependence.
+
+Sensitivity
+- Sweep (α,β,γ) over simplex; report R̂ ranges; influence via leave‑one‑out R̂_{−i}.
+
+Thresholds
+- Example: R̂≥τ_R with lower CI bound≥τ_R_low; median δ_i≤τ_δ; independence fraction≥τ_ind.
+
+Reporting Schema
+- For each experiment: metadata, outcomes, penalties, weights; provide raw artifacts for recomputation.

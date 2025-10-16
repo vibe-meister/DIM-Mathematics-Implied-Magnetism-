@@ -1,1 +1,22 @@
-Time-Dependent Flux Vector  Theory Notes
+Time-Dependent Magnetic Flux Vector — Theory Notes
+
+Model
+- B(t) = B0 cos(ω t + ϕ0) ê + γ Σ_{i=1..M} B_i f_i(t), with orthonormal {f_i} on [0,T].
+- Measurement y(t)=⟨B(t),ê⟩ or proportional scalar proxy.
+
+Estimation
+- Principal component via projections on cos/sin at ω: B̂0, ϕ̂0.
+- Residual r(t)=y(t)−B̂0 cos(ω t+ϕ̂0); coefficients c_i=⟨r,f_i⟩ ⇒ γ B̂_i=c_i for orthonormal basis; LS otherwise.
+
+Identifiability
+- cos(ω t+ϕ0) ∉ span{f_i} (or explicitly included and separated); adequate sampling for ω and for {f_i} bandwidth.
+- Non-degenerate design matrix for LS with non-orthonormal bases.
+
+Robustness
+- Use ridge/LASSO for collinear {f_i}; average over sub-windows to mitigate phase jitter; pick T as integer multiples of 2π/ω when possible.
+
+Uncertainty
+- Approximate Var(B̂0)≈2σ²/T, Var(ϕ̂0)≈2σ²/(T B0²); Var(c_i)≈σ²; bootstrap for CIs.
+
+Reporting
+- Basis choice, T, sampling rate, estimator details, leakage metrics, and CIs for B̂0, ϕ̂0, and {γ B̂_i}.

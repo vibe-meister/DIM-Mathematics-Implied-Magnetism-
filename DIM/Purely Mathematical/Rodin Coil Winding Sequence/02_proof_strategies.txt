@@ -1,1 +1,13 @@
-Number-theoretic mapping, spectral properties.
+Rodin Coil Winding Sequence — Proof Strategies
+
+Lemma 1 (Periodicity)
+- 2 and 9 coprime; φ(9)=6; order of 2 modulo 9 divides 6. Verify 2^6≡1 (mod 9) and no smaller exponent works ⇒ period 6.
+
+Lemma 2 (Spectral form)
+- Split n=6q+j, j∈{0,…,5}; write ρ̂_N(k,m) as Σ_q e^{−i 2πk (6q)/N_θ} Σ_{j=0}^5 e^{−i(2π k j/N_θ + 2π m f(r_j)/N_ϕ)}; reveals θ Dirichlet kernel and ϕ comb.
+
+Lemma 3 (Discrepancy guidance)
+- Coprime N_θ with 6 and appropriately spaced f(r_j) mod N_ϕ reduce clustering; argue via equidistribution heuristics.
+
+Validation
+- Compute ρ̂_N and D*_N numerically for candidate designs; select parameters minimizing L subject to coverage.

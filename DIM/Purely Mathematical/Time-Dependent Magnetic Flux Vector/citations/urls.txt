@@ -1,0 +1,11 @@
+Time-Dependent Magnetic Flux Vector — Citations (URLs)
+
+Sinusoidal parameter estimation (least squares / projections):
+- https://en.wikipedia.org/wiki/Least_squares
+
+Orthogonal bases and function approximation:
+- https://en.wikipedia.org/wiki/Orthogonal_functions
+
+Regularization (ridge/LASSO):
+- https://en.wikipedia.org/wiki/Tikhonov_regularization
+- https://en.wikipedia.org/wiki/Lasso_(statistics)

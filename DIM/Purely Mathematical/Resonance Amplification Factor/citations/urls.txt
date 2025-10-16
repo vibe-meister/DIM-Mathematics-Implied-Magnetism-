@@ -1,0 +1,10 @@
+Resonance Amplification Factor — Citations (URLs)
+
+Q factor (definitions and relationships):
+- https://en.wikipedia.org/wiki/Q_factor
+
+Small‑angle approximation and trigonometric identities:
+- https://en.wikipedia.org/wiki/Small-angle_approximation
+
+Coupled resonators / coupled-mode theory (overview):
+- https://en.wikipedia.org/wiki/Coupled_resonator

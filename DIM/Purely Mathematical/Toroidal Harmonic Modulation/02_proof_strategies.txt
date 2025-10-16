@@ -1,1 +1,22 @@
-Mode basis, orthogonality, completeness.
+Toroidal Harmonic Modulation — Proof Strategies
+
+Lemma 1 (Orthonormality)
+- ∫_{T²} e^{i(kθ+mϕ)} e^{−i(k'θ+m'ϕ)} dμ = δ_{k,k'} δ_{m,m'} by separability and 1D orthogonality on the circle.
+
+Lemma 2 (Parseval)
+- Using orthonormal basis, ∥B∥² = Σ|B_{k,m}|²; follows from Plancherel on T².
+
+Lemma 3 (Aliasing bounds)
+- For uniform M_θ×M_ϕ sampling, resolvable indices satisfy |k|<M_θ/2, |m|<M_ϕ/2; outside modes alias. Proof via discrete Fourier sampling theory.
+
+Lemma 4 (Variance of DFT estimator)
+- With additive i.i.d. noise σ² per sample, Var(\hat B_{k,m})=σ²/(M_θM_ϕ). Sketch: linear estimator over M_θM_ϕ samples.
+
+Lemma 5 (Truncation error bound)
+- For B with s continuous derivatives, tail energy beyond |k|>K,|m|>M decays O(K^{−2s}+M^{−2s}); use standard Fourier decay on T².
+
+Design Lemma (Coprime periodicities)
+- If geometry induces periodicities P_θ,P_ϕ along θ,ϕ, choosing sampling and layout coprime to these periods minimizes unintended harmonic overlap; argue via modular residue distribution.
+
+Validation Steps
+- Numerically verify orthonormality and Parseval on the chosen grid; plot stabilization of \hat B_{k,m} as M_θ,M_ϕ increase; quantify truncation error.

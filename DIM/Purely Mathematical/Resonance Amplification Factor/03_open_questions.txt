@@ -1,1 +1,22 @@
-Open questions for resonance factor.
+Resonance Amplification Factor — Open Questions and Agenda
+
+1) β calibration and universality
+- Does a single β tied to Δϕ_h generalize across devices/frequencies? Map β vs. bandwidth/Q space.
+
+2) Link to coupled‑mode theory
+- Derive β from first principles for two coupled LCR resonators; quantify errors vs. exact response.
+
+3) Jitter‑aware modeling
+- Relate ε to measured σ_ϕ² rigorously; analyze bias/variance of Ĝ_res^ε under phase noise.
+
+4) Multi‑mode extensions
+- Define G_res over multiple phase offsets or distributions ρ; study aggregation rules and bounds.
+
+5) Finite‑sample estimation
+- Bias of Δϕ̂ and Q̂_eff; delta‑method corrections; bootstrap guidelines.
+
+Tasks
+- [ ] Simulate coupled resonators; fit β from half‑power points; build calibration table.
+- [ ] Analyze small‑angle expansion accuracy vs. β form for typical ranges; provide error plots.
+- [ ] Develop jitter‑to‑ε mapping and quantify impact on CI.
+- [ ] Draft selection guidance (β vs ε vs ρ forms) with decision tree.

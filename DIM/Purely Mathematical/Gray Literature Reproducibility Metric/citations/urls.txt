@@ -1,0 +1,10 @@
+Gray Literature Reproducibility Metric — Citations (URLs)
+
+Bootstrap and CIs:
+- https://en.wikipedia.org/wiki/Bootstrapping_(statistics)
+
+Effect size and uncertainty (overview):
+- https://en.wikipedia.org/wiki/Effect_size
+
+Inter‑rater reliability (agreement on rubrics):
+- https://en.wikipedia.org/wiki/Inter-rater_reliability

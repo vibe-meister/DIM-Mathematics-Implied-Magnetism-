@@ -1,0 +1,16 @@
+Coherent Energy Metrics — Citations (URLs)
+
+Rayleigh test (circular uniformity):
+- https://en.wikipedia.org/wiki/Rayleigh_test
+
+von Mises distribution (circular statistics):
+- https://en.wikipedia.org/wiki/Von_Mises_distribution
+
+Kuramoto model and order parameter (phase coherence):
+- https://en.wikipedia.org/wiki/Kuramoto_model
+
+Bootstrap (statistics):
+- https://en.wikipedia.org/wiki/Bootstrapping_(statistics)
+
+Cramér–Rao bound (estimation lower bound):
+- https://en.wikipedia.org/wiki/Cram%C3%A9r%E2%80%93Rao_bound

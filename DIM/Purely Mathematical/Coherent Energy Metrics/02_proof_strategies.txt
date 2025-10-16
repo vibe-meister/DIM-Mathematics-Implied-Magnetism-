@@ -1,1 +1,32 @@
-Proof strategies and bounds for metrics.
+Coherent Energy Metrics — Proof Strategies
+
+Lemma 1 (Bounds)
+- 0 ≤ F_coh ≤ 1 by triangle inequality on complex means: |(1/N)Σ z_n| ≤ (1/N)Σ|z_n|=1 for z_n=e^{iϕ_n}; nonnegativity obvious.
+- Hence 0 ≤ κ ≤ G_P.
+
+Lemma 2 (Monotonicity in concentration)
+- If a phase multiset Φ majorizes Ψ on the circle (via concentration around a mode), then |(1/N)Σ e^{iϕ}|_Φ ≥ |(1/N)Σ e^{iϕ}|_Ψ. Sketch: convexity of the norm of the circular mean along geodesic interpolation (use Jensen-type arguments on the unit circle).
+
+Lemma 3 (Expectation under von Mises)
+- For ϕ ~ VM(μ, κ_vm), E[e^{iϕ}] = (I1(κ_vm)/I0(κ_vm)) e^{iμ} ⇒ E[F_coh] = A1(κ_vm). Monotone in κ_vm via Bessel function ratios.
+
+Lemma 4 (Rayleigh test linkage)
+- Z = N F̂_coh^2 approximately follows the Rayleigh statistic under H0 (uniform phases). Then p ≈ exp(−Z)(1 + O(1/N)). Use to test non-uniformity.
+
+Lemma 5 (Estimator variance, large N)
+- Var(F̂_coh) under VM shrinks ∝ 1/N; use delta method to approximate Var(κ̂) with independent or weakly correlated Ĝ_P.
+
+Lemma 6 (Scale invariance)
+- For c>0, replacing all powers by c times leaves G_P and κ unchanged. Immediate by quotient.
+
+Sketches for Weighted Coherence
+- F_coh,w is a ratio of vector sums; for fixed weights, similar bounds hold (≤1). Use Cauchy–Schwarz to show |Σ w_n z_n| ≤ (Σ w_n)(max |z_n|)=Σ w_n.
+
+Regularization Justification
+- For G_P,ε monotone in ε>0, with ∂G_P,ε/∂ε = −P_out/(P_in+ε)^2 < 0; document ε to avoid misinterpretation. Choose ε based on instrument floor or CI lower bound of P_in.
+
+Concentration Inequalities (directional)
+- For uniform phases, P(F̂_coh ≥ t) ≲ exp(−N t^2) (Rayleigh tail), giving finite-sample thresholds for spurious coherence.
+
+Validation Steps
+- Numerical: sample phases from VM and uniform to confirm E[F̂_coh], Var(F̂_coh), and Rayleigh p-values; verify κ̂ variance formula via Monte Carlo.
