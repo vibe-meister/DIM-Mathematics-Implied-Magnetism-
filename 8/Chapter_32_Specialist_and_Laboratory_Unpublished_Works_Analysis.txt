@@ -1,0 +1,40 @@
+CHAPTER 32: SPECIALIST & LABORATORY UNPUBLISHED WORKS — ANALYSIS
+================================================================
+
+Scope note
+Synthesizes lab notes and unpublished reports with a damping/phase superposition form: B_total=Σ B_i e^{−t/τ_i} cos ϕ_i. Focus on retention, decay, and phase control in high‑Q loops.
+
+Interesting patterns
+- Decomposition into damped cosines supports Prony/ESPRIT extraction of τ_i and ϕ_i.
+- High‑Q aims reflected in long τ_i; phase spread ϕ_i governs residual coherence.
+
+Missing numbers
+- No instrumentation limits, temperature stability, or shielding factors.
+- Absent raw datasets for independent re‑analysis.
+
+Frequency analysis
+- Spectral lines at ω_i with linewidths ~1/τ_i; slow drift appears as frequency wander.
+
+Sequences
+- Acquire long time‑series → fit modal components → correlate τ_i with build/drive parameters → iterate.
+
+Entropy and randomness
+- Environmental drift and sensor flicker produce apparent “modes”; require randomized protocols and null runs.
+
+Key length detection
+- Dominant τ_i provides time‑key; experiment length must exceed several τ_i for robust estimates.
+
+Basic insight
+- Without raw data and controls, long‑τ claims are not verifiable; publishing datasets is essential.
+
+Feeds later subjects
+- Informs reproducibility metrics (Ch. 35) and claim vetting (Ch. 33).
+
+Checks
+- Provide raw time‑series and analysis scripts; reproduce τ_i within confidence intervals across sessions.
+
+Unanswered questions (32)
+1) What environmental controls (T, EMI) are required to sustain long τ_i?
+2) How repeatable are τ_i and ϕ_i across nominally identical builds?
+3) Do phase‑aligned excitations measurably extend τ_i vs. random phases?
+

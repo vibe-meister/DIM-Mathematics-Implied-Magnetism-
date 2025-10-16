@@ -1,0 +1,16 @@
+CHAPTER 25: TRANSITION TO EQUATIONS & THEORETICAL SYNTHESIS — ANALYSIS
+=====================================================================
+
+Scope note
+Mapping (25.1), preparation (25.2), and bridging (25.3). Turns qualitative frameworks into quantitative equation sets and datasets.
+
+Interesting patterns
+- Vector/toroidal parametrization and harmonic decomposition as first steps to formalism.
+- Variable/constant inventories force clarity before derivations.
+
+Missing numbers
+- Concrete parameter lists, mapping tolerances, and dataset schemas for computational analysis.
+
+Basic insight
+- Synthesis succeeds when geometry/phase choices are rendered as explicit variables and constraints; otherwise theory remains untestable.
+

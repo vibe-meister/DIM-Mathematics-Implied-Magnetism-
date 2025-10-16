@@ -1,0 +1,26 @@
+Section 4 — Cross-References & Reading Order (source-grounded)
+
+Suggested Reading Order
+1) PART IV overview [PART IV Lines 1–2]
+2) High-level resonance systems [PART IV Lines 2–28]
+3) Tesla coils & high-frequency phenomena [PART IV Lines 29–53]
+4) Vortex geometries [PART IV Lines 54–77]
+5) Rodin & vortex mathematics (pre‑equations) [PART IV Lines 79–103]
+6) Tesla HF experiments & theories [PART IV Lines 105–127]
+7) Harmonic & toroidal coupling [PART IV Lines 129–153]
+8) Experimental design & measurement protocols [PART IV Lines 179–203]
+9) Transition to equations & synthesis [PART IV Lines 205–227]
+
+Dependencies
+- Resonance/Tesla geometry → vortex arrays → harmonic/toroidal networks → protocols → synthesis toward Part V.
+
+File Cross-Links
+- Template: 4_analysis_template.txt
+- Notes: 4_analysis_notes.txt
+- Equations: 4_equations_index.txt
+- Definitions: 4_definitions_index.txt
+- Claims: 4_claims_catalog.txt
+- Open Qs: 4_open_questions.txt
+- Derivations: 4_derivation_pathways.txt
+
+End.

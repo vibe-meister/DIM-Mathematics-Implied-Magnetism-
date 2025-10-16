@@ -1,0 +1,21 @@
+Section 8 — Open Questions and Testable Predictions (source-derived)
+
+Ch. 30 Fabrication/Measurement — Questions [Ch.30 Analysis Lines 12–20, 43–47]
+- Tolerances on r, winding placement, μ; ESR/Cp models; probe/divider specs; β ranges and Δϕ sweep protocols; Q_eff extraction agreement.
+
+Ch. 31 Patent Modeling — Questions [Ch.31 Analysis Lines 11–18, 34–41]
+- Realistic L_i, k_ij distributions; parasitic L(ω), k(ω); required M_eff to outperform simpler arrays.
+
+Ch. 32 Lab Works — Questions [Ch.32 Analysis Lines 11–14, 33–39]
+- Environmental controls for long τ_i; repeatability of τ_i, ϕ_i; phase-aligned excitation impact on τ_i.
+
+Ch. 33 Forums/Blogs — Questions [Ch.33 Analysis Lines 11–19, 36–39]
+- Minimum data/reporting standards for κ; κ vs phase coherence correlations; reference builds for benchmarking.
+
+Ch. 34 Archives — Questions [Ch.34 Analysis Lines 11–18, 35–40]
+- Plausible λ bounds; stable phase schedules; sensitivity to Φ_i(t) uncertainties.
+
+Ch. 35 Gray Literature — Questions [Ch.35 Analysis Lines 11–14, 36–39]
+- Practical δ_uncertainty rubric; minimal reporting for independent R recomputation; weighting by independence/credibility.
+
+End.

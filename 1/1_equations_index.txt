@@ -1,0 +1,16 @@
+Section 1 — Equations Index (source-grounded)
+Sources: see file citations per entry
+
+Conventions
+- Entries: [File] [Lines]: Equation (ASCII)
+
+[Chapter_3_Field_Theory_of_Magnetism_Analysis.txt Lines 61–65]
+∇·B = 0
+∇×E = -∂B/∂t
+∇×B = μ₀J + μ₀ε₀∂E/∂t
+B = ∇×A
+
+Notes
+- Poynting vector and energy density are discussed conceptually [PART I — FOUNDATIONS OF MAGNETISM Lines 87–89], but no explicit formulas are provided in folder 1 sources beyond the above.
+
+End of index.

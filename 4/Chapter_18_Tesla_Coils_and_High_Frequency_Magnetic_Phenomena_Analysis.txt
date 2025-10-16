@@ -1,0 +1,23 @@
+CHAPTER 18: TESLA COILS & HIGH‑FREQUENCY PHENOMENA — ANALYSIS
+=============================================================
+
+Scope note
+Geometry (18.1), transfer (18.2), and safety/metrology (18.3) for high‑frequency/high‑voltage resonators.
+
+Interesting patterns
+- Geometry→performance mapping (N, topload C, ground return) dominates practical outcomes.
+- Dual coupling (inductive, capacitive) regimes coexist; environment matters.
+
+Missing numbers
+- Secondary f0 targets, topload capacitance ranges, safe k window, breakdown margins vs. altitude/humidity.
+
+Frequency analysis
+- Helical resonator with distributed parameters; harmonics and EMI footprints under non‑sinusoidal drive.
+
+Sequences
+- Tuning: estimate L,C → couple → scope primary zero‑crossing → trim topload/turns → verify under load.
+- Safety: de‑energize → discharge → lockout/tagout → clearance checks.
+
+Basic insight
+- Moderate, well‑controlled coupling often outperforms aggressive k; metrology quality gates achievable performance.
+

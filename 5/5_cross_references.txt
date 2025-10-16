@@ -1,0 +1,21 @@
+Section 5 — Cross-References & Reading Order (source-grounded)
+
+Suggested Reading Order
+1) Induction with quantitative frameworks [PART V Lines 2–61, 69–153]
+2) Resonance & toroidal LC systems [PART V Lines 155–373]
+3) Motion-induced effects [PART V Lines 375–453]
+4) Topology, vortex math, Rodin framework [PART V Lines 455–575]
+
+Dependencies
+- Induction (L, M) → resonance (LC, coupled equations, Q) → motion (F, τ, EMF) → topology (toroidal coordinates, V(n), B(θ,ϕ), P).
+
+File Cross-Links
+- Template: 5_analysis_template.txt
+- Notes: 5_analysis_notes.txt
+- Equations: 5_equations_index.txt
+- Definitions: 5_definitions_index.txt
+- Claims: 5_claims_catalog.txt
+- Open Qs: 5_open_questions.txt
+- Derivations: 5_derivation_pathways.txt
+
+End.

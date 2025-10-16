@@ -1,0 +1,13 @@
+Section 4 — Equations Index (source-grounded)
+Sources: see file citations per entry
+
+Conventions
+- Entries: [File] [Lines]: Equation (ASCII)
+
+[Chapter_17_High_Level_Resonance_Systems_Analysis.txt Lines 15–17]
+f± ≈ f0 √(1 ± k)
+
+Notes
+- Other sections in Part IV outline concepts and procedures without presenting additional explicit equations.
+
+End of index.

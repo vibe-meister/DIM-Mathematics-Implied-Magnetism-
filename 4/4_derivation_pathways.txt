@@ -1,0 +1,27 @@
+Section 4 — Derivation Pathways (from provided content only)
+
+Pathway A — Coupled-Resonator Splitting [Ch.17 Lines 15–17]
+1) From measured/estimated k, compute f±≈f0√(1±k); cross-check with sweep data.
+2) Extract array minibands from multiple coupled stages via mode counting.
+
+Pathway B — Tesla Coil Parameterization [PART IV Lines 29–45; Ch.18]
+1) Determine L,C for primary/secondary; estimate f0; adjust topload C for target f0.
+2) Bound safe k using breakdown margins; verify under environmental conditions.
+
+Pathway C — Vortex Stability & Sync [PART IV Lines 55–77; Ch.19]
+1) Design coil geometries aimed at vortex nucleation; map B with visualization.
+2) Measure coupling/sync bandwidths; assess resonance sidebands.
+
+Pathway D — Harmonic/Toroidal Networks [PART IV Lines 129–153; Ch.22]
+1) Compute/measure k,M for toroids; apply phase coherence strategies.
+2) Shape harmonics via network filters; measure transfer efficiency and patterns.
+
+Pathway E — Protocol & Validation Scaffold [PART IV Lines 179–203; Ch.24]
+1) Set tolerances; instrument chains; time-synced logging.
+2) Run controls (dummy loads, blind trials); quantify validation thresholds.
+
+Pathway F — Pre-Equations Bridge [PART IV Lines 205–227; Ch.25]
+1) Build variable/constant inventories; map geometry→parameters.
+2) Prepare datasets (field maps, spectra, Q) for Part V equations.
+
+End.

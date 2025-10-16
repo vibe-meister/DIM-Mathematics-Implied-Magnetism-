@@ -1,0 +1,19 @@
+Section 1 — Derivation Pathways (from provided equations only)
+
+Pathway A — Maxwell-based Consistency Checks [Chapter 3 Analysis Lines 61–65]
+1) Use B=∇×A to construct B fields from a chosen A (toy examples only if provided in later folders).
+2) Verify ∇·B=0 numerically on the constructed field.
+3) For time-varying scenarios (if specified), check ∇×E=−∂B/∂t consistency.
+
+Pathway B — Boundary Concept Exercises [PART I Lines 99–106]
+1) Set up interface problems (qualitative in folder 1) to map discontinuities in B and H.
+2) Identify where surface currents would be required; document assumptions for later quantitative work.
+
+Pathway C — Energy Flow Interpretation [PART I Lines 87–89, 107–113]
+1) Relate field configurations to qualitative Poynting flow discussions.
+2) Record what quantitative inputs would be needed for later computation (provided in later folders).
+
+Notes
+- Folder 1 does not provide explicit numeric parameters; steps remain at verification/consistency outline level.
+
+End.

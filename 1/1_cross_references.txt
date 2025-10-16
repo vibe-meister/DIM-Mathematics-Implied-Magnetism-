@@ -1,0 +1,23 @@
+Section 1 — Cross-References & Reading Order (source-grounded)
+
+Suggested Reading Order
+1) PART I overview [PART I Lines 1–16]
+2) Introduction to Magnetism (structure and units) [PART I Lines 17–42]
+3) Atomic/Subatomic Foundations (quantum origins) [PART I Lines 43–77]
+4) Field Theory of Magnetism (Maxwell, A, boundaries, energy) [PART I Lines 78–114]
+5) Magnetic Materials and Properties (classification, hysteresis, anisotropy) [PART I Lines 115–166]
+
+Dependencies
+- Units and core concepts → quantum sources → field equations/potentials → materials behavior.
+- Equations explicitly cited in Chapter 3 Analysis Lines 61–65 underpin later quantitative work.
+
+File Cross-Links
+- Template: 1_analysis_template.txt
+- Notes: 1_analysis_notes.txt
+- Equations: 1_equations_index.txt
+- Definitions: 1_definitions_index.txt
+- Claims: 1_claims_catalog.txt
+- Open Qs: 1_open_questions.txt
+- Derivations: 1_derivation_pathways.txt
+
+End.

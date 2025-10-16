@@ -1,0 +1,156 @@
+Related Patents: Magnetic Vortex, Wormhole Generators, and Advanced Electromagnetic Propulsion
+Based on a detailed analysis of the provided patent (US20030197093A1: Magnetic Vortex Wormhole Generator by John St. Clair), I've compiled a comprehensive list of all directly related patents. This includes:
+
+The core patent itself.
+Patents cited by US20030197093A1 (prior art referenced for propulsion and electromagnetic systems).
+Similar documents identified on Google Patents (focusing on electromagnetic propulsion, vortex systems, antigravity, and spacetime manipulation via magnetic fields or frequencies).
+Patents by the same inventor (John St. Clair/John Quincy St. Clair), as he filed multiple related applications on wormhole generation, hyperspace energy, and relativistic field propulsion.
+Forward citations: No patents directly cite US20030197093A1 in available records up to October 12, 2025, but it is frequently referenced in fringe science discussions and related filings.
+
+These patents align with themes of magnetism (toroidal coils, field gradients), frequencies (resonant oscillations, beat frequencies under 20 MHz), and aether-like concepts (hyperspace as a low-density medium for energy extraction). Descriptions are brief summaries derived from abstracts, claims, and key sections. The list focuses on functional relevance; design patents (e.g., toy models) are noted but de-emphasized. This is exhaustive based on public databases—no proprietary or unpublished filings are included.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Inventor(s)Patent NumberDescriptionJohn St. ClairUS20030197093A1A magnetic vortex generator using dual toroidal solenoids (radii ratio 1:3) with opposite flux directions to create bucking electric fields, negative spring constant/mass, and resonant spacetime distortion (ω = √(K/M)) for stable wormholes to hyperspace. Enables energy extraction, propulsion (relativistic fields), and applications like mass-less spacecraft via Lorentz-transformed fields under 20 MHz oscillations. Abandoned.Michael A. MinovitchUS5052638AAn electromagnetic ramjet using magnetic fields to accelerate atmospheric ions/electrons via Lorentz forces for propellant-less thrust. Synchronized field modulations manage shock waves; frequencies implied in inductive current generation for high-speed atmospheric/space propulsion.Robert C. WillisUS5305974ASpaceship propulsion via electromagnetic projectile launchers (EMPLs) transferring momentum from "smart" magnetic projectiles caught and relaunched using nuclear-powered magnetic fields. Pulsed EM interactions enable fuelless acceleration (e.g., Earth-Mars in 2 months); no explicit frequencies, but EM pulses for guidance.Kevin A. Soranno, David L. YounkinUS6193193B1Modular evolvable propulsion system with "eggcrate" structure for mounting EM thrusters and tanks. Magnetic/EM fields support attitude control and orbital maneuvers; adaptable for crew/cargo missions, with no direct frequency focus but EM synchronization for multi-module docking.Gregory R. BrotzUS6318666B1Superconductive craft levitating via Meissner effect in Earth's geomagnetic field; propulsion by currents (below critical density) generating Lorentz forces (F = BIL) per right-hand rule. Frequencies not specified; magnetic monopoles and gyroscopic stabilization for directional control.Dale J. RetterUS20020085661A1Reactionless drive accelerating charged particle rings (e.g., electrons) to relativistic speeds in cyclotrons, oscillating mass for linear thrust via EM fields. Magnetic containment; frequencies in oscillatory cycles (high/low speed sync) enable superluminal potential in singularities.Robert PattersonUS20050109879A1Quantum vortex implosion propulsion using EM radiation reception for beat frequencies, inducing vortex formation in ferrite/dielectric materials. Magnetic flux and resonance amplify zero-point energy extraction for thrust; spectral-dependent frequencies for reversible coupling.Robert W. Moses et al.US12283418B2MHD flow control for entry vehicles using embedded electrodes and magnets to generate Lorentz forces (F = J × B) augmenting lift/drag (L/D >1). Collision frequencies (vei, ven) affect plasma conductivity; magnetic fields (1T) for thermal protection and power harvesting during aerocapture.Zhao KaiCN101554928AAircraft power system with paired solenoid coils driven by high-frequency AC (300 MHz-30 GHz) generating mutual EM propulsion. 1/4-wavelength spacing and 90° phase shifts create unidirectional thrust via field delays; overcomes G-forces for interstellar travel.Randell L. MillsJPH10505395AAntigravity generator forming negative-curvature electrons (pseudo-electrons) via EM guides (dipole/quadrupole magnets) for repulsion against positive-curvature matter. Frequencies in non-radiative spacetime Fourier components; propulsion via Coulomb transfer (up to 1 GeV/electron).John St. ClairUS20030209636A1Bobbin-wrapped toroidal core pulsing traveling magnetic waves (velocity √(ω/(σμ))) for spacetime curvature and field gradients (F = μ × ∇B_z). Lift via magnetic moment; frequencies (ω) in sinusoidal pulses, enhanced by wormhole-reduced light speed for relativistic propulsion.Robert A. PattersonWO2006073381A1Quantum vortex implosion for aircraft/spacecraft using cavity QED to extract vacuum energy via beat frequencies and hyperbolic chambers. EM flux in ferrites induces no-moving-parts motor (air as rotor); resonance at zero-point frequencies (∝ f³) for lift/thrust.Randell L. MillsJPH04506242AAnti-gravity force generator curving material (e.g., electrons) to negative spacetime manifold via quadrupole EM fields for repulsion. Magnetic potentials guide beams; frequencies in coherent light/resonance for propulsion along hyperbolic paths (e.g., 4.4×10^5 m/s).Andrew G. ProbertUSD260789SOrnamental design for a toy spaceship model; no functional EM/propulsion elements—cited as illustrative prior art for hull shapes.
+Additional Patents by John St. Clair (Related to Wormhole/Hyperspace Themes)
+John St. Clair filed over 15 applications in 2004-2006 on similar fringe concepts (e.g., gravitational waves, dipole propulsion). These are directly related, often referencing wormhole generators for energy/propulsion.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Inventor(s)Patent NumberDescriptionJohn Quincy St. ClairUS20060071122A1Full-body teleportation via pulsed gravitational wave wormhole generator; hyperspace traversal using EM-induced spacetime distortion for human transport. Relies on magnetic vortex for wave propagation; frequencies in pulses for stable throats.John Quincy St. ClairUS20060145019A1Cavitating oil hyperspace energy generator creating wormholes via magnetic fields in bubbles; extracts low-density hyperspace energy for power. Resonant frequencies lower Planck's constant for dimension-shifting.John Quincy St. ClairUS20060157068A1Electric dipole moment propulsion using asymmetric EM fields for thrust; magnetic gradients create negative mass spikes akin to vortex wormholes. Oscillatory frequencies for relativistic effects.John Quincy St. ClairUS20060226280A1Electric dipole spacecraft with hull-embedded solenoids generating bucking fields for lift; ties to wormhole energy for inertia-less acceleration. Frequencies under 20 MHz for field synchronization.John Quincy St. ClairUS20060231685A1Rotating magnetic field hyperspace energy generator; toroidal coils spin to open wormholes, harvesting energy via reduced light speed. Resonant ω for spacetime curvature.John Quincy St. ClairUS20060243880A1Sulfur hexafluoride waveguide for hyperspace communication; EM-modulated waves through wormholes using magnetic containment. Beat frequencies for signal propagation.John Quincy St. ClairUS20060289878A1Piezoelectric hyperspace energy generator; crystal vibrations in magnetic fields induce wormholes for power. Frequencies tuned to tetrahedral geometry (19.47°).John Quincy St. ClairUS20070023563A1Magnetic vortex wormhole generator (variant); enhanced coil geometries for stronger negative mass spikes. Direct extension of US20030197093A1.John Quincy St. ClairUS20070051871A1Hyperspace energy extractor using cavitating fluids in EM fields; wormhole-mediated energy transfer. Pulsed frequencies for bubble resonance.
+Notes
+
+Themes and Connections: All patents emphasize EM/magnetic fields for propulsion without mass ejection, often invoking negative mass/energy, resonance (e.g., real ω from negative K/M), and hyperspace as an aether-analog for energy. St. Clair's work forms a "family" of applications, many abandoned but influential in alternative physics.
+Data Sources: Compiled from Google Patents, USPTO via web searches, and direct page analyses. No active citations to US20030197093A1, but cross-references abound (e.g., St. Clair's filings cite each other).
+Limitations: Fringe nature means many are abandoned/unexamined; global databases (e.g., CN, JP) may have translations. For full texts/diagrams, search patents.google.com.
+
+If you need deeper dives (e.g., claims for a specific patent) or expansions (e.g., non-patent literature like QED papers), let me know!30 web pages

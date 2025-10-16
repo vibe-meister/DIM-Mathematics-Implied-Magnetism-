@@ -1,0 +1,21 @@
+Section 6 — Structured Notes (source-grounded)
+Source: PART VI — BEYOND CLASSICAL AND EXPE.txt
+
+Definitions/Terminology
+- Superconducting Meissner decay B=B0 exp(−z/λ) [Lines 17–38, 42–46].
+- Spin-ice monopole analogue charge Q_eff=±½ Σ σ_i [Lines 50–109].
+- Coupled magnetization oscillators with damping γ_i, coupling J_ij [Lines 113–219].
+- Ampère with displacement; Casimir with B-field; magnetic helicity H_m [Lines 230–347, 351–395].
+- Rodin digital-root sequence; scalar wave (as presented); coherent energy transfer P; spin–vortex entanglement; flux-tube coupling K [Lines 398–721].
+
+Core Equations (explicit in source)
+- See 6_equations_index.txt (all items line-cited).
+
+Cautions/Limitations
+- Several items are exploratory/fringe per context (scalar waves, overunity/coherent transfer, subtle flux). Treat as hypotheses requiring strict controls.
+
+Separation
+- Mainstream/established: Meissner decay, Ampère’s law term, helicity definition, baseline Casimir formula (with correction form as presented).
+- Hypotheses to test: spin-ice charge formulation; Rodin sequence usage; scalar waves; overunity/coherent P; spin–vortex entanglement metric in this context; flux-tube K form.
+
+End of notes.

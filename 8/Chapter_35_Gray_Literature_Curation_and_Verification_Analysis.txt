@@ -1,0 +1,40 @@
+CHAPTER 35: GRAY LITERATURE CURATION & VERIFICATION — ANALYSIS
+==============================================================
+
+Scope note
+Defines a reproducibility metric R=(# reproducible / # total)·(1−δ_uncertainty). Goal: triage claims and identify robust effects across heterogeneous sources.
+
+Interesting patterns
+- R penalizes both low replication and high uncertainty; encourages better reporting.
+- Can be extended with weights for lab credibility and data completeness.
+
+Missing numbers
+- No clear thresholds for acceptable δ_uncertainty; needs rubric for instrumentation/documentation quality.
+- Absent procedures for independent audit.
+
+Frequency analysis
+- Reports often single‑frequency; require multi‑frequency validation to avoid cherry‑picking.
+
+Sequences
+- Define rubric → collect datasets → compute R per claim → publish dashboards → prioritize replication.
+
+Entropy and randomness
+- Selection bias and p‑hacking inflate perceived success; preregistration and blinding reduce entropy of claims.
+
+Key length detection
+- Study duration and replication count are temporal keys; longer keys increase confidence in R.
+
+Basic insight
+- A transparent R framework makes gray literature actionable by quantifying uncertainty and replication success.
+
+Feeds later subjects
+- Provides filters for which designs move to formal publication or patent pursuit.
+
+Checks
+- Third‑party re‑analysis of shared datasets should reproduce R within tolerance.
+
+Unanswered questions (35)
+1) What δ_uncertainty rubric is fair and practical across the community?
+2) Which minimal reporting standards enable independent recomputation of R?
+3) How should R be weighted by lab independence and prior credibility?
+

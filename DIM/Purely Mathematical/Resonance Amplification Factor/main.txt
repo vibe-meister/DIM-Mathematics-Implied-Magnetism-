@@ -1,0 +1,60 @@
+Resonance Amplification Factor — Formal Specification
+
+1) Scope
+- Goal: define a phase-dependent amplification metric that is dimensionless, bounded, and robust in the small-angle limit.
+- Inputs: effective quality factor Q_eff > 0 and phase offset Δϕ ∈ [−π, π] (e.g., between drive and response, or between coupled modes).
+
+2) Issues with the heuristic
+- Heuristic: G_res = Q_eff / (1 − cos Δϕ).
+- Problem: singular at Δϕ → 0 since 1 − cos Δϕ ≈ Δϕ^2/2 → 0, yielding nonphysical divergence.
+
+3) Candidate well-posed definitions (pick one as default)
+A. Regularized‑sine form (small‑angle aware)
+- G_res^ε(Δϕ) := Q_eff / (2 sin^2(Δϕ/2) + ε), with ε > 0.
+- Interpretation: replaces the small‑angle denominator Δϕ^2/2 by Δϕ^2/2 + ε, avoiding blow‑up.
+- Practical choice: set ε ≈ σ_ϕ^2/2, where σ_ϕ^2 is phase jitter variance over the measurement window.
+
+B. Bounded rational form (default)
+- G_res^β(Δϕ) := Q_eff / (1 + β (1 − cos Δϕ)), with β ≥ 0.
+- Properties: G_res^β(0) = Q_eff; G_res^β(π) = Q_eff / (1 + 2β); strictly decreasing in |Δϕ| for β > 0; finite everywhere.
+- Parameter selection: pick a half‑power phase Δϕ_h ∈ (0, π] s.t. G_res^β(Δϕ_h) = Q_eff/2 ⇒ β = 1 / (1 − cos Δϕ_h).
+  Example: Δϕ_h = π/2 ⇒ β ≈ 3.4142.
+
+C. Expected‑coherence form
+- If Δϕ is random with E[cos Δϕ] = ρ ∈ [−1,1], define G_res^ρ := Q_eff / (1 + β (1 − ρ)).
+- Use when only the phase concentration ρ (or an estimate thereof) is available.
+
+4) Bounds and monotonicity
+- For G_res^ε: Q_eff / (2 + ε) ≤ G_res^ε(Δϕ) ≤ Q_eff / ε; decreasing in |Δϕ| on [0, π].
+- For G_res^β: Q_eff / (1 + 2β) ≤ G_res^β(Δϕ) ≤ Q_eff; strictly decreasing in |Δϕ| on [0, π] for β > 0.
+- Small‑angle expansion: 1 − cos Δϕ ≈ Δϕ^2/2; therefore G_res^β(Δϕ) ≈ Q_eff / (1 + β Δϕ^2/2) near 0.
+
+5) Estimators
+- Q̂_eff from ringdown: excite then measure decay time τ ⇒ Q̂_eff = π f0 τ (or bandwidth: Q̂_eff = f0 / Δf_−3dB).
+- Δϕ estimator: compute mean phase difference over the analysis window; unwrap to (−π, π]. If noisy, report Δϕ̂ and σ_ϕ.
+- ρ estimator (optional): ρ̂ = (1/N) Σ_n cos Δϕ_n over N samples.
+- Metric estimates: Ĝ_res^ε = Q̂_eff / (2 sin^2(Δϕ̂/2) + ε), or Ĝ_res^β = Q̂_eff / (1 + β (1 − cos Δϕ̂)), or Ĝ_res^ρ = Q̂_eff / (1 + β (1 − ρ̂)).
+
+6) Uncertainty propagation
+- For G_res^β, define D(Δϕ) = 1 + β (1 − cos Δϕ).
+  Partial derivatives: ∂G/∂Q = 1/D; ∂G/∂Δϕ = Q β sin Δϕ / D^2.
+  Approximate variance: Var(Ĝ) ≈ (∂G/∂Q)^2 Var(Q̂) + (∂G/∂Δϕ)^2 Var(Δϕ̂) + 2 Cov terms (often small if independently estimated).
+- Report CI via bootstrap over repeated runs, especially when Δϕ̂ is noisy or multi‑modal.
+
+7) Selection guidance
+- Use G_res^β as default for boundedness and tunable roll‑off; choose Δϕ_h per application to set β.
+- Use G_res^ε when phase jitter is characterized (ε from σ_ϕ^2/2) and small‑angle sensitivity needs explicit control.
+- Use G_res^ρ when only phase concentration is known (population‑level or noisy settings).
+
+8) Validation protocol (purely mathematical acceptance)
+- Consistency: verify monotonicity and bounds numerically for the chosen parameters.
+- Limit checks: Δϕ→0 yields G_res^β→Q_eff; Δϕ→π yields G_res^β→Q_eff/(1+2β).
+- Parameter calibration: for a chosen Δϕ_h, compute β and plot G_res^β(Δϕ) to confirm half‑power at Δϕ_h.
+
+9) Reporting template
+- Specify chosen definition (ε or β or ρ), parameter values (ε or β), and estimation method for Q_eff and Δϕ (or ρ).
+- Provide Ĝ_res with CI, and a small‑angle note (values of σ_ϕ or Δϕ_h used).
+
+10) Worked symbolic examples
+- Example 1 (β form): Q_eff=100, Δϕ_h=π/2 ⇒ β≈3.4142 ⇒ G_res^β(0)=100, G_res^β(π/2)=50, G_res^β(π)=100/(1+2β)≈12.8.
+- Example 2 (ε form): Q_eff=100, σ_ϕ=0.1 rad ⇒ ε≈0.005 ⇒ G_res^ε(0)=100/0.005=20000 (report with caution: reflects very low phase noise assumption). Prefer β form when avoiding large magnitudes is desirable.

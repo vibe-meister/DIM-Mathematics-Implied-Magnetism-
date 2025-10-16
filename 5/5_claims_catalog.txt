@@ -1,0 +1,16 @@
+Section 5 — Claims Catalog (source-grounded)
+
+Mainstream (equations, procedures, models)
+- Faraday/Lenz; self/mutual inductance; LC resonance; coupled LC equations; Q-factor; Lorentz/torque; generator EMF; ΦB(t) [PART V Lines 7–451].
+- Toroidal parameterization as geometry for modeling [PART V Lines 459–493].
+
+Hypotheses/Speculative (as presented in sources)
+- “Vortex amplification” and energy transfer enhancement via phase alignment [PART V Lines 67–69, 338–339, 421–453].
+- Vortex number mapping V(n)=n mod 9 applied to coil phasing benefits [PART V Lines 499–516].
+- Spatial B(θ,ϕ)=B0 cos(kθ+ϕ) aligned with “vortex mathematics” claims [PART V Lines 519–544].
+- “Coherent phasing along Rodin sequences can amplify net energy without conventional external input” (requires rigorous testing) [PART V Lines 548–575].
+
+Notes
+- Hypothesis items recorded for testing only; no validation implied here.
+
+End of catalog.

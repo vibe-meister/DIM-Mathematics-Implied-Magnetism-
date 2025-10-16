@@ -1,0 +1,49 @@
+Section 1 Analysis Template — Foundations of Magnetism
+Source files:
+- PART I — FOUNDATIONS OF MAGNETISM.txt
+- Chapter_1_Introduction_to_Magnetism_Analysis.txt
+- Chapter_2_Atomic_and_Subatomic_Foundations_Analysis.txt
+- Chapter_3_Field_Theory_of_Magnetism_Analysis.txt
+- Chapter_4_Magnetic_Materials_and_Properties_Analysis.txt
+
+Purpose: Standardize analysis steps; extract only from listed sources. Do not add claims. Separate mainstream content from speculative/community content if present.
+
+1) Scope & Objectives
+- Objectives: __________________
+- Aims (testable): ______________
+
+2) Terminology, Units, Symbols
+- Conventions: _________________
+- Units to track: ______________
+- Symbols inventory: ___________
+
+3) Geometry/Coordinates (if applicable)
+- Coordinate maps used: ________
+- Geometry assumptions: ________
+
+4) Equations Extraction
+- List equations with citations to line ranges: _____________________________
+
+5) Modeling & Parameters
+- Models used (from source): ______________________________________________
+- Parameters/variables: ____________________________________________________
+
+6) Experimental/Measurement Plan (if present)
+- Instruments/variables: _________________________________________________
+- Protocols/reproducibility: ______________________________________________
+
+7) Data & Analysis
+- Computations to run: __________
+- Outputs and diagnostics: ______
+
+8) Speculative/Community-Labeled Items (if present)
+- Clearly mark and separate; no validation implied: ________________________
+
+9) Open Questions & Tests
+- Questions derived from source: __________________________________________
+- Testable predictions: __________
+
+10) Cross-References
+- Internal dependencies and reading order: _________________________________
+
+End of template.

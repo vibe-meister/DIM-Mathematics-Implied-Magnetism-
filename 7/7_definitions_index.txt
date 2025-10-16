@@ -1,0 +1,20 @@
+Section 7 — Definitions & Variables Index (source-grounded)
+
+Rodin/Vortex
+- Rodin sequence S_n=2^n mod 9 (digit-root mapping) [Lines 7–27].
+- Vortex flux parameters: B0, α (amplification), f_vortex, ϕ (phase) [Lines 42–93].
+
+Exotic Fields
+- Scalar potential Φ; μ, ε as material parameters in scalar wave model [Lines 96–127].
+- Toroidal/poloidal indices k, m; angles θ, ϕ; ω [Lines 129–172].
+
+Coherent/Overunity Models
+- P_net with η_ij (coherence coupling), loop currents I_i, induced fields E_j [Lines 175–255].
+- G_fringe; F_phase=1+cos(Δϕ_vortex); P_in,j, P_out,i [Lines 257–323].
+
+Quantum/Subtle
+- E_coh; spin vectors S_i, S_j; coupling J_ij; angle θ_ij [Lines 325–415].
+- K_subtle=(μ0/2π) ln(r/a) · β_coherence; r, a, β_coherence [Lines 417–472].
+- B_fringe decay/oscillation: B_n, τ_n, ω_n, ϕ_n [Lines 475–536].
+
+End of definitions.

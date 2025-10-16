@@ -1,0 +1,49 @@
+CHAPTER 6: RESONANCE, OSCILLATIONS, AND TOROIDAL LC SYSTEMS — ANALYSIS
+======================================================================
+
+Scope note
+Builds on Ch. 5 by introducing LC resonance, coupled oscillators, and Q. Distinct toroidal context: flux closure elevates Q and reduces radiation.
+
+Interesting patterns
+- Dual Q expressions (Q=ω0L/R and Q=1/R·√(L/C)) appear implicitly via earlier equations; invites cross‑checks.
+- Emphasis on phase synchronization suggests PLL or injection‑locking strategies for arrays.
+
+Missing numbers
+- No target Q ranges (e.g., 50, 200, 1000) for specified materials/geometries.
+- Absent parasitic C, inter‑turn capacitance, and ESR data needed for accurate f0.
+
+Frequency analysis
+- Toroids: reduced fringing lowers radiation loss; expect narrower bandwidth B=f0/Q vs. solenoids.
+- Coupled LC: mode splitting visible; amplitude ratio across f± reveals k.
+
+Sequences
+- Tuning: cold estimate → swept drive → observe current minima/maxima → adjust coupling and topload/turns → re‑measure.
+- Stability: small‑signal ring‑down → large‑signal compression → observe onset of nonlinearity.
+
+Structural patterns
+- Moves ideal → coupled → networked arrays; math remains minimal but testable.
+
+Entropy and randomness
+- Thermal drift and supply jitter broaden the resonance line; Allan deviation framing recommended for long runs.
+
+Key length detection
+- Natural key = beat period 1/|f+−f−|; use to detect weak coupling in time domain.
+
+Basic insight
+- High‑Q advantage is only realized if coupling, parasitics, and drift are simultaneously controlled; toroids help but do not guarantee performance.
+
+Feeds later subjects
+- Sets the stage for Ch. 10 harmonics and Ch. 22 harmonic control; informs metrology choices in Ch. 13.
+
+Concrete checks
+- Ring‑down Q vs. −3 dB bandwidth; require agreement within 10%.
+- Extract k from splitting; verify with geometric M estimate.
+- Temperature coefficient measurement of f0; compute compensation needed.
+
+Unanswered questions
+1) What Q is feasible with the wire/core specified elsewhere?
+2) How large are parasitic C and ESR at the intended ω, and how do they vary with temperature?
+3) What coupling k maximizes transfer without over‑damping in the target application?
+4) How does toroid geometry (cross‑section, mean radius) trade off between L, Cp, and loss?
+5) What stabilization method (PLL, AFC, injection lock) is planned for long‑term coherence?
+

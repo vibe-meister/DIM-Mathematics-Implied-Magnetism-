@@ -1,0 +1,86 @@
+Section 5.5 — Equations Index (verbatim from source; no additions)
+Source: Part V.V — MARKO RODIN & VORTEX MATHE.txt
+
+Conventions
+- Each entry lists [Section], [Lines], [Equation/Definition].
+- Equations preserved as ASCII from source; see source for symbols.
+
+[V.0.3] Lines 29–63, 1422–1458 — Toroidal coordinates
+x=(R+rcosθ)cosϕ; y=(R+rcosθ)sinϕ; z=rsinθ
+
+[V.0.4] Lines 67–95 — Digital-root function
+d(n)=1+((n−1) mod 9); n∈Z+
+
+[V.2.1] Lines 106–140 — Doubling sequence modulo 9
+S_n = 2^n mod 9; sequence: 1,2,4,8,7,5,…
+
+[V.2.3] Lines 152–168; [Appendix V.B B1] Lines 1534–1547 — Angle mapping (speculative)
+ϕ(n)=2π d(n)/9
+
+[V.3.1] Lines 178–206 — Continuous torus path (schematic form)
+r(θ)=((R+rcosθ)cos(nθ+α),…)
+
+[V.3.3] Lines 223–287 — Linking number (Gauss integral)
+Lk=(1/4π) ∬ ( (r1−r2)·(dr1×dr2) ) / |r1−r2|^3
+
+[V.4.1] Lines 295–336 — Discrete-turn current density
+J(r)=Σ_k I_k δ(r−r_k) τ̂^k
+
+[V.4.2] Lines 338–386 — Vector potential (Coulomb gauge)
+A(r)=(μ0/4π) ∫ J(r′)/|r−r′| d^3r′
+
+[V.4.3] Lines 387–454; [Appendix V.A A2] Lines 1462–1524 — Biot–Savart (discrete sum)
+B(r)=(μ0/4π) Σ_k I_k ∮_Ck dℓ×(r−r′)/|r−r′|^3
+
+[V.4.4] Lines 456–494 — Toroidal/poloidal decomposition
+B = Bϕ ϕ̂ + Bθ θ̂ + Br r̂
+
+[V.4.5] Lines 495–536 — Magnetic energy density, total energy
+u_B = B^2/(2μ0);  W=∫_V u_B dV
+
+[V.5.1] Lines 539–577 — Self-inductance (general)
+L=(μ0/4π) ∬ dℓ·dℓ′/|r−r′|
+
+[V.5.2] Lines 589–657 — Mutual inductance
+M12=(μ0/4π) ∮_C1 ∮_C2 (dℓ1·dℓ2)/|r1−r2|
+
+[V.5.3] Lines 662–681 — Coupling coefficient
+k = M12 / √(L1 L2)
+
+[V.5.4] Lines 692–709 — Toroidal approximation (caution)
+L ≈ μ N^2 A / (2π R)
+
+[V.6.1] Lines 715–759 — Angular Fourier decomposition
+B(ρ,ϕ,z)=Σ_{n=−∞}^{∞} B̃_n(ρ,z) e^{j n ϕ}
+
+[V.6.3] Lines 771–799 — Resonant modal condition
+ω_n^2 = 1/(L_n C_n)
+
+[V.7.1] Lines 804–855 — LC relations, Q factor
+ω0=1/√(L_eff C_eff);  Q=ω0 L_eff / R_eff
+
+[V.7.2] Lines 857–873 — Phase coherence (speculative)
+Δϕ = 2π m,  m∈Z
+
+[V.7.3] Lines 874–910; [Appendix V.B B2] Lines 1551–1580 — Vortex amplification (speculative)
+B_eff(t)=B_base(1+α sin(ω t + ϕ_d))
+
+[V.7.4] Lines 924–940 — Poynting vector
+S=(1/μ0) E×B
+
+[V.8.2] Lines 945–981 — Scalar wave equation (speculative)
+∇^2Φ − (1/c_s^2) ∂^2Φ/∂t^2 = 0
+
+[V.8.3] Lines 991–1019; [Appendix V.B B3] Lines 1583–1601 — Scalar coupling (speculative)
+L_int = g_s Φ E·B
+
+[V.12.1] Lines 1252–1327 — Power accounting
+P_in=V_in Ī_in;  P_out=V_out Ī_out;  ΔP=P_out−P_in
+
+[V.12.2] Lines 1331–1365 — Uncertainty propagation (example)
+σ_P ≈ (I σ_V)^2 + (V σ_I)^2
+
+[V.12.3] Lines 1369–1387; [V.12.4] Lines 1388–1393 — Reproducibility statistic, threshold
+z = ΔP / σ_ΔP;  require z≥5 and independent replication
+
+End of index.

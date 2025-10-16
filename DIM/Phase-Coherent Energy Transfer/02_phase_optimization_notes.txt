@@ -1,0 +1,22 @@
+Phase‑Coherent Energy Transfer — Phase Optimization Notes
+
+Problem
+- Maximize ⟨P_net⟩ = Σ_{i,j} ½ η_ij I_i0 E_j0 cos(ϕ_i − ψ_j) over phases {ϕ_i, ψ_j} subject to constraints.
+
+Closed‑form small‑N
+- N=1 pair: maximize cos(Δϕ) ⇒ Δϕ*=0 when η_ij>0 (or π when η_ij<0).
+- Two sources to one load: align ϕ_i to ψ to maximize Σ a_i cos(ϕ_i − ψ) with a_i=½ η_ij I_i0 E_j0 ⇒ choose ϕ_i=ψ.
+
+Vector form
+- Let a_ij=½ η_ij I_i0 E_j0; define complex sums S = Σ_{i,j} a_ij e^{i(ϕ_i−ψ_j)}; maximize Re S by phase alignment.
+- Optimal phases align to the argument of the aggregated complex coefficient seen by each variable (coordinate‑ascent yields fixed points).
+
+Robust schedules
+- With phase jitter σ_ϕ, select phases to maximize E[cos(Δϕ)] = cos(Δϕ) e^{−σ_ϕ^2/2}; robust target Δϕ*=0 still optimal but expected gain shrinks by e^{−σ_ϕ^2/2}.
+
+Constraints and stability
+- Include detuning Δω and limited Q: misalignment arises from frequency‑dependent phase shifts; compensate using pre‑emphasis.
+- Enforce drive amplitude limits and thermal constraints; use convex relaxation for large N (e.g., semidefinite programming on phase variables).
+
+Outputs
+- Optimal/robust phase sets; sensitivity to jitter and detuning; expected ⟨P_net⟩ with uncertainty.

@@ -1,0 +1,21 @@
+Section 6 — Cross-References & Reading Order (source-grounded)
+
+Suggested Reading Order
+1) Extended frameworks: superconductivity, monopole analogues, coupled magnetization [PART VI Lines 1–219]
+2) High-energy/astro analogues: Ampère term, Casimir with B, helicity [PART VI Lines 221–395]
+3) Advanced vortex/topological models: Rodin, scalar waves (as presented), coherent transfer [PART VI Lines 397–538]
+4) Quantum-coherent/subtle: entanglement, flux networks [PART VI Lines 540–721]
+
+Dependencies
+- Superconducting/oscillator models → high-energy field relations → vortex/topology hypotheses → quantum/subtle metrics.
+
+File Cross-Links
+- Template: 6_analysis_template.txt
+- Notes: 6_analysis_notes.txt
+- Equations: 6_equations_index.txt
+- Definitions: 6_definitions_index.txt
+- Claims: 6_claims_catalog.txt
+- Open Qs: 6_open_questions.txt
+- Derivations: 6_derivation_pathways.txt
+
+End.

@@ -1,0 +1,19 @@
+Section 3 — Claims Catalog (source-grounded)
+
+Mainstream (concepts, equations, procedures)
+- Toroids/solenoids: confinement, uniformity, arrays; B = μNI/(2πr); Φ = ∫B·dA; k = M/√(L₁L₂) [Chapter 9 Lines 61–65].
+- Harmonics/interference/modulation: Fourier series, vector superposition, modulation relation [Chapter 10 Lines 61–65].
+- Quantum magnetism: spin Hamiltonian; entanglement entropy; topological charge; tunneling [Chapter 11 Lines 61–65].
+- Astrophysical fields: dynamo equation; reconnection rate; scaling; relativistic gamma [Chapter 12 Lines 61–65].
+- Measurement: flux integral; sensitivity; optical resolution; noise floor [Chapter 13 Lines 61–65].
+- Computation: FEM system; boundary integral; multi-physics PDE; QMC estimator [Chapter 14 Lines 61–65].
+- High-energy: v_rec formula; shocks continuity; E(k) ∝ k^(−5/3); dynamo [Chapter 15 Lines 61–65].
+- Applications: η = P_out/P_in; E = ½LI²; B = μ₀NI/l; T₂ = 1/Γ [Chapter 16 Lines 61–65].
+
+Speculative/community-labeled
+- None identified/labeled in folder 3 sources.
+
+Notes
+- Catalog mirrors source content and labeling; no new claims added.
+
+End of catalog.

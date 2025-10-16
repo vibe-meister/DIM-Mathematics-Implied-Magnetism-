@@ -1,0 +1,16 @@
+CHAPTER 23: QUANTUM & SUBTLE ENERGY CONSIDERATIONS — ANALYSIS
+=============================================================
+
+Scope note
+Anomalies (23.1), spin‑based coherence (23.2), subtle interactions (23.3). Combines formal quantum ideas with weak‑signal claims; metrology‑heavy.
+
+Interesting patterns
+- Uses coherence/entanglement language to frame low‑energy effects.
+- Emphasizes detection tech (SQUID, NV, SC loops) befitting weak signals.
+
+Missing numbers
+- Energy thresholds, coherence parameters (T2), interaction strengths; reproducibility statistics.
+
+Basic insight
+- Without rigorous controls and quantified noise models, “subtle” effects are indistinguishable from artifacts.
+

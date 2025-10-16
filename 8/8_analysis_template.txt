@@ -1,0 +1,13 @@
+Section 8 Analysis Template — Application and Creation
+Source files:
+- PART VIII — APPLICATION AND CREATIO.txt
+- Chapter_30_Advanced_Experimental_Design_and_Implementation_Analysis.txt
+- Chapter_31_Patent_Based_Magnetic_System_Modeling_Analysis.txt
+- Chapter_32_Specialist_and_Laboratory_Unpublished_Works_Analysis.txt
+- Chapter_33_Forum_Threads_and_Technical_Blogs_Analysis.txt
+- Chapter_34_Private_Collections_and_Archives_Analysis.txt
+- Chapter_35_Gray_Literature_Curation_and_Verification_Analysis.txt
+
+Purpose: Standardize analysis; extract only from sources; separate mainstream/speculative if present.
+
+[Same section headings as folder 1 template; fill from folder 8 sources]

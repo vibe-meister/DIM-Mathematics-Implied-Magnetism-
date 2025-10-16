@@ -1,0 +1,18 @@
+{
+  "title": "A Treatise on Electricity and Magnetism, Vol. I (1st ed.)",
+  "author": "James Clerk Maxwell",
+  "type": "treatise",
+  "year": 1873,
+  "url": "",
+  "accessed": "",
+  "sha256": "",
+  "file": "primary_pdfs/maxwell_treatise_1873_vol1.pdf",
+  "edition": "1st",
+  "notes": "Foundational development; equations and definitions baseline.",
+  "coverage": {
+    "field_equations": true,
+    "constitutive_relations": true,
+    "energy_poynting": true,
+    "stress_tensor": true
+  }
+}

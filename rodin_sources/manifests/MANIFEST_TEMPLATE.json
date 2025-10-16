@@ -1,0 +1,17 @@
+{
+  "title": "",
+  "author": "Marko Rodin|Rodin Research|community",
+  "type": "paper|diagram|video|article",
+  "year": null,
+  "url": "",
+  "accessed": "",
+  "sha256": "",
+  "file": "primary_pdfs/FILE_NAME.pdf",
+  "notes": "",
+  "coverage": {
+    "mappings": false,
+    "winding_rules": false,
+    "coil_specs": false,
+    "measurement": false
+  }
+}

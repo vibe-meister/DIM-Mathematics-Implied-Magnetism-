@@ -1,0 +1,30 @@
+Section 4 — Open Questions and Testable Predictions (source-derived)
+
+Ch.17 High-Level Resonance — Questions [Ch.17 Lines 12–17, 26]
+- Target f0, Q, k, M per topology? Detuning tolerances Δf/f0? Bifurcation thresholds? Array mode spacing 1/|f+−f−| vs geometry?
+
+Ch.18 Tesla Coils — Questions [Ch.18 Lines 11–16]
+- Secondary f0 targets and topload C ranges? Safe k window vs breakdown margins (altitude/humidity)? EMI/harmonic bands under drives?
+
+Ch.19 Vortex Geometries — Questions [Ch.19 Lines 11–16]
+- Core radii, lifetimes, nucleation gradients? Coupling strengths and sync bandwidths? Observable sidebands under parametric drive?
+
+Ch.20 Rodin & Vortex Math (Pre-Equations) — Questions [Ch.20 Lines 11–16]
+- Map index→(θ,ϕ,path) with error bounds vs field maps? Any quantitative benefit vs controls (Q, spectra, B‑maps)?
+
+Ch.21 Tesla HF Experiments — Questions [Ch.21 Lines 11–16]
+- Frequency bands; ground/ionosphere models and link budgets; amplification factors; propagation losses under real environments?
+
+Ch.22 Harmonic & Toroidal Coupling — Questions [Ch.22 Lines 11–16]
+- k, M for target toroids; harmonic levels vs frequency; transfer efficiency; interference metrics for arrays?
+
+Ch.23 Quantum & Subtle Energy — Questions [Ch.23 Lines 11–16]
+- Energy thresholds; coherence (T2); interaction strengths; reproducibility statistics with controls?
+
+Ch.24 Experimental Design — Questions [Ch.24 Lines 11–16]
+- Fabrication tolerances; measurement accuracy/bandwidth; validation thresholds; noise specs and time sync requirements?
+
+Ch.25 Transition to Equations — Questions [Ch.25 Lines 11–16]
+- Parameter lists; mapping tolerances; dataset schemas for computation; variable inventories complete for Part V?
+
+End.

@@ -1,0 +1,26 @@
+Section 3 — Cross-References & Reading Order (source-grounded)
+
+Suggested Reading Order
+1) PART III overview [PART III Lines 1–2]
+2) Toroids/solenoids/arrays [PART III Lines 2–31]
+3) Harmonics, interference, modulation [PART III Lines 33–62]
+4) Quantum magnetism [PART III Lines 64–94]
+5) Astrophysical/geomagnetic fields [PART III Lines 95–134]
+6) Measurement techniques [PART III Lines 136–159]
+7) Simulation methods [PART III Lines 161–194]
+8) High-energy phenomena [PART III Lines 195–218]
+9) Practical applications [PART III Lines 219–250]
+
+Dependencies
+- Geometry → harmonics/interference → quantum/astro contexts → measurement/simulation → high-energy → applications.
+
+File Cross-Links
+- Template: 3_analysis_template.txt
+- Notes: 3_analysis_notes.txt
+- Equations: 3_equations_index.txt
+- Definitions: 3_definitions_index.txt
+- Claims: 3_claims_catalog.txt
+- Open Qs: 3_open_questions.txt
+- Derivations: 3_derivation_pathways.txt
+
+End.

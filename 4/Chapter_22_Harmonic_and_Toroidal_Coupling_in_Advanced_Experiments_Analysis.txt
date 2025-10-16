@@ -1,0 +1,16 @@
+CHAPTER 22: HARMONIC & TOROIDAL COUPLING IN ADVANCED EXPERIMENTS — ANALYSIS
+===========================================================================
+
+Scope note
+Coupling principles (22.1), harmonic network analysis (22.2), and applications (22.3). Frequency‑domain framing for toroidal arrays.
+
+Interesting patterns
+- Flux linkage and k framed alongside phase coherence as first‑class design variables.
+- Harmonic shaping provides pathway for selective amplification and suppression.
+
+Missing numbers
+- k and M for target geometries, harmonic levels vs. frequency, transfer efficiencies; interference pattern metrics.
+
+Basic insight
+- Network‑level phase control and harmonic filtering are as vital as local coil design for efficient transfer.
+

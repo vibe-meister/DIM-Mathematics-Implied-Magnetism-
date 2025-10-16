@@ -1,0 +1,15 @@
+High-Q Superconductor Interaction — Compiled
+
+Extracted content (created/speculative):
+- B_total = Σ_{i=1}^n B_i exp(− t/τ_i) cos(ϕ_i)
+
+Notes:
+- Composite decaying modes in superconducting or high-Q environments; requires linking τ_i to material and geometry.
+
+Three ways to complete/exhaust the math:
+1) Material parameters and τ_i
+   - Derive τ_i from Q_i and f_i; relate Q_i to surface resistance, geometry factor, and temperature; predict scaling.
+2) Mode coupling
+   - Include mutual coupling and detuning; derive conditions for coherent addition vs beating; compute envelope dynamics.
+3) Measurement under cryogenic control
+   - Specify instrumentation and calibration; extract {τ_i, ϕ_i} via ringdown and spectral fits; compare to predicted dependencies.

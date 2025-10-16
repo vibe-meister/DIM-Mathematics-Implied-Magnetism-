@@ -1,0 +1,6 @@
+General Research Thoughts
+
+- Prioritize theories nearest to classical EM for early wins (arrays, resonance factors) alongside rigorous controls.
+- Normalize file/metric conventions (units, symbols, Q definitions) across DIM to avoid confusion.
+- Add POSIX scripts mirroring PowerShell for cross‑platform reproducibility.
+- Consider a minimal JSON Schema for experiments linking DIM entries to data and citations.

@@ -1,0 +1,32 @@
+Phase‑Coherent Energy Transfer — Derivation Notes
+
+Goal
+- Derive time‑averaged network power ⟨P_net⟩ for N coupled resonant elements under passive, linear assumptions with mutual coupling.
+
+Model
+- Each element i: L_i, C_i, R_i (effective); driven current I_i(t)=I_i0 cos(ωt+ϕ_i).
+- Coupling: η_ij(ω, geometry, materials); inductive map: η_ij ≈ ω M_ij with M_ij = k_ij √(L_i L_j).
+- Quality factor: Q_i = ω0_i L_i/R_i = f0_i / Δf_−3dB.
+
+Representative result
+- ⟨P_net⟩ = Σ_{i,j} ½ η_ij I_i0 E_j0 cos(Δϕ_ij), with Δϕ_ij=(ϕ_i−ψ_j).
+- For purely inductive coupling and sinusoidal steady state: replace η_ij with ω M_ij; E_j0 relates to induced voltage/current via load.
+
+Conservation & reciprocity constraints
+- Passive bounds: |η_ij| ≤ η_max(geometry, Q); reciprocity η_ij=η_ji for symmetric media; positive semidefinite coupling matrix for lossless symmetric networks.
+- Available power bound: ⟨P_net⟩ ≤ P_src_total · G(Q, |η|, matching), equality only at ideal matching and phases.
+
+Assumptions to state explicitly
+- Linear time‑invariant behavior around operating point; small‑signal regime (no saturation, no strong nonlinearity).
+- Narrowband steady‑state (single ω), negligible radiation relative to lumped losses unless explicitly modeled.
+- Thermal/environmental stationarity during measurement windows.
+
+Mapping to measurement
+- Q from ringdown: Q = π f0 τ (or Q = f0/Δf_−3dB for small damping).
+- k_ij from split frequencies in a coupled pair: k ≈ (f_+^2 − f_-^2)/(f_+^2 + f_-^2).
+- η_ij estimate via calibrated P_in/P_out and phase sweeps, fitting ⟨P_net⟩ model.
+
+Planned proofs/sketches
+- Derive ⟨P_net⟩ from phasor network equations; show cos(Δϕ) dependence.
+- Prove passivity bound via Rayleigh quotient of coupling matrix and source constraints.
+- Show reduction to two‑resonator closed form; extend to N via eigenmode decomposition.

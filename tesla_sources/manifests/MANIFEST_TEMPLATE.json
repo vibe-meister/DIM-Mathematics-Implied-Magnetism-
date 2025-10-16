@@ -1,0 +1,17 @@
+{
+  "title": "",
+  "author": "Nikola Tesla",
+  "type": "lab_notes|patent|lecture|article",
+  "year": null,
+  "url": "",
+  "accessed": "",
+  "sha256": "",
+  "file": "primary_pdfs/FILE_NAME.pdf",
+  "notes": "",
+  "coverage": {
+    "geometry": false,
+    "coupling": false,
+    "tuning": false,
+    "measurement": false
+  }
+}

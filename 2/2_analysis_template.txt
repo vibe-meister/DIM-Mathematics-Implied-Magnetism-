@@ -1,0 +1,11 @@
+Section 2 Analysis Template — Electromagnetic Induction
+Source files:
+- PART II — ELECTROMAGNETIC INDUCTION.txt
+- Chapter_5_Electromagnetic_Induction_and_Flux_Dynamics_Analysis.txt
+- Chapter_6_Resonance_Oscillations_and_Magnetic_Circuits_Analysis.txt
+- Chapter_7_Motion_Induced_Magnetic_Effects_Analysis.txt
+- Chapter_8_Topology_and_Geometry_of_Magnetic_Fields_Analysis.txt
+
+Purpose: Standardize analysis; extract only from sources; separate mainstream/speculative if present.
+
+[Same section headings as folder 1 template; fill from folder 2 sources]

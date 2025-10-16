@@ -1,0 +1,15 @@
+Subtle Flux Coupling Strength — Compiled
+
+Extracted content (created/speculative):
+- K_subtle = (μ0 / 2π) ln(r/a) · β_coherence
+
+Notes:
+- Logarithmic dependence suggests line-like geometry; β_coherence encodes hypothesized coherence.
+
+Three ways to complete/exhaust the math:
+1) Derivation from canonical fields
+   - Derive ln(r/a) form from standard magnetic field integrals (e.g., long conductor); specify geometry assumptions; map β_coherence to physical parameters.
+2) Regularization and domains
+   - Define valid ranges for r/a; handle singularities and boundary effects; provide bounded, physical K_subtle with clear limits.
+3) Measurement plan
+   - Propose experiment varying r/a and coherence conditions; fit β_coherence; test whether K_subtle deviates from classical predictions beyond uncertainty.

@@ -1,0 +1,577 @@
+PART V — MARKO RODIN, TESLA, AND VORTEX MATHEMATICS (FULL EQUATIONS)
+5. Electromagnetic Induction with Quantitative Frameworks
+5.1 Faraday’s Law (Quantitative Form)
+
+Induced EMF:
+
+𝐸
+=
+−
+𝑑
+Φ
+𝐵
+𝑑
+𝑡
+E=−
+dt
+dΦ
+B
+	​
+
+	​
+
+
+where 
+Φ
+𝐵
+=
+∫
+𝐵
+⋅
+𝑑
+𝐴
+Φ
+B
+	​
+
+=∫B⋅dA is the magnetic flux through a surface.
+
+Applications: coil loops, toroidal arrays, and vortex-linked flux paths.
+
+5.2 Lenz’s Law Directionality
+
+Ensures induced current opposes flux change:
+
+𝐼
+induced
+∝
+−
+𝑑
+Φ
+𝐵
+𝑑
+𝑡
+I
+induced
+	​
+
+∝−
+dt
+dΦ
+B
+	​
+
+	​
+
+
+Vortex amplification: interaction of multiple loops in phase can enhance energy transfer.
+
+5.3 Mutual and Self-Inductance Equations
+
+Self-inductance:
+
+𝐸
+self
+=
+−
+𝐿
+𝑑
+𝐼
+𝑑
+𝑡
+,
+𝐿
+=
+𝑁
+2
+𝜇
+𝐴
+𝑙
+E
+self
+	​
+
+=−L
+dt
+dI
+	​
+
+,L=
+l
+N
+2
+μA
+	​
+
+
+Mutual inductance:
+
+𝐸
+2
+=
+−
+𝑀
+𝑑
+𝐼
+1
+𝑑
+𝑡
+,
+𝑀
+=
+𝑘
+𝐿
+1
+𝐿
+2
+E
+2
+	​
+
+=−M
+dt
+dI
+1
+	​
+
+	​
+
+,M=k
+L
+1
+	​
+
+L
+2
+	​
+
+	​
+
+
+where 
+𝑘
+k is the coupling coefficient.
+
+6. Resonance, Oscillations, and Toroidal LC Systems
+6.1 LC Resonance
+
+Resonant frequency:
+
+𝑓
+0
+=
+1
+2
+𝜋
+𝐿
+𝐶
+f
+0
+	​
+
+=
+2π
+LC
+	​
+
+1
+	​
+
+
+Energy oscillation between magnetic and electric fields:
+
+𝑈
+=
+1
+2
+𝐿
+𝐼
+2
++
+1
+2
+𝐶
+𝑉
+2
+U=
+2
+1
+	​
+
+LI
+2
++
+2
+1
+	​
+
+CV
+2
+
+Toroidal arrays can sustain higher-Q resonances due to flux closure.
+
+6.2 Coupled Resonant Systems
+
+Coupled LC circuits:
+
+{
+𝐿
+1
+𝑑
+𝐼
+1
+𝑑
+𝑡
++
+𝑀
+𝑑
+𝐼
+2
+𝑑
+𝑡
++
+1
+𝐶
+1
+∫
+𝐼
+1
+𝑑
+𝑡
+=
+0
+
+
+𝐿
+2
+𝑑
+𝐼
+2
+𝑑
+𝑡
++
+𝑀
+𝑑
+𝐼
+1
+𝑑
+𝑡
++
+1
+𝐶
+2
+∫
+𝐼
+2
+𝑑
+𝑡
+=
+0
+{
+L
+1
+	​
+
+dt
+dI
+1
+	​
+
+	​
+
++M
+dt
+dI
+2
+	​
+
+	​
+
++
+C
+1
+	​
+
+1
+	​
+
+∫I
+1
+	​
+
+dt=0
+L
+2
+	​
+
+dt
+dI
+2
+	​
+
+	​
+
++M
+dt
+dI
+1
+	​
+
+	​
+
++
+C
+2
+	​
+
+1
+	​
+
+∫I
+2
+	​
+
+dt=0
+	​
+
+
+Phase alignment of vortex currents maximizes energy transfer.
+
+6.3 Quality Factor
+𝑄
+=
+𝜔
+0
+𝐿
+𝑅
+=
+1
+𝑅
+𝐿
+𝐶
+Q=
+R
+ω
+0
+	​
+
+L
+	​
+
+=
+R
+1
+	​
+
+C
+L
+	​
+
+	​
+
+
+High-Q toroids and phased coil networks reduce losses and maintain coherent vortex oscillations.
+
+7. Motion-Induced Magnetic Effects with Equations
+7.1 Lorentz Force
+𝐹
+=
+𝑞
+(
+𝑣
+×
+𝐵
+)
+F=q(v×B)
+
+Determines motion of charges in Tesla-style coils and vortex loops.
+
+7.2 Torque on Rotating Magnets
+𝜏
+=
+𝑚
+×
+𝐵
+τ=m×B
+
+Applies to magnetic rotors and levitation systems.
+
+7.3 Electromechanical Energy Conversion
+
+Generator induced voltage:
+
+𝐸
+=
+−
+𝑁
+𝑑
+Φ
+𝐵
+𝑑
+𝑡
+E=−N
+dt
+dΦ
+B
+	​
+
+	​
+
+
+Motion of vortex-coupled coils amplifies induced voltage in specific phasing patterns.
+
+7.4 Flux Pumping and Vortex Enhancement
+
+Magnetic flux through moving loops:
+
+Φ
+𝐵
+(
+𝑡
+)
+=
+∫
+𝐵
+(
+𝑟
+,
+𝑡
+)
+⋅
+𝑑
+𝐴
+(
+𝑡
+)
+Φ
+B
+	​
+
+(t)=∫B(r,t)⋅dA(t)
+
+Vortex alignment multiplies effective flux linkage, increasing EMF.
+
+8. Topology, Vortex Math, and Rodin’s Toroidal Framework
+8.1 Toroidal Parameterization
+
+Parameterized toroidal coordinates:
+
+𝑥
+=
+(
+𝑅
++
+𝑟
+cos
+⁡
+𝜃
+)
+cos
+⁡
+𝜙
+,
+𝑦
+=
+(
+𝑅
++
+𝑟
+cos
+⁡
+𝜃
+)
+sin
+⁡
+𝜙
+,
+𝑧
+=
+𝑟
+sin
+⁡
+𝜃
+x=(R+rcosθ)cosϕ,y=(R+rcosθ)sinϕ,z=rsinθ
+
+Used to model flux paths and coil winding trajectories.
+
+8.2 Rodin Vortex Number Mapping
+
+Single-digit vortex mapping (1–9) in modular arithmetic:
+
+𝑉
+(
+𝑛
+)
+=
+𝑛
+m
+o
+d
+ 
+ 
+9
+V(n)=nmod9
+
+Applied to phasing in coil networks to maximize resonance pathways.
+
+8.3 Flux Vortex Equations
+
+Toroidal flux density along vortex path:
+
+𝐵
+(
+𝜃
+,
+𝜙
+)
+=
+𝐵
+0
+cos
+⁡
+(
+𝑘
+𝜃
++
+𝜙
+)
+B(θ,ϕ)=B
+0
+	​
+
+cos(kθ+ϕ)
+
+Describes spatially rotating flux that aligns with vortex mathematics.
+
+8.4 Coupled Vortex Energy Transfer
+
+Energy transfer between vortices:
+
+𝑃
+=
+𝐼
+⋅
+𝐸
+induced
+=
+𝐼
+⋅
+(
+−
+𝑑
+𝐴
+𝑑
+𝑡
+)
+P=I⋅E
+induced
+	​
+
+=I⋅(−
+dt
+dA
+	​
+
+)
+
+Coherent phasing along Rodin sequences can amplify net energy without conventional external input.

@@ -1,0 +1,16 @@
+{
+  "source_file": "primary_pdfs/FILE_NAME.pdf",
+  "page_refs": [],
+  "equations": {
+    "div_B": "",
+    "curl_E": "",
+    "curl_B": "",
+    "div_D": "",
+    "constitutive": [],
+    "energy_density": "",
+    "poynting": "",
+    "stress_tensor": ""
+  },
+  "definitions": [],
+  "notes": ""
+}

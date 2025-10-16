@@ -1,0 +1,17 @@
+﻿{
+    "title":  "US Patent 649,621 â€” Apparatus for Transmission of Electrical Energy",
+    "author":  "Nikola Tesla",
+    "type":  "patent",
+    "year":  1900,
+    "url":  "https://patentimages.storage.googleapis.com/pdfs/US649621.pdf",
+    "accessed":  "2025-10-13T13:36:58-05:00",
+    "sha256":  "fb1295c321087b863701490ba86cc51fbda26d2df9c21aabf54394d954ba88a8",
+    "file":  "primary_pdfs/us_649621_apparatus_transmission.pdf",
+    "notes":  "Apparatus geometry and practical construction details for resonant systems.",
+    "coverage":  {
+                     "geometry":  true,
+                     "coupling":  true,
+                     "tuning":  true,
+                     "measurement":  false
+                 }
+}

@@ -1,0 +1,17 @@
+Section 7 — Claims Catalog (source-grounded; created/speculative flagged)
+
+Created/Speculative (as labeled in source)
+- Rodin sequence winding: S_n=2^n mod 9 guiding phase-aligned toroidal energy flow [Lines 5–38].
+- Vortex flux amplification: B_vortex(t)=B0[1+α sin(2π f_vortex t + ϕ)] [Lines 40–93].
+- Scalar magnetic waves: ∇²Φ − μ ε ∂²Φ/∂t² = 0 [Lines 96–127].
+- Toroidal harmonic modulation: B(θ,ϕ,t)=B0 cos(kθ+mϕ+ωt) [Lines 129–173].
+- Coherent energy transfer: P_net(t)=Σ η_ij I_i E_j [Lines 175–255].
+- Fringe amplification factor: G_fringe with F_phase=1+cos(Δϕ_vortex) [Lines 257–323].
+- Spin–vortex coherence energy: E_coh=ℏ Σ J_ij (S_i·S_j) cos(θ_ij) [Lines 325–415].
+- Subtle flux coupling: K_subtle=(μ0/2π) ln(r/a) · β_coherence [Lines 417–472].
+- Fringe propagation sum: B_fringe(t)=Σ B_n e^{−t/τ_n} cos(ω_n t + ϕ_n) [Lines 475–536].
+
+Notes
+- Items are included as-is from the source and require rigorous experimental validation; no endorsement implied.
+
+End of catalog.

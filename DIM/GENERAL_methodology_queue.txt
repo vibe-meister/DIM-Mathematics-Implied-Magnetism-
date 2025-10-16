@@ -1,0 +1,7 @@
+Methodology Queue (Priority)
+
+1) Define measurement schema v1 (JSON Schema + examples) and link to DIM entries
+2) Build two reference arrays (toroidal, conventional) and measure Q, k, η_ij
+3) Implement phase‑sweep controller and synchronized acquisition; verify σ_ϕ
+4) Run identification protocol; compute ⟨P_net⟩ predictions vs data with uncertainty
+5) Iterate geometry/phase to optimize robustness; document gains vs controls

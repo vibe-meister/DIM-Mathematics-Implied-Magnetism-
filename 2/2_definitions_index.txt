@@ -1,0 +1,26 @@
+Section 2 — Definitions & Variables Index (source-grounded)
+
+Induction & Flux
+- Faraday’s law, induced EMF, Lenz’s law context [PART II Lines 3–13].
+- Self-inductance, mutual inductance, coupling coefficient, energy storage [PART II Lines 15–24].
+- Eddy currents, skin effect, damping, mitigation [PART II Lines 25–33].
+
+Resonance & Circuits
+- LC resonance, coupled oscillators, tuning, Tesla/wireless context [PART II Lines 46–55].
+- Coefficient of coupling, mutual resonance, stability, phase/harmonic tuning [PART II Lines 56–65].
+- Quality factor, loss mechanisms, measurement [PART II Lines 66–74].
+- Magnetic circuit modeling, reluctance networks, nonlinear μ [PART II Lines 76–85].
+
+Motion & Conversion
+- Lorentz force, velocity cross-field effects, applications [PART II Lines 87–94].
+- Magnetomechanical systems (rotors, bearings, levitation), torque/stability [PART II Lines 95–104].
+- Generators, motors, efficiency, back-EMF [PART II Lines 105–113].
+- Nonlinear motion: hysteretic torque, flux pumping, chaos [PART II Lines 115–121].
+
+Topology & Geometry
+- Toroidal/polyhedral structures; symmetry; confinement [PART II Lines 124–133].
+- Halbach arrays; one-sided enhancement; design [PART II Lines 134–142].
+- Magnetic vortices; domain interactions; visualization [PART II Lines 144–152].
+- Topological defects (monopole analogs, skyrmions); stability/dynamics [PART II Lines 154–162].
+
+End of definitions.

@@ -1,0 +1,16 @@
+Vortex Flux Amplification — Compiled
+
+Extracted content (created/speculative):
+- B_vortex(t) = B0 [ 1 + α sin(2π f_vortex t + ϕ) ]
+- Parameters: α (amplification coefficient), f_vortex (circulation frequency)
+
+Notes:
+- Phenomenological modulation of flux amplitude associated with vortex alignment or dynamics.
+
+Three ways to complete/exhaust the math:
+1) Parameter estimation and bounds
+   - Identify measurable B0, α, f_vortex; derive identifiability conditions from sampled B(t); compute CRLB bounds on α and f_vortex.
+2) Mechanistic linkage
+   - Connect α to coupling factors (k, Q, drive amplitude); derive dependence from a coupled-oscillator model; predict α(f, geometry).
+3) Stability and nonlinearities
+   - Extend to B0[1+α sin(...)] with saturation or Duffing nonlinearity; analyze stability, bifurcation thresholds; test predictions vs measured spectra.

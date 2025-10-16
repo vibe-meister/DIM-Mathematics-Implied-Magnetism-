@@ -1,0 +1,62 @@
+{
+  "source": {
+    "notes": [
+      "Colorado Springs Notes (1899–1900) — coil geometry, loose coupling, tuning workflows",
+      "US Patent 645,576 — System of Transmission of Electrical Energy",
+      "US Patent 649,621 — Apparatus for Transmission of Electrical Energy",
+      "Experiments with Alternate Currents of High Potential and High Frequency (1892)"
+    ],
+    "provenance": "Structure and defaults reflect Tesla practice; numeric dimensions pending direct extraction/citation."
+  },
+  "build": {
+    "coil": {
+      "type": "solenoid",
+      "turns_N": null,
+      "major_radius_R_m": null,
+      "minor_radius_r_m": null,
+      "cross_section_area_A_m2": null,
+      "spacing_s_m": null,
+      "wire": {
+        "gauge_AWG": null,
+        "material": "Cu",
+        "dc_resistance_ohm": null,
+        "estimated_ESR_ohm": null,
+        "capacitance_self_F": null
+      },
+      "core": {
+        "material": "air",
+        "mu_r": 1.000,
+        "B_sat_T": null,
+        "loss_tangent": null
+      },
+      "geometry_notes": "Air-core secondary consistent with Tesla practice; exact dimensions to be cited from primary sources."
+    },
+    "primary": {
+      "turns_N": null,
+      "conductor": "Cu strip|tubing",
+      "coupling_strategy": "loose",
+      "k_target_range": [0.10, 0.20],
+      "notes": "Loose coupling noted in Tesla practice; bound to be confirmed from cited pages."
+    },
+    "topload": {
+      "type": "toroid|sphere",
+      "effective_C_F": null,
+      "notes": "Top-load used for tuning/field shaping; dimensions pending extraction."
+    }
+  },
+  "design_targets": {
+    "f0_Hz": null,
+    "Q_min": null,
+    "drive": {
+      "type": "AC|pulsed",
+      "voltage_V": null,
+      "current_A": null
+    }
+  },
+  "placeholders_to_fill": [
+    "Secondary: N, diameter/height (R,r), wire gauge, ESR, self-C",
+    "Primary: N, spacing, conductor size, tap strategy",
+    "Top-load: diameter/major-minor radii (for effective C)",
+    "Measured: k from split f±, Q from ring-down and bandwidth"
+  ]
+}

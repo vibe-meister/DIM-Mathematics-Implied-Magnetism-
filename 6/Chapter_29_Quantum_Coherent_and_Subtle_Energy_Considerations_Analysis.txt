@@ -1,0 +1,43 @@
+CHAPTER 29: QUANTUM‑COHERENT AND SUBTLE ENERGY CONSIDERATIONS — ANALYSIS
+=======================================================================
+
+Scope note
+Combines spin‑vortex entanglement (29.1) with weak/"subtle" flux networks (29.2). Provides formal measures (concurrence) alongside speculative coupling expressions; demands careful metrology.
+
+Interesting patterns
+- Concurrence C and derived entanglement metric E give falsifiable targets for quantum correlations.
+- Proposed K coupling uses logarithmic separation dependence typical of 2D current sheets; requires geometry care.
+
+Missing numbers
+- No decoherence times T2*, temperature ranges, or noise floors for candidate materials/sensors (NV, SQUID).
+- Absent channel models linking spin and vortex degrees in real devices.
+
+Frequency analysis
+- Quantum coherence bandwidths are narrow; filtering and time‑gating essential.
+- Subtle‑flux claims require differential or lock‑in detection near expected modulation frequencies.
+
+Sequences
+- State prep → entanglement protocol → tomography/measure E → vary environment → assess robustness.
+- For weak flux: differential sensors → null experiments → modulation/demodulation → cross‑lab replication.
+
+Entropy and randomness
+- Decoherence sources (phonons, magnetic noise) randomize phase; shielding and dynamical decoupling mitigate.
+
+Key length detection
+- Coherence length/time are the operative keys; experiment duration must fit within T2.
+
+Basic insight
+- Without robust noise models and blinding, subtle‑flux observations risk artifact; prioritize controls and independent replication.
+
+Feeds into later subjects
+- Could interface with topological protection (Ch. 27.3) and specialized sensors from Part III.
+
+Checks
+- Report full error budgets; include negative controls.
+- Compare E vs. C predictions; ensure consistency under local operations.
+
+Unanswered questions
+1) What platforms/materials deliver sufficient T2 and sensitivity for the proposed protocols?
+2) What modulation/detection schemes maximize SNR while avoiding cross‑talk and EMI?
+3) Which null tests rule out mundane EM pickup or thermal drift?
+

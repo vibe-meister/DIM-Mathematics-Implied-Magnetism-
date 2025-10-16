@@ -1,0 +1,30 @@
+Section 7 — Equations Index (source-grounded; created equations labeled)
+
+[PART VII — FRINGE AND THEORETICAL E.txt Lines 9–27]
+S_n = 2^n mod 9  (Rodin sequence; created)
+
+[PART VII — FRINGE AND THEORETICAL E.txt Lines 42–79]
+B_vortex(t) = B0 [1 + α sin(2π f_vortex t + ϕ)]  (created)
+
+[PART VII — FRINGE AND THEORETICAL E.txt Lines 98–122]
+Scalar wave: ∇²Φ − μ ε ∂²Φ/∂t² = 0  (created)
+
+[PART VII — FRINGE AND THEORETICAL E.txt Lines 131–158]
+Toroidal harmonic: B(θ,ϕ,t) = B0 cos(k θ + m ϕ + ω t)  (created)
+
+[PART VII — FRINGE AND THEORETICAL E.txt Lines 179–224]
+P_net(t) = Σ_{i,j} η_ij I_i(t) · E_j(t)  (created)
+
+[PART VII — FRINGE AND THEORETICAL E.txt Lines 259–321]
+G_fringe = (Σ_i P_out,i / Σ_j P_in,j) · F_phase,   F_phase = 1 + cos(Δϕ_vortex)  (created)
+
+[PART VII — FRINGE AND THEORETICAL E.txt Lines 330–380]
+E_coh = ℏ Σ_{i,j} J_ij (S_i · S_j) cos(θ_ij)  (created)
+
+[PART VII — FRINGE AND THEORETICAL E.txt Lines 421–456]
+K_subtle = (μ0 / 2π) ln(r/a) · β_coherence  (created)
+
+[PART VII — FRINGE AND THEORETICAL E.txt Lines 476–536]
+B_fringe(t) = Σ_{n=1}^N B_n exp(− t/τ_n) cos(ω_n t + ϕ_n)  (created)
+
+End of index.

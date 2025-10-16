@@ -1,0 +1,36 @@
+Section 5.5 — Claims Catalog (mainstream vs. speculative as labeled in source)
+Source: Part V.V — MARKO RODIN & VORTEX MATHE.txt
+
+Scope
+- This catalog lists items explicitly present in the source. Items marked speculative/created/community reflect the source labels and are included for tracking only.
+
+Mainstream (theoretical frameworks, equations, procedures)
+- Electromagnetic modeling: J(r), A(r), Biot–Savart B(r), field decomposition, energy density [V.4.1–V.4.5; Lines 295–536, 387–494].
+- Inductance and coupling: L, M12, k; toroidal approximation with caution [V.5.1–V.5.4; Lines 539–709].
+- Fourier/modal analysis (decomposition) and resonant condition [V.6.1, V.6.3; Lines 715–759, 771–799].
+- LC relations and Poynting vector [V.7.1, V.7.4; Lines 804–855, 924–940].
+- Experimental design, measurement variables, reproducibility, data analysis [V.9–V.12; Lines 1027–1393].
+- Topology measures (e.g., linking number) and geometric parameterizations [V.3.1, V.3.3; Lines 178–206, 223–287].
+
+Speculative/Created/Community (as labeled in source)
+- Angle mapping using digital roots [V.2.3; Lines 152–168; Appendix V.B B1]: ϕ(n)=2π d(n)/9.
+- Constructive rules for Rodin topology (community recipes) [V.3.4; Lines 291–292].
+- Mapping digital-root indices to modal indices [V.6.2; Lines 760–769].
+- Phase coherence condition Δϕ=2π m for constructive coupling [V.7.2; Lines 857–873].
+- Vortex amplification model Beff(t)=Bbase(1+α sin(ω t + ϕ_d)) [V.7.3; Lines 874–910; Appendix V.B B2].
+- Scalar potential wave equation (fringe) ∇^2Φ − (1/c_s^2) ∂^2Φ/∂t^2 = 0 [V.8.2; Lines 945–981].
+- Scalar–EM coupling L_int = g_s Φ E·B [V.8.3; Lines 991–1019; Appendix V.B B3].
+
+Historical/Community Sources (catalog only)
+- Marko Rodin notes and community history [V.1.1; Lines 98–101].
+- Sacred geometry relation (context) [V.1.2; Lines 100–101].
+- Patents and forum archives (to consult) [V.13.1–V.13.3; Lines 1394–1401].
+
+Measurement/Verification Requirements (from source guidance)
+- Power accounting and uncertainty; reproducibility threshold z≥5 with independent replication [V.12.1–V.12.4; Lines 1252–1393].
+- Reproducibility protocol: N_runs≥10; blind passes; swapped-ground; dummy load [V.9.4; Lines 1151–1156].
+
+Notes
+- Inclusion in this catalog does not assert validity. Speculative items are recorded only as per source labeling for later testing or rejection.
+
+End of catalog.

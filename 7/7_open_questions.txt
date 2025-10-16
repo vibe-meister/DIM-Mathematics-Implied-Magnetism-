@@ -1,0 +1,18 @@
+Section 7 — Open Questions and Testable Predictions (source-derived)
+
+Rodin/Vortex Models [Lines 7–38, 40–93]
+- Does S_n-guided phasing measurably alter spectra/Q vs controls across bandwidth? Quantify α and f_vortex under strict power accounting.
+
+Scalar/Toroidal Fields [Lines 96–173]
+- Are scalar-wave signatures observable beyond EM leakage with RF-tight enclosures? Can B(θ,ϕ,t) modes be cleanly isolated in toroids?
+
+Coherent Transfer & Overunity Metrics [Lines 175–323]
+- Can P_net=Σ η_ij I_i E_j exceed classical expectations without violating energy accounting? How does Δϕ_vortex map to G_fringe in blinded tests?
+
+Quantum/Subtle Measures [Lines 325–472]
+- Is E_coh reconstructable from measurable proxies (correlation functions)? Is K_subtle=(μ0/2π)ln(r/a)·β_coherence experimentally resolvable?
+
+Propagation & Decay [Lines 475–536]
+- Can multi-mode B_fringe(t) fits uniquely identify coherent propagation vs artifact? Stability of τ_n, ω_n, ϕ_n across replications?
+
+End.

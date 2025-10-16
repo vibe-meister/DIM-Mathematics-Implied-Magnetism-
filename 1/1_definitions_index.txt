@@ -1,0 +1,22 @@
+Section 1 — Definitions & Variables Index (source-grounded)
+
+Magnetic Field & Units
+- Magnetic field defined as vector quantity [PART I — FOUNDATIONS OF MAGNETISM Lines 19–21].
+- Units mentioned: Tesla, Gauss, Weber, Ampere-turns per meter [PART I — FOUNDATIONS OF MAGNETISM Lines 27–28].
+
+Atomic/Quantum Concepts
+- Electron spin as intrinsic magnetic moment; orbital contributions; Pauli exclusion; exchange; quantization [PART I — FOUNDATIONS OF MAGNETISM Lines 44–56].
+- Bohr magneton referenced (definition context) [PART I — FOUNDATIONS OF MAGNETISM Lines 58–62].
+
+Vector Potential & Field Theory
+- Magnetic vector potential A (definition, gauge freedom) [PART I — FOUNDATIONS OF MAGNETISM Lines 91–97].
+- Maxwell set context (divergence/curl relations) [Chapter_3_Field_Theory_of_Magnetism_Analysis.txt Lines 61–65].
+
+Materials & Properties
+- Classification: diamagnetic, paramagnetic, ferromagnetic, ferrimagnetic, antiferromagnetic [PART I — FOUNDATIONS OF MAGNETISM Lines 116–126].
+- Hysteresis loop: coercive field, remanence, saturation; domain walls; energy loss [PART I — FOUNDATIONS OF MAGNETISM Lines 130–141].
+- Temperature effects: Curie temperature, magnetocaloric, quantum critical phenomena [PART I — FOUNDATIONS OF MAGNETISM Lines 142–149].
+- Anisotropy: magnetocrystalline, shape, stress-induced magnetostriction [PART I — FOUNDATIONS OF MAGNETISM Lines 150–157].
+- Modern materials: rare-earth magnets (NdFeB, SmCo); soft magnetic alloys; thin films; spintronic materials [PART I — FOUNDATIONS OF MAGNETISM Lines 158–166].
+
+End of definitions.

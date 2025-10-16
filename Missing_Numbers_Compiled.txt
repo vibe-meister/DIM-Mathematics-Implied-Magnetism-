@@ -1,0 +1,90 @@
+MISSING NUMBERS — COMPILED SUMMARY
+=================================
+
+Chapter 1: Introduction to Magnetism
+- Missing: dates per period, field strengths by era, example measurements.
+
+Chapter 2: Atomic and Subatomic Foundations
+- Missing: Bohr magneton value, exchange energies, quantum numbers, Curie temperatures, temperature scales.
+
+Chapter 3: Field Theory of Magnetism
+- Missing: field strengths, boundary condition parameters, energy densities; quantitative links for A, E, B.
+
+Chapter 4: Magnetic Materials and Properties
+- Missing: Curie temperatures, hysteresis loop parameters, anisotropy energies; quantitative comparisons of materials.
+
+Chapter 5 (Part II): Electromagnetic Induction and Flux Dynamics
+- Missing: EMF magnitudes, inductance values vs. geometry, eddy‑current losses, skin‑effect frequency bands.
+
+Chapter 6 (Part II): Resonance, Oscillations, Magnetic Circuits
+- Missing: resonance frequencies, coupling coefficients k, Q‑values; quantified losses and efficiencies.
+
+Chapter 7 (Part II): Motion‑Induced Magnetic Effects
+- Missing: forces, torques, efficiencies; operating points vs. B, v/ω.
+
+Chapter 8 (Part II): Topology and Geometry of Fields
+- Missing: field strengths, Halbach enhancement factors, vortex/defect energy barriers; optimization parameters.
+
+Chapter 9 (Part III): Toroidal and Cylindrical Structures
+- Missing: field strengths, uniformity metrics ΔB/B, coupling coefficients; array interaction data.
+
+Chapter 10 (Part III): Harmonics, Interference, Modulation
+- Missing: harmonic frequencies/levels, interference pattern metrics, modulation depths; efficiencies by technique.
+
+Chapter 11 (Part III): Quantum Magnetism
+- Missing: spin values, coherence times, topological charges; tunneling rates and energies.
+
+Chapter 12 (Part III): Astrophysical and Geomagnetic Fields
+- Missing: field strengths by system, dynamo parameters, time scales; reconnection energy rates.
+
+Chapter 13 (Part III): Measurement Techniques
+- Missing: sensitivities, resolution limits, uncertainties; noise floors and performance comparisons.
+
+Chapter 5 (Part V): Induction with Quantitative Frameworks
+- Missing: μr ranges, air‑core geometry factors (N, A, l), wire loss models, lumped‑element validity bands.
+
+Chapter 6 (Part V): Resonance and Toroidal LC Systems
+- Missing: practical Q targets, parasitic C/ESR, temperature coefficients.
+
+Chapter 7 (Part V): Motion‑Induced Effects with Equations
+- Missing: numeric B, v/ω, dimensions; drag/eddy loss models.
+
+Chapter 8 (Part V): Topology, Vortex Math, Rodin Framework
+- Missing: (R,r), spacing/dielectric data; error metrics vs. measured B(θ,ϕ).
+
+Chapter 26 (Part VI): Extended Theoretical Frameworks
+- Missing: λ(T), ξ(T) for SCs; Q_eff in spin ice; γ_i, J_ij ranges and stability criteria.
+
+Chapter 27 (Part VI): High‑Energy & Astrophysical Analogues
+- Missing: plasma β, σ, v_A; plate spacing a and B for Δ(F/A); benchmark helicities.
+
+Chapter 28 (Part VI): Advanced Vortex & Topological Models
+- Missing: winding geometries (R,r,pitch), parasitic/loss bounds; controlled datasets.
+
+Chapter 29 (Part VI): Quantum‑Coherent & Subtle Energy
+- Missing: T2/T2*, sensor specs (NV, SQUID), shielding factors; channel models.
+
+Chapter 28 (Part VII): Advanced Vortex and Topological Models
+- Missing: torus parameters (R,r), α and f_vortex ranges; loss/ESR/Cp budgets.
+
+Chapter 29 (Part VII): Quantum‑Coherent & Subtle Energy
+- Missing: T2, noise floors, temperatures; calibration, blinding, and null protocols.
+
+Chapter 30 (Part VIII): Advanced Experimental Design & Implementation
+- Missing: build tolerances (r, pitch, placement), ESR/inter‑turn C; metrology (bandwidth, isolation, noise floors); β and θ_phase targets.
+
+Chapter 31 (Part VIII): Patent‑Based Modeling
+- Missing: L_i, k_ij distributions; parasitic L(ω), k(ω); efficiency/thermal limits.
+
+Chapter 32 (Part VIII): Specialist & Lab Unpublished Works
+- Missing: instrumentation limits, stability/shielding; raw datasets for re‑analysis.
+
+Chapter 33 (Part VIII): Forums & Technical Blogs
+- Missing: error bars, sampling methods, calibration; standardized loads/instrumentation.
+
+Chapter 34 (Part VIII): Private Collections & Archives
+- Missing: λ bounds, phase schedule definitions, instrumentation; coil geometries and flux ranges.
+
+Chapter 35 (Part VIII): Gray Literature Curation & Verification
+- Missing: δ_uncertainty thresholds; audit procedures; multi‑frequency validation.
+

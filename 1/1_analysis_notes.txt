@@ -1,0 +1,31 @@
+Section 1 — Structured Notes (source-grounded)
+Sources:
+- PART I — FOUNDATIONS OF MAGNETISM.txt
+- Chapter_1_Introduction_to_Magnetism_Analysis.txt
+- Chapter_2_Atomic_and_Subatomic_Foundations_Analysis.txt
+- Chapter_3_Field_Theory_of_Magnetism_Analysis.txt
+- Chapter_4_Magnetic_Materials_and_Properties_Analysis.txt
+
+Definitions/Terminology
+- Magnetic field is a vector quantity; poles vs dipoles; field lines; domains; units [PART I Lines 19–28].
+
+Core Equations (explicit in sources)
+- ∇·B=0; ∇×E=−∂B/∂t; ∇×B=μ₀J+μ₀ε₀∂E/∂t; B=∇×A [Chapter 3 Analysis Lines 61–65].
+
+Models and Assumptions
+- Quantum origins of magnetism: spin, orbital, exchange; magnetic moment quantization [PART I Lines 44–56, 68–76].
+- Field theory context and Poynting/energy density interpretations (conceptual) [PART I Lines 87–89, 107–113].
+
+Materials & Properties
+- Classification (dia/para/ferro/ferri/antiferro); hysteresis & domains; temperature effects; anisotropy; modern materials [PART I Lines 116–166; 130–141; 142–157].
+
+Measurement/Protocols (context only)
+- Units and categories enumerated; specific instrument protocols not provided in folder 1 [PART I Lines 27–28].
+
+Cautions/Limitations
+- Multiple analysis chapters note: no quantitative values/equations provided beyond listed; missing Curie temperatures, hysteresis parameters, etc. [Chapter 1 Lines 8, 14, 32; Chapter 2 Lines 8, 14, 20; Chapter 3 Lines 8, 14, 20; Chapter 4 Lines 8, 14, 20].
+
+Separation
+- Mainstream content only; no speculative/community-labeled items identified in folder 1.
+
+End of notes.

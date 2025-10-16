@@ -1,0 +1,17 @@
+﻿{
+    "title":  "US Patent 593,138 â€” Electrical Transformer",
+    "author":  "Nikola Tesla",
+    "type":  "patent",
+    "year":  1897,
+    "url":  "https://patentimages.storage.googleapis.com/pdfs/US593138.pdf",
+    "accessed":  "2025-10-13T13:36:42-05:00",
+    "sha256":  "393b0a9cee0baa191c5cf8fac0f65738b9d77ce5318e74324b4792aaf17ddf44",
+    "file":  "primary_pdfs/us_593138_electrical_transformer.pdf",
+    "notes":  "Transformer construction cues relevant to high-frequency coils.",
+    "coverage":  {
+                     "geometry":  true,
+                     "coupling":  true,
+                     "tuning":  false,
+                     "measurement":  false
+                 }
+}

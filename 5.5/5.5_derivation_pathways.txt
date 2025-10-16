@@ -1,0 +1,42 @@
+Section 5.5 — Derivation Pathways (from provided equations only)
+Source: Part V.V — MARKO RODIN & VORTEX MATHE.txt
+
+Scope
+- These are step-by-step outlines to derive results using only equations listed in the source. No new physics introduced.
+
+Pathway A — Field Components on Key Loci via Biot–Savart [V.4.3, V.4.4]
+1) Define winding path C_k (from V.3.1, V.3.2) and current I_k.
+2) Discretize C_k into segments dℓ with positions r′.
+3) Compute B(r)=(μ0/4π) Σ_k I_k ∮ dℓ×(r−r′)/|r−r′|^3.
+4) Project B onto (ϕ̂, θ̂, r̂) to obtain (Bϕ, Bθ, Br) [V.4.4].
+5) Map results across toroidal angles ϕ and compare symmetry.
+
+Pathway B — Self- and Mutual-Inductance for Chosen Windings [V.5.1, V.5.2]
+1) Parameterize each loop path r(s); define dℓ and dℓ′ for loop(s).
+2) Evaluate L=(μ0/4π) ∬ dℓ·dℓ′/|r−r′| for self; M12 similarly for two loops.
+3) Use numerical quadrature with near-singularity handling.
+4) Compute k = M12 / √(L1 L2) [V.5.3]; assess coupling vs. geometry.
+5) Compare L with toroidal approximation L ≈ μ N^2 A / (2π R) [V.5.4] to quantify error.
+
+Pathway C — Modal Decomposition and Correlation Tests [V.6.1, V.6.2]
+1) From B(ρ,ϕ,z), compute B̃_n(ρ,z) via FFT in ϕ [V.6.1].
+2) Assemble power spectrum across n; identify dominant modes.
+3) Test correlation between dominant n and d(n) indices (speculative test) [V.6.2]; report statistics only.
+
+Pathway D — Resonant Parameters and Q [V.6.3, V.7.1]
+1) Identify per-mode L_n, C_n from geometry/simulation.
+2) Compute ω_n^2 = 1/(L_n C_n) [V.6.3]; identify expected peaks.
+3) Measure ω0 and Q; compute Q=ω0 L_eff / R_eff [V.7.1].
+4) Compare modeled vs measured within uncertainties [V.12.2].
+
+Pathway E — Energy Density and Stored Energy [V.4.5]
+1) Using B(r), compute u_B=B^2/(2μ0).
+2) Integrate W=∫_V u_B dV over domain; assess convergence.
+3) Compare W across design variants; link to Q.
+
+Pathway F — Poynting Flow Mapping [V.7.4]
+1) Obtain E and B fields (simulation or instrumentation).
+2) Compute S=(1/μ0) E×B; visualize along torus.
+3) Relate flow to winding topology from V.3.
+
+End of pathways.

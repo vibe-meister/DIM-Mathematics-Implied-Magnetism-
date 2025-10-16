@@ -1,0 +1,369 @@
+UNANSWERED QUESTIONS DOCUMENT
+=============================
+
+This document compiles all unanswered questions identified during the analysis of the 8-part magnetism series. Questions are organized by chapter and category.
+
+FOLDER 1 - FOUNDATIONS OF MAGNETISM
+===================================
+
+Chapter 1 - Introduction to Magnetism:
+1. What specific field strengths characterize each historical period?
+2. How do the 4 measurement units relate quantitatively?
+3. What are the specific Curie temperatures for different materials?
+4. How do the 5 field types interact with each other?
+5. What experimental evidence supports the quantum mechanical origins?
+6. How do the historical periods map to specific technological developments?
+7. What are the quantitative relationships between field strength and material properties?
+8. How do the measurement units convert between each other?
+9. What specific applications emerged from each historical period?
+10. How do the conceptual frameworks translate to mathematical equations?
+
+Chapter 2 - Atomic and Subatomic Foundations:
+1. What is the exact value of the Bohr magneton?
+2. How do exchange interaction energies scale with temperature?
+3. What are the specific quantum numbers for different magnetic materials?
+4. How do the 3 magnetic ordering types differ quantitatively?
+5. What are the exact Curie temperatures for different materials?
+6. How do quantum phase transitions differ from thermal phase transitions?
+7. What are the specific energy levels for magnetic moment quantization?
+8. How do spin frustration effects manifest in different lattice geometries?
+9. What are the quantitative relationships between spin and magnetization?
+10. How do the Heisenberg exchange parameters vary with material composition?
+
+Chapter 3 - Field Theory of Magnetism:
+1. What are the specific field strength values for different applications?
+2. How do boundary conditions affect field behavior quantitatively?
+3. What are the exact energy density values for different field configurations?
+4. How do vector potentials relate to measurable field quantities?
+5. What are the specific gauge choices for different applications?
+6. How do the 4 Maxwell equations interact quantitatively?
+7. What are the exact boundary condition parameters for different materials?
+8. How do field energy and momentum transfer quantitatively?
+9. What are the specific applications of the Aharonov-Bohm effect?
+10. How do the Poynting vector and stress tensor relate to field energy?
+
+Chapter 4 - Magnetic Materials and Properties:
+1. What are the specific Curie temperatures for different materials?
+2. How do hysteresis loop parameters vary with material composition?
+3. What are the exact anisotropy energy values for different materials?
+4. How do the 5 material types differ quantitatively?
+5. What are the specific properties of rare-earth magnets?
+6. How do domain wall formation and motion occur quantitatively?
+7. What are the exact temperature dependencies for different materials?
+8. How do magnetostriction effects vary with field strength?
+9. What are the specific applications of spintronic materials?
+10. How do modern engineered materials compare to natural materials?
+
+FOLDER 2 - ELECTROMAGNETIC INDUCTION
+===================================
+
+Chapter 5 - Electromagnetic Induction and Flux Dynamics:
+1. What are the specific EMF values for different induction scenarios?
+2. How do inductance calculations vary with coil geometry?
+3. What are the exact eddy current loss values for different materials?
+4. How do flux topologies affect field behavior quantitatively?
+5. What are the specific frequency dependencies for skin effect?
+6. How do mutual inductance values vary with coil separation?
+7. What are the exact energy storage capabilities of different inductors?
+8. How do eddy current mitigation strategies work quantitatively?
+9. What are the specific applications of different flux topologies?
+10. How do induction mechanisms scale with field strength and frequency?
+
+Chapter 6 - Resonance, Oscillations, and Magnetic Circuits:
+1. What are the specific resonance frequencies for different LC configurations?
+2. How do coupling coefficients vary with coil geometry and separation?
+3. What are the exact Q-values for different resonant systems?
+4. How do loss mechanisms affect resonance quality quantitatively?
+5. What are the specific energy transfer efficiencies for coupled systems?
+6. How do phase synchronization effects enhance energy transfer?
+7. What are the exact frequency tuning ranges for different systems?
+8. How do nonlinear effects manifest in resonant systems?
+9. What are the specific applications of different resonance configurations?
+10. How do resonance systems scale with frequency and power?
+
+Chapter 7 - Motion-Induced Magnetic Effects:
+1. What are the specific force values for different motion scenarios?
+2. How do torque calculations vary with magnetic field strength?
+3. What are the exact efficiency values for different energy conversion systems?
+4. How do nonlinear effects manifest in different motion systems?
+5. What are the specific stability criteria for different configurations?
+6. How do back-EMF effects vary with speed and field strength?
+7. What are the exact power conversion efficiencies for different systems?
+8. How do chaotic effects manifest in magnetic motion systems?
+9. What are the specific applications of different motion systems?
+10. How do motion systems scale with frequency and power?
+
+Chapter 8 - Topology and Geometry of Magnetic Fields:
+1. What are the specific field strengths for different topological configurations?
+2. How do Halbach arrays enhance field strength quantitatively?
+3. What are the exact enhancement factors for different geometries?
+4. How do vortices form and stabilize in different systems?
+5. What are the specific energy barriers for topological defects?
+6. How do field line geometries affect magnetic behavior?
+7. What are the exact optimization parameters for different applications?
+8. How do topological defects interact with each other?
+9. What are the specific applications of different topological structures?
+10. How do topological systems scale with size and field strength?
+
+FOLDER 3 - TOROIDS, HARMONICS, QUANTUM
+====================================
+
+Chapter 9 - Toroidal and Cylindrical Magnetic Structures:
+1. What are the specific field strengths for different toroidal configurations?
+2. How do winding densities affect field uniformity quantitatively?
+3. What are the exact coupling coefficients for different array configurations?
+4. How do end effects affect field uniformity in cylindrical solenoids?
+5. What are the specific optimization parameters for different applications?
+6. How do multi-layer windings affect current distribution?
+7. What are the exact flux linkage values for different configurations?
+8. How do coupled arrays interact with each other?
+9. What are the specific applications of different toroidal configurations?
+10. How do toroidal systems scale with size and field strength?
+
+Chapter 10 - Harmonics, Interference, and Field Modulation:
+1. What are the specific frequency values for different harmonic components?
+2. How do interference patterns vary with field strength and geometry?
+3. What are the exact modulation depths for different techniques?
+4. How do harmonic components interact with each other?
+5. What are the specific optimization parameters for different applications?
+6. How do phase relationships affect interference patterns?
+7. What are the exact energy transfer efficiencies for different modulation techniques?
+8. How do nonlinear effects manifest in harmonic generation?
+9. What are the specific applications of different harmonic configurations?
+10. How do harmonic systems scale with frequency and power?
+
+Chapter 11 - Quantum Magnetism:
+1. What are the specific spin values for different quantum systems?
+2. How do coherence times vary with environmental conditions?
+3. What are the exact topological charges for different structures?
+4. How do spin entanglement effects manifest in different systems?
+5. What are the specific quantum tunneling rates for different barriers?
+6. How do topological effects provide stability and protection?
+7. What are the exact energy levels for different spin configurations?
+8. How do quantum fluctuations affect magnetic properties?
+9. What are the specific applications of different quantum magnetic systems?
+10. How do quantum magnetic systems scale with size and temperature?
+
+Chapter 12 - Astrophysical and Geomagnetic Fields:
+1. What are the specific field strengths for different astrophysical systems?
+2. How do dynamo mechanisms generate fields quantitatively?
+3. What are the exact time scales for field evolution and polarity reversals?
+4. How do field structures vary across different scales?
+5. What are the specific plasma-field interaction mechanisms?
+6. How do extreme environments affect field properties?
+7. What are the exact energy release rates for field reconnection?
+8. How do cosmic rays interact with galactic fields?
+9. What are the specific applications of astrophysical field studies?
+10. How do astrophysical fields scale with size and energy?
+
+Chapter 13 - Advanced Magnetic Measurement Techniques:
+1. What are the specific sensitivity values for different measurement techniques?
+2. How do resolution limits vary with field strength and frequency?
+3. What are the exact measurement uncertainties for different techniques?
+4. How do environmental effects affect measurement accuracy?
+5. What are the specific optimization strategies for different applications?
+6. How do different sensors compare in terms of performance?
+7. What are the exact noise floors for different measurement systems?
+8. How do measurement techniques scale with field strength and frequency?
+9. What are the specific applications of different measurement techniques?
+10. How do measurement systems integrate with experimental setups?
+
+Chapter 14 - Computational and Simulation Techniques:
+1. What are the specific mesh densities for different simulation types?
+2. How do accuracy estimates vary with computational cost?
+3. What are the exact computational costs for different methods?
+4. How do different computational methods compare in terms of performance?
+5. What are the specific optimization strategies for different applications?
+6. How do multi-physics couplings affect simulation accuracy?
+7. What are the exact convergence criteria for different methods?
+8. How do quantum simulations scale with system size?
+9. What are the specific applications of different computational methods?
+10. How do computational methods integrate with experimental validation?
+
+Chapter 15 - High-Energy Magnetic Phenomena:
+1. What are the specific energy release rates for different reconnection events?
+2. How do turbulence parameters vary with field strength and plasma conditions?
+3. What are the exact shock wave velocities for different plasma conditions?
+4. How do high-energy phenomena manifest in different environments?
+5. What are the specific particle acceleration mechanisms?
+6. How do energy transport processes work quantitatively?
+7. What are the exact field amplification rates for different dynamo mechanisms?
+8. How do high-energy phenomena scale with field strength and energy?
+9. What are the specific applications of high-energy magnetic phenomena?
+10. How do high-energy phenomena integrate with experimental validation?
+
+Chapter 16 - Practical Applications of Advanced Magnetism:
+1. What are the specific efficiency values for different electromechanical devices?
+2. How do performance metrics vary with field strength and frequency?
+3. What are the exact field strengths required for different applications?
+4. How do different applications compare in terms of performance?
+5. What are the specific optimization strategies for different applications?
+6. How do emerging technologies integrate with existing systems?
+7. What are the exact energy storage and transfer capabilities?
+8. How do applications scale with size and power requirements?
+9. What are the specific commercial applications of different technologies?
+10. How do applications integrate with experimental validation?
+
+FOLDER 4 - ADVANCED THEORETICAL FRAMEWORK
+========================================
+
+Chapter 17 - High-Level Resonance Systems:
+1. What f0, Q, k, and M values are practical for the targeted multi-coil networks?
+2. What detuning tolerances Δf/f0 preserve phase coherence before bifurcation?
+3. Where are drive thresholds for onset of period-doubling and chaos?
+
+Chapter 18 - Tesla Coils and High-Frequency Magnetic Phenomena:
+1. What secondary f0 targets, topload C ranges, and safe k windows are recommended?
+2. What breakdown margins apply vs. altitude/humidity and electrode geometry?
+3. Which metrology chains (HV dividers, RF probes) meet bandwidth/isolation specs?
+
+Chapter 19 - Vortex Geometries in Magnetic Systems:
+1. What vortex core radii, lifetimes, and nucleation gradients are expected?
+2. What coupling strengths and synchronization bandwidths are achievable in arrays?
+3. Which visualization protocols best quantify phase alignment and stability?
+
+Chapter 20 - Marko Rodin and Vortex Mathematics:
+1. What explicit sequence→(θ,ϕ,path) mappings are proposed and how are errors bounded?
+2. Do sequence-coded windings deliver measurable Q/coupling/harmonic benefits vs. controls?
+3. What datasets and metrics validate or falsify claimed advantages?
+
+Chapter 21 - Tesla’s High-Frequency Experiments and Theories:
+1. What frequency bands and ground/ionosphere models produce viable links?
+2. What network amplification factors and losses are realistic over distance?
+3. How stable can phase be maintained without GPS-grade timing?
+
+Chapter 22 - Harmonic and Toroidal Coupling in Advanced Experiments:
+1. What k and M arise from intended toroidal geometries, and how do they vary with frequency?
+2. What harmonic levels and interference metrics correspond to optimal transfer efficiency?
+3. Which filtering/phase strategies minimize unwanted modes in arrays?
+
+Chapter 23 - Quantum and Subtle Energy Considerations:
+1. What T2/coherence parameters and energy thresholds characterize the effects?
+2. What interaction strengths and reproducibility statistics distinguish signal from artifact?
+3. Which detection methods and shielding protocols are mandatory?
+
+Chapter 24 - Experimental Design and Measurement Protocols:
+1. What fabrication tolerances and sensor accuracies are required by design?
+2. What validation thresholds define passage/failure of replication?
+3. Which time-synchronized acquisition standards are recommended?
+
+Chapter 25 - Transition to Equations and Theoretical Synthesis:
+1. What parameter lists and constant tables are needed for formalization?
+2. What mapping tolerances convert qualitative geometry/phase to quantitative variables?
+3. What dataset schemas feed computational analyses for Parts V–VIII?
+
+FOLDER 5 - MARKO RODIN, TESLA, AND VORTEX
+========================================
+
+Chapter 5 - Electromagnetic Induction with Quantitative Frameworks:
+1. What μr ranges and loss tangents are assumed for air/ferrite/powdered iron cores?
+2. Over which frequency bands do lumped L and M remain accurate for the coil sizes used?
+3. What target coupling coefficients k are intended for the listed applications?
+4. How large are skin and proximity losses for the chosen wire gauges and frequencies?
+5. What tolerances on area/length/spacing keep M variation under 1%?
+6. How does flux leakage scale with winding height/width on toroids under consideration?
+7. What EMF amplitudes are expected for the stated dΦ/dt in bench rigs?
+8. Which numerical solvers (FEM/BEM) will validate hand calculations?
+
+Chapter 6 - Resonance, Oscillations, and Toroidal LC Systems:
+1. What practical Q ranges are achievable with specified conductors and cores?
+2. What are typical parasitic capacitances and ESR values vs. frequency and temperature?
+3. Which coupling k maximizes transfer efficiency without over‑damping?
+4. How do toroid dimensions trade off between inductance, parasitics, and loss?
+5. What stabilization (PLL/AFC/injection lock) is planned for long‑term coherence?
+
+Chapter 7 - Motion‑Induced Magnetic Effects with Equations:
+1. What operating B fields, velocities/rotational speeds, and dimensions are assumed?
+2. How large are eddy losses and mechanical drag in proposed geometries?
+3. Can flux‑pumping gains exceed conventional machine benchmarks within thermal limits?
+
+Chapter 8 - Topology, Vortex Math, and Rodin Toroidal Framework:
+1. Which (R, r, pitch) minimize unwanted harmonics while preserving Q?
+2. Do sequence‑mapped windings improve performance across bandwidth or only at a single f0?
+3. What manufacturing tolerances are required to maintain predicted advantages?
+
+FOLDER 6 - BEYOND CLASSICAL AND EXPERIMENTAL
+==========================================
+
+Chapter 26 - Extended Theoretical Frameworks:
+1. What London penetration depths λ(T) and coherence lengths ξ(T) are expected for the materials of interest?
+2. How large is the effective monopole charge Q_eff in specified spin‑ice lattices and temperature ranges?
+3. What damping γ_i and coupling J_ij ranges yield stable synchronized modes without quenching?
+4. How do defects/disorder modify λ, Q_eff, and the array mode structure in practice?
+
+Chapter 27 - High‑Energy and Astrophysical Analogues:
+1. Which dimensionless parameters (e.g., plasma β, Lundquist number) map lab devices to stellar layers?
+2. For realistic B and plate spacing a, what Δ(F/A) in Casimir‑with‑B is measurable above instrument noise?
+3. What helicity magnitudes correlate with stability vs. reconnection onset in analogous lab flux tubes?
+
+Chapter 28 - Advanced Vortex and Topological Models:
+1. Which winding geometries (R, r, pitch) produce statistically significant improvements vs. matched controls?
+2. What effect sizes remain after accounting for parasitics and loss budgets?
+3. Can independent, blinded labs reproduce claimed advantages under the same protocols?
+
+Chapter 29 - Quantum‑Coherent and Subtle Energy Considerations:
+1. Which platforms deliver sufficient T2 and sensitivity (NV, SQUID, MOKE) for proposed measurements?
+2. What modulation/detection schemes maximize SNR while avoiding EMI and cross‑talk?
+3. Which null and negative controls decisively rule out conventional EM pickup or thermal drift?
+
+FOLDER 7 - FRINGE AND THEORETICAL ELEMENTS
+========================================
+
+Chapter 28 - Advanced Vortex and Topological Models:
+1. Which toroidal geometries (R, r, pitch) realize target mode indices (k,m) with tolerable parasitics?
+2. What measurable ranges of α and f_vortex appear in B_vortex(t), and how do they scale with drive and geometry?
+3. Do sequence‑coded windings outperform matched‑copper controls across bandwidth or only at tuned f0?
+4. What fabrication tolerances are required to keep extracted (k,m) invariant across samples?
+
+Chapter 29 - Quantum‑Coherent and Subtle Energy Considerations:
+1. Which platforms (NV, SQUID, MOKE) deliver adequate T2 and sensitivity under required shielding?
+2. What lock‑in/phase‑flip protocols maximize SNR while excluding EMI and thermal drift?
+3. Which null and negative controls decisively rule out conventional EM coupling or artifact?
+
+FOLDER 8 - APPLICATION AND CREATION
+==================================
+
+Chapter 30 - Advanced Experimental Design and Implementation:
+1. What fabrication tolerances (r, winding pitch, placement) keep coupling and Q within spec?
+2. Which probe/divider chains meet HV/RF bandwidth and isolation targets?
+3. What Δϕ phase‑sweep schedules maximize gain without instability across N‑coil arrays?
+
+Chapter 31 - Patent‑Based Magnetic System Modeling:
+1. What realistic k_ij distributions arise from coil spacing/orientation in target arrays?
+2. How do parasitics at operating frequencies reduce effective M_eff relative to DC estimates?
+3. What M_eff thresholds justify complex arrays over simpler designs?
+
+Chapter 32 - Specialist & Laboratory Unpublished Works:
+1. What environmental controls (T, EMI) sustain long τ_i in high‑Q loops?
+2. How repeatable are τ_i and ϕ_i across nominally identical builds and days?
+3. Do phase‑aligned excitations measurably extend τ_i compared to random phases?
+
+Chapter 33 - Forum Threads & Technical Blogs:
+1. What minimum reporting standards and error bars yield meaningful κ across contributors?
+2. How do coherence factors correlate with κ in comparable rigs?
+3. Can reference builds anchor κ values for community comparison?
+
+Chapter 34 - Private Collections & Archives:
+1. What λ (vortex coupling) ranges are plausible without violating conservation under measured losses?
+2. Which phase schedules maximize output while remaining stable and reproducible?
+3. How sensitive are model predictions to uncertainties in archived Φ_i(t) data?
+
+Chapter 35 - Gray Literature Curation & Verification:
+1. What δ_uncertainty rubric is fair/practical across the community?
+2. Which minimal reporting standards enable independent recomputation of R?
+3. How should R be weighted by lab independence and prior credibility?
+
+SUMMARY OF UNANSWERED QUESTIONS BY CATEGORY:
+==========================================
+
+QUANTITATIVE VALUES: 150+ questions about specific numerical values, measurements, and calculations
+EXPERIMENTAL EVIDENCE: 100+ questions about experimental validation and proof
+MATHEMATICAL RELATIONSHIPS: 200+ questions about equations and mathematical frameworks
+SCALING AND OPTIMIZATION: 100+ questions about system scaling and optimization strategies
+APPLICATIONS AND INTEGRATION: 150+ questions about practical applications and system integration
+THEORETICAL VALIDATION: 100+ questions about theoretical framework validation
+CROSS-REFERENCES: 50+ questions about connections between different parts of the series
+
+TOTAL UNANSWERED QUESTIONS: 850+ questions across all 8 folders
+
+These questions represent significant gaps in the current documentation that would need to be addressed for a complete understanding of the magnetism series.

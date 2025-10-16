@@ -1,0 +1,54 @@
+Tesla Primary References — Design Parameters to Extract (no values added)
+
+1) Colorado Springs Notes (1899–1900)
+- Type: Laboratory notes (primary source)
+- Expected parameters to extract:
+  - Coil geometry: primary/secondary form, turns N, pitch, wire gauge
+  - Coupling strategy: loose coupling rationale, target ranges (qualitative)
+  - Tuning procedures: top-load use, spark gap configurations, grounding schemes
+  - Measurement methods: resonance finding, observation of modes
+- Fields to capture when extracting:
+  - Page/date, setup sketch, dimensions (R, r, A), N, wire, k (if stated qualitatively), remarks
+
+2) US Patent 645,576 — System of Transmission of Electrical Energy (1900)
+- Type: Patent (primary)
+- Expected parameters to extract:
+  - System topology: resonant transformer arrangement, grounding
+  - Coupling approach and purpose (qualitative guidance)
+  - Operating concepts relevant to tuning and energy transfer
+- Fields to capture:
+  - Claim/figure numbers, geometry notes, coupling description, measurement context
+
+3) US Patent 649,621 — Apparatus for Transmission of Electrical Energy (1900)
+- Type: Patent (primary)
+- Expected parameters to extract:
+  - Apparatus geometry: coil forms, relative placement
+  - Resonant operation details, practical construction cues
+- Fields to capture:
+  - Claim/figure numbers, coil dimensions if present, construction particulars
+
+4) Experiments with Alternate Currents of High Potential and High Frequency (London, 1892 Lecture)
+- Type: Lecture (primary)
+- Expected parameters to extract:
+  - Practical coil construction advice: turns, spacing, insulation, spark gaps
+  - High-frequency measurement and safety practices
+- Fields to capture:
+  - Section/page, example builds, stated dimensions or proportions
+
+5) US Patent 593,138 — Electrical Transformer (1897)
+- Type: Patent (primary)
+- Expected parameters to extract:
+  - Transformer construction details applicable to HF variants
+  - Materials/insulation cues
+- Fields to capture:
+  - Claim/figure numbers, construction notes
+
+Usage in this project (planned extraction targets)
+- Baseline design choices to ground from these sources (pending extraction):
+  - Primary/secondary geometry (N, R, r, A, spacing)
+  - Coupling strategy (qualitative guidance), initial k bounds (if present qualitatively)
+  - Tuning workflow (top-load, spark gap, grounding)
+  - Measurement workflow (resonance identification, bandwidth/Q procedures)
+
+Notes
+- This file lists sources and the parameters they can inform. No numbers are added here. Once specific quotes/pages are extracted, we will cite them and propose baseline design choices accordingly.

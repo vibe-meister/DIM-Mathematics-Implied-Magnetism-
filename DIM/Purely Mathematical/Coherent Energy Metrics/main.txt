@@ -1,0 +1,81 @@
+Coherent Energy Metrics — Formal Specification
+
+1) Scope and Setting
+- Goal: quantify coherence-enhanced energy performance with normalized, testable, hardware-agnostic metrics.
+- Inputs: time-domain or spectral estimates of input powers {P_in,j}, output powers {P_out,i}, and a set of phases {ϕ_n} (e.g., source or mode phases) measured over a well-defined window and bandwidth.
+- Notation: sums over i refer to outputs, over j to inputs, over n to phase samples.
+
+2) Canonical Definitions
+- Windowing: choose a measurement interval T and bandwidth B. All power averages are computed over T and within B.
+- Total input power:  P_in = Σ_j P_in,j, with P_in > 0.
+- Total output power: P_out = Σ_i P_out,i.
+- Power ratio (baseline, dimensionless):  G_P := P_out / P_in.
+
+- Phase coherence factor (canonical order-parameter form):
+  F_coh := | (1/N) Σ_{n=1..N} e^{i ϕ_n} |, with 0 ≤ F_coh ≤ 1.
+  Notes: F_coh = 1 for perfectly aligned phases; F_coh ≈ 0 for uniformly random phases.
+
+- Composite coherent performance metric (dimensionless):
+  κ := G_P · F_coh.
+
+Optional weighted variants
+- Power-weighted coherence: F_coh,w := | (Σ w_n e^{i ϕ_n}) / (Σ w_n) | with weights w_n ≥ 0 (e.g., amplitude or SNR weights).
+- Output-normalized ratio: G_P,ref := P_out / P_ref where P_ref is a fixed reference load/condition; use when P_in is ill-defined.
+
+3) Invariance and Basic Properties
+- Scale invariance: scaling all P_in,j and P_out,i by the same factor leaves G_P and κ unchanged.
+- Permutation invariance: reordering indices i, j, n does not change the metrics.
+- Bounds: 0 ≤ F_coh ≤ 1 (triangle inequality on complex means); hence 0 ≤ κ ≤ G_P.
+- Monotonicity in concentration: if the phase set becomes more concentrated (in the majorization sense), F_coh does not decrease.
+
+4) Estimators (from data)
+- Powers: use sample means over the window T. For discrete samples x_k with sampling period Δt,
+  P̂ = (1/T) Σ_k x_k^2 Δt after calibration, or use spectral estimates integrated over B.
+- Coherence factor: with measured phases {ϕ_n}, the sample estimator is
+  F̂_coh = | (1/N) Σ_n e^{i ϕ_n} |.
+  For weighted phases, F̂_coh,w = | (Σ w_n e^{i ϕ_n}) / (Σ w_n) |.
+- Composite: κ̂ = Ĝ_P · F̂_coh.
+
+5) Uncertainty and Confidence Intervals
+- Let σ^2(Ĝ_P) and σ^2(F̂_coh) be the estimator variances; assuming weak correlation,
+  Var(κ̂) ≈ (F̂_coh)^2 Var(Ĝ_P) + (Ĝ_P)^2 Var(F̂_coh).
+  If correlation ρ between Ĝ_P and F̂_coh is non-negligible, include 2 ρ Ĝ_P F̂_coh σ(Ĝ_P) σ(F̂_coh).
+- Relative-variance form (F̂_coh,Ĝ_P > 0):
+  (σ(κ̂)/κ̂)^2 ≈ (σ(Ĝ_P)/Ĝ_P)^2 + (σ(F̂_coh)/F̂_coh)^2 + 2ρ (σ(Ĝ_P)/Ĝ_P)(σ(F̂_coh)/F̂_coh).
+- Practical CI: use nonparametric bootstrap over runs/windows to form (1−α) confidence intervals for Ĝ_P, F̂_coh, and κ̂.
+
+6) Regularization and Edge Cases
+- Small input power: if P_in is near zero, define a floor ε > 0 and use G_P,ε := P_out / (P_in + ε), reporting ε explicitly.
+- Empty phase set: if N = 0, define F_coh := 0 and flag insufficient data.
+- Outlier robustness: optionally compute trimmed means for powers and circular statistics robust to outliers for phases.
+
+7) Statistical Tests (Phase Coherence)
+- Null hypothesis H0: phases are random (uniform on [−π,π]).
+- Rayleigh test: let R := |Σ e^{i ϕ_n}| / N = F̂_coh. Statistic Z := N R^2.
+  For moderate N, p ≈ exp(−Z) [1 + (2Z − Z^2)/(4N) − ...]. Reject H0 if p < α (e.g., 0.05).
+- Report (R, Z, p) alongside F̂_coh to substantiate coherence claims.
+
+8) Validation and Reporting Standard
+- Measurement spec: report T, B, calibration factors, instrument models, and environmental controls.
+- Data release: provide raw or preprocessed power traces (or spectra), the phase list {ϕ_n}, and analysis scripts/configs.
+- Replication: repeat across ≥3 independent runs; report mean ± CI for Ĝ_P, F̂_coh, κ̂, and Rayleigh p-values.
+- Acceptance thresholds (example):
+  - Phase coherence: F̂_coh ≥ F_min and p < α.
+  - Performance: κ̂ ≥ κ_min and improvement vs. reference Δκ̂ ≥ δ with CI excluding 0.
+
+9) Worked Examples (symbolic)
+- Perfect coherence, unity gain: G_P=1, F_coh=1 ⇒ κ=1.
+- Random phases (large N): E[F̂_coh] ≈ 0 ⇒ κ ≈ 0 regardless of G_P.
+- Partial coherence: if phases follow von Mises with concentration κ_vm, then E[F̂_coh] ≈ A1(κ_vm) (ratio of Bessel functions), enabling parametric fits.
+
+10) Implementation Checklist
+- [ ] Define T, B, calibration, and reference conditions.
+- [ ] Compute P̂_in, P̂_out, Ĝ_P with uncertainties.
+- [ ] Compute F̂_coh (and Rayleigh Z, p); optionally weighted variant.
+- [ ] Form κ̂ and CI; apply regularization if needed; document ε.
+- [ ] Release data and scripts; report thresholds and decisions.
+
+11) Extensions (optional)
+- Frequency-resolved metrics: compute G_P(f), F_coh(f), κ(f) over bands; aggregate by weighted integration.
+- Mode-specific phases: define {ϕ_n} from modal estimates rather than sources; same formalism applies.
+- Multivariate coherence: replace scalar F_coh with a matrix norm of a phase-coupling operator; keep κ as product with G_P.

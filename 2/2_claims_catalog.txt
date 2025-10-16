@@ -1,0 +1,15 @@
+Section 2 — Claims Catalog (source-grounded)
+
+Mainstream (concepts, equations, procedures)
+- Faraday induction; Lenz’s law; self/mutual inductance; eddy currents; skin effect [PART II Lines 3–33; Chapter 5 Analysis Lines 61–65].
+- LC resonance; coupling; Q; magnetic circuit analogies [PART II Lines 46–85; Chapter 6 Analysis Lines 61–65].
+- Motion-induced effects: Lorentz force, torque, generator EMF, power relations [PART II Lines 86–114; Chapter 7 Analysis Lines 61–65].
+- Topology/geometry: toroidal coordinates; Halbach enhancement; vortex/defect concepts [PART II Lines 123–162; Chapter 8 Analysis Lines 61–63].
+
+Speculative/community-labeled
+- None identified/labeled in folder 2 sources.
+
+Notes
+- Catalog mirrors source content and labeling; no new claims added.
+
+End of catalog.

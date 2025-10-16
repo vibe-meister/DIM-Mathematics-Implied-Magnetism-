@@ -1,0 +1,56 @@
+Section 5.5 — Definitions & Variables Index (source-grounded)
+Source: Part V.V — MARKO RODIN & VORTEX MATHE.txt
+
+Notation & Coordinates
+- θ (theta) — poloidal angle; ϕ (phi) — toroidal angle [V.0.3; Lines 21–26].
+- R — torus major radius; r — minor radius [V.0.3; Lines 29–63].
+- Toroidal mapping — x=(R+rcosθ)cosϕ; y=(R+rcosθ)sinϕ; z=rsinθ [V.0.3; Lines 29–63; Appendix V.A].
+
+Functions & Sequences
+- Digital-root function — d(n)=1+((n−1) mod 9); n∈Z+ [V.0.4; Lines 67–95].
+- Doubling sequence modulo 9 — S_n=2^n mod 9; sequence 1,2,4,8,7,5,… [V.2.1; Lines 106–140].
+- Angle mapping (speculative) — ϕ(n)=2π d(n)/9 [V.2.3; Lines 152–168; Appendix V.B B1].
+
+Fields, Currents, Geometry
+- J(r) — current density; discrete turns with δ at r_k and tangent τ̂^k [V.4.1; Lines 295–336].
+- A(r) — vector potential in Coulomb gauge [V.4.2; Lines 338–386].
+- B(r) — magnetic flux density via Biot–Savart [V.4.3; Lines 387–454].
+- B components — B = Bϕ ϕ̂ + Bθ θ̂ + Br r̂ [V.4.4; Lines 456–494].
+- u_B — magnetic energy density; W — total stored energy [V.4.5; Lines 495–536].
+
+Inductance & Coupling
+- L — self-inductance (line integral kernel) [V.5.1; Lines 539–577].
+- M12 — mutual inductance between loops C1 and C2 [V.5.2; Lines 589–657].
+- k — coupling coefficient; k = M12 / √(L1 L2) [V.5.3; Lines 662–681].
+- L (toroidal approx) — L ≈ μ N^2 A / (2π R) (caution) [V.5.4; Lines 692–709].
+
+Spectral & Resonant Terms
+- B̃_n(ρ,z) — angular Fourier modes in ϕ [V.6.1; Lines 715–759].
+- ω_n — modal resonance: ω_n^2 = 1/(L_n C_n) [V.6.3; Lines 771–799].
+- ω0, Q, L_eff, C_eff, R_eff — ω0=1/√(L_eff C_eff); Q=ω0 L_eff / R_eff [V.7.1; Lines 804–855].
+- Δϕ — phase difference; Δϕ=2π m (speculative) [V.7.2; Lines 857–873].
+
+Speculative Parameters (labeled in source)
+- α — empirical amplification coefficient [V.7.3; Lines 912–920].
+- ϕ_d — design phase in Beff model [V.7.3; Lines 914–921].
+- c_s — hypothesized scalar propagation speed [V.8.2; Lines 983–989].
+- g_s — empirical coupling constant in L_int [V.8.3; Lines 1013–1019].
+
+Power & Statistics
+- P_in, P_out, ΔP — power accounting variables [V.12.1; Lines 1252–1327].
+- σ_P — uncertainty in power; example propagation [V.12.2; Lines 1331–1365].
+- z — reproducibility statistic; threshold z≥5 [V.12.3–V.12.4; Lines 1369–1393].
+
+Build & Measurement Variables
+- N — turns per layer; d_w — wire diameter; R, r — torus radii; s — spacing; μ_r — core relative permeability [V.9.1; Lines 1027–1049].
+- Instrument specs — σ_B (gaussmeter resolution), oscilloscope BW, power meter accuracy, N_FFT (FFT bins) [V.9.2; Lines 1050–1066].
+- Channels — V_in(t), I_in(t), V_out(t), I_out(t), B_x(t), B_y(t), B_z(t); sample rate f_s [V.9.3; Lines 1067–1149].
+- Reproducibility protocol — N_runs≥10; blind passes; swapped-ground; dummy load [V.9.4; Lines 1151–1156].
+- Data outputs — C(f), R_xy(τ), Allan deviation(B) [V.9.5; Lines 1153–1169].
+
+Topology & Construction
+- W_ij — winding permutation matrices (layer i, turn index j) [V.3.2; Lines 207–216].
+- Rodin topology constructive rules (community recipes; speculative) [V.3.4; Lines 291–292].
+- Construction design variables: turn tables, interleaving, core selection, HV coupling [V.10.1–V.10.4; Lines 1171–1203].
+
+End of definitions.

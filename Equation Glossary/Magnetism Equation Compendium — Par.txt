@@ -1,0 +1,999 @@
+Magnetism Equation Compendium — Parts VI–IX
+Part VI — Beyond Classical and Experimental Magnetism
+26.1 Superconducting & Flux-Exclusion Phenomena
+
+Verified (Classical): Meissner Effect
+
+𝐵
+=
+𝐵
+0
+⋅
+exp
+⁡
+(
+−
+𝑧
+𝜆
+)
+B=B
+0
+	​
+
+⋅exp(−
+λ
+z
+	​
+
+)
+
+𝜆
+λ = London penetration depth
+
+𝑧
+z = distance from surface
+
+Usage Note: Models field decay in superconductors; essential for levitation/flux-exclusion designs.
+
+26.2 Magnetic Monopole Analogues
+
+Verified (Experimental Analogues): Effective Magnetic Charge in Spin Ice
+
+𝑄
+eff
+=
+±
+1
+2
+∑
+vertices
+𝜎
+𝑖
+Q
+eff
+	​
+
+=±
+2
+1
+	​
+
+vertices
+∑
+	​
+
+σ
+i
+	​
+
+
+𝜎
+𝑖
+σ
+i
+	​
+
+ = spin orientation at vertex 
+𝑖
+i
+
+Usage Note: Use for designing lattices that emulate monopole behavior.
+
+26.3 Exotic Coupled Magnetic Systems
+
+Verified (Classical/Experimental): Coupled Magnetic Oscillators
+
+𝑑
+2
+𝑀
+𝑖
+𝑑
+𝑡
+2
++
+𝛾
+𝑖
+𝑀
+𝑖
+=
+−
+∑
+𝑗
+≠
+𝑖
+𝐽
+𝑖
+𝑗
+(
+𝑀
+𝑗
+−
+𝑀
+𝑖
+)
+dt
+2
+d
+2
+M
+i
+	​
+
+	​
+
++γ
+i
+	​
+
+M
+i
+	​
+
+=−
+j
+
+=i
+∑
+	​
+
+J
+ij
+	​
+
+(M
+j
+	​
+
+−M
+i
+	​
+
+)
+
+𝑀
+𝑖
+M
+i
+	​
+
+ = magnetization of oscillator 
+𝑖
+i
+
+𝐽
+𝑖
+𝑗
+J
+ij
+	​
+
+ = coupling coefficient
+
+Usage Note: Models dynamics in coupled magnetic arrays; can simulate multi-frequency resonance.
+
+Part VII — Fringe and Theoretical Explorations
+28. Advanced Vortex and Topological Models
+
+Created (Speculative): Rodin Coil Winding Sequence
+
+𝑆
+𝑛
+=
+2
+𝑛
+m
+o
+d
+ 
+ 
+9
+S
+n
+	​
+
+=2
+n
+mod9
+
+Vortex Flux Amplification (Created)
+
+𝐵
+vortex
+(
+𝑡
+)
+=
+𝐵
+0
+[
+1
++
+𝛼
+sin
+⁡
+(
+2
+𝜋
+𝑓
+vortex
+𝑡
++
+𝜙
+)
+]
+B
+vortex
+	​
+
+(t)=B
+0
+	​
+
+[1+αsin(2πf
+vortex
+	​
+
+t+ϕ)]
+
+𝛼
+α = vortex amplification coefficient
+
+𝑓
+vortex
+f
+vortex
+	​
+
+ = vortex circulation frequency
+
+Magnetic Scalar Waves (Created)
+
+∇
+2
+Φ
+−
+𝜇
+𝜖
+∂
+2
+Φ
+∂
+𝑡
+2
+=
+0
+∇
+2
+Φ−μϵ
+∂t
+2
+∂
+2
+Φ
+	​
+
+=0
+
+Toroidal Harmonic Modulation (Created)
+
+𝐵
+(
+𝜃
+,
+𝜙
+,
+𝑡
+)
+=
+𝐵
+0
+cos
+⁡
+(
+𝑘
+𝜃
++
+𝑚
+𝜙
++
+𝜔
+𝑡
+)
+B(θ,ϕ,t)=B
+0
+	​
+
+cos(kθ+mϕ+ωt)
+28.3 Overunity & Coherent Field Hypotheses
+
+Coupled Vortex Energy Transfer (Created)
+
+𝑃
+net
+(
+𝑡
+)
+=
+∑
+𝑖
+,
+𝑗
+𝜂
+𝑖
+𝑗
+𝐼
+𝑖
+(
+𝑡
+)
+⋅
+𝐸
+𝑗
+(
+𝑡
+)
+P
+net
+	​
+
+(t)=
+i,j
+∑
+	​
+
+η
+ij
+	​
+
+I
+i
+	​
+
+(t)⋅E
+j
+	​
+
+(t)
+
+Fringe Coherent Amplification Factor (Created)
+
+𝐺
+fringe
+=
+∑
+𝑖
+𝑃
+out,i
+∑
+𝑗
+𝑃
+in,j
+⋅
+(
+1
++
+cos
+⁡
+(
+Δ
+𝜙
+vortex
+)
+)
+G
+fringe
+	​
+
+=
+∑
+j
+	​
+
+P
+in,j
+	​
+
+∑
+i
+	​
+
+P
+out,i
+	​
+
+	​
+
+⋅(1+cos(Δϕ
+vortex
+	​
+
+))
+29. Quantum-Coherent & Subtle Energy Considerations
+
+Spin-Vortex Entanglement (Created)
+
+𝐸
+coh
+=
+ℏ
+∑
+𝑖
+,
+𝑗
+𝐽
+𝑖
+𝑗
+ 
+𝑆
+𝑖
+⋅
+𝑆
+𝑗
+cos
+⁡
+(
+𝜃
+𝑖
+𝑗
+)
+E
+coh
+	​
+
+=ℏ
+i,j
+∑
+	​
+
+J
+ij
+	​
+
+S
+i
+	​
+
+⋅S
+j
+	​
+
+cos(θ
+ij
+	​
+
+)
+
+Subtle Flux Coupling Strength (Created)
+
+𝐾
+subtle
+=
+𝜇
+0
+2
+𝜋
+ln
+⁡
+(
+𝑟
+𝑎
+)
+⋅
+𝛽
+coherence
+K
+subtle
+	​
+
+=
+2π
+μ
+0
+	​
+
+	​
+
+ln(
+a
+r
+	​
+
+)⋅β
+coherence
+	​
+
+
+Fringe Energy Propagation (Created)
+
+𝐵
+fringe
+(
+𝑡
+)
+=
+∑
+𝑛
+=
+1
+𝑁
+𝐵
+𝑛
+exp
+⁡
+(
+−
+𝑡
+𝜏
+𝑛
+)
+cos
+⁡
+(
+𝜔
+𝑛
+𝑡
++
+𝜙
+𝑛
+)
+B
+fringe
+	​
+
+(t)=
+n=1
+∑
+N
+	​
+
+B
+n
+	​
+
+exp(−
+τ
+n
+	​
+
+t
+	​
+
+)cos(ω
+n
+	​
+
+t+ϕ
+n
+	​
+
+)
+Part VIII — Application and Creation
+30. Coil & Array Fabrication
+
+Toroidal Coil Magnetic Flux (Verified/Classical)
+
+𝐵
+toroid
+=
+𝜇
+𝑁
+𝐼
+2
+𝜋
+𝑟
+B
+toroid
+	​
+
+=
+2πr
+μNI
+	​
+
+
+Vortex Alignment Enhancement (Created)
+
+𝐵
+vortex
+=
+𝐵
+toroid
+⋅
+(
+1
++
+𝛽
+sin
+⁡
+(
+𝜃
+phase
+)
+)
+B
+vortex
+	​
+
+=B
+toroid
+	​
+
+⋅(1+βsin(θ
+phase
+	​
+
+))
+30.2 Measurement and Control
+
+Time-Dependent Magnetic Flux Vector (Created)
+
+𝐵
+(
+𝑡
+)
+=
+𝐵
+0
+cos
+⁡
+(
+𝜔
+𝑡
++
+𝜙
+)
+𝑒
+^
+toroid
++
+𝛾
+∑
+𝑖
+=
+1
+𝑛
+𝐵
+𝑖
+⋅
+𝑓
+𝑖
+(
+𝑡
+)
+B(t)=B
+0
+	​
+
+cos(ωt+ϕ)
+e
+^
+toroid
+	​
+
++γ
+i=1
+∑
+n
+	​
+
+B
+i
+	​
+
+⋅f
+i
+	​
+
+(t)
+30.3 Energy Transfer & Amplification
+
+Coherent Vortex Energy Transfer (Created)
+
+𝑃
+net
+=
+∑
+𝑖
+=
+1
+𝑁
+∑
+𝑗
+≠
+𝑖
+𝜂
+𝑖
+𝑗
+ 
+𝐼
+𝑖
+⋅
+𝐸
+𝑗
+P
+net
+	​
+
+=
+i=1
+∑
+N
+	​
+
+j
+
+=i
+∑
+	​
+
+η
+ij
+	​
+
+I
+i
+	​
+
+⋅E
+j
+	​
+
+
+Resonance Amplification Factor (Created)
+
+𝐺
+res
+=
+𝑄
+eff
+1
+−
+cos
+⁡
+(
+Δ
+𝜙
+)
+G
+res
+	​
+
+=
+1−cos(Δϕ)
+Q
+eff
+	​
+
+	​
+
+Part IX — Unpublished Works, Specialist Notes, Patents & Gray Literature
+31–35 Speculative / Synthesized Equations
+
+Inductive Coupling in Toroidal Arrays (Created)
+
+𝑀
+eff
+=
+∑
+𝑖
+,
+𝑗
+𝑘
+𝑖
+𝑗
+𝐿
+𝑖
+𝐿
+𝑗
+M
+eff
+	​
+
+=
+i,j
+∑
+	​
+
+k
+ij
+	​
+
+L
+i
+	​
+
+L
+j
+	​
+
+	​
+
+
+High-Q Superconductor Interaction (Created)
+
+𝐵
+total
+=
+∑
+𝑖
+=
+1
+𝑛
+𝐵
+𝑖
+exp
+⁡
+(
+−
+𝑡
+𝜏
+𝑖
+)
+cos
+⁡
+(
+𝜙
+𝑖
+)
+B
+total
+	​
+
+=
+i=1
+∑
+n
+	​
+
+B
+i
+	​
+
+exp(−
+τ
+i
+	​
+
+t
+	​
+
+)cos(ϕ
+i
+	​
+
+)
+
+Experimental Energy Coupling Factor (Created)
+
+𝜅
+=
+∑
+𝑖
+𝑃
+out
+,
+𝑖
+∑
+𝑗
+𝑃
+in
+,
+𝑗
+⋅
+𝐹
+coherence
+κ=
+∑
+j
+	​
+
+P
+in,j
+	​
+
+∑
+i
+	​
+
+P
+out,i
+	​
+
+	​
+
+⋅F
+coherence
+	​
+
+
+Tesla-Inspired Resonance Network (Created)
+
+𝑉
+induced
+(
+𝑡
+)
+=
+−
+𝑑
+𝑑
+𝑡
+∑
+𝑖
+Φ
+𝑖
+(
+𝑡
+)
+(
+1
++
+𝜆
+cos
+⁡
+(
+𝜃
+𝑖
+(
+𝑡
+)
+)
+)
+V
+induced
+	​
+
+(t)=−
+dt
+d
+	​
+
+i
+∑
+	​
+
+Φ
+i
+	​
+
+(t)(1+λcos(θ
+i
+	​
+
+(t)))
+
+Gray Literature Reproducibility Metric (Created)
+
+𝑅
+=
+#
+reproducible experiments
+#
+total experiments
+⋅
+(
+1
+−
+𝛿
+uncertainty
+)
+R=
+#total experiments
+#reproducible experiments
+	​
+
+⋅(1−δ
+uncertainty
+	​
+
+)
+
+✅ Usage Notes & Parameters:
+
+Verified equations (Meissner effect, LC resonance, toroidal flux) → directly applicable to lab replication.
+
+Created/speculative equations → model high-Q, vortex, Tesla-inspired, spin-vortex, or subtle energy systems.
+
+Phase offsets, coupling coefficients, and coherence factors are experimentally tunable parameters.
+
+Time constants, decay rates, and flux amplitudes require empirical calibratio

@@ -1,0 +1,8 @@
+Phase‑Coherent Energy Transfer — Open Questions
+
+- What reciprocity/asymmetry emerges in η_ij under practical layouts (wiring, grounds, shields)?
+- How large can |η_ij| be for compact toroidal arrays before parasitic paths dominate?
+- Robustness of optimal phases to Δω drift and thermal variation over multi‑hour runs?
+- Do radiation/capacitive couplings meaningfully alter the inductive η_ij mapping at our target frequencies?
+- What bounds on ⟨P_net⟩ follow from measured Q and source limits for our reference builds?
+- Minimal phase sensing/locking hardware to ensure σ_ϕ below target tolerance?

@@ -1,0 +1,166 @@
+PART I — FOUNDATIONS OF MAGNETISM
+1. Introduction to Magnetism
+1.1 Historical Overview
+
+1.1.1 Early observations — lodestone and natural magnetite
+
+1.1.2 Classical discoveries — Gilbert’s De Magnete and the first systematic experiments
+
+1.1.3 Industrial electromagnetism — Faraday, Ampère, Oersted
+
+1.1.4 19th–20th century unification — Maxwell’s equations and the rise of field theory
+
+1.1.5 Modern extensions — quantum magnetism, spintronics, and metamaterials
+
+(Context: Introduces magnetism’s evolution from empirical curiosity to a unified physical field, framing its mathematical and experimental lineage.)
+
+1.2 Conceptual Overview
+
+1.2.1 Definition of magnetic field as a vector quantity
+
+1.2.2 Magnetic poles vs dipoles — conceptual limitations of the pole model
+
+1.2.3 Field lines and visualization — flux representation
+
+1.2.4 Magnetic domains and alignment concept
+
+1.2.5 Measurement units: Tesla, Gauss, Weber, Ampere-turns per meter
+
+(Context: Establishes the terminology and physical quantities used throughout all following chapters.)
+
+1.3 Magnetic Field Sources and Types
+
+1.3.1 Permanent magnets (atomic dipoles and alignment)
+
+1.3.2 Electromagnets (current-driven fields)
+
+1.3.3 Planetary and astrophysical magnetism (core dynamos, solar magnetism)
+
+1.3.4 Induced magnetism (Lenz’s law, eddy currents)
+
+1.3.5 Magnetic materials and hysteresis
+
+2. Atomic and Subatomic Foundations
+2.1 Magnetism from Quantum Mechanics
+
+2.1.1 Electron spin as intrinsic magnetic moment
+
+2.1.2 Orbital angular momentum contributions
+
+2.1.3 Pauli exclusion and magnetic ordering
+
+2.1.4 Exchange interaction and ferromagnetic coupling
+
+2.1.5 Magnetic moment quantization
+
+(Context: The true origin of magnetism lies in quantum mechanical spin and electron motion; this section bridges classical intuition to quantum sources.)
+
+2.2 Magnetic Moments and Dipole Interactions
+
+2.2.1 Definition of the Bohr magneton
+
+2.2.2 Dipole–dipole energy interactions and alignment tendencies
+
+2.2.3 Paramagnetic vs diamagnetic response at the atomic level
+
+2.2.4 Magnetic susceptibility as a function of temperature
+
+2.3 Exchange and Correlation Effects
+
+2.3.1 Heisenberg exchange model and spin Hamiltonians
+
+2.3.2 Ferromagnetism, antiferromagnetism, ferrimagnetism
+
+2.3.3 Quantum phase transitions in magnetic lattices
+
+2.3.4 Spin frustration and non-collinear magnetic structures
+
+3. Field Theory of Magnetism
+3.1 Maxwell’s Equations and Magnetic Fields
+
+3.1.1 The four Maxwell equations (magnetic divergence, curl of E, curl of B, Gauss’s law)
+
+3.1.2 Absence of magnetic monopoles and the ∇·B = 0 condition
+
+3.1.3 Induction coupling of electric and magnetic fields
+
+3.1.4 Field energy density and Poynting vector interpretation
+
+(Context: Here the electromagnetic field is treated as a continuous physical medium—this formalism underpins all magnetodynamic phenomena.)
+
+3.2 Vector Potentials and Gauge Freedom
+
+3.2.1 Definition of magnetic vector potential A
+
+3.2.2 Gauge invariance and physical meaning
+
+3.2.3 Use in quantum electrodynamics and the Aharonov–Bohm effect
+
+3.3 Magnetic Boundary Conditions and Interfaces
+
+3.3.1 Discontinuities in B and H at material interfaces
+
+3.3.2 Surface currents and boundary layer modeling
+
+3.3.3 Magnetic image method and mirror boundary analysis
+
+3.4 Energy and Momentum of Magnetic Fields
+
+3.4.1 Magnetic energy density
+
+3.4.2 Field stress tensor and pressure interpretation
+
+3.4.3 Momentum transfer through magnetic media
+
+4. Magnetic Materials and Properties
+4.1 Classification of Magnetic Materials
+
+4.1.1 Diamagnetic materials — weak field repulsion
+
+4.1.2 Paramagnetic materials — weak field attraction
+
+4.1.3 Ferromagnetic materials — strong cooperative alignment
+
+4.1.4 Ferrimagnetic and antiferromagnetic ordering
+
+4.1.5 Superparamagnetism and nanoscale effects
+
+(Context: A comprehensive classification that connects atomic spin structures to bulk magnetic behaviors used in devices and experiments.)
+
+4.2 Hysteresis and Domain Behavior
+
+4.2.1 Magnetic hysteresis loop and coercive field
+
+4.2.2 Magnetic remanence and saturation
+
+4.2.3 Domain wall formation and motion
+
+4.2.4 Barkhausen noise and domain dynamics
+
+4.2.5 Energy loss in magnetic cycles
+
+4.3 Temperature Dependence and Critical Points
+
+4.3.1 Curie temperature and phase transitions
+
+4.3.2 Magnetocaloric effect and entropy changes
+
+4.3.3 Quantum critical phenomena in low-dimensional magnets
+
+4.4 Magnetic Anisotropy and Crystal Effects
+
+4.4.1 Magnetocrystalline anisotropy energy
+
+4.4.2 Shape anisotropy in nanostructures
+
+4.4.3 Stress-induced magnetostriction
+
+4.5 Modern Engineered Magnetic Materials
+
+4.5.1 Rare-earth permanent magnets (NdFeB, SmCo)
+
+4.5.2 Soft magnetic alloys and amorphous materials
+
+4.5.3 Magnetic thin films and nanocomposites
+
+4.5.4 Spintronic materials (half-metals, tunneling junctions)

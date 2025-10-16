@@ -1,0 +1,53 @@
+CHAPTER 28: ADVANCED VORTEX AND TOPOLOGICAL MODELS — ANALYSIS
+==============================================================
+
+Scope note
+Part VII reframes vortex/topological ideas with explicit, labeled “Created Equations.” I treat them as testable hypotheses: derive predictions, design blinded experiments, compare with conventional EM predictions.
+
+Interesting patterns
+- Number–to–geometry mapping: S_n=2^n mod 9 implies a deterministic phase/winding code that could select spatial harmonics on a torus.
+- B_vortex(t)=B0[1+α sin(2π f_vortex t+ϕ)] explicitly models amplitude modulation; measurable as sidebands near f_vortex.
+- Toroidal harmonic modulation B(θ,ϕ,t)=B0 cos(kθ+mϕ+ωt) cleanly separates toroidal/poloidal indices (k,m) → direct spectral fingerprints.
+
+Missing numbers
+- No concrete torus parameters (R,r), wire spacing, or target (k,m) to compute mode spectra.
+- α (amplification), f_vortex, and phase offsets lack numeric ranges; without bounds, predictions are unfalsifiable.
+- No loss/ESR/capacitance budgets to compare against standard windings.
+
+Frequency analysis
+- AM model predicts carrier±f_vortex sidebands; sideband ratio ≈ α/2 for small α. Verify on spectrum analyzer.
+- Spatial harmonics (k,m) imply discrete lobes in near‑field maps; scanning probes should resolve periodicity along θ,ϕ.
+- Interference between (k,m) modes yields beat patterns; time–space spectra distinguish true modal content from measurement artifacts.
+
+Sequences
+- Numeric sequence → winding/phase schedule → excitation plan → spectral/field mapping → compare to controls → iterate.
+- For AM vortex: set α, f_vortex, ϕ → measure sidebands vs. drive and geometry.
+
+Structural patterns
+- 28.1 (frameworks) supplies coding; 28.2 (manipulations) supplies field models; 28.3 (coherent/overunity) proposes energetic metrics.
+
+Entropy and randomness
+- Manufacturing variance randomizes effective (k,m) via geometry perturbations; requires tolerance analysis and randomized/blinded runs.
+- Phase noise of sources broadens spectral lines; lock‑in or PLL needed to isolate coherent effects.
+
+Key length detection
+- Symbolic key = period of S_n (cycle length 9) → if mapped to phase, expect 9‑segment symmetry; missing segments indicate implementation error.
+- Geometric key = closed path length on torus; mismatch with symbolic key produces aliasing in spectra.
+
+Basic insight
+- If sequence‑coded windings confer benefits, they must manifest as lower harmonic distortion, higher Q, or improved coupling under matched copper/volume; otherwise effects are aesthetic, not physical.
+
+Feeds later subjects
+- Quantified (k,m,α,f_vortex) feed into energy metrics (28.3) and quantum claims (29.1) if nonclassical correlations persist.
+
+Concrete tests
+- Near‑field mapping vs. θ and ϕ; fit to cos(kθ+mϕ+ωt) to extract integers (k,m).
+- Spectral sideband measurement to retrieve α and f_vortex; verify linear α→sideband ratio.
+- Matched‑copper control coils to compare Q and coupling vs. claimed enhancements.
+
+Unanswered questions (28)
+1) Which (R,r,wire pitch) stabilize intended (k,m) without excessive parasitics?
+2) What α and f_vortex ranges are claimed/measured, and how do they scale with drive and geometry?
+3) Do sequence‑coded windings outperform matched controls across bandwidth, or only at a tuned f0?
+4) What fabrication tolerances are necessary so that mode IDs (k,m) remain invariant across samples?
+

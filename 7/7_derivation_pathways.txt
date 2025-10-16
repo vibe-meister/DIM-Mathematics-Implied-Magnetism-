@@ -1,0 +1,19 @@
+Section 7 — Derivation Pathways (from provided created equations only)
+
+Pathway A — Rodin/Vortex Phasing
+1) Implement S_n=2^n mod 9 phasing; compare B_vortex(t) parameters (α,f_vortex,ϕ) vs control coils at equal copper and drive.
+
+Pathway B — Scalar/Toroidal Field Tests
+1) Attempt ∇²Φ−μϵ ∂²Φ/∂t²=0 detection with RF shielding and nulls.
+2) Excite B(θ,ϕ,t)=B0 cos(kθ+mϕ+ωt); map modes; verify isolation from conventional leakage.
+
+Pathway C — Coherent Transfer Metrics
+1) Measure P_net(t)=Σ η_ij I_i E_j; correlate with Δϕ_vortex via G_fringe; enforce blinded, independent power metering.
+
+Pathway D — Quantum/Subtle Probes
+1) Estimate E_coh via proxies; compute K_subtle from r,a sweeps; assess β_coherence bounds.
+
+Pathway E — Propagation/Decay Identification
+1) Fit B_fringe(t)=Σ B_n e^{−t/τ_n} cos(ω_n t+ϕ_n); perform model selection to rule out mundane origins.
+
+End.

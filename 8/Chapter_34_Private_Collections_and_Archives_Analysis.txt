@@ -1,0 +1,41 @@
+CHAPTER 34: PRIVATE COLLECTIONS & ARCHIVES — ANALYSIS
+=====================================================
+
+Scope note
+Models induced voltage from summed fluxes with a vortex‑phase factor λcos θ_i(t). Captures both classical induction and speculative phase alignment.
+
+Interesting patterns
+- V_induced(t)=−d/dt Σ Φ_i(t)(1+λ cos θ_i) mixes slow flux drift with fast phase modulation → rich spectra.
+- Highlights role of coherent phase schedules across loops.
+
+Missing numbers
+- No λ bounds, phase schedule definitions, or instrumentation specs.
+- Absent coil geometries and flux magnitude ranges.
+
+Frequency analysis
+- Expect carrier(s) from Φ_i dynamics plus sidebands at phase‑schedule frequencies.
+- Phase noise and timing jitter set practical limits on coherence.
+
+Sequences
+- Archive reconstruction → redraw schematics → parameter extraction → synthesize expected waveforms → compare to recordings.
+
+Entropy and randomness
+- Incomplete archival data raises ambiguity; Monte Carlo over plausible parameters can bound expectations.
+
+Key length detection
+- Phase schedule period acts as key; cross‑correlate with output to measure coherence.
+
+Basic insight
+- Even with partial records, a parametric model can test plausibility and guide reconstruction experiments.
+
+Feeds later subjects
+- Provides inputs to reproducibility metrics (Ch. 35) and forum κ comparisons (Ch. 33).
+
+Checks
+- Differentiate recorded waveforms and compare with model predictions under plausible λ, θ_i(t).
+
+Unanswered questions (34)
+1) What λ ranges are plausible without violating conservation under measured losses?
+2) Which phase schedules maximize output while remaining stable?
+3) How sensitive are predictions to uncertainties in Φ_i(t) from archival sources?
+

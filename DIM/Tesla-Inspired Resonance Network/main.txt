@@ -1,0 +1,15 @@
+Tesla-Inspired Resonance Network — Compiled
+
+Extracted content (created/speculative):
+- V_induced(t) = − d/dt Σ_i Φ_i(t) · (1 + λ cos(θ_i(t)))
+
+Notes:
+- Phase-weighted flux sum producing induced voltage; λ scales phase modulation.
+
+Three ways to complete/exhaust the math:
+1) Network derivation
+   - Start from coupled inductors and time-varying mutuals; derive Φ_i(t) expressions; recover the proposed V_induced under approximations; identify correction terms.
+2) Phase scheduling
+   - Optimize θ_i(t) schedules for target objectives (e.g., maximize |V_induced|, minimize loss); compute robustness to timing jitter and parameter drift.
+3) Experimental validation
+   - Build multi-coil testbed; measure induced V for programmed θ_i(t); compare to model with parameter estimation and uncertainty quantification.

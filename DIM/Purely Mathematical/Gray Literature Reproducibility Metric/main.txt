@@ -1,0 +1,49 @@
+Gray Literature Reproducibility Metric — Formal Specification
+
+1) Objective
+- Quantify reproducibility across heterogeneous gray-literature experiments with uncertainty and evidence-quality penalties, yielding a dimensionless score R ∈ [0,1].
+
+2) Core Definition
+- Let N be total experiments; mark each experiment i as reproducible indicator y_i ∈ {0,1} under a predefined criterion (e.g., replication within CI).
+- Penalty δ_i ∈ [0,1] reflects uncertainty and evidence quality for experiment i (higher δ_i ⇒ larger penalty).
+- Base score per experiment: r_i := y_i (1 − δ_i).
+- Aggregated metric (unweighted): R := (1/N) Σ_{i=1}^N r_i.
+
+3) Penalty Components (δ_i)
+- Measurement uncertainty u_i ∈ [0,1]: normalized from reported error bars vs. effect size; monotone increasing in uncertainty.
+- Independence penalty q_i ∈ [0,1]: increases when experiments share labs, hardware, or analysts; decreases with independent replications.
+- Documentation quality d_i ∈ [0,1]: lower for complete datasets/scripts; higher for sparse reporting.
+- Combine with weights α,β,γ ≥ 0, α+β+γ=1: δ_i := α u_i + β q_i + γ d_i.
+
+4) Optional Experiment Weights
+- Assign w_i ≥ 0 (Σ w_i = 1) reflecting sample size, pre-registration, or pre-agreed importance. Then
+  R_w := Σ w_i r_i.
+
+5) Estimation and Uncertainty
+- Point estimate: R̂ (or R̂_w) from observed {y_i, δ_i, w_i}.
+- Variance (unweighted, independence assumption): Var(R̂) = Var(r_i)/N with Var(r_i)=E[r_i²]−(E[r_i])²; approximate via sample variance s_r²/N.
+- CI via bootstrap over experiments (resampling indices with replacement) to accommodate unknown dependence.
+
+6) Robustness and Sensitivity
+- Sensitivity to α,β,γ: sweep weights over a simplex grid; report range of R̂.
+- Influence analysis: compute leave-one-out R̂_{−i}; identify high-influence experiments.
+- Cap penalties: optionally δ_i ≤ δ_max < 1 to avoid nullifying clear replications with high but bounded uncertainty.
+
+7) Decision Thresholds (examples)
+- Reproducible set: R̂ ≥ τ_R and lower CI bound ≥ τ_R_low.
+- Evidence sufficiency: median δ_i ≤ τ_δ and fraction of independent labs ≥ τ_ind.
+
+8) Minimal Reporting Schema (per experiment i)
+- Metadata: lab id, date, hardware, protocol, analysis scripts, data availability.
+- Outcomes: effect size, uncertainty (CI or σ), decision y_i based on pre-specified criteria.
+- Penalties: u_i (uncertainty mapping), q_i (independence scoring), d_i (documentation scoring).
+- Weights: w_i (if used) and justification.
+
+9) Validation Checklist
+- Verify δ_i ∈ [0,1] and monotonicity of u_i, q_i, d_i contributions.
+- Replicate R̂ via independent recomputation from the same dataset.
+- Perform sensitivity and bootstrap CI; report thresholds and final decision.
+
+10) Worked Symbolic Example
+- Suppose N=5 with y=[1,1,0,1,0], penalties δ=[0.1,0.2,0.6,0.3,0.7]. Then r=[0.9,0.8,0,0.7,0] ⇒ R= (0.9+0.8+0+0.7+0)/5 = 0.48.
+- With weights w=[.2,.2,.2,.2,.2] and same r, R_w=0.48.

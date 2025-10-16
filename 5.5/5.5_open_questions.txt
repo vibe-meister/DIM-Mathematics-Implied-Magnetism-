@@ -1,0 +1,42 @@
+Section 5.5 — Open Questions and Testable Predictions (from source only)
+Source: Part V.V — MARKO RODIN & VORTEX MATHE.txt
+
+Ground Rules
+- Questions are derived from explicit speculative or to-be-tested items in the source. No new claims are added.
+
+1) Digital-root ↔ Modal Index Correlation [V.6.2; Lines 760–769]
+- Question: Is there a statistically significant correlation between digital-root indices d(n) and angular modal indices n in B(ρ,ϕ,z)?
+- Prediction: If present, certain harmonics should show enhanced power at indices linked to d(n).
+- Test: Compute B̃_n via decomposition [V.6.1]; test correlation; control for coil symmetry.
+
+2) Phase Coherence Condition Δϕ=2π m (Constructive Coupling) [V.7.2; Lines 857–873]
+- Question: Does enforcing Δϕ in an array enhance measurable B-field amplitude or coupling metrics?
+- Prediction: Peaks in B or coupling at integer m compared to off-phase configurations.
+- Test: Build array with adjustable phase; measure B components and coupling; blind runs [V.9.4].
+
+3) Vortex Amplification Model Parameters (α, ϕ_d) [V.7.3; Lines 874–910]
+- Question: Can α>0 be empirically supported under controlled conditions without artifacts?
+- Prediction: Time-series B(t) shows sinusoidal modulation matching drive with fitted α, ϕ_d.
+- Test: Fit Beff(t)=Bbase(1+α sin(ω t + ϕ_d)) to measured data; compare to null models; check for EMI.
+
+4) Scalar/Longitudinal Constructs (Catalog Variables) [V.8.2–V.8.4; Lines 945–1021]
+- Question: Are there measurable effects consistent with ∇^2Φ − (1/c_s^2) Φ¨ = 0 or L_int = g_s Φ E·B?
+- Prediction: None presupposed; define detection thresholds; rigorous power accounting [V.12].
+- Test: Look for phase anomalies, non-radiative transfer; cross-check instrument artifacts [V.14].
+
+5) Inductance Approximation Validity for Non-Uniform Rodin Windings [V.5.4 vs V.5.1]
+- Question: How large is the error when using L ≈ μ N^2 A / (2π R) for non-uniform windings?
+- Prediction: Significant deviation from general integral L for certain routing patterns.
+- Test: Compute L via general integral [V.5.1] and compare with approximation across designs.
+
+6) Modal Resonances in Toroidal Arrays [V.6.3; Lines 771–799]
+- Question: Do measured resonant frequencies match ω_n^2 = 1/(L_n C_n) identified per mode?
+- Prediction: Resonances align with modeled L_n, C_n within uncertainty.
+- Test: Extract L_n, C_n from simulation/measurement; compare to measured peaks; include error bars [V.12.2].
+
+7) Poynting Flow Along Torus [V.7.4; Lines 924–940]
+- Question: Does S=(1/μ0) E×B indicate intra-torus energy transfer patterns consistent with winding topology?
+- Prediction: Spatial maps show expected toroidal/poloidal flow components.
+- Test: Use probes or simulation to map E and B; verify decomposition [V.4.4].
+
+End of list.

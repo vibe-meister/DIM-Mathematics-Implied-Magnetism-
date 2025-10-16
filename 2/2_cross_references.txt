@@ -1,0 +1,22 @@
+Section 2 — Cross-References & Reading Order (source-grounded)
+
+Suggested Reading Order
+1) PART II overview [PART II Lines 1–2]
+2) Induction & flux dynamics [PART II Lines 2–44]
+3) Resonance & magnetic circuits [PART II Lines 45–85]
+4) Motion-induced effects [PART II Lines 86–121]
+5) Topology & geometry [PART II Lines 123–162]
+
+Dependencies
+- Induction/flux → resonance (L, M feed LC and coupling) → motion (EMF/force relations) → topology (geometry shaping fields).
+
+File Cross-Links
+- Template: 2_analysis_template.txt
+- Notes: 2_analysis_notes.txt
+- Equations: 2_equations_index.txt
+- Definitions: 2_definitions_index.txt
+- Claims: 2_claims_catalog.txt
+- Open Qs: 2_open_questions.txt
+- Derivations: 2_derivation_pathways.txt
+
+End.

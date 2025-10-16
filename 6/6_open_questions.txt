@@ -1,0 +1,20 @@
+Section 6 — Open Questions and Testable Predictions (source-derived)
+
+Extended Frameworks — Questions [Lines 17–46, 113–219]
+- Validate Meissner decay λ for materials of interest; boundary effects? Fit B(z) data to extract λ.
+- Coupled oscillator parameters (γ_i, J_ij) from measurements; stability vs coupling topology.
+
+High-Energy/Astro — Questions [Lines 230–347, 351–395]
+- Under what regimes does the presented Casimir-with-B correction become measurable? Required a, B, sensitivity?
+- Helicity H_m measurement in lab-scale flux tubes; uncertainty and gauge considerations.
+
+Advanced Vortex/Topological — Questions [Lines 398–538, 679–721]
+- Do Rodin sequence windings measurably alter spectra/Q vs controls across bandwidth? Required tolerances?
+- Are “scalar waves” detectable under rigorous RF shielding and power accounting? Null tests?
+- Can coherent P=Σ J_ij (M_i·M_j) be distinguished from classical coupling? Energy accounting thresholds?
+- Is K=(μ0/2π) ln(r/a) observable for flux-tube analogs at lab scale?
+
+Quantum-Coherent/Subtle — Questions [Lines 541–677]
+- Can spin–vortex entanglement (C, E) be operationally defined/measured in proposed systems? Noise floors and decoherence times?
+
+End.

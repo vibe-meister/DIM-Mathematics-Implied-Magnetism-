@@ -1,0 +1,24 @@
+{
+  "source_file": "primary_pdfs/FILE_NAME.pdf",
+  "page_refs": [],
+  "mappings": {
+    "sequence": "1,2,4,8,7,5",
+    "mapping_rules": []
+  },
+  "winding_rules": [],
+  "coil_specs": {
+    "turns_N": null,
+    "layers": null,
+    "pattern": "",
+    "dimensions": {
+      "major_R_m": null,
+      "minor_r_m": null
+    }
+  },
+  "measurement": {
+    "claims": [],
+    "variables": ["B maps", "Q", "spectra", "Pin/Pout"],
+    "protocols": []
+  },
+  "notes": ""
+}

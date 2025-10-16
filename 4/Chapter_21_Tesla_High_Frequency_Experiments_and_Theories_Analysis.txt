@@ -1,0 +1,16 @@
+CHAPTER 21: TESLA’S HIGH‑FREQUENCY EXPERIMENTS & THEORIES — ANALYSIS
+===================================================================
+
+Scope note
+Resonant transmission (21.1), vibration/oscillation analogies (21.2), and coil networks (21.3). Mix of historical hypotheses and testable network behavior.
+
+Interesting patterns
+- Mechanical–electrical analogies as teaching and modeling tools.
+- Phase‑managed coil networks scale complexity and challenge stability.
+
+Missing numbers
+- Frequency bands, ground/ionosphere models, link budgets; amplification factors and propagation losses.
+
+Basic insight
+- Prioritize measurable network behaviors and quantified environments before non‑transverse claims.
+

@@ -1,0 +1,34 @@
+Section 5.5 — Cross-References & Reading Order
+Source: Part V.V — MARKO RODIN & VORTEX MATHE.txt
+
+Suggested Reading Order (to build foundations → tests)
+1) V.0 (Notation, units, toroidal coordinates)
+2) V.3 (Geometry/topology of windings)
+3) V.4 (EM modeling: J, A, Biot–Savart, B decomposition)
+4) V.5 (Inductance & coupling)
+5) V.6.1 and V.6.3 (Modal analysis and resonant conditions)
+6) V.7.1 and V.7.4 (Resonance relations; Poynting flow)
+7) V.9–V.12 (Experimental design → verification)
+8) V.14–V.15 (Null tests → publication roadmap)
+9) V.2.3, V.6.2, V.7.2–V.7.3, V.8 (speculative; handle last with caution)
+
+Cross-Reference Map
+- Coordinates: V.0.3 ↔ Appendix V.A (A1), used in V.3 and all geometry.
+- Biot–Savart: V.4.3 ↔ Appendix V.A (A2); inputs from V.3.1–V.3.2.
+- Inductance: V.5.1–V.5.2 ↔ Path definitions in V.3; compare with V.5.4.
+- Modal analysis: V.6.1 (decomposition) feeds V.6.3 (resonance) and tests in V.6.2 (speculative).
+- Resonance/Q: V.7.1 relies on L_eff, C_eff from V.5 and modal structure from V.6.
+- Poynting: V.7.4 uses E, B from V.4 outputs.
+- Experimentation: V.9 variables feed V.12 analyses; V.14 provides artifact controls.
+- Speculative constructs: Appendix V.B summarizes V.2.3, V.7.3, V.8.3 for separation.
+
+File Cross-Links (this folder)
+- Template: 5.5_analysis_template.txt (execute analysis plan)
+- Notes: 5.5_analysis_notes.txt (section summaries)
+- Equations: 5.5_equations_index.txt (verbatim equations)
+- Definitions: 5.5_definitions_index.txt (variables and definitions)
+- Claims: 5.5_claims_catalog.txt (mainstream vs speculative)
+- Open Qs: 5.5_open_questions.txt (tests to run)
+- Derivations: 5.5_derivation_pathways.txt (how to compute)
+
+End.

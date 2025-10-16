@@ -1,0 +1,18 @@
+Section 6 — Claims Catalog (source-grounded)
+
+Mainstream/Established (as presented)
+- Meissner field decay in superconductors; magnetic helicity definition; Ampère’s law with displacement term; Casimir baseline form with B-field correction (as given) [PART VI Lines 17–46, 230–347, 351–395].
+- Coupled magnetization oscillator model (phenomenological) [PART VI Lines 113–219].
+
+Hypothesis/Exploratory/Fringe (as labeled/contextualized)
+- Spin-ice monopole “charge” formalization (effective excitations) [PART VI Lines 50–109].
+- Rodin coil digital-root sequence as winding guide [PART VI Lines 398–417].
+- Scalar magnetic wave equation (as presented) [PART VI Lines 421–461].
+- Overunity/coherent field energy transfer expression P=Σ J_ij (M_i·M_j) [PART VI Lines 464–538].
+- Spin–vortex entanglement concurrence formulation in this context [PART VI Lines 541–677].
+- Subtle flux-tube coupling K=(μ0/2π)ln(r/a) [PART VI Lines 679–721].
+
+Notes
+- Items listed reflect source framing only; no validation implied. Use experimental protocols and controls from earlier parts for testing.
+
+End of catalog.

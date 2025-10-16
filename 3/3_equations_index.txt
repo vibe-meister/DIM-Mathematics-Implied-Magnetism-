@@ -1,0 +1,55 @@
+Section 3 — Equations Index (source-grounded)
+Sources: see file citations per entry
+
+Conventions
+- Entries: [File] [Lines]: Equation (ASCII)
+
+[Chapter_9_Toroidal_and_Cylindrical_Magnetic_Structures_Analysis.txt Lines 61–65]
+B = μ N I / (2π r)
+ΔB/B < threshold
+k = M / √(L1 L2)
+Φ = ∫ B · dA
+
+[Chapter_10_Harmonics_Interference_and_Field_Modulation_Analysis.txt Lines 61–65]
+Fourier series: B(x,t) = Σ B_n cos(n ω t + φ_n)
+Interference (vector): B_total = B1 + B2
+Modulation: B(t) = B0 [1 + m cos(ω_m t)]
+Phase: φ = ω t + φ0
+
+[Chapter_11_Quantum_Magnetism_Analysis.txt Lines 61–65]
+Spin Hamiltonian: H = −J Σ S_i · S_j
+Entanglement entropy: S = −Tr(ρ log ρ)
+Topological charge: Q = (1/4π) ∫ n · (∂n/∂x × ∂n/∂y) dx dy
+Tunneling: T = exp(−2 κ d)
+
+[Chapter_12_Astrophysical_and_Geomagnetic_Fields_Analysis.txt Lines 61–65]
+Dynamo: ∂B/∂t = ∇×(v×B) + η ∇² B
+Field scaling: B = B0 (r/R)^(−n)
+Reconnection rate: v_rec = v_A / √S
+Relativistic gamma: γ = 1 / √(1 − v²/c²)
+
+[Chapter_13_Advanced_Magnetic_Measurement_Techniques_Analysis.txt Lines 61–65]
+Flux: Φ = ∫ B · dA
+Sensitivity: S = ΔV/ΔB
+Resolution (optics): R = λ/(2 NA)
+Noise floor: N = √(4 k T R Δf)
+
+[Chapter_14_Computational_and_Simulation_Techniques_Analysis.txt Lines 61–65]
+FEM system: [K]{u} = {f}
+Boundary integral: ∫ G(x,y) φ(y) dy = f(x)
+Multi-physics PDE: ∂u/∂t = F(u, ∇u, ∇²u)
+Quantum Monte Carlo: ⟨A⟩ = Σ A(x) w(x) / Σ w(x)
+
+[Chapter_15_High_Energy_Magnetic_Phenomena_Analysis.txt Lines 61–65]
+Reconnection rate: v_rec = v_A / √S
+Shock conditions: [B] = 0, [v×B] = 0
+Turbulence spectrum: E(k) ∝ k^(−5/3)
+Dynamo: ∂B/∂t = ∇×(v×B) + η ∇² B
+
+[Chapter_16_Practical_Applications_of_Advanced_Magnetism_Analysis.txt Lines 61–65]
+Motor efficiency: η = P_out / P_in
+Energy storage: E = ½ L I²
+Field strength (solenoid): B = μ0 N I / l
+Coherence time: T2 = 1/Γ
+
+End of index.

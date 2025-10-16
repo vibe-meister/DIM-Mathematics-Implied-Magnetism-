@@ -1,0 +1,40 @@
+CHAPTER 33: FORUM THREADS & TECHNICAL BLOGS — ANALYSIS
+======================================================
+
+Scope note
+Introduces an energy coupling factor κ based on reported P_out/P_in weighted by a coherence factor. Aim: standardize claim comparisons and identify reproducible effects.
+
+Interesting patterns
+- κ aggregates multi‑node inputs/outputs; acts as a normalized transfer metric.
+- F_coherence formalizes phase alignment claims; can be independently measured.
+
+Missing numbers
+- No error bars, sampling methods, or calibration procedures referenced in typical posts.
+- Absent standardized loads and instrumentation; results are not directly comparable.
+
+Frequency analysis
+- Many setups are narrowband; κ must be reported vs. frequency, not single points.
+
+Sequences
+- Define measurement protocol → standard loads → log inputs/outputs with timestamps → compute κ → share raw data and scripts.
+
+Entropy and randomness
+- Community data is noisy and heterogeneous; meta‑analysis with quality filters is necessary.
+
+Key length detection
+- Reporting window length acts as temporal key; too short windows inflate κ due to transients.
+
+Basic insight
+- A transparent κ protocol with open data reduces confusion; extraordinary κ requires extraordinary documentation.
+
+Feeds later subjects
+- Supports curation/verification (Ch. 35) and benchmarking against patent/lab designs (Ch. 31–32).
+
+Checks
+- Recompute κ from raw logs; verify energy conservation within measurement uncertainty where expected.
+
+Unanswered questions (33)
+1) What minimum data/reporting standards yield meaningful κ across contributors?
+2) How do phase‑coherence metrics correlate with κ in comparable rigs?
+3) Can a small set of reference builds anchor κ values for the community?
+

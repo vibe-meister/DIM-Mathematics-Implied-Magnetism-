@@ -1,0 +1,51 @@
+Section 1 — Open Questions and Testable Predictions (source-derived)
+
+Chapter 1 (Introduction) — Questions [Chapter_1_Introduction_to_Magnetism_Analysis.txt Lines 55–66]
+1) Field strengths by historical period?
+2) Quantitative relationships among units (Tesla, Gauss, Weber, At/m)?
+3) Specific Curie temperatures by material?
+4) Interactions among the five field types?
+5) Experimental evidence for quantum origins?
+6) Mapping periods to technological developments?
+7) Quantitative relationships: field strength vs material properties?
+8) Unit conversions among listed units?
+9) Applications emerging per historical period?
+10) How conceptual frameworks translate to equations?
+
+Chapter 2 (Atomic/Subatomic) — Questions [Chapter_2_Atomic_and_Subatomic_Foundations_Analysis.txt Lines 61–70]
+1) Exact value of Bohr magneton (context)?
+2) Scaling of exchange energies with temperature?
+3) Quantum numbers for magnetic materials?
+4) Quantitative differences among ordering types?
+5) Specific Curie temperatures by material?
+6) Quantum vs thermal phase transitions (quantitative)?
+7) Energy levels for magnetic moment quantization?
+8) Spin frustration in different lattices?
+9) Spin→magnetization quantitative relationships?
+10) Heisenberg exchange parameters vs composition?
+
+Chapter 3 (Field Theory) — Questions [Chapter_3_Field_Theory_of_Magnetism_Analysis.txt Lines 67–77]
+1) Field strength values for applications?
+2) Quantitative boundary condition effects?
+3) Energy density values for configurations?
+4) Relationship between vector potentials and measurements?
+5) Gauge choices by application?
+6) Quantitative interaction among Maxwell equations?
+7) Boundary parameters by material?
+8) Quantitative energy/momentum transfer?
+9) Applications of Aharonov–Bohm?
+10) Poynting vector/stress tensor vs energy transfer?
+
+Chapter 4 (Materials) — Questions [Chapter_4_Magnetic_Materials_and_Properties_Analysis.txt Lines 72–83]
+1) Curie temperatures by material?
+2) Hysteresis loop parameters vs composition?
+3) Anisotropy energy values by material?
+4) Quantitative differences across five material types?
+5) Properties of rare-earth magnets?
+6) Domain wall dynamics quantitatively?
+7) Temperature dependencies by material?
+8) Magnetostriction vs field strength?
+9) Spintronic material properties?
+10) Engineered vs natural materials (quantitative)?
+
+End.

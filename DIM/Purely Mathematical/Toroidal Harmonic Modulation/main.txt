@@ -1,0 +1,75 @@
+Toroidal Harmonic Modulation — Formal Specification
+
+1) Geometry and Domain
+- Spatial domain: 2-torus T² with angular coordinates (θ, ϕ) ∈ [0, 2π) × [0, 2π).
+- Time variable: t ∈ ℝ with angular frequency ω (optional temporal modulation).
+- Measure: uniform surface measure dμ = (1/(2π)²) dθ dϕ for orthonormality.
+
+2) Harmonic Basis on T²
+- Complex exponentials form an orthonormal basis for L²(T²):
+  e_{k,m}(θ,ϕ) := exp(i(k θ + m ϕ)),  k, m ∈ ℤ.
+- Real cosine/sine basis is equivalent; we use complex form for compactness.
+
+Orthogonality
+- ⟨e_{k,m}, e_{k',m'}⟩ := ∫_{T²} e_{k,m} e_{k',m'}^* dμ = δ_{k,k'} δ_{m,m'}.
+
+Completeness (Fourier series)
+- Any square-integrable field B(θ,ϕ) admits B = Σ_{k,m∈ℤ} B_{k,m} e_{k,m} with convergence in L².
+
+3) Coefficients and Parseval
+- Coefficients (Fourier transform on T²):
+  B_{k,m} = ⟨B, e_{k,m}⟩ = ∫_{T²} B(θ,ϕ) e^{-i(k θ + m ϕ)} dμ.
+- Parseval energy identity:
+  ∥B∥²_{L²} = ⟨B,B⟩ = Σ_{k,m} |B_{k,m}|².
+
+4) Prototype Mode and Temporal Modulation
+- Prototype single mode (real): B(θ,ϕ,t) = Re{ A e^{i(k θ + m ϕ + ω t + φ_0)} } = |A| cos(kθ + mϕ + ω t + φ_0).
+- General time dependence: B(θ,ϕ,t) = Σ_{k,m} Re{ A_{k,m}(t) e^{i(k θ + m ϕ)} } with A_{k,m}(t) possibly narrowband near ω_{k,m}.
+
+5) Weighting and Inner Products
+- If nonuniform weighting w(θ,ϕ) > 0 is required (e.g., sensor coverage), use weighted inner product
+  ⟨f,g⟩_w := ∫ f g^* w dμ. Orthonormal basis adapts via Gram–Schmidt or use weighted least squares for coefficient estimation.
+
+6) Coefficient Estimation from Samples
+Sampling grid
+- Uniform M_θ × M_ϕ grid: θ_p = 2π p/M_θ, ϕ_q = 2π q/M_ϕ, p=0..M_θ−1, q=0..M_ϕ−1.
+- Discrete coefficients by DFT:
+  \hat B_{k,m} = (1/(M_θ M_ϕ)) Σ_{p,q} B(θ_p,ϕ_q) e^{-i(k θ_p + m ϕ_q)},  k ∈ K, m ∈ M
+  where K = {−⌊M_θ/2⌋..⌊(M_θ−1)/2⌋}, M = {−⌊M_ϕ/2⌋..⌊(M_ϕ−1)/2⌋}.
+Aliasing
+- Resolvable band limited to |k| < M_θ/2, |m| < M_ϕ/2. Higher modes alias unless pre-filtered.
+Windowing and noise
+- Apply spatial windows to reduce leakage for non-integer modes or incomplete periods; model noise to compute estimator variance.
+
+7) Error Bounds
+- Truncation error (spectral tail): E_trunc = Σ_{(k,m)∉Ω} |B_{k,m}|², where Ω is the kept index set.
+- Discrete approximation error for smooth B:
+  If B has s continuous derivatives, aliasing/approximation error decreases as O(M_θ^{-s} + M_ϕ^{-s}).
+- With additive i.i.d. noise σ² per sample, Var(\hat B_{k,m}) ≈ σ²/(M_θ M_ϕ).
+
+8) Mode Selection and Energy Metrics
+- Modal energy: E_{k,m} := |B_{k,m}|². Fractional energy in a region Ω: E_Ω/∥B∥² = (Σ_{(k,m)∈Ω} |B_{k,m}|²) / (Σ_{k,m} |B_{k,m}|²).
+- Dominant mode criterion: (k*,m*) = argmax |B_{k,m}| over admissible set.
+
+9) Geometry–Spectrum Mapping (symbolic)
+- For winding patterns parameterized by path γ(s) on T², expected dominant indices relate to spatial periodicities along θ and ϕ.
+- If winding has period P_θ in θ and P_ϕ in ϕ, dominant harmonics near k ≈ 2π/P_θ and m ≈ 2π/P_ϕ (integer-rounded on T²).
+
+10) Temporal Analysis (optional)
+- For time-varying coefficients A_{k,m}(t), estimate via short-time Fourier transform (STFT) per (k,m):
+  Â_{k,m}(t_0) = ∫ B(θ,ϕ,t) e^{-i(kθ+mϕ)} h(t−t_0) e^{-i ω t} dμ dt.
+- Track drift and modulation of |A_{k,m}(t)| and phase for coherence analysis.
+
+11) Validation Checklist
+- Orthogonality test: verify ⟨e_{k,m}, e_{k',m'}⟩ ≈ δ_{k,k'} δ_{m,m'} numerically on the chosen grid.
+- Parseval check: Σ_{k,m} |\hat B_{k,m}|² ≈ average of |B|² over samples.
+- Convergence: increase M_θ, M_ϕ; confirm coefficient stability and energy convergence.
+
+12) Worked Symbolic Examples
+- Single mode: B(θ,ϕ) = B0 cos(k0 θ + m0 ϕ + φ0) ⇒ only B_{±k0,±m0} nonzero (up to phase), with energy concentrated in those indices.
+- Sum of two modes: coefficients superpose linearly; inspect energy split and interference via phases.
+
+13) Reporting Template
+- Specify sampling (M_θ, M_ϕ), index ranges, windows, and weighting.
+- Provide \hat B_{k,m} table (or dominant subset), truncation error estimate, and validation checks.
+- If time-varying, provide |Â_{k,m}(t)| trajectories and bandwidth.

@@ -1,0 +1,21 @@
+Section 8 — Definitions & Variables Index (source-grounded)
+
+Fabrication/Measurement
+- B_toroid; parameters μ, N, I, r [Lines 5–37].
+- Vortex alignment: β, θ_phase [Lines 38–84].
+- Time-dependent B(t): B0, ω, ϕ, γ; per-coil modulation f_i(t) [Lines 86–179].
+
+Energy Transfer/Amplification
+- P_net; η_ij, I_i, E_j [Lines 181–268].
+- G_res; Q_eff, Δϕ [Lines 270–310].
+
+Modeling from Patents/Lab Notes/Forums
+- M_eff; k_ij, L_i [Lines 316–386].
+- B_total; B_i, τ_i, ϕ_i [Lines 388–471].
+- κ; F_coherence, P_out,i, P_in,j [Lines 473–551].
+
+Archives & Gray Literature
+- V_induced(t); Φ_i(t), λ, θ_i(t) [Lines 554–636].
+- R; δ_uncertainty [Lines 638–672].
+
+End of definitions.

@@ -1,0 +1,29 @@
+Section 2 — Structured Notes (source-grounded)
+Sources:
+- PART II — ELECTROMAGNETIC INDUCTION.txt
+- Chapter_5_Electromagnetic_Induction_and_Flux_Dynamics_Analysis.txt
+- Chapter_6_Resonance_Oscillations_and_Magnetic_Circuits_Analysis.txt
+- Chapter_7_Motion_Induced_Magnetic_Effects_Analysis.txt
+- Chapter_8_Topology_and_Geometry_of_Magnetic_Fields_Analysis.txt
+
+Definitions/Terminology
+- Induction mechanisms and Lenz’s law [PART II Lines 3–13].
+- Self/mutual inductance; coupling; energy storage [PART II Lines 15–24].
+- Eddy currents; skin effect; damping [PART II Lines 25–33].
+- LC resonance; coupling; Q; magnetic circuits [PART II Lines 46–85].
+- Motion: Lorentz force; torque; generator EMF; power [PART II Lines 86–114].
+- Topology: toroids; Halbach arrays; vortices; defects [PART II Lines 123–162].
+
+Core Equations (explicit in sources)
+- E = −dΦ/dt; L = N²μA/l; M = k√(L₁L₂); P = I²R [Chapter 5 Analysis Lines 61–65].
+- f₀ = 1/(2π√(LC)); Q = ω₀L/R = (1/R)√(L/C); k = M/√(L₁L₂); U = ½LI² + ½CV² [Chapter 6 Analysis Lines 61–65].
+- F = q(v×B); τ = m×B; E = −N(dΦ/dt); P = F·v = τ·ω [Chapter 7 Analysis Lines 61–65].
+- Toroidal coordinates; B_enhanced = B0×enhancement_factor [Chapter 8 Analysis Lines 61–63].
+
+Cautions/Limitations
+- Sources note missing numeric values/examples across chapters (e.g., EMF magnitudes, Q-values, enhancement factors) [Chapter 5 Lines 8,14,20; Chapter 6 Lines 8,14,20; Chapter 7 Lines 8,14,20; Chapter 8 Lines 8,14,20].
+
+Separation
+- Mainstream content only; no speculative/community-labeled items identified.
+
+End of notes.

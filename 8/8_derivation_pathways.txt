@@ -1,0 +1,22 @@
+Section 8 — Derivation Pathways (from provided equations only)
+
+Pathway A — Fabrication Targeting
+1) Use B_toroid=μNI/(2πr) to set geometry/current; verify with field mapping.
+2) If using phasing, fit β from B_vortex vs θ_phase (created model) under constant inputs.
+
+Pathway B — Measurement/Control
+1) Model B(t)=B0 cos(ωt+ϕ) ê + γ Σ B_i f_i(t); identify sidebands; tune γ via control loops.
+
+Pathway C — Energy/Amplification
+1) Compute P_net=Σ η_ij I_i E_j and G_res=Q_eff/(1−cos Δϕ); enforce independent power accounting; ring‑down vs −3 dB Q match.
+
+Pathway D — Patent/Lab/Forum Models
+1) Estimate M_eff=Σ k_ij L_i L_j; down‑select designs for FEM.
+2) Fit B_total=Σ B_i e^{−t/τ_i} cos ϕ_i to lab data; extract τ_i, ϕ_i.
+3) Compute κ with a transparent protocol; share raw logs.
+
+Pathway E — Archives & Gray Literature
+1) Reconstruct V_induced(t)=−d/dt Σ Φ_i(1+λ cos θ_i) from archives; bound λ.
+2) Compute R=(#reproducible/#total)(1−δ_uncertainty); evaluate claim robustness.
+
+End.

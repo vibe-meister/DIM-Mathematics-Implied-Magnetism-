@@ -1,0 +1,11 @@
+Section 5 Analysis Template — Part V Overview
+Source files:
+- PART V — MARKO RODIN, TESLA, AND VO.txt
+- Chapter_5_Electromagnetic_Induction_with_Quantitative_Frameworks_Analysis.txt
+- Chapter_6_Resonance_Oscillations_and_Toroidal_LC_Systems_Analysis.txt
+- Chapter_7_Motion_Induced_Magnetic_Effects_with_Equations_Analysis.txt
+- Chapter_8_Topology_Vortex_Math_and_Rodin_Toroidal_Framework_Analysis.txt
+
+Purpose: Standardize analysis; extract only from sources; separate mainstream/speculative where labeled.
+
+[Same section headings as folder 1 template; fill from folder 5 sources]

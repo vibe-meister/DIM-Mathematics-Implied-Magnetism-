@@ -1,0 +1,123 @@
+Section 5.5 — Structured Notes (Grounded in source content only)
+Source: Part V.V — MARKO RODIN & VORTEX MATHE.txt
+
+Scope
+- This file summarizes and organizes the content of Part V (Rodin & Vortex Mathematics) into mainstream vs. speculative sections, extracting equations and variables as listed. No new claims are added.
+
+V.0 — Notation, Conventions, and Index
+- Vectors/scalars: vectors bold, scalars plain [V.0.1].
+- Units: T (tesla), A (ampere), H (henry), F (farad), Wb (weber), J (joule) [V.0.2].
+- Toroidal coordinates [V.0.3]: x=(R+rcosθ)cosϕ; y=(R+rcosθ)sinϕ; z=rsinθ. (Also in Appendix V.A.)
+- Digital-root function [V.0.4]: d(n)=1+((n−1) mod 9), n∈Z+.
+
+V.1 — Historical & Conceptual Foundations
+- Marko Rodin references and community history (speculative source) [V.1.1].
+- Relation to toroidal field theory and sacred geometry [V.1.2].
+- Taxonomy: mainstream EM vs. Rodin hypotheses [V.1.3].
+
+V.2 — Vortex Mathematics: Discrete Number Mappings
+- Doubling sequence modulo 9 [V.2.1]: sequence 1,2,4,8,7,5,…
+- Digital-root properties and residues [V.2.2].
+- Mapping integers to toroidal angle (speculative) [V.2.3]: ϕ(n)=2π d(n)/9.
+- Phase-index mapping for multi-layer windings [V.2.4].
+- Group properties of multiplication mod 9 [V.2.5].
+
+V.3 — Geometry & Topology of Rodin Windings
+- Toroidal winding parameterization: continuous and discrete forms [V.3.1].
+- Winding permutation matrices W_ij (layer i, turn index j) [V.3.2].
+- Crossover points, knotting, topological invariants (linking number Lk) [V.3.3]. Lk formula provided (Gauss linking integral).
+- Constructive rules for Rodin topology (community recipes; speculative) [V.3.4].
+
+V.4 — Electromagnetic Modeling (Quasi-static)
+- Current density for discrete turns [V.4.1]: J(r)=Σ_k I_k δ(r−r_k) τ̂^k.
+- Vector potential in Coulomb gauge [V.4.2]: A(r)=(μ0/4π) ∫ J(r′)/|r−r′| d^3r′.
+- Biot–Savart discrete-turn sum for B [V.4.3]: B(r)=(μ0/4π) Σ_k I_k ∮_Ck dℓ×(r−r′)/|r−r′|^3.
+- Toroidal/poloidal decomposition [V.4.4]: B = Bϕ ϕ̂ + Bθ θ̂ + Br r̂.
+- Energy density and total stored energy [V.4.5]: uB=B^2/(2μ0); W=∫_V uB dV.
+
+V.5 — Inductance, Mutual Coupling & Effective Parameters
+- Self-inductance (general integral) [V.5.1]: L=(μ0/4π) ∬ dℓ·dℓ′/|r−r′|.
+- Mutual inductance [V.5.2]: M12=(μ0/4π) ∮_C1 ∮_C2 dℓ1·dℓ2/|r1−r2|.
+- Effective coupling coefficient [V.5.3]: k = M12 / √(L1 L2).
+- Toroidal approximation (use with caution for non-uniform windings) [V.5.4]: L ≈ μ N^2 A / (2π R).
+
+V.6 — Modal & Spectral Analysis (Fourier / Harmonics)
+- Angular Fourier decomposition [V.6.1]: B(ρ,ϕ,z)=Σ_{n=−∞}^{∞} B̃_n(ρ,z) e^{j n ϕ}.
+- Mapping digital-root indices to modal indices (speculative) [V.6.2]: n ↔ d(n).
+- Resonant modal condition (subset) [V.6.3]: ω_n^2 = 1/(L_n C_n).
+- Spectral power density and harmonic ratios (measurement variables) [V.6.4].
+
+V.7 — Resonance & Vortex Dynamics
+- LC/Resonator relations for Rodin arrays [V.7.1]: ω0=1/√(L_eff C_eff); Q=ω0 L_eff / R_eff.
+- Phase coherence condition (created/speculative) [V.7.2]: Δϕ=2π m, m∈Z ⇒ maximal constructive coupling.
+- Speculative vortex amplification model (created) [V.7.3]: Beff(t)=Bbase(1+α sin(ω t + ϕ_d)); α empirical, ϕ_d design phase.
+- Energy transfer (Poynting) [V.7.4]: S=(1/μ0) E×B.
+
+V.8 — Scalar / Longitudinal Field Claims & Aether Models (catalog)
+- Historical mentions (Tesla, Meyl, Bearden) [V.8.1] — catalog only.
+- Scalar potential wave equation (created/fringe) [V.8.2]: ∇^2Φ − (1/c_s^2) ∂^2Φ/∂t^2 = 0; c_s unknown.
+- Coupling term (created/speculative) [V.8.3]: L_int = g_s Φ E·B; g_s empirical.
+- Experimental observables suggested (variables only) [V.8.4].
+
+V.9 — Experimental Design Templates & Measurement Variables
+- Build parameters [V.9.1]: N (turns/layer), d_w (wire diameter), R (major radius), r (minor), s (spacing), μ_r (core).
+- Instrumentation [V.9.2]: gaussmeter σ_B, oscilloscope BW, true-RMS power accuracy, FFT bin count N_FFT.
+- Channels [V.9.3]: V_in(t), I_in(t), V_out(t), I_out(t), B_x(t), B_y(t), B_z(t); sample rate f_s.
+- Reproducibility protocol [V.9.4]: N_runs≥10, blind passes, swapped-ground control, dummy load baseline.
+- Data outputs [V.9.5]: spectral coherence C(f), cross-correlation R_xy(τ), Allan deviation of B field.
+
+V.10 — Construction Blueprints
+- Single-layer Rodin coil: turn table & winding diagram (turn counts as variables) [V.10.1].
+- Multi-layer variant: interleaved stacking, crossover routing [V.10.2].
+- Toroidal core selection checklist: ferrite grade vs air core, loss tangents, B_sat [V.10.3].
+- High-voltage coupling (Tesla integration): top-load radius R_td, spark gap d_gap, safety distances [V.10.4].
+
+V.11 — Simulation & Numerical Recipes
+- FEM setup checklist [V.11.1]: domain, BCs, mesh near windings, nonlinear μ(B).
+- Biot–Savart discrete summation algorithm (pseudocode variables) [V.11.2].
+- FFT & spectral pipelines: windowing, zero-padding, averaging windows N_avg [V.11.3].
+- Parameter sweep plan [V.11.4]: vary N,R,r,s; run M simulations; capture B_max, Q, ω0.
+
+V.12 — Data Interpretation & Claim Verification
+- Power accounting (mandatory) [V.12.1]: Pin=Vin Īin; Pout=Vout Īout; ΔP=Pout−Pin.
+- Uncertainty propagation (example) [V.12.2]: σ_P ≈ (I σ_V)^2 + (V σ_I)^2.
+- Reproducibility statistic [V.12.3]: z = ΔP / σ_ΔP; threshold [V.12.4]: z≥5 + independent replication.
+
+V.13 — Patents, Gray Literature & Community Sources (curated)
+- Index of related patents (to consult), forum threads/datasets, lab notebook scans [V.13.1–V.13.2].
+- Checklist to extract credible experimental claims [V.13.3].
+
+V.14 — Critiques, Failure Modes & Null Tests
+- Artifacts: ground loops, probe loading, instrument aliasing, thermal drift [V.14.1].
+- Null designs: shorted-coil dummy, reversed wiring, independent calibrated meters [V.14.2].
+- Skeptical metrics: energy residual, spectral leakage checks, EMI coupling audit [V.14.3].
+
+V.15 — Roadmap to Publishable Experiments
+- Minimum reproducible kit (BOM), data packages (raw logs, CAD, netlist, simulation files), suggested venues [V.15.1–V.15.3].
+
+Appendix V.A — Key Equations (collected)
+- Toroidal mapping: x=(R+rcosθ)cosϕ; y=(R+rcosθ)sinϕ; z=rsinθ.
+- Biot–Savart: B(r)=(μ0/4π) Σ_k I_k ∮_Ck dℓ×(r−r′)/|r−r′|^3.
+- Self & mutual inductance forms; energy density and Poynting vector (as above) [A1–A4].
+
+Appendix V.B — Speculative / Created Equations (labeled)
+- Rodin phase mapping: ϕ(n)=2π d(n)/9.
+- Vortex amplification: B_vortex(t)=B0(1+α sin(ω t + ϕ)).
+- Scalar coupling term: L_int = g_s Φ E·B.
+
+Constraints & Separation
+- Mainstream EM content: V.3 (topology, not claims), V.4, V.5, V.6.1, V.6.3, V.7.1, V.7.4, V.9–V.12, V.14–V.15, Appendix V.A.
+- Speculative/created/community content: V.2.3, V.3.4, V.6.2, V.7.2, V.7.3, V.8.2–V.8.3, Appendix V.B.
+
+Measurement & Data (from V.9)
+- Variables to record: N, d_w, R, r, s, μ_r; V_in(t), I_in(t), V_out(t), I_out(t), B_x,y,z(t); instrument specs σ_B, BW, N_FFT; sampling rate f_s; N_runs.
+- Outputs to compute: C(f), R_xy(τ), Allan deviation(B); Pin, Pout, ΔP; σ_P; z.
+
+Non-interpretative Open Items (anchored to source labels; no new claims)
+- Test correlation between digital-root mapping and modal indices [V.6.2].
+- Measure feasibility/parameters of Beff model (α, ϕ_d) [V.7.3].
+- Validate phase coherence condition in arrays [V.7.2].
+- Assess scalar/fringe constructs only as catalog variables without attribution [V.8.2–V.8.4].
+- Compare L via general integral versus toroidal approximation for non-uniform windings [V.5.1 vs V.5.4].
+
+End of notes.

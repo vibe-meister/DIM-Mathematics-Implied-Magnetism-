@@ -1,0 +1,41 @@
+Fringe Energy Propagation — Formal Specification
+
+1) Model
+- Signal model: B(t) = Σ_{n=1}^N A_n e^{−t/τ_n} cos(ω_n t + ϕ_n),  t ≥ 0.
+- Equivalent complex form: B(t) = Re{ Σ_{n=1}^N c_n e^{(−α_n + i ω_n) t} }, with α_n := 1/τ_n > 0, c_n ∈ ℂ.
+- Discrete samples: y[k] = B(k Δt) + ε[k], k=0..K−1, with sampling period Δt and noise ε.
+
+2) Identifiability Conditions
+- Distinct poles: pairs (α_n, ω_n) must be distinct; minimal separation limits conditioning.
+- Sampling: Δt small enough to avoid aliasing (|ω_n| < π/Δt) and to resolve decay (K Δt sufficiently larger than 1/min α_n).
+- SNR: estimation variance scales inversely with SNR and number of samples.
+
+3) Estimation Methods
+- Prony method / Matrix Pencil / ESPRIT: estimate complex poles z_n = e^{(−α_n + i ω_n) Δt} from y[k]; then α_n = −(1/Δt) ln |z_n|, ω_n = (1/Δt) arg(z_n).
+- Amplitudes/phases: solve linear least squares for c_n (or A_n, ϕ_n) given {α_n, ω_n}.
+- Alternatives: sparse recovery in a discretized (α,ω) dictionary; nonlinear least squares (Levenberg–Marquardt) with good initialization.
+
+4) Model Order Selection (N)
+- Information criteria: choose N via AIC/BIC over candidate orders.
+- Stabilization diagram: plot estimated poles vs. model order; retain poles stable across orders.
+
+5) Uncertainty and CRLB (sketch)
+- Under Gaussian noise and known Δt, Fisher information yields Cramér–Rao lower bounds for α_n, ω_n, and amplitudes.
+- Practical: bootstrap residuals to form CIs for {α_n, ω_n, A_n, ϕ_n}; report pole clustering variability in stabilization diagrams.
+
+6) Windowing and Leakage
+- Finite window K induces leakage; taper y[k] with windows (e.g., Hann) to reduce spectral leakage, trading resolution.
+- Detrend DC/prewhiten if needed; ensure the window supports the shortest τ_n and resolves the slowest decays.
+
+7) Validation and Diagnostics
+- Residual analysis: r[k] = y[k] − B̂(kΔt); inspect whiteness and variance; lack of structure indicates adequate fit.
+- Pole reflection: ensure estimated α_n > 0 (stability); reject spurious poles outside admissible regions.
+- Cross-validation: fit on subset; test on held‑out samples; confirm parameter stability.
+
+8) Reporting Template
+- Sampling: Δt, K, window; noise model; preprocessing.
+- Estimated parameters with CIs: {α_n, ω_n, A_n, ϕ_n}, chosen N and selection criterion.
+- Diagnostics: residual metrics, stabilization diagram, sensitivity to Δt and window.
+
+9) Worked Symbolic Example
+- For N=1 with B(t) = A e^{−t/τ} cos(ω t + ϕ), Prony/ESPRIT recovers a single pole z = e^{(−1/τ + i ω) Δt}; solve amplitudes by least squares; bootstrap for CI.

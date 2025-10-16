@@ -1,0 +1,6 @@
+Experimental Energy Coupling Factor — Redirected
+
+This content has been merged into:
+- DIM/Coherent Energy Metrics/main.txt
+
+Please refer to the merged file for normalized definitions, bounds, and uncertainty.

@@ -1,0 +1,16 @@
+Section 1 — Claims Catalog (source-grounded)
+
+Mainstream (concepts, equations, procedures)
+- Magnetism overview and units [PART I — FOUNDATIONS OF MAGNETISM Lines 17–29].
+- Quantum origins: spin, orbital, exchange; magnetic ordering [PART I — FOUNDATIONS OF MAGNETISM Lines 44–76].
+- Maxwell framework and vector potential [PART I — FOUNDATIONS OF MAGNETISM Lines 78–99; Chapter_3_Field_Theory_of_Magnetism_Analysis.txt Lines 61–65].
+- Boundary/interface behavior; energy/momentum in fields [PART I — FOUNDATIONS OF MAGNETISM Lines 99–114].
+- Materials classification; hysteresis; temperature dependence; anisotropy; engineered materials [PART I — FOUNDATIONS OF MAGNETISM Lines 116–166].
+
+Speculative/community-labeled
+- None identified in folder 1 sources.
+
+Notes
+- Catalog mirrors source content and labeling; no new claims added.
+
+End of catalog.

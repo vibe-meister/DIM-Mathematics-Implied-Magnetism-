@@ -1,0 +1,21 @@
+Section 5 — Structured Notes (source-grounded)
+Sources: PART V overview and Chapters 5–8 analysis files
+
+Definitions/Terminology
+- Induction and flux: E = −dΦB/dt; ΦB = ∫B·dA; Lenz direction [PART V Lines 7–37, 45–61; Ch.5].
+- Self/mutual inductance; coupling k; E_self, E2 [PART V Lines 73–153].
+- Resonance: f0=1/(2π√(LC)); U=½LI²+½CV²; coupled LC equations; Q [PART V Lines 160–360; Ch.6].
+- Motion: F=q(v×B); τ=m×B; generator EMF; ΦB(t) [PART V Lines 376–451; Ch.7].
+- Topology: toroidal (x,y,z); V(n)=n mod 9; B(θ,ϕ)=B0 cos(kθ+ϕ); P=I·E_ind [PART V Lines 459–575; Ch.8].
+
+Core Equations (explicit in sources)
+- See 5_equations_index.txt (all items are cited to PART V line ranges).
+
+Cautions/Limitations
+- Chapter analyses note missing numeric targets (μr, wire gauge losses, parasitics, k and Q ranges, environmental breakdown margins, parameter sets R,r,pitch) [Ch.5 Lines 12–21; Ch.6 Lines 11–14; Ch.7 Lines 11–14; Ch.8 Lines 11–14].
+
+Separation
+- Mainstream content: induction, L/M, LC/Q, Lorentz/torque, ΦB(t), toroidal coordinates.
+- Hypothesis items to test: vortex amplification via phasing; V(n) phasing benefits; spatial B(θ,ϕ) tied to “vortex mathematics”; claimed energy amplification via Rodin sequences.
+
+End of notes.

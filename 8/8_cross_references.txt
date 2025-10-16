@@ -1,0 +1,23 @@
+Section 8 — Cross-References & Reading Order (source-grounded)
+
+Suggested Reading Order
+1) Advanced experimental design (fabrication → measurement → amplification) [Lines 2–310]
+2) Patent-based modeling [Lines 316–386]
+3) Specialist/lab works [Lines 388–471]
+4) Forums/blogs [Lines 473–551]
+5) Private archives [Lines 555–636]
+6) Gray literature curation [Lines 638–672]
+
+Dependencies
+- Fabrication/measurement → modeling/selection → lab fits → community metrics → archival reconstruction → reproducibility triage.
+
+File Cross-Links
+- Template: 8_analysis_template.txt
+- Notes: 8_analysis_notes.txt
+- Equations: 8_equations_index.txt
+- Definitions: 8_definitions_index.txt
+- Claims: 8_claims_catalog.txt
+- Open Qs: 8_open_questions.txt
+- Derivations: 8_derivation_pathways.txt
+
+End.

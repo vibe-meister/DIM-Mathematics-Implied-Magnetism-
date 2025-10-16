@@ -1,0 +1,32 @@
+Section 3 — Definitions & Variables Index (source-grounded)
+
+Toroids & Cylinders
+- Toroidal design: flux confinement, winding density, uniformity [PART III Lines 3–11].
+- Cylindrical solenoids: field uniformity, end effects, multilayer, coupling [PART III Lines 13–21].
+- Arrays and coupled systems: flux interactions, resonant behavior [PART III Lines 23–31].
+
+Harmonics & Modulation
+- Harmonics: fundamental, higher modes, Fourier decomposition [PART III Lines 34–43].
+- Interference & superposition: constructive/destructive, multi-coil [PART III Lines 44–52].
+- Modulation: spatial, temporal, feedback control [PART III Lines 54–62].
+
+Quantum Magnetism
+- Spin systems: ferro/antiferro/frustrated/nano [PART III Lines 65–74].
+- Coherence & entanglement; tunneling [PART III Lines 75–83].
+- Topological spin phenomena: skyrmions, merons, QH analogs [PART III Lines 85–94].
+
+Astro/Geomagnetism
+- Planetary fields: dynamos, reversals, magnetospheres [PART III Lines 95–105].
+- Solar/stellar: sunspots, flux tubes, dynamo cycles [PART III Lines 106–114].
+- Galactic/interstellar: turbulence, synchrotron; Faraday rotation [PART III Lines 116–124].
+- Extreme environments: magnetars, relativistic effects [PART III Lines 126–134].
+
+Measurement & Simulation
+- Measurement: gaussmeters, Hall probes, flux loops; MOKE, Lorentz, SQUID; time-resolved [PART III Lines 136–159].
+- Simulation: FEM, BEM, multi-physics, quantum/lattice [PART III Lines 161–194].
+
+High-Energy & Applications
+- Reconnection, shocks, turbulence; energy transport [PART III Lines 195–218].
+- Applications: motors/generators; SMES; accelerators; spintronics/metamaterials [PART III Lines 219–250].
+
+End of definitions.

@@ -1,0 +1,49 @@
+Rodin Coil Winding Sequence — Formal Specification (Mathematical)
+
+1) Sequence Definitions
+- Core map: S_n := 2^n mod 9 for n ∈ ℕ. Values in {0,1,…,8}. Often the digit 9 is treated as 0 for modular arithmetic on 9.
+- Auxiliary: V(n) := n mod 9 (single-digit mapping) when needed for indexing.
+- Periodicity: since 2 and 9 are coprime and φ(9)=6, the multiplicative order of 2 mod 9 is 6 ⇒ S_{n+6} = S_n.
+
+2) Torus Parameterization
+- Spatial domain T² with (θ,ϕ) ∈ [0,2π)×[0,2π). Define a placement map g: ℕ → T²:
+  g(n) = ( θ_n, ϕ_n ) with θ_n := 2π n / N_θ,  ϕ_n := 2π f(S_n)/N_ϕ,
+  where N_θ, N_ϕ ∈ ℕ and f: {0,…,8}→{0,…,N_ϕ−1} is an injective or prescribed mapping.
+- Layering (optional): add a layer index ℓ_n for multi-layer windings; g(n) = (θ_n, ϕ_n, ℓ_n).
+
+3) Coverage and Discrepancy
+- Coverage target: g({0,…,N−1}) approximates a desired subset of T² with low discrepancy D_N (uniformity measure).
+- Discrepancy bound (heuristic): for periodic sequence of period 6 in ϕ and uniform progression in θ, the ϕ-distribution has at most 6 unique values ⇒ uniformity is limited by f’s image size and N_ϕ.
+- To improve coverage, choose N_θ, N_ϕ coprime and map f to spread the 6 residues across N_ϕ.
+
+4) Winding Density and Spectral Content
+- Define empirical density ρ_N(θ,ϕ) := (1/N) Σ_{n=0}^{N−1} δ(θ−θ_n, ϕ−ϕ_n).
+- Fourier coefficients on T²: ρ̂_N(k,m) := ∫ ρ_N e^{-i(kθ+mϕ)} dμ = (1/N) Σ_{n=0}^{N−1} e^{-i(2π k n / N_θ + 2π m f(S_n)/N_ϕ)}.
+- Harmonic predictions: peaks where the exponential phases align constructively; analyze via exponential sums over periodic S_n.
+
+5) Period-6 Structure and Exponential Sums
+- Let r_j be the 6 distinct residues of S_n over one period; decompose n = 6q + j, j∈{0,…,5}.
+- Then ρ̂_N(k,m) ≈ (1/N) Σ_{q} Σ_{j=0}^5 e^{-i(2π k (6q+j)/N_θ + 2π m f(r_j)/N_ϕ)}.
+- Summation over q yields a Dirichlet kernel factor in k, while fixed residues r_j contribute a 6-term comb in m through f.
+
+6) Design Choices for f and Grids
+- Choose f to maximize mode separation (reduce |ρ̂_N(k,m)| outside targeted harmonics) or to target specific (k,m).
+- Coprimality: pick N_θ, N_ϕ with gcd(N_θ,6)=1 and distribute f(r_j) to minimize clustering modulo N_ϕ.
+
+7) Estimators and Metrics
+- Uniformity: compute star-discrepancy D*_N on a grid; smaller is better.
+- Spectral leakage: L := Σ_{(k,m)∉Ω} |ρ̂_N(k,m)|² for a chosen target index set Ω.
+- Dominant modes: identify (k*,m*) = argmax |ρ̂_N(k,m)|; compare to target harmonics.
+
+8) Asymptotic Behavior
+- For fixed N_θ,N_ϕ and growing N, ρ̂_N(k,m) concentrates at k multiples of N_θ and m in the image of f over the 6 residues; otherwise averages to small values by phase cancellation.
+- If N_θ and the 6 residues are arranged to imitate uniform phases, off-target |ρ̂_N(k,m)| decays like O(1/N).
+
+9) Validation Checklist (Pure Math)
+- Prove order(2 mod 9)=6 ⇒ sequence periodicity.
+- Compute ρ̂_N analytically for small N and numerically for large N; confirm predicted peaks/decays.
+- Evaluate discrepancy D*_N and leakage L for candidate f, N_θ, N_ϕ; choose parameters minimizing L subject to coverage.
+
+10) Reporting Template
+- Document N, N_θ, N_ϕ, mapping f, layer plan, and the index set Ω of desired harmonics.
+- Provide ρ̂_N(k,m) heatmap (or table), D*_N, leakage L, and dominant modes; include rationale for chosen parameters.

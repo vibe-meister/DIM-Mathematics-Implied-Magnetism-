@@ -1,0 +1,20 @@
+Section 8 — Claims Catalog (source-grounded; created/speculative flagged)
+
+Mainstream/Established
+- Toroidal field relation B_toroid=μNI/(2πr) for fabrication targets [Lines 7–23].
+
+Created/Speculative (as labeled)
+- Vortex alignment enhancement B_vortex=B_toroid(1+β sin θ_phase) [Lines 38–84].
+- Time-dependent composite flux B(t)=B0 cos(ωt+ϕ) ê_toroid + γ Σ B_i f_i(t) [Lines 86–179].
+- Coherent energy transfer P_net=Σ η_ij I_i E_j [Lines 181–268].
+- Resonance amplification factor G_res=Q_eff/(1−cos Δϕ) [Lines 270–310].
+- Patent-modeled M_eff=Σ k_ij L_i L_j [Lines 316–386].
+- Lab B_total=Σ B_i e^{−t/τ_i} cos ϕ_i [Lines 388–471].
+- Forum κ=(Σ P_out,i / Σ P_in,j)·F_coherence [Lines 473–551].
+- Archive V_induced(t)=−d/dt Σ Φ_i (1+λ cos θ_i) [Lines 555–636].
+- Gray-literature reproducibility R=(#reproducible/#total)(1−δ_uncertainty) [Lines 640–672].
+
+Notes
+- Items mirror the source; treat created equations as hypotheses requiring rigorous validation.
+
+End of catalog.

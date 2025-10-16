@@ -1,0 +1,44 @@
+Section 6 — Equations Index (source-grounded)
+Sources: see file citations per entry
+
+Conventions
+- Entries: [File] [Lines]: Equation (ASCII)
+
+[PART VI — BEYOND CLASSICAL AND EXPE.txt Lines 17–38, 42–46]
+Meissner decay: B = B0 · exp(− z / λ)
+
+[PART VI — BEYOND CLASSICAL AND EXPE.txt Lines 63–75, 95–109]
+Spin-ice monopole charge: Q_eff = ± ½ (Σ_vertices σ_i)
+
+[PART VI — BEYOND CLASSICAL AND EXPE.txt Lines 117–146, 186–219]
+Coupled magnetization oscillators:
+d²M_i/dt² + γ_i · M_i = − Σ_{j≠i} J_ij · (M_j − M_i)
+
+[PART VI — BEYOND CLASSICAL AND EXPE.txt Lines 230–268]
+Ampère with displacement: ∇×B = μ0 J + ∂E/∂t
+
+[PART VI — BEYOND CLASSICAL AND EXPE.txt Lines 274–347]
+Casimir (with magnetic field):
+F/A = (π² ℏ c)/(720 a⁴) · (1 + (7π²/60) · (eB/ℏc)²)
+
+[PART VI — BEYOND CLASSICAL AND EXPE.txt Lines 362–381]
+Magnetic helicity: H_m = ∫_V A·B dV
+
+[PART VI — BEYOND CLASSICAL AND EXPE.txt Lines 404–417]
+Rodin digital-root sequence: 1,2,4,8,7,5
+
+[PART VI — BEYOND CLASSICAL AND EXPE.txt Lines 423–461]
+Scalar wave (as presented): ∇²Φ − μ ε ∂²Φ/∂t² = 0
+
+[PART VI — BEYOND CLASSICAL AND EXPE.txt Lines 468–538]
+Power exchange in coupled oscillators: P = Σ_{i,j} J_ij · (M_i · M_j)
+
+[PART VI — BEYOND CLASSICAL AND EXPE.txt Lines 545–677]
+Spin–vortex entanglement (concurrence):
+E = ½ (1 + √(1 − C²)),  with  C = max(0, λ1 − λ2 − λ3 − λ4)
+R = ρ (σ_y ⊗ σ_y) ρ* (σ_y ⊗ σ_y)
+
+[PART VI — BEYOND CLASSICAL AND EXPE.txt Lines 683–721]
+Flux-tube coupling: K = (μ0 / 2π) ln(r/a)
+
+End of index.

@@ -1,0 +1,33 @@
+CHAPTER 17: HIGH‑LEVEL RESONANCE SYSTEMS — ANALYSIS
+===================================================
+
+Scope note
+Multi‑coil networks (17.1), nonlinear resonance (17.2), and high‑Q experiments (17.3). Focus on coupling topology, phase control, and stability near bifurcation.
+
+Interesting patterns
+- Order→edge‑of‑chaos→engineering: networks → nonlinearities → practical rigs.
+- Phase coherence recurs as the dominant lever for energy localization.
+- Mode splitting in small N transitions to pass‑/stop‑bands in arrays.
+
+Missing numbers
+- Resonant f0 sets per configuration; Q, coupling k, mutual M; detuning tolerances Δf/f0; drive thresholds for bifurcation.
+
+Frequency analysis
+- Two‑coil split f±≈f0√(1±k); arrays exhibit minibands; nonlinear drive introduces harmonics/subharmonics and frequency pulling.
+
+Sequences
+- Tuning path: estimate → coarse couple → sweep → trim geometry → lock phase.
+- Nonlinear study: small‑signal → compression → period‑doubling → chaos map.
+
+Entropy and randomness
+- Phase noise converts to amplitude noise in high‑Q; chaotic windows elevate effective entropy.
+
+Key length detection
+- Beating period 1/|f+−f−| indicates weak coupling; array cell length sets spatial key for standing waves.
+
+Basic insight
+- High energy density follows coherence, not brute drive power; control loops (PLL/AFC) are as critical as hardware.
+
+Feeds later subjects
+- Primes Ch. 21 (Tesla networks) and Ch. 22 (harmonic networks); informs measurement choices (Ch. 24).
+

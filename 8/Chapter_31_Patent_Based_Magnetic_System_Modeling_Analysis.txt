@@ -1,0 +1,42 @@
+CHAPTER 31: PATENT‑BASED MAGNETIC SYSTEM MODELING — ANALYSIS
+===========================================================
+
+Scope note
+Abstracts patent topologies into an effective coupling model: M_eff=Σ k_ij L_i L_j. Goal: compare claimed arrays with measurable coupling and transfer efficiency.
+
+Interesting patterns
+- Patent schematics often imply high homogeneity; summation over pairs captures superposition of mutuals.
+- Model is agnostic to geometry details, enabling quick screening before full FEM.
+
+Missing numbers
+- No L_i, k_ij estimates or bounds; lacks spacing/orientation distributions typical in real builds.
+- Absent efficiency metrics and thermal limits to contextualize M_eff benefits.
+
+Frequency analysis
+- M_eff shapes bandwidth and coupling; high M_eff can overdamp if R is not minimized.
+- Frequency‑dependent L(ω), k(ω) from proximity/capacitive paths are not yet included.
+
+Sequences
+- Extract topology from patent → estimate L_i, k_ij (back‑of‑envelope) → compute M_eff → down‑select for FEM → prototype.
+
+Entropy and randomness
+- Manufacturing scatter in k_ij broadens performance; Monte Carlo on tolerances recommended.
+
+Key length detection
+- Array lattice constants and loop perimeters set dominant modal spacings.
+
+Basic insight
+- A compact M_eff model can falsify over‑ambitious claims early; only designs with robust coupling under tolerances proceed.
+
+Feeds later subjects
+- Bridges to lab replication (Ch. 32) and forum/gray claims (Ch. 33, 35) by giving a quantitative baseline.
+
+Checks
+- Cross‑validate M_eff predictions with FEM and measured S‑parameters.
+- Compare predicted transfer efficiency versus measured under matched loads.
+
+Unanswered questions (31)
+1) What realistic k_ij distributions arise from target coil spacing/orientation?
+2) How strongly do parasitics at operating ω reduce the effective M compared to DC estimates?
+3) What M_eff is needed to outperform simpler, fewer‑coil designs?
+

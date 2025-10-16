@@ -1,0 +1,21 @@
+Section 7 — Structured Notes (source-grounded)
+Source: PART VII — FRINGE AND THEORETICAL E.txt
+
+Created/Speculative equations and concepts (as labeled)
+- Rodin sequence S_n=2^n mod 9 (winding/phase coding) [Lines 7–27].
+- Vortex amplification model B_vortex(t) with α, f_vortex, ϕ [Lines 40–93].
+- Scalar magnetic waves equation [Lines 96–127].
+- Toroidal harmonic modulation B(θ,ϕ,t) [Lines 129–173].
+- Coherent energy transfer P_net with η_ij [Lines 175–255].
+- Fringe amplification G_fringe with F_phase=1+cos(Δϕ_vortex) [Lines 257–323].
+- Spin–vortex coherence energy E_coh [Lines 325–415].
+- Subtle flux coupling K_subtle [Lines 417–472].
+- Multi-mode decay/oscillation B_fringe(t) [Lines 475–536].
+
+Cautions/Limitations
+- All items are “Created Equations” per source and require stringent controls, independent power accounting, and null tests.
+
+Usage Guidance
+- Treat as hypothesis templates for experimental design; reference Parts IV–V for protocols, and Parts I–III for baseline physics.
+
+End of notes.

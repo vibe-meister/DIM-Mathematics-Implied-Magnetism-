@@ -1,0 +1,32 @@
+Phase-Coherent Energy Transfer — Compiled (Merged)
+
+Scope
+- Merges: Coherent Vortex Energy Transfer + Coupled Vortex Energy Transfer
+- Core constructs: phase offsets Δϕ, coupling coefficients η_ij (or k_ij via inductive mapping), and quality factors Q.
+
+Unified Statement
+- Consider N driven resonant elements with currents I_i(t)=I_i0 cos(ωt+ϕ_i) and induced fields/voltages E_j(t)=E_j0 cos(ωt+ψ_j), coupled through η_ij(geometry, frequency, materials).
+- The time-averaged net power exchange across the network is governed by phase relations Δϕ_ij=(ϕ_i−ψ_j), coupling strengths η_ij (or k_ij for inductive coupling), and resonator Q.
+
+Representative Relations
+- Network power:  ⟨P_net⟩ = Σ_{i,j} ½ η_ij I_i0 E_j0 cos(Δϕ_ij)
+- Inductive mapping: η_ij ↔ ω M_ij with M_ij = k_ij √(L_i L_j)
+- Q links ringdown τ and bandwidth: Q = ω0 τ / 2 = f0 / Δf_−3dB
+
+Open Variables to Define
+- Geometry→η_ij map (or k_ij, M_ij) and its frequency dependence
+- Optimal phase schedules {ϕ_i, ψ_j} under constraints (drive limits, stability)
+- Loss model (parasitic R, radiation, core losses) and its impact on effective η_ij, Q
+
+Three ways to complete/exhaust the math
+1) Conservative network derivation and bounds
+   - Derive ⟨P_net⟩ from a passive LCR network with mutuals; prove conservation constraints and reciprocity conditions on η_ij (or M_ij).
+   - Establish upper bounds on ⟨P_net⟩ in terms of available source power, Q, and |η_ij|; identify when active elements are required.
+
+2) Phase optimization with robustness
+   - Formulate max ⟨P_net⟩ over {ϕ_i, ψ_j} given estimated η_ij and Q; obtain closed-form optima for small N and convex relaxations for larger N.
+   - Analyze sensitivity to phase jitter σ_ϕ and detuning Δω; provide robust schedules achieving ≥(1−ε) of optimum.
+
+3) Identification and validation protocol
+   - Phase-sweep experiments to estimate η_ij (or k_ij) and verify reciprocity; measure Q via ringdown and bandwidth; predict ⟨P_net⟩ and compare to data.
+   - Report effect sizes with uncertainties; conclude whether phase coherence yields advantage vs. matched controls.

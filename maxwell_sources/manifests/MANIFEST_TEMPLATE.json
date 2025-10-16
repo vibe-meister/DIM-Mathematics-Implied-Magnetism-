@@ -1,0 +1,18 @@
+{
+  "title": "",
+  "author": "James Clerk Maxwell",
+  "type": "treatise|paper|letter|lecture",
+  "year": null,
+  "url": "",
+  "accessed": "",
+  "sha256": "",
+  "file": "primary_pdfs/FILE_NAME.pdf",
+  "edition": "",
+  "notes": "",
+  "coverage": {
+    "field_equations": true,
+    "constitutive_relations": true,
+    "energy_poynting": true,
+    "stress_tensor": true
+  }
+}

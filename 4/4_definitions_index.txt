@@ -1,0 +1,44 @@
+Section 4 — Definitions & Variables Index (source-grounded)
+
+Resonance Networks & Nonlinear Phenomena
+- Multi-coil resonant networks; phase coherence; loss minimization [PART IV Lines 3–12].
+- Nonlinear resonance: harmonics, bifurcation, chaos; pulsed/modulated systems [PART IV Lines 13–20].
+- High-Q experiments: Tesla coils, toroid arrays, RF monitoring [PART IV Lines 21–28].
+
+Tesla Coils & High-Frequency
+- Primary/secondary optimization; topload design; grounding [PART IV Lines 29–37].
+- Energy transfer: capacitive/inductive coupling; wireless power; arrays [PART IV Lines 38–45].
+- Safety/metrology: insulation, HV measurement, EMI [PART IV Lines 46–53].
+
+Vortex Geometries
+- Flux tubes, vortex loops; toroidal interactions; stability [PART IV Lines 55–62].
+- Experimental systems; visualization; resonance in vortex structures [PART IV Lines 63–70].
+- Coupled vortex arrays; phase alignment; applications [PART IV Lines 71–77].
+
+Rodin & Vortex Mathematics (Pre-Equations)
+- Concept overview; topological constructs; experimental relevance [PART IV Lines 79–103].
+
+Tesla’s Experiments & Theories
+- Resonant transmission; longitudinal hypotheses; grounding/ionosphere [PART IV Lines 105–113].
+- Mechanical–electrical analogies; HF oscillatory circuits; verification [PART IV Lines 113–119].
+- Coil network experiments; phase alignment; multi-coil strategies [PART IV Lines 121–127].
+
+Harmonic & Toroidal Coupling
+- Toroidal coupling: flux confinement; phase coherence; uniformity [PART IV Lines 129–137].
+- Harmonic network analysis; multi-frequency tuning; control/measurement [PART IV Lines 138–145].
+- Applications: wireless HV transfer; field steering; preliminary over-unity setups [PART IV Lines 146–153].
+
+Quantum & Subtle Energy Considerations
+- Low-energy anomalies; spin coherence; subtle interactions; detection [PART IV Lines 155–177].
+
+Experimental Design & Protocols
+- Build: materials, tolerances, winding patterns [PART IV Lines 179–187].
+- Measure: instruments; HV/HF instrumentation; time-synced logging [PART IV Lines 188–195].
+- Validate: controls; blind trials; documentation [PART IV Lines 196–203].
+
+Transition to Equations & Synthesis
+- Mapping: vector/toroidal parametrization; harmonic decomposition [PART IV Lines 205–211].
+- Preparation: variables, constants, modular relations; phase/frequency; efficiency [PART IV Lines 213–219].
+- Bridging: geometry with topological number systems; dataset prep; Part V readiness [PART IV Lines 221–227].
+
+End of definitions.

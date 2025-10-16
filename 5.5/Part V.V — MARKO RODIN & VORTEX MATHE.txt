@@ -1,0 +1,1609 @@
+Part V — MARKO RODIN & VORTEX MATHEMATICS — Full Chapter Breakdown (detailed subsections + equations)
+
+Below is a complete, research-grade chapter breakdown for Part V, expanded to a deep sub-subsection level. Where a governing equation is relevant I include it in LaTeX. I label items that are speculative / community-derived (Rodin / vortex claims) so you can separate mainstream physics from hypothesis. No prose narrative — only structural headings, topic labels, equations, and experimental/variable lists.
+
+V.0 — Notation, Conventions, and Index
+
+V.0.1 Notation conventions (vectors boldface 
+𝑣
+v; scalars plain)
+
+V.0.2 Units and SI reminders (T, A, H, F, Wb, J)
+
+V.0.3 Toroidal coordinates and mapping: 
+(
+𝑟
+,
+𝜃
+,
+𝜙
+)
+(r,θ,ϕ) where 
+𝜃
+θ = poloidal angle, 
+𝜙
+ϕ = toroidal angle
+
+Coordinate relations:
+
+𝑥
+=
+(
+𝑅
++
+𝑟
+cos
+⁡
+𝜃
+)
+cos
+⁡
+𝜙
+,
+𝑦
+=
+(
+𝑅
++
+𝑟
+cos
+⁡
+𝜃
+)
+sin
+⁡
+𝜙
+,
+𝑧
+=
+𝑟
+sin
+⁡
+𝜃
+x=(R+rcosθ)cosϕ,y=(R+rcosθ)sinϕ,z=rsinθ
+
+V.0.4 Digital-root function used in Rodin mapping:
+
+𝑑
+(
+𝑛
+)
+=
+1
++
+(
+(
+𝑛
+−
+1
+)
+ 
+m
+o
+d
+ 
+9
+)
+(
+𝑛
+∈
+𝑍
++
+)
+d(n)=1+((n−1)mod9)(n∈Z
++
+)
+V.1 — Historical & Conceptual Foundations
+
+V.1.1 Marko Rodin: published notes, community history (catalog entries) — (speculative source)
+
+V.1.2 Relationship to toroidal field theory and sacred geometry
+
+V.1.3 Distinguish mainstream electromagnetic theory vs Rodin hypotheses (taxonomy)
+
+V.2 — Vortex Mathematics: Discrete Number Mappings
+
+V.2.1 Doubling sequence modulo 9: definition and cycle
+
+𝑆
+𝑛
+=
+2
+𝑛
+ 
+m
+o
+d
+ 
+9
+sequence: 
+1
+,
+2
+,
+4
+,
+8
+,
+7
+,
+5
+,
+…
+S
+n
+	​
+
+=2
+n
+mod9sequence: 1,2,4,8,7,5,…
+
+V.2.2 Digital-root mapping properties and residues
+
+V.2.3 Mapping integers 
+𝑛
+n to toroidal angle 
+𝜙
+(
+𝑛
+)
+ϕ(n): (community mapping — speculative)
+
+𝜙
+(
+𝑛
+)
+=
+2
+𝜋
+𝑑
+(
+𝑛
+)
+9
+ϕ(n)=2π
+9
+d(n)
+	​
+
+
+V.2.4 Phase-index mapping for multi-layer windings (index sets & permutations)
+
+V.2.5 Algebraic group properties of the multiplication table modulo 9
+
+V.3 — Geometry & Topology of Rodin Windings
+
+V.3.1 Toroidal winding parameterization: continuous & discrete forms
+
+Continuous path on torus: 
+𝑟
+(
+𝜃
+)
+=
+(
+(
+𝑅
++
+𝑟
+cos
+⁡
+𝜃
+)
+cos
+⁡
+(
+𝑛
+𝜃
++
+𝛼
+)
+,
+…
+ 
+)
+r(θ)=((R+rcosθ)cos(nθ+α),…)
+
+V.3.2 Winding permutation matrices 
+𝑊
+_
+𝑖
+𝑗
+W_ij: layer 
+𝑖
+i, turn index 
+𝑗
+j
+
+V.3.3 Crossover points, knotting and topological invariants (linking number 
+𝐿
+𝑘
+Lk)
+
+𝐿
+𝑘
+=
+1
+4
+𝜋
+∬
+(
+𝑟
+1
+−
+𝑟
+2
+)
+⋅
+(
+𝑑
+𝑟
+1
+×
+𝑑
+𝑟
+2
+)
+∣
+𝑟
+1
+−
+𝑟
+2
+∣
+3
+Lk=
+4π
+1
+	​
+
+∬
+∣r
+1
+	​
+
+−r
+2
+	​
+
+∣
+3
+(r
+1
+	​
+
+−r
+2
+	​
+
+)⋅(dr
+1
+	​
+
+×dr
+2
+	​
+
+)
+	​
+
+
+V.3.4 Constructive rules for Rodin topology (community recipes) — (speculative)
+
+V.4 — Electromagnetic Modeling (Quasi-static)
+
+V.4.1 Current density representation for discrete turns:
+
+𝐽
+(
+𝑟
+)
+=
+∑
+𝑘
+𝐼
+𝑘
+ 
+𝛿
+(
+𝑟
+−
+𝑟
+𝑘
+)
+ 
+𝜏
+^
+𝑘
+J(r)=
+k
+∑
+	​
+
+I
+k
+	​
+
+δ(r−r
+k
+	​
+
+)
+τ
+^
+k
+	​
+
+
+V.4.2 Vector potential (Coulomb gauge) for coil geometry:
+
+𝐴
+(
+𝑟
+)
+=
+𝜇
+0
+4
+𝜋
+∫
+𝐽
+(
+𝑟
+′
+)
+∣
+𝑟
+−
+𝑟
+′
+∣
+𝑑
+3
+𝑟
+′
+A(r)=
+4π
+μ
+0
+	​
+
+	​
+
+∫
+∣r−r
+′
+∣
+J(r
+′
+)
+	​
+
+d
+3
+r
+′
+
+V.4.3 Biot–Savart discrete-turn sum for 
+𝐵
+B:
+
+𝐵
+(
+𝑟
+)
+=
+𝜇
+0
+4
+𝜋
+∑
+𝑘
+𝐼
+𝑘
+∮
+𝐶
+𝑘
+𝑑
+ℓ
+×
+(
+𝑟
+−
+𝑟
+′
+)
+∣
+𝑟
+−
+𝑟
+′
+∣
+3
+B(r)=
+4π
+μ
+0
+	​
+
+	​
+
+k
+∑
+	​
+
+I
+k
+	​
+
+∮
+C
+k
+	​
+
+	​
+
+∣r−r
+′
+∣
+3
+dℓ×(r−r
+′
+)
+	​
+
+
+V.4.4 Toroidal/poloidal decomposition (useful for Rodin patterns):
+
+𝐵
+=
+𝐵
+𝜙
+𝜙
+^
++
+𝐵
+𝜃
+𝜃
+^
++
+𝐵
+𝑟
+𝑟
+^
+B=B
+ϕ
+	​
+
+ϕ
+^
+	​
+
++B
+θ
+	​
+
+θ
+^
++B
+r
+	​
+
+r
+^
+
+V.4.5 Energy density and total stored energy:
+
+𝑢
+𝐵
+=
+𝐵
+2
+2
+𝜇
+0
+,
+𝑊
+=
+∫
+𝑉
+𝑢
+𝐵
+ 
+𝑑
+𝑉
+u
+B
+	​
+
+=
+2μ
+0
+	​
+
+B
+2
+	​
+
+,W=∫
+V
+	​
+
+u
+B
+	​
+
+dV
+V.5 — Inductance, Mutual Coupling & Effective Parameters
+
+V.5.1 Self-inductance (general integral form):
+
+𝐿
+=
+𝜇
+0
+4
+𝜋
+𝐼
+2
+∬
+𝑑
+ℓ
+⋅
+𝑑
+ℓ
+′
+∣
+𝑟
+−
+𝑟
+′
+∣
+L=
+4πI
+2
+μ
+0
+	​
+
+	​
+
+∬
+∣r−r
+′
+∣
+dℓ⋅dℓ
+′
+	​
+
+
+V.5.2 Mutual inductance between two Rodin-pattern loops 
+𝑀
+12
+M
+12
+	​
+
+:
+
+𝑀
+12
+=
+𝜇
+0
+4
+𝜋
+∮
+𝐶
+1
+∮
+𝐶
+2
+𝑑
+ℓ
+1
+⋅
+𝑑
+ℓ
+2
+∣
+𝑟
+1
+−
+𝑟
+2
+∣
+M
+12
+	​
+
+=
+4π
+μ
+0
+	​
+
+	​
+
+∮
+C
+1
+	​
+
+	​
+
+∮
+C
+2
+	​
+
+	​
+
+∣r
+1
+	​
+
+−r
+2
+	​
+
+∣
+dℓ
+1
+	​
+
+⋅dℓ
+2
+	​
+
+	​
+
+
+V.5.3 Effective coupling coefficient 
+𝑘
+k:
+
+𝑘
+=
+𝑀
+12
+𝐿
+1
+𝐿
+2
+k=
+L
+1
+	​
+
+L
+2
+	​
+
+	​
+
+M
+12
+	​
+
+	​
+
+
+V.5.4 Lumped-parameter toroidal approximation (for quick design):
+
+𝐿
+≈
+𝜇
+𝑁
+2
+𝐴
+2
+𝜋
+𝑅
+L≈
+2πR
+μN
+2
+A
+	​
+
+
+(use with caution for Rodin non-uniform windings)
+
+V.6 — Modal & Spectral Analysis (Fourier / Harmonics)
+
+V.6.1 Angular Fourier decomposition along toroidal angle 
+𝜙
+ϕ:
+
+𝐵
+(
+𝜌
+,
+𝜙
+,
+𝑧
+)
+=
+∑
+𝑛
+=
+−
+∞
+∞
+𝐵
+~
+𝑛
+(
+𝜌
+,
+𝑧
+)
+𝑒
+𝑗
+𝑛
+𝜙
+B(ρ,ϕ,z)=
+n=−∞
+∑
+∞
+	​
+
+B
+~
+n
+	​
+
+(ρ,z)e
+jnϕ
+
+V.6.2 Mapping digital-root indices to modal indices (speculative):
+
+𝑛
+↔
+𝑑
+(
+𝑛
+)
+(community mapping — speculative)
+n↔d(n)(community mapping — speculative)
+
+V.6.3 Resonant modal condition (coaxial ring subset):
+
+𝜔
+𝑛
+2
+=
+1
+𝐿
+𝑛
+𝐶
+𝑛
+ω
+n
+2
+	​
+
+=
+L
+n
+	​
+
+C
+n
+	​
+
+1
+	​
+
+
+V.6.4 Spectral power density and harmonic ratios (measurement variables)
+
+V.7 — Resonance & Vortex Dynamics (classical + speculative)
+
+V.7.1 LC/Resonator relations for Rodin arrays:
+
+𝜔
+0
+=
+1
+𝐿
+eff
+𝐶
+eff
+,
+𝑄
+=
+𝜔
+0
+𝐿
+eff
+𝑅
+eff
+ω
+0
+	​
+
+=
+L
+eff
+	​
+
+C
+eff
+	​
+
+	​
+
+1
+	​
+
+,Q=
+R
+eff
+	​
+
+ω
+0
+	​
+
+L
+eff
+	​
+
+	​
+
+
+V.7.2 Phase coherence condition for constructive vortex coupling (created/speculative):
+
+Δ
+𝜙
+=
+2
+𝜋
+𝑚
+,
+𝑚
+∈
+𝑍
+ 
+⇒
+ max constructive coupling
+Δϕ=2πm,m∈Z ⇒ max constructive coupling
+
+V.7.3 Speculative vortex amplification model (labeled): (CREATED — community hypothesis)
+
+𝐵
+eff
+(
+𝑡
+)
+=
+𝐵
+base
+(
+1
++
+𝛼
+sin
+⁡
+(
+𝜔
+𝑡
++
+𝜙
+𝑑
+)
+)
+B
+eff
+	​
+
+(t)=B
+base
+	​
+
+(1+αsin(ωt+ϕ
+d
+	​
+
+))
+
+𝛼
+α = empirical amplification coefficient; 
+𝜙
+𝑑
+ϕ
+d
+	​
+
+=design phase
+
+V.7.4 Energy transfer between modes (Poynting flow along torus):
+
+𝑆
+=
+1
+𝜇
+0
+𝐸
+×
+𝐵
+S=
+μ
+0
+	​
+
+1
+	​
+
+E×B
+V.8 — Scalar / Longitudinal Field Claims & Aether Models (catalog + equations)
+
+V.8.1 Historical mentions (Tesla, Meyl, Bearden) — catalog of claims — (fringe/gray)
+
+V.8.2 Scalar potential wave equation (used by some proponents) — (CREATED/FRINGE):
+
+∇
+2
+Φ
+−
+1
+𝑐
+𝑠
+2
+∂
+2
+Φ
+∂
+𝑡
+2
+=
+0
+∇
+2
+Φ−
+c
+s
+2
+	​
+
+1
+	​
+
+∂t
+2
+∂
+2
+Φ
+	​
+
+=0
+
+𝑐
+𝑠
+c
+s
+	​
+
+ = hypothesized scalar propagation speed (unknown)
+
+V.8.3 Coupling term hypothesized between scalar field and EM fields (example speculative form): (CREATED)
+
+𝐿
+int
+=
+𝑔
+𝑠
+Φ
+ 
+𝐸
+⋅
+𝐵
+L
+int
+	​
+
+=g
+s
+	​
+
+ΦE⋅B
+
+𝑔
+𝑠
+g
+s
+	​
+
+ = empirical coupling constant (to be measured)
+
+V.8.4 Experimental observable suggestions (phase shifts, non-radiative energy transfer) — variables only
+
+V.9 — Experimental Design Templates & Measurement Variables
+
+V.9.1 Build parameters (design matrix):
+
+𝑁
+N = turns per layer, 
+𝑑
+𝑤
+d
+w
+	​
+
+ = wire diameter, 
+𝑅
+R = torus major radius, 
+𝑟
+r = minor radius, 
+𝑠
+s = turn spacing, 
+𝜇
+𝑟
+μ
+r
+	​
+
+ = core relative permeability
+
+V.9.2 Instrumentation list (variables to capture): gaussmeter resolution 
+𝜎
+𝐵
+σ
+B
+	​
+
+, oscilloscope BW, true-RMS power meter accuracy, FFT bin count 
+𝑁
+𝐹
+𝐹
+𝑇
+N
+FFT
+	​
+
+
+V.9.3 Measurement channels: 
+𝑉
+𝑖
+𝑛
+(
+𝑡
+)
+,
+𝐼
+𝑖
+𝑛
+(
+𝑡
+)
+,
+𝑉
+𝑜
+𝑢
+𝑡
+(
+𝑡
+)
+,
+𝐼
+𝑜
+𝑢
+𝑡
+(
+𝑡
+)
+,
+𝐵
+𝑥
+(
+𝑡
+)
+,
+𝐵
+𝑦
+(
+𝑡
+)
+,
+𝐵
+𝑧
+(
+𝑡
+)
+V
+in
+	​
+
+(t),I
+in
+	​
+
+(t),V
+out
+	​
+
+(t),I
+out
+	​
+
+(t),B
+x
+	​
+
+(t),B
+y
+	​
+
+(t),B
+z
+	​
+
+(t) with sample rate 
+𝑓
+𝑠
+f
+s
+	​
+
+
+V.9.4 Reproducibility protocol (mandatory): N_runs≥10, blind operator passes, swapped-ground control, dummy load baseline
+
+V.9.5 Data outputs & analysis: spectral coherence 
+𝐶
+(
+𝑓
+)
+C(f), cross-correlation 
+𝑅
+𝑥
+𝑦
+(
+𝜏
+)
+R
+xy
+	​
+
+(τ), Allan deviation of B field
+
+V.10 — Construction Blueprints (practical design pages)
+
+V.10.1 Single-layer Rodin coil: turn table & winding diagram (index lists) — (exact turn counts as design variables)
+
+V.10.2 Multi-layer Rodin variant (interleaved layers) — layer stacking table, crossover routing rules
+
+V.10.3 Toroidal core selection checklist: ferrite grade vs air core tradeoffs, loss tangents, saturation flux density 
+𝐵
+sat
+B
+sat
+	​
+
+
+V.10.4 High-voltage coupling (Tesla integration): top-load radius 
+𝑅
+𝑡
+𝑑
+R
+td
+	​
+
+, spark gap parameters 
+𝑑
+𝑔
+𝑎
+𝑝
+d
+gap
+	​
+
+, safety isolation distances
+
+V.11 — Simulation & Numerical Recipes
+
+V.11.1 FEM setup checklist: domain, boundary conditions (B normal/ tangential), mesh density near windings, nonlinear μ(B) models
+
+V.11.2 Biot–Savart discrete summation algorithm (pseudocode variables)
+
+V.11.3 FFT & spectral analysis pipelines: windowing, zero-padding, averaging windows 
+𝑁
+𝑎
+𝑣
+𝑔
+N
+avg
+	​
+
+
+V.11.4 Parameter sweep plan: vary 
+𝑁
+,
+𝑅
+,
+𝑟
+,
+𝑠
+N,R,r,s, run 
+𝑀
+M simulations, capture 
+𝐵
+𝑚
+𝑎
+𝑥
+,
+𝑄
+,
+𝜔
+0
+B
+max
+	​
+
+,Q,ω
+0
+	​
+
+
+V.12 — Data Interpretation & Claim Verification
+
+V.12.1 Power accounting equation (mandatory):
+
+𝑃
+𝑖
+𝑛
+=
+𝑉
+𝑖
+𝑛
+𝐼
+𝑖
+𝑛
+‾
+,
+𝑃
+𝑜
+𝑢
+𝑡
+=
+𝑉
+𝑜
+𝑢
+𝑡
+𝐼
+𝑜
+𝑢
+𝑡
+‾
+,
+Δ
+𝑃
+=
+𝑃
+𝑜
+𝑢
+𝑡
+−
+𝑃
+𝑖
+𝑛
+P
+in
+	​
+
+=
+V
+in
+	​
+
+I
+in
+	​
+
+	​
+
+,P
+out
+	​
+
+=
+V
+out
+	​
+
+I
+out
+	​
+
+	​
+
+,ΔP=P
+out
+	​
+
+−P
+in
+	​
+
+
+V.12.2 Measurement uncertainty propagation (example for power):
+
+𝜎
+𝑃
+≈
+(
+𝐼
+𝜎
+𝑉
+)
+2
++
+(
+𝑉
+𝜎
+𝐼
+)
+2
+σ
+P
+	​
+
+≈
+(Iσ
+V
+	​
+
+)
+2
++(Vσ
+I
+	​
+
+)
+2
+	​
+
+
+V.12.3 Reproducibility statistic 
+𝑧
+z for claimed anomaly:
+
+𝑧
+=
+Δ
+𝑃
+𝜎
+Δ
+𝑃
+z=
+σ
+ΔP
+	​
+
+ΔP
+	​
+
+
+V.12.4 Required thresholds for extraordinary claims: 
+𝑧
+≥
+5
+z≥5 and independent replication
+
+V.13 — Patents, Gray Literature & Community Sources (curated)
+
+V.13.1 Index of patents touching Rodin-like coils / toroidal vortex patents (list with patent numbers) — (catalog to consult)
+
+V.13.2 Archive sources: forum threads with raw datasets (field maps), lab notebooks scanned — capture schema fields
+
+V.13.3 How to extract credible experimental claims from forums (checklist)
+
+V.14 — Critiques, Failure Modes & Null Tests
+
+V.14.1 Common measurement artifacts: ground loops, scope probe loading, instrument aliasing, thermal drift
+
+V.14.2 Null test designs: shorted-coil dummy, coil reversed wiring, independent calibrated power meter in/out
+
+V.14.3 Skeptical metrics: energy conservation residual, spectral leakage checks, EMI coupling audit
+
+V.15 — Roadmap to Publishable Experiments
+
+V.15.1 Minimum reproducible kit (BOM) for independent labs
+
+V.15.2 Data packages: raw samples, calibrated instrument logs, CAD of coil, netlist, simulation files
+
+V.15.3 Suggested journals & peer review path (conservative → exploratory venues)
+
+Appendix V.A — Key Equations (collected)
+
+A1. Toroidal coordinate mapping: (repeat)
+
+𝑥
+=
+(
+𝑅
++
+𝑟
+cos
+⁡
+𝜃
+)
+cos
+⁡
+𝜙
+,
+  
+𝑦
+=
+(
+𝑅
++
+𝑟
+cos
+⁡
+𝜃
+)
+sin
+⁡
+𝜙
+,
+  
+𝑧
+=
+𝑟
+sin
+⁡
+𝜃
+x=(R+rcosθ)cosϕ,y=(R+rcosθ)sinϕ,z=rsinθ
+
+A2. Biot–Savart (repeat):
+
+𝐵
+(
+𝑟
+)
+=
+𝜇
+0
+4
+𝜋
+∑
+𝑘
+𝐼
+𝑘
+∮
+𝐶
+𝑘
+𝑑
+ℓ
+×
+(
+𝑟
+−
+𝑟
+′
+)
+∣
+𝑟
+−
+𝑟
+′
+∣
+3
+B(r)=
+4π
+μ
+0
+	​
+
+	​
+
+k
+∑
+	​
+
+I
+k
+	​
+
+∮
+C
+k
+	​
+
+	​
+
+∣r−r
+′
+∣
+3
+dℓ×(r−r
+′
+)
+	​
+
+
+A3. Self & mutual inductance (repeat)
+
+A4. Energy density & Poynting vector (repeat)
+
+Appendix V.B — Speculative / Created Equations (clearly labeled)
+
+B1. Rodin phase mapping (created/speculative): 
+𝜙
+(
+𝑛
+)
+=
+2
+𝜋
+𝑑
+(
+𝑛
+)
+/
+9
+ϕ(n)=2πd(n)/9
+
+B2. Vortex amplification (created/speculative):
+
+𝐵
+vortex
+(
+𝑡
+)
+=
+𝐵
+0
+(
+1
++
+𝛼
+sin
+⁡
+(
+𝜔
+𝑡
++
+𝜙
+)
+)
+B
+vortex
+	​
+
+(t)=B
+0
+	​
+
+(1+αsin(ωt+ϕ))
+
+B3. Scalar coupling term (created/speculative): 
+𝐿
+int
+=
+𝑔
+𝑠
+Φ
+ 
+𝐸
+⋅
+𝐵
+L
+int
+	​
+
+=g
+s
+	​
+
+ΦE⋅B
+
+How to use this chapter breakdown
+
+Use V.9–V.11 to design and simulate experiments.
+
+Use A and B appendices to separate rigorously derived equations from speculative constructs.
+
+Follow V.12–V.15 for claim verification and path to publication.

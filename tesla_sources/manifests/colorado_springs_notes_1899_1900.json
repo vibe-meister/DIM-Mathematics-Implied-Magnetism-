@@ -1,0 +1,17 @@
+{
+  "title": "Colorado Springs Notes, 1899–1900",
+  "author": "Nikola Tesla",
+  "type": "lab_notes",
+  "year": 1900,
+  "url": "https://archive.org/details/cu31924038499778",
+  "accessed": "",
+  "sha256": "",
+  "file": "primary_pdfs/colorado_springs_notes_1899_1900.pdf",
+  "notes": "Primary lab notes; PDF available on archive.org item page.",
+  "coverage": {
+    "geometry": true,
+    "coupling": true,
+    "tuning": true,
+    "measurement": true
+  }
+}

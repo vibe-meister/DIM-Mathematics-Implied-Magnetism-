@@ -1,0 +1,11 @@
+Section 6 Analysis Template — Beyond Classical and Experimental
+Source files:
+- PART VI — BEYOND CLASSICAL AND EXPE.txt
+- Chapter_26_Extended_Theoretical_Frameworks_Analysis.txt
+- Chapter_27_High_Energy_and_Astrophysical_Analogues_Analysis.txt
+- Chapter_28_Advanced_Vortex_and_Topological_Models_Analysis.txt
+- Chapter_29_Quantum_Coherent_and_Subtle_Energy_Considerations_Analysis.txt
+
+Purpose: Standardize analysis; extract only from sources; separate mainstream/speculative if present.
+
+[Same section headings as folder 1 template; fill from folder 6 sources]

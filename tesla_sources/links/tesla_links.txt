@@ -1,0 +1,23 @@
+# Tesla primary sources — link list (item pages and candidate direct PDFs)
+
+# Colorado Springs Notes (1899–1900) — archive.org item and direct PDF
+https://archive.org/details/cu31924038499778
+https://archive.org/download/cu31924038499778/cu31924038499778.pdf
+
+# 1892 Lecture: Experiments with Alternate Currents of High Potential and High Frequency — archive.org
+https://archive.org/details/experimentswitha00teslrich
+# (Direct PDF typically available on the item page under PDF download)
+
+# US Patent 593,138 — Electrical Transformer — patentimages (candidate direct PDF)
+https://patentimages.storage.googleapis.com/pdfs/US593138.pdf
+
+# US Patent 645,576 — System of Transmission of Electrical Energy — patentimages (candidate direct PDF)
+https://patentimages.storage.googleapis.com/pdfs/US645576.pdf
+
+# US Patent 649,621 — Apparatus for Transmission of Electrical Energy — patentimages (candidate direct PDF)
+https://patentimages.storage.googleapis.com/pdfs/US649621.pdf
+
+# Backup item pages (Google Patents) — PDFs accessible via page links
+https://patents.google.com/patent/US593138A/en
+https://patents.google.com/patent/US645576A/en
+https://patents.google.com/patent/US649621A/en

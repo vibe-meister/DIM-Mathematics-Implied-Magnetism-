@@ -1,0 +1,19 @@
+Section 5 — Derivation Pathways (from provided equations only)
+
+Pathway A — Induction & L/M
+1) Compute ΦB via ∫B·dA; derive E=−dΦB/dt for specified drives.
+2) Estimate L=N^2 μ A/l; compare with measured L; compute M=k√(L1 L2) from splitting or geometry.
+
+Pathway B — LC/Q and Coupled Equations
+1) Compute f0=1/(2π√(LC)) and U=½LI²+½CV²; verify with ring-down and −3 dB bandwidth.
+2) Solve coupled LC equations to predict f± and amplitude ratios; extract k; cross-check with geometry.
+
+Pathway C — Motion & Conversion
+1) Use F=q(v×B), τ=m×B to estimate forces/torques; compute E=−N dΦB/dt for generator cases.
+2) Evaluate ΦB(t)=∫B(r,t)·dA(t) with motion; compare to measured EMF.
+
+Pathway D — Toroidal/Topology & V(n)
+1) Generate paths with x=(R+rcosθ)cosϕ, y=(R+rcosθ)sinϕ, z=rsinθ; compute B(θ,ϕ)=B0 cos(kθ+ϕ) along paths.
+2) Apply V(n)=n mod 9 to phasing schedules; measure spectra/Q vs conventional paths at equal copper and drive.
+
+End.

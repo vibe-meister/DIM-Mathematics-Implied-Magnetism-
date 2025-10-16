@@ -1,0 +1,33 @@
+Section 8 — Equations Index (source-grounded; created equations flagged)
+
+[PART VIII — APPLICATION AND CREATIO.txt Lines 7–23]
+B_toroid = μ N I / (2π r)
+
+[PART VIII — APPLICATION AND CREATIO.txt Lines 42–71]
+B_vortex = B_toroid · (1 + β sin θ_phase)  (created/speculative)
+
+[PART VIII — APPLICATION AND CREATIO.txt Lines 90–147]
+B(t) = B0 cos(ω t + ϕ) ê_toroid + γ Σ_i B_i f_i(t)  (created)
+
+[PART VIII — APPLICATION AND CREATIO.txt Lines 185–266]
+P_net = Σ_{i=1..N} Σ_{j≠i} η_ij I_i · E_j  (created)
+
+[PART VIII — APPLICATION AND CREATIO.txt Lines 270–310]
+G_res = Q_eff / (1 − cos Δϕ)  (created)
+
+[PART VIII — APPLICATION AND CREATIO.txt Lines 320–386]
+M_eff = Σ_{i,j} k_ij L_i L_j  (created)
+
+[PART VIII — APPLICATION AND CREATIO.txt Lines 390–471]
+B_total = Σ_i B_i exp(− t/τ_i) cos ϕ_i  (created)
+
+[PART VIII — APPLICATION AND CREATIO.txt Lines 475–551]
+κ = (Σ_i P_out,i / Σ_j P_in,j) · F_coherence  (created)
+
+[PART VIII — APPLICATION AND CREATIO.txt Lines 555–636]
+V_induced(t) = − d/dt Σ_i Φ_i(t) (1 + λ cos θ_i(t))  (created)
+
+[PART VIII — APPLICATION AND CREATIO.txt Lines 642–672]
+R = (# reproducible / # total) · (1 − δ_uncertainty)  (created)
+
+End of index.

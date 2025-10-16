@@ -1,0 +1,51 @@
+Section 2 — Open Questions and Testable Predictions (source-derived)
+
+Chapter 5 (Induction) — Questions [Chapter_5_Electromagnetic_Induction_and_Flux_Dynamics_Analysis.txt Lines 73–84]
+1) EMF values across induction scenarios?
+2) Inductance vs geometry quantitatively?
+3) Eddy current loss values by material?
+4) Flux topology ↔ field behavior quantitatively?
+5) Skin-effect frequency dependencies?
+6) Mutual inductance vs coil separation?
+7) Energy storage capabilities across inductors?
+8) Mitigation strategies quantified?
+9) Applications by flux topology?
+10) Scaling with field strength and frequency?
+
+Chapter 6 (Resonance) — Questions [Chapter_6_Resonance_Oscillations_and_Magnetic_Circuits_Analysis.txt Lines 79–89]
+1) Resonance frequencies by configuration?
+2) Coupling coefficients vs geometry/separation?
+3) Q-values for resonant systems?
+4) Quantitative impact of loss mechanisms?
+5) Energy transfer efficiency metrics?
+6) Phase synchronization effects on transfer?
+7) Tuning ranges by system?
+8) Manifestations of nonlinear effects?
+9) Application-specific resonance configurations?
+10) Scaling with frequency/power?
+
+Chapter 7 (Motion) — Questions [Chapter_7_Motion_Induced_Magnetic_Effects_Analysis.txt Lines 86–96]
+1) Force values by scenario?
+2) Torque vs field strength?
+3) Efficiency for conversion systems?
+4) Nonlinear effects across motion systems?
+5) Stability criteria per configuration?
+6) Back-EMF vs speed/field?
+7) Power conversion efficiencies?
+8) Chaos manifestations in motion systems?
+9) Application-specific motion systems?
+10) Scaling with frequency/power?
+
+Chapter 8 (Topology) — Questions [Chapter_8_Topology_and_Geometry_of_Magnetic_Fields_Analysis.txt Lines 84–95]
+1) Field strengths for topologies?
+2) Halbach enhancement quantitatively?
+3) Enhancement factors by geometry?
+4) Vortex formation/stability across systems?
+5) Energy barriers for defects?
+6) Field geometry ↔ magnetic behavior?
+7) Optimization parameters per application?
+8) Defect interactions?
+9) Applications of topological structures?
+10) Scaling with size/field strength?
+
+End.

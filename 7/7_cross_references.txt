@@ -1,0 +1,22 @@
+Section 7 — Cross-References & Reading Order (source-grounded)
+
+Suggested Reading Order
+1) Rodin-based frameworks [Lines 2–41]
+2) Exotic field manipulations (scalar/toroidal) [Lines 94–173]
+3) Coherent/overunity hypotheses [Lines 175–323]
+4) Quantum-coherent and subtle interactions [Lines 325–472]
+5) Propagation/decay model [Lines 475–536]
+
+Dependencies
+- Phasing/winding → field models → transfer metrics → quantum/subtle → propagation signatures.
+
+File Cross-Links
+- Template: 7_analysis_template.txt
+- Notes: 7_analysis_notes.txt
+- Equations: 7_equations_index.txt
+- Definitions: 7_definitions_index.txt
+- Claims: 7_claims_catalog.txt
+- Open Qs: 7_open_questions.txt
+- Derivations: 7_derivation_pathways.txt
+
+End.

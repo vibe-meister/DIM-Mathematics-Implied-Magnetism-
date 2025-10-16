@@ -1,0 +1,18 @@
+Section 5 — Open Questions and Testable Predictions (source-derived)
+
+Ch.5 Induction — Questions [Ch.5 Analysis Lines 12–21, 45–49]
+- μr ranges and geometric factors (N, A, l) for worked examples? Lumped-element validity vs frequency? Loss models (skin/proximity) for realistic power? Ring-down/Q cross-checks vs AC R?
+
+Ch.6 Resonance — Questions [Ch.6 Analysis Lines 11–14, 38–42, 44–49]
+- Target Q ranges by geometry/materials? Parasitic C/ESR vs temperature? k maximizing transfer without over-damping? Toroid geometry tradeoffs (L, Cp, loss)? Stabilization (PLL/AFC/injection lock)?
+
+Ch.7 Motion — Questions [Ch.7 Analysis Lines 11–14, 35–38, 40–43]
+- Operating B, v/ω, dimensions for quantitative F/EMF? Eddy/mechanical drag magnitudes? Can flux pumping exceed baseline machine gains within thermal limits?
+
+Ch.8 Topology/Rodin — Questions [Ch.8 Analysis Lines 11–18, 37–45]
+- Parameter sets (R, r, pitch) minimizing unwanted harmonics? Do sequence mappings improve Q/coupling/harmonics across bandwidth? Manufacturing tolerances to preserve predicted advantages?
+
+Hypothesis-specific tests [PART V Lines 67–69, 338–339, 421–453, 548–575]
+- Quantify “vortex amplification” under phase alignment; measure B-maps, spectra, Q vs control windings; bound energy accounting to reject artifact explanations.
+
+End.

@@ -1,0 +1,16 @@
+CHAPTER 20: MARKO RODIN & VORTEX MATHEMATICS (PRE‑EQUATIONS) — ANALYSIS
+=======================================================================
+
+Scope note
+Conceptual system (20.1), topological constructs (20.2), experimental relevance (20.3) framed as hypothesis‑generating codebook.
+
+Interesting patterns
+- Modular cycles (mod 9) suggest phase/segment coding on toroidal paths.
+- Claims of preferred pathways map to impedance minimization hypotheses.
+
+Missing numbers
+- Mapping from sequence index→(θ,ϕ,path) and error bounds vs measured B‑maps; lack of quantitative benefits vs. controls.
+
+Basic insight
+- Treat sequences as candidate encodings for windings and phasing; validate with field maps, Q, and harmonic spectra.
+

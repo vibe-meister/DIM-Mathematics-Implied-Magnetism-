@@ -1,0 +1,36 @@
+{
+  "source_file": "primary_pdfs/FILE_NAME.pdf",
+  "page_refs": [],
+  "coil_secondary": {
+    "turns_N": null,
+    "diameter_m": null,
+    "height_m": null,
+    "wire_gauge_AWG": null,
+    "wire_material": "Cu",
+    "self_capacitance_F": null,
+    "esr_ohm": null
+  },
+  "coil_primary": {
+    "turns_N": null,
+    "conductor": "strip|tubing",
+    "spacing_m": null
+  },
+  "coupling": {
+    "strategy": "loose|tight",
+    "k_range": null
+  },
+  "topload": {
+    "type": "toroid|sphere",
+    "dimensions_m": {
+      "major": null,
+      "minor": null
+    },
+    "effective_C_F": null
+  },
+  "tuning_measurement": {
+    "procedure": "",
+    "instruments": [],
+    "observables": ["f0", "f±", "Q", "bandwidth", "waveforms"]
+  },
+  "notes": ""
+}

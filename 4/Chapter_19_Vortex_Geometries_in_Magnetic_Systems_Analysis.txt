@@ -1,0 +1,19 @@
+CHAPTER 19: VORTEX GEOMETRIES IN MAGNETIC SYSTEMS — ANALYSIS
+============================================================
+
+Scope note
+Theory (19.1), experimental systems (19.2), and arrays (19.3). Priority on stability, visualization, and synchronization.
+
+Interesting patterns
+- Stability via energy minimization; pinning/depining analogies to domain walls.
+- Visualization (ferrofluid/particle tracking) grounds otherwise speculative claims.
+
+Missing numbers
+- Core radii, lifetimes, field gradients for nucleation; coupling strengths and synchronization bandwidths.
+
+Frequency analysis
+- Precession/array modes; beat notes under coupling; sidebands under parametric drive.
+
+Basic insight
+- Vortices behave as phase oscillators on curved manifolds; Kuramoto‑style synchronization may model arrays.
+

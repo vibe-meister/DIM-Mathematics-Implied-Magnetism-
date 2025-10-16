@@ -1,0 +1,24 @@
+Section 2 — Derivation Pathways (from provided equations only)
+
+Pathway A — Induced EMF Scenarios [Chapter 5 Analysis Lines 61–65]
+1) Define flux Φ(t) for simple geometries; compute E = −dΦ/dt.
+2) Compare L = N²μA/l results against assumed geometry; document limits.
+3) Estimate M from k√(L₁L₂); explore separation dependence.
+
+Pathway B — Resonance Metrics [Chapter 6 Analysis Lines 61–65]
+1) Compute f₀ = 1/(2π√(LC)); derive Q via Q = ω₀L/R and 1/R√(L/C).
+2) Calculate stored energy U = ½LI² + ½CV² at resonance.
+3) Sensitivity analysis: vary L, C, R; track f₀, Q.
+
+Pathway C — Motion-Induced Effects [Chapter 7 Analysis Lines 61–65]
+1) Evaluate F = q(v×B) and τ = m×B for canonical setups.
+2) Generator EMF: E = −N(dΦ/dt); relate to P = F·v = τ·ω.
+
+Pathway D — Topology Implications [Chapter 8 Analysis Lines 61–63]
+1) Use toroidal coordinates for field geometry mapping.
+2) Parametric B_enhanced = B0×factor for Halbach-like cases.
+
+Notes
+- Use only equations provided; record assumptions; no new claims.
+
+End.

@@ -1,0 +1,26 @@
+Section 6 — Derivation Pathways (from provided equations only)
+
+Pathway A — Meissner Fit
+1) Measure B(z) inside superconductor; fit B=B0 exp(−z/λ) to extract λ.
+
+Pathway B — Coupled Magnetization Dynamics
+1) Identify (γ_i, J_ij) from time-domain M_i(t) using d²M_i/dt² + γ_i M_i = − Σ J_ij (M_j − M_i).
+2) Stability analysis vs network topology.
+
+Pathway C — Casimir with B
+1) Compute F/A for given a, B; assess detectability with instrument noise; plan differential measurements.
+
+Pathway D — Helicity Measurement
+1) Reconstruct A, B; compute H_m=∫ A·B dV; evaluate gauge handling via Coulomb gauge reference.
+
+Pathway E — Rodin/Scalar/Coherent Tests
+1) Build sequence vs control coils; compare spectra/Q and energy transfer using P=Σ J_ij (M_i·M_j).
+2) Attempt scalar-wave null experiments; RF shielding; independent power accounting.
+
+Pathway F — Spin–Vortex Entanglement
+1) Define ρ, build R, compute concurrence C and E; identify observable proxies (e.g., correlation functions) and decoherence windows.
+
+Pathway G — Flux-Tube Coupling
+1) Create lab analogs; vary r/a; test K=(μ0/2π) ln(r/a) via force/response measurement.
+
+End.

@@ -1,0 +1,16 @@
+Section 4 Analysis Template — Advanced Theoretical Frameworks
+Source files:
+- PART IV — ADVANCED THEORETICAL FRAM.txt
+- Chapter_17_High_Level_Resonance_Systems_Analysis.txt
+- Chapter_18_Tesla_Coils_and_High_Frequency_Magnetic_Phenomena_Analysis.txt
+- Chapter_19_Vortex_Geometries_in_Magnetic_Systems_Analysis.txt
+- Chapter_20_Marko_Rodin_and_Vortex_Mathematics_Analysis.txt
+- Chapter_21_Tesla_High_Frequency_Experiments_and_Theories_Analysis.txt
+- Chapter_22_Harmonic_and_Toroidal_Coupling_in_Advanced_Experiments_Analysis.txt
+- Chapter_23_Quantum_and_Subtle_Energy_Considerations_Analysis.txt
+- Chapter_24_Experimental_Design_and_Measurement_Protocols_Analysis.txt
+- Chapter_25_Transition_to_Equations_and_Theoretical_Synthesis_Analysis.txt
+
+Purpose: Standardize analysis; extract only from sources; separate mainstream/speculative if present.
+
+[Same section headings as folder 1 template; fill from folder 4 sources]

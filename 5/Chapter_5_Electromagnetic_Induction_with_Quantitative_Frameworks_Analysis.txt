@@ -1,0 +1,59 @@
+CHAPTER 5: ELECTROMAGNETIC INDUCTION WITH QUANTITATIVE FRAMEWORKS — ANALYSIS
+============================================================================
+
+Scope note
+This chapter formalizes induction with explicit equations (Faraday, Lenz, self/mutual inductance) and ties them to toroidal and vortex‑linked flux paths. Emphasis is on measurable relationships and geometry‑dependent parameters.
+
+Interesting patterns
+- Equation→Geometry linkage: every equation is paired with coil form factors (area A, path length l, μ), signaling an intent to compute, not just describe.
+- Mutual processes are foregrounded (M, k): the text anticipates later multi‑coil/toroidal arrays.
+- Recurrent flux language (“flux paths,” “closure”) foreshadows toroidal optimization from Part III.
+
+Missing numbers
+- No nominal ranges for μr of intended cores, nor air‑core geometrical factors (N, A, l) for worked examples.
+- Absent wire gauge/resistive loss models to translate ideal E=−dΦ/dt into realistic power.
+- No frequency bands for which lumped‑element L models remain valid vs. when distributed effects dominate.
+
+Frequency analysis
+- For sinusoidal drive, ΦB(t)=Φ0 cos(ωt) ⇒ Eind=ωΦ0 sin(ωt); induced EMF scales ∝ ω. High‑f operation magnifies voltage but also skin/proximity losses.
+- Eddy currents introduce f^2 losses in bulk conductors; lamination/segmentation reduces effective loop area.
+- Skin depth δ≈√(2ρ/(ωμ)): falling δ with ω raises effective resistance and phase lag; key for Q estimation.
+
+Sequences
+- Measurement sequence: (1) static L via LCR meter → (2) swept‑sine EMF vs. ω → (3) add core → (4) map M vs. spacing/angle → (5) validate k from doublet splitting.
+- Design iteration: choose geometry → estimate L, M → simulate → prototype → ring‑down Q → refine winding/spacing.
+
+Structural patterns
+- The chapter progresses ideal → coupled → motion‑linked (in Part V it will feed Ch. 7). Each step adds one coupling channel (self → mutual → motion).
+- Vector calculus appears only implicitly; integral forms dominate to keep calculations lab‑friendly.
+
+Entropy and randomness
+- Thermal noise sets a lower bound on EMF detectability; at high impedance, Johnson noise competes with induced signals.
+- Spatial disorder (manufacturing tolerances) randomizes M across nominally identical pairs; distribution should be characterized.
+
+Key length detection
+- Temporal key: period T=2π/ω in EMF traces; check for hidden subharmonics when using pulsed/triangular flux waveforms.
+- Spatial key: turn pitch/segment repeat length in composite windings; spectral lines in EMF indicate repeating geometry.
+
+Basic insight
+- Induction strength is governed as much by geometry and materials (A, l, μ, N) as by flux change rate; design leverage sits in path control and loss management.
+
+How this feeds later subjects
+- Supplies exact M, k, and δ dependencies used in Ch. 6 resonance calculations and Ch. 7 motion‑EMF.
+- Frames toroidal flux closure benefits quantified later in Part V, Ch. 8 (toroidal parameterization and vortex mapping).
+
+Checks and small derivations (data‑driven when available)
+- Ring‑down: Q≈π·f0·(Energy stored)/(Energy lost per cycle); cross‑validate with R from AC resistance at operating ω.
+- Two‑coil splitting: f±≈f0·√(1±k); retrieve k from measured Δf.
+- Eddy current loss: compare solid vs. laminated core; fit loss∝f^α to extract α≈2 if classical eddy loss dominates.
+
+Unanswered questions (Chapter‑specific)
+1) What μr and loss tangent are assumed for representative cores (air/ferrite/powdered iron)?
+2) Over what ω does lumped L, M remain accurate for the coil sizes considered?
+3) What are target ranges for k in intended applications (wireless power vs. measurement coils)?
+4) How large are proximity/skin losses at the specified wire gauges and ω?
+5) What manufacturing tolerances on A, l, and spacing keep M variation <1%?
+6) How does flux leakage scale with winding height/width on toroids used later?
+7) What EMF amplitudes are expected for the provided sweep rates dΦ/dt in realistic rigs?
+8) Which numerical method (FEM/BEM) will be used to validate the hand formulas?
+

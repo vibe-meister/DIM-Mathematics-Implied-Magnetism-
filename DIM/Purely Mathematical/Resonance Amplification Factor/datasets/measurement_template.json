@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0.0",
+  "project": {
+    "title": "",
+    "id": "",
+    "operator": "",
+    "date": "",
+    "environment": {
+      "temperature_C": null,
+      "humidity_pct": null,
+      "notes": ""
+    }
+  },
+  "build": {
+    "coil": {
+      "type": "toroid|solenoid|array|rodin",
+      "turns_N": null,
+      "major_radius_R_m": null,
+      "minor_radius_r_m": null,
+      "cross_section_area_A_m2": null,
+      "spacing_s_m": null,
+      "wire": {
+        "gauge_AWG": null,
+        "material": "Cu|Al|other",
+        "dc_resistance_ohm": null,
+        "estimated_ESR_ohm": null,
+        "capacitance_self_F": null
+      },
+      "core": {
+        "material": "air|ferrite|powdered_iron|other",
+        "mu_r": null,
+        "B_sat_T": null,
+        "loss_tangent": null
+      },
+      "geometry_notes": ""
+    },
+    "array": {
+      "count": null,
+      "layout": "series|parallel|lattice|custom",
+      "positions": []
+    }
+  },
+  "instruments": {
+    "oscilloscope": {
+      "model": "",
+      "bandwidth_Hz": null,
+      "sample_rate_Sa_s": null,
+      "probe_type": "1x|10x|HV",
+      "cal_date": ""
+    },
+    "gaussmeter": {
+      "model": "",
+      "resolution_T": null,
+      "bandwidth_Hz": null,
+      "cal_date": ""
+    },
+    "power_meter": {
+      "model": "",
+      "accuracy_pct": null,
+      "cal_date": ""
+    },
+    "other": []
+  },
+  "experiment": {
+    "drive": {
+      "type": "DC|AC|pulsed",
+      "frequency_Hz": null,
+      "voltage_V": null,
+      "current_A": null,
+      "phase_deg": null
+    },
+    "sampling": {
+      "fs_Hz": null,
+      "duration_s": null,
+      "sync_method": "shared_clock|trigger|free_run"
+    },
+    "channels": [
+      { "name": "time_s" },
+      { "name": "Vin_V" },
+      { "name": "Iin_A" },
+      { "name": "Vout_V" },
+      { "name": "Iout_A" },
+      { "name": "Bx_T" },
+      { "name": "By_T" },
+      { "name": "Bz_T" }
+    ],
+    "uncertainty": {
+      "Vin_V_sigma": null,
+      "Iin_A_sigma": null,
+      "Vout_V_sigma": null,
+      "Iout_A_sigma": null,
+      "B_T_sigma": null,
+      "power_balance_sigma": null
+    },
+    "protocol": {
+      "reproducibility_runs": 10,
+      "blind_passes": true,
+      "dummy_load_control": true,
+      "swapped_ground_control": true
+    }
+  },
+  "derived": {
+    "equations": [
+      "B_toroid = mu * N * I / (2*pi*R)",
+      "Phi = integral(B dot dA)",
+      "E = -dPhi/dt",
+      "L_toroid_approx = mu * N^2 * A / (2*pi*R)",
+      "f0 = 1/(2*pi*sqrt(L*C))",
+      "Q_ringdown = pi*f0*Energy/Loss_per_cycle",
+      "Q_bandwidth = f0/(-3dB_bandwidth)",
+      "k_from_split = ( (f_plus^2 - f_minus^2) / (f_plus^2 + f_minus^2) )"
+    ],
+    "outputs": {
+      "Pin_W": null,
+      "Pout_W": null,
+      "DeltaP_W": null,
+      "Q": null,
+      "k": null
+    }
+  },
+  "files": {
+    "raw_data": [],
+    "plots": [],
+    "analysis_scripts": []
+  }
+}

@@ -1,0 +1,62 @@
+Magnetic Scalar Waves — Formal Specification (Mathematical)
+
+1) PDE and Parameters
+- Scalar field Φ(x,t) on domain Ω ⊆ ℝ^d (d=1,2,3). Wave equation with constant coefficients:
+  ∇²Φ − μ ε ∂²Φ/∂t² = 0.
+- Define wave speed c := 1/√(μ ε) > 0. Canonical form: Φ_tt − c² ΔΦ = 0.
+
+2) Initial and Boundary Value Problems (IBVP)
+- Initial data at t=0: Φ(x,0) = Φ₀(x),  Φ_t(x,0) = Ψ₀(x).
+- Boundary conditions (choose one, for bounded Ω with boundary ∂Ω):
+  • Dirichlet: Φ|_{∂Ω} = g_D(t).
+  • Neumann: ∂Φ/∂n|_{∂Ω} = g_N(t).
+  • Robin: a Φ + b ∂Φ/∂n = g_R(t), with a,b ≥ 0.
+- For Ω=ℝ^d, impose decay/suitable integrability at infinity.
+
+3) Plane-Wave Solutions and Dispersion
+- Ansatz Φ(x,t) = Re{ A e^{i(k·x − ω t)} } ⇒ dispersion relation ω = c |k|.
+- Group velocity = phase velocity = c. Finite propagation speed: signals propagate at most at c.
+
+4) Energy Identity (Conservation)
+- Define energy density e := ½ [ (Φ_t)² + c² |∇Φ|² ]. Total energy E(t) := ∫_Ω e(x,t) dx.
+- For homogeneous boundary conditions (e.g., Dirichlet Φ=0 or Neumann ∂Φ/∂n=0 on ∂Ω), dE/dt = 0 (energy conserved).
+- With non-homogeneous boundaries/sources, boundary/work terms appear as usual fluxes.
+
+5) Well-Posedness (Sketch)
+- For Φ₀ ∈ H¹(Ω), Ψ₀ ∈ L²(Ω) and admissible homogeneous boundary conditions, there exists a unique weak solution Φ ∈ C([0,∞); H¹) with Φ_t ∈ C([0,∞); L²), and energy is conserved.
+- Proof techniques: semigroup theory for linear hyperbolic PDEs, energy method, or Fourier analysis for Ω=ℝ^d.
+
+6) Solution Representations
+- Fourier representation (Ω=ℝ^d): let ˆΦ₀(k), ˆΨ₀(k) be Fourier transforms. Then
+  Φ(x,t) = (2π)^{-d} ∫ [ ˆΦ₀(k) cos(c|k| t) + ˆΨ₀(k) (sin(c|k| t)/(c|k|)) ] e^{ik·x} dk.
+- Green’s function (d=3, retarded):
+  G(x,t) = δ(t − |x|/c) / (4π |x|) · H(t), where H is the Heaviside function.
+  Then Φ(x,t) = (G * f)(x,t) for suitable sources f, or use Kirchhoff’s formula for source-free evolution from initial data.
+- 1D d’Alembert: Φ(x,t) = F(x − ct) + G(x + ct) for arbitrary twice-differentiable F,G determined by initial data.
+
+7) Boundary Conditions and Uniqueness
+- Homogeneous Dirichlet/Neumann/Robin on smooth ∂Ω yield uniqueness under standard compatibility conditions.
+- For time-periodic boundaries, use separation of variables or eigenfunction expansions satisfying BCs.
+
+8) Relation to Electromagnetic Potentials (Context)
+- In Lorenz gauge for Maxwell’s equations with sources, the scalar potential φ and vector potential A satisfy wave equations with sources. The scalar field Φ here is a mathematical scalar; absent a specified physical observable mapping, treat Φ as an abstract scalar wave.
+- To posit physical observables, one must define measurable fields (e.g., from Φ’s gradients) and ensure consistency with conservation laws and causality.
+
+9) Positivity, Causality, and Constraints
+- Positivity: e(x,t) ≥ 0 for all x,t; hence E(t) ≥ 0.
+- Causality: support of solutions respects finite propagation speed c.
+- Stability: small perturbations to initial data lead to small changes in Φ in energy norm (continuous dependence).
+
+10) Numerical Considerations
+- CFL condition for explicit schemes: c Δt ≤ α min(Δx) (α depends on the scheme and dimension).
+- Validation: check energy conservation (within discretization error) and wave speed via manufactured solutions.
+
+11) Validation Checklist (Pure Math)
+- Verify dispersion ω = c|k| using plane-wave test functions.
+- Prove energy identity via multiplication by Φ_t and integration by parts (track boundary fluxes).
+- Demonstrate existence/uniqueness (cite standard theorems) for the chosen Ω and BCs.
+- Provide at least one worked solution (e.g., 1D d’Alembert with Gaussian initial data), and confirm energy conservation numerically.
+
+12) Worked Examples (Symbolic)
+- Gaussian pulse in 1D: Φ₀(x) = exp(−x²/σ²), Ψ₀(x) = 0 ⇒ Φ(x,t) = ½ [Φ₀(x − ct) + Φ₀(x + ct)]. Energy constant in time.
+- 3D spherical wave: Φ(x,t) = (1/(4π r)) f(t − r/c) with r=|x|, for smooth compactly supported f; satisfies wave equation away from r=0.

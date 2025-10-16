@@ -1,0 +1,24 @@
+Section 5 — Definitions & Variables Index (source-grounded)
+
+Induction & Lenz
+- Induced EMF and magnetic flux definitions [PART V Lines 7–19, 25–37].
+- Lenz’s direction: current opposes flux change [PART V Lines 45–61].
+
+Self & Mutual Inductance
+- Self-inductance: E_self=−L dI/dt; L=N^2 μ A/l [PART V Lines 73–106].
+- Mutual inductance and coupling coefficient k [PART V Lines 109–153].
+
+Resonance & Coupling
+- Resonant frequency f0, energy U; coupled LC equations; quality factor Q [PART V Lines 160–175, 181–209, 215–269, 271–334, 341–360].
+
+Motion & Conversion
+- Lorentz force; torque; generator EMF [PART V Lines 376–416, 390–395].
+- Flux through moving loops ΦB(t)=∫B·dA(t) [PART V Lines 427–451].
+
+Topology & Vortex Math
+- Toroidal coordinates (x,y,z) [PART V Lines 459–493].
+- Vortex number mapping V(n)=n mod 9 [PART V Lines 501–513].
+- Spatial flux function B(θ,ϕ)=B0 cos(kθ+ϕ) [PART V Lines 519–543].
+- Power transfer P = I·E_induced [PART V Lines 548–575].
+
+End of definitions.

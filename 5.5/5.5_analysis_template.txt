@@ -1,0 +1,146 @@
+Section 5.5 Analysis Template — Part V — Marko Rodin & Vortex Mathematics
+Source file: Part V.V — MARKO RODIN & VORTEX MATHE.txt
+
+Purpose: Use this template to perform a rigorous, reproducible analysis grounded only in the provided source. Clearly separate mainstream electromagnetic theory from speculative/community constructs. Do not add new claims; only design derivations and experiments that test what is present.
+
+1) Scope & Objectives
+- Objective overview: ________________________________
+- Specific aims (testable):
+  - Aim 1: __________________________________________
+  - Aim 2: __________________________________________
+  - Aim 3: __________________________________________
+- Dependencies on later sections: _____________________
+
+2) Terminology, Notation, Units [ref: V.0]
+- Vectors/scalars convention [V.0.1]: __________________
+- SI units used [V.0.2]: T, A, H, F, Wb, J (list instruments/units to be recorded): __________________________
+- Symbols inventory (define from source only):
+  - R (toroid major radius), r (minor radius), θ (poloidal), ϕ (toroidal)
+  - N (turns), μ0, μr, A (cross-sectional area), s (turn spacing)
+  - Other symbols encountered (add as needed): __________
+
+3) Coordinate Systems & Geometry [ref: V.0.3, V.3]
+- Toroidal coordinates mapping [V.0.3; Appendix V.A]:
+  x=(R+rcosθ)cosϕ; y=(R+rcosθ)sinϕ; z=rsinθ
+- Coil path parameterization [V.3.1]: record chosen continuous/discrete forms, parameters (n, α):
+  ____________________________________________________
+- Winding permutation matrices and routing [V.3.2, V.3.4]:
+  ____________________________________________________
+- Topological invariants [V.3.3]: linking number Lk formula; locations of crossover points:
+  ____________________________________________________
+
+4) Discrete Number Mapping (Rodin/vortex mathematics) [ref: V.2]
+- Digital-root function d(n) [V.0.4]: d(n)=1+((n−1) mod 9)
+- Doubling sequence modulo 9 [V.2.1]: 1,2,4,8,7,5, … (record usage): __________
+- Mapping n→ϕ(n) [V.2.3; labeled speculative]: ϕ(n)=2π d(n)/9
+- Phase index sets for multi-layer windings [V.2.4]: _________________________
+- Group properties modulo 9 [V.2.5]: notes and implications for winding order: __________________
+
+5) Electromagnetic Modeling (Quasi-static) [ref: V.4]
+- Current density for discrete turns [V.4.1]: J(r)=Σk Ik δ(r−rk) τ̂k
+  Specify turn locations rk and tangent directions τ̂k used: __________
+- Vector potential (Coulomb gauge) [V.4.2]: A(r)=(μ0/4π) ∫ J(r′)/|r−r′| d^3r′
+  Numerical method/assumptions: ____________________________________________
+- Biot–Savart field [V.4.3]: B(r)=(μ0/4π) Σk Ik ∮Ck dℓ×(r−r′)/|r−r′|^3
+  Discretization strategy for Ck: ___________________________________________
+- Toroidal/poloidal decomposition [V.4.4]: B=Bϕ ϕ̂ + Bθ θ̂ + Br r̂
+  Measurement/calculation plan for (Bϕ, Bθ, Br): ____________________________
+- Magnetic energy density and total energy [V.4.5]: uB=B^2/(2μ0); W=∫V uB dV
+  Volume of integration and mesh resolution: ________________________________
+
+6) Inductance, Mutual Coupling & Effective Parameters [ref: V.5]
+- Self-inductance (general) [V.5.1]: L=(μ0/4π) ∬ dℓ·dℓ′/|r−r′|
+  Path definitions and numerical quadrature: ________________________________
+- Mutual inductance [V.5.2]: M12=(μ0/4π) ∮C1 ∮C2 dℓ1·dℓ2/|r1−r2|
+  Loop pair definitions (C1, C2): __________________________________________
+- Coupling coefficient [V.5.3]: k = M12 / √(L1 L2)
+  Target coupling and design implications: __________________________________
+- Toroidal approximation (use with caution) [V.5.4]: L ≈ μ N^2 A / (2π R)
+  Applicability limits for non-uniform Rodin windings: _______________________
+
+7) Modal & Spectral Analysis [ref: V.6]
+- Angular Fourier decomposition [V.6.1]: B(ρ,ϕ,z)=Σn B̃n(ρ,z) e^{jnϕ}
+  Method to compute B̃n and evaluate harmonics: _____________________________
+- Mapping digital-root indices to modal indices [V.6.2; speculative]: n ↔ d(n)
+  Test plan (statistical correlation only): __________________________________
+- Resonant condition (subset) [V.6.3]: ωn^2 = 1/(Ln Cn)
+  Identification of Ln, Cn per mode: _______________________________________
+- Spectral power density/harmonic ratios to measure [V.6.4]: ________________
+
+8) Resonance & Vortex Dynamics [ref: V.7]
+- LC relations for arrays [V.7.1]: ω0=1/√(Leff Ceff); Q=ω0 Leff / Reff
+  Effective parameter extraction method: ____________________________________
+- Phase coherence condition [V.7.2]: Δϕ=2π m, m∈Z (constructive coupling)
+  How enforced/measured in build: __________________________________________
+- Vortex amplification model [V.7.3; speculative]: Beff(t)=Bbase(1+α sin(ω t + ϕd))
+  Parameters to fit (α, ϕd), data needed: ___________________________________
+- Energy transfer via Poynting vector [V.7.4]: S=(1/μ0) E×B; measurement proxy: __________
+
+9) Scalar/Longitudinal Claims (Catalog only) [ref: V.8 — labeled]
+- Scalar wave equation [V.8.2; speculative]: ∇^2Φ − (1/cs^2) ∂^2Φ/∂t^2 = 0
+- Coupling term [V.8.3; speculative]: Lint = gs Φ E·B
+- Observables to watch [V.8.4]: phase shifts, non-radiative transfer (catalog variables only)
+  Experimental guardrails to avoid misattribution: ___________________________
+
+10) Experimental Design & Measurement Plan [ref: V.9]
+- Build parameters matrix [V.9.1]: N, dw, R, r, s, μr — planned values/ranges: __________
+- Instrumentation [V.9.2]: gaussmeter σB, scope BW, power meter accuracy, FFT bins NFFT
+  Calibrations and traceability: ____________________________________________
+- Channels & sampling [V.9.3]: Vin(t), Iin(t), Vout(t), Iout(t), Bx(t), By(t), Bz(t) @ fs=
+  Synchronization and timing plan: __________________________________________
+- Reproducibility [V.9.4]: N_runs≥10, blind passes, swapped-ground, dummy load
+  Randomization/blinding implementation: ____________________________________
+- Data outputs [V.9.5]: C(f), Rxy(τ), Allan deviation(B)
+  Processing pipeline (windowing, averaging): _______________________________
+
+11) Simulation & Numerical Recipes [ref: V.11]
+- FEM setup [V.11.1]: domain, BCs, mesh near windings, μ(B)
+  Software/tooling, mesh size, convergence criteria: ________________________
+- Biot–Savart summation [V.11.2]: algorithm choice & discretization: _________
+- Spectral analysis pipeline [V.11.3]: window, zero-pad, Navg: ______________
+- Parameter sweep [V.11.4]: vary N,R,r,s; run M simulations; capture Bmax,Q,ω0
+  Sweep plan and compute budget: ___________________________________________
+
+12) Data Interpretation & Verification [ref: V.12]
+- Power accounting [V.12.1]: Pin=Vin Īin; Pout=Vout Īout; ΔP=Pout−Pin
+  Integration windows and averaging method: _________________________________
+- Uncertainty propagation [V.12.2]: σP ≈ (I σV)^2 + (V σI)^2 (root-sum-square)
+  Instrument σ assumptions and validation: __________________________________
+- Reproducibility statistic [V.12.3]: z = ΔP / σΔP; threshold [V.12.4]: z≥5
+  Replication plan: ________________________________________________________
+
+13) Construction Blueprints [ref: V.10]
+- Single-layer design: turn table, winding diagram; exact counts as variables: __
+- Multi-layer/interleaved: layer stacking, crossover routing: ________________
+- Core selection: ferrite vs air-core, loss tangent, Bsat: ____________________
+- High-voltage coupling: top-load radius Rtd, spark gap dgap, safety margins: _
+
+14) Literature & Community Sources [ref: V.13]
+- Patents to consult (list numbers only, no claims): _________________________
+- Archives with raw datasets to extract (field maps, notebooks): _____________
+- Forum claim extraction checklist (credibility filters): ____________________
+
+15) Critiques, Failure Modes & Null Tests [ref: V.14]
+- Artifact risks: ground loops, probe loading, aliasing, thermal drift: ______
+- Null tests: shorted-coil dummy, reversed wiring, independent power meter: ___
+- EMI coupling audit plan: __________________________________________________
+
+16) Derivation Opportunities (from provided equations only)
+- Target derivations (no new claims):
+  - Field distribution components (Bϕ, Bθ, Br) on key loci using Biot–Savart [V.4.3–V.4.4]
+  - L and M12 for chosen winding paths [V.5.1–V.5.2]; compare with toroidal approx [V.5.4]
+  - Modal content B̃n vs winding symmetry [V.6.1]; test n↔d(n) correlation [V.6.2]
+  - Stored energy W and Q for designs [V.4.5, V.7.1]
+- Required inputs and datasets: _____________________________________________
+
+17) Cross-References & Reading Order
+- Suggested reading order: V.0 → V.3 → V.4 → V.5 → V.6 → V.7 → V.9 → V.11 → V.12 → V.14
+- Appendix use: V.A (mainstream), V.B (speculative)—keep analyses separated
+- Internal links for this project: __________________________________________
+
+18) Results Summary Placeholders (to be filled post-analysis)
+- Key equations validated (list): __________________________________________
+- Disconfirmed mappings/claims (if any): ____________________________________
+- Recommendations for next sections: ________________________________________
+
+End of template.

@@ -1,0 +1,23 @@
+Section 3 — Structured Notes (source-grounded)
+Sources: PART III overview and Chapters 9–16 analysis files
+
+Definitions/Terminology
+- Toroids/solenoids/arrays; harmonics/interference/modulation; quantum spin/coherence/topology; astrophysical dynamos; measurement; simulation; high-energy; applications [PART III Lines 1–250].
+
+Core Equations (explicit in sources)
+- Toroids/arrays: B=μNI/(2πr); ΔB/B<threshold; k=M/√(L₁L₂); Φ=∫B·dA [Ch.9 Lines 61–65].
+- Harmonics/modulation: B(x,t)=ΣBₙ cos(nωt+φₙ); B_total=B₁+B₂; B(t)=B₀[1+m cos(ωₘt)] [Ch.10 Lines 61–65].
+- Quantum: H=−J Σ Sᵢ·Sⱼ; S=−Tr(ρ logρ); Q=(1/4π)∫n·(∂n/∂x×∂n/∂y) dx dy; T=exp(−2κd) [Ch.11 Lines 61–65].
+- Astro/MHD: ∂B/∂t=∇×(v×B)+η∇²B; B=B₀(r/R)^−n; v_rec=v_A/√S; γ=1/√(1−v²/c²) [Ch.12 Lines 61–65].
+- Measurement: Φ=∫B·dA; S=ΔV/ΔB; R=λ/(2NA); N=√(4kTRΔf) [Ch.13 Lines 61–65].
+- Computation: [K]{u}={f}; ∫Gφ= f; ∂u/∂t=F(u,∇u,∇²u); ⟨A⟩=ΣA w / Σw [Ch.14 Lines 61–65].
+- High-energy: v_rec=v_A/√S; [B]=0,[v×B]=0; E(k)∝k^−5/3; dynamo eqn [Ch.15 Lines 61–65].
+- Applications: η=P_out/P_in; E=½LI²; B=μ₀NI/l; T₂=1/Γ [Ch.16 Lines 61–65].
+
+Cautions/Limitations
+- Missing numeric values/examples across chapters (field strengths, uniformity metrics, coefficients, coherence times, etc.) [Ch.9 Lines 8,14,20; Ch.10 Lines 8,14,20; Ch.11 Lines 8,14,20; Ch.12 Lines 8,14,20; Ch.13 Lines 8,14,20; Ch.14 Lines 8,14,20; Ch.15 Lines 8,14,20; Ch.16 Lines 8,14,20].
+
+Separation
+- Mainstream content only; no speculative/community-labeled items identified.
+
+End of notes.

@@ -1,0 +1,162 @@
+PART II — ELECTROMAGNETIC INDUCTION, RESONANCE, MOTION, AND FIELD TOPOLOGY
+5. Electromagnetic Induction and Flux Dynamics
+5.1 Faraday’s Law of Induction
+
+5.1.1 Flux change and induced electromotive force (EMF)
+
+5.1.2 Time-varying magnetic fields and loop response
+
+5.1.3 Lenz’s Law: directionality of induced currents
+
+5.1.4 Induction in non-closed loops and open conductors
+
+(Context: Explains how time-dependent magnetic fields generate currents and potential differences, fundamental to transformers, generators, and resonant circuits.)
+
+5.2 Self-Inductance and Mutual Inductance
+
+5.2.1 Definition of self-inductance in coils and solenoids
+
+5.2.2 Mutual coupling between proximate coils
+
+5.2.3 Energy storage in magnetic fields
+
+5.2.4 Coupling coefficient and leakage flux considerations
+
+5.3 Eddy Currents and Magnetic Damping
+
+5.3.1 Circulating currents induced in conductors
+
+5.3.2 Energy dissipation and damping forces
+
+5.3.3 Skin effect and frequency-dependent penetration
+
+5.3.4 Practical mitigation strategies in experimental setups
+
+5.4 Flux Linkage Topologies
+
+5.4.1 Toroids, solenoids, Helmholtz pairs, and coils
+
+5.4.2 Field uniformity metrics and homogeneity mapping
+
+5.4.3 Flux concentration techniques with ferromagnetic cores
+
+5.4.4 Nonlinear core saturation effects
+
+6. Resonance, Oscillations, and Magnetic Circuits
+6.1 LC Circuits and Magnetic Resonance
+
+6.1.1 Magnetic energy storage in inductors
+
+6.1.2 Coupled LC oscillators
+
+6.1.3 Resonance frequency tuning with variable inductance
+
+6.1.4 Applications in Tesla coils and wireless power transfer
+
+6.2 Magnetic Coupling in Resonant Systems
+
+6.2.1 Coefficient of coupling and energy transfer efficiency
+
+6.2.2 Mutual resonance effects in multiple coil arrays
+
+6.2.3 Resonance stability under load variation
+
+6.2.4 Phase synchronization and harmonic tuning
+
+6.3 High-Q Circuits and Quality Factor
+
+6.3.1 Definition of Q-factor in magnetic systems
+
+6.3.2 Loss mechanisms: resistive, radiative, eddy currents
+
+6.3.3 Measurement of Q-factor experimentally
+
+6.3.4 Optimization techniques for sustained oscillations
+
+6.4 Magnetic Circuit Modeling
+
+6.4.1 Equivalent reluctance networks
+
+6.4.2 Flux path analysis using node-branch analogies
+
+6.4.3 Nonlinear permeability effects in high-flux circuits
+
+6.4.4 Integration with coupled electrical circuits
+
+7. Motion-Induced Magnetic Effects
+7.1 Lorentz Force and Charge Dynamics
+
+7.1.1 Force on a moving charge in a magnetic field
+
+7.1.2 Velocity cross-field effects
+
+7.1.3 Applications: motors, beam deflection, particle traps
+
+7.2 Magnetomechanical Systems
+
+7.2.1 Rotors, bearings, and levitation
+
+7.2.2 Torque generation via magnetic interaction
+
+7.2.3 Dynamic stability of spinning magnets
+
+7.2.4 Experimental setups: air tracks, pendulums, and rotating field apparatus
+
+7.3 Electromechanical Energy Conversion
+
+7.3.1 Generators: motion-induced current
+
+7.3.2 Motor design principles with permanent and electromagnets
+
+7.3.3 Efficiency and back-EMF considerations
+
+7.3.4 Flux modulation in dynamic machines
+
+7.4 Nonlinear Motion and Magnetic Interaction
+
+7.4.1 Hysteretic torque and dynamic friction
+
+7.4.2 Flux pumping and resonance enhancement
+
+7.4.3 Chaos and bifurcation in magnetic motion systems
+
+8. Topology and Geometry of Magnetic Fields
+8.1 Toroidal and Polyhedral Field Structures
+
+8.1.1 Toroidal coils and closed-loop flux lines
+
+8.1.2 Higher-order polyhedral flux arrangements
+
+8.1.3 Symmetry considerations for homogeneity
+
+8.1.4 Applications in high-Q resonance and particle confinement
+
+8.2 Halbach Arrays and Field Shaping
+
+8.2.1 Field enhancement on one side and cancellation on the other
+
+8.2.2 Design principles for linear and circular arrays
+
+8.2.3 Optimization for gradient and uniformity
+
+8.2.4 Uses in motors, levitation, and magnetic shielding
+
+8.3 Magnetic Vortices and Flux Tubes
+
+8.3.1 Vortex concept in bulk and thin-film magnets
+
+8.3.2 Interaction of vortices and domain walls
+
+8.3.3 Experimental visualization: magneto-optical and Lorentz microscopy
+
+8.3.4 Controlled vortex generation for energy manipulation
+
+8.4 Topological Defects and Singularities
+
+8.4.1 Magnetic monopole analogs in lattice systems
+
+8.4.2 Skyrmions and topological spin textures
+
+8.4.3 Applications in high-density data storage and quantum magnetism
+
+8.4.4 Stability and dynamics under external fields

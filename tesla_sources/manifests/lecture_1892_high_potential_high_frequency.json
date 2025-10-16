@@ -1,0 +1,17 @@
+{
+  "title": "Experiments with Alternate Currents of High Potential and High Frequency (1892)",
+  "author": "Nikola Tesla",
+  "type": "lecture",
+  "year": 1892,
+  "url": "https://archive.org/details/experimentswitha00teslrich",
+  "accessed": "",
+  "sha256": "",
+  "file": "primary_pdfs/lecture_1892_high_potential_high_frequency.pdf",
+  "notes": "Practical coil construction advice and measurement practices. PDF available on archive.org item page.",
+  "coverage": {
+    "geometry": true,
+    "coupling": true,
+    "tuning": true,
+    "measurement": true
+  }
+}

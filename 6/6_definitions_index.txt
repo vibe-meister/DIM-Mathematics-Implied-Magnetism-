@@ -1,0 +1,22 @@
+Section 6 — Definitions & Variables Index (source-grounded)
+
+Extended Frameworks
+- Meissner effect; London penetration depth λ; depth coordinate z [PART VI Lines 4–11, 17–38, 42–46].
+- Spin-ice monopole analogues; σ_i at vertices; Q_eff definition [PART VI Lines 50–109].
+- Coupled magnetic oscillators: M_i, damping γ_i, coupling J_ij [PART VI Lines 111–219].
+
+High-Energy/Astrophysical Analogues
+- Ampère with displacement term; J, E, μ0 [PART VI Lines 221–268].
+- Casimir force with B-field; ℏ, c, a, eB [PART VI Lines 270–347].
+- Magnetic helicity H_m; A, B, volume V [PART VI Lines 349–395].
+
+Advanced Vortex/Topological Models
+- Rodin coil framework; digital-root sequence 1,2,4,8,7,5 [PART VI Lines 398–417].
+- Scalar wave equation variables Φ, μ, ε (as presented) [PART VI Lines 421–461].
+- Coherent energy transfer P; J_ij, M_i·M_j [PART VI Lines 466–538].
+
+Quantum-Coherent/Subtle
+- Spin–vortex entanglement; concurrence C; eigenvalues λ_i; matrix R, density ρ [PART VI Lines 541–677].
+- Flux-tube coupling K; separation r, radius a [PART VI Lines 679–721].
+
+End of definitions.

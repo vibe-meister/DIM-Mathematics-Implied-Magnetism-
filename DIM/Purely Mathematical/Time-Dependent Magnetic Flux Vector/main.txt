@@ -1,0 +1,45 @@
+Time-Dependent Magnetic Flux Vector — Formal Specification
+
+1) Setting and Notation
+- Vector field in a fixed direction ê (e.g., ê_toroid) plus auxiliary components:
+  B(t) = B0 cos(ω t + ϕ0) ê + γ Σ_{i=1..M} B_i f_i(t),  with γ ∈ ℝ.
+- Assume {f_i} are real-valued basis functions on a finite window [0,T] with inner product ⟨f,g⟩ := (1/T) ∫_0^T f(t) g(t) dt.
+
+2) Basis and Orthogonality
+- Choose an orthonormal basis {f_i} with ⟨f_i,f_j⟩ = δ_{ij}. Examples: Fourier, wavelets, Slepian, or problem-specific envelopes.
+- Decompose any admissible scalar signal s(t) as s(t) = Σ_i s_i f_i(t), with coefficients s_i = ⟨s,f_i⟩.
+
+3) Identifiability Conditions
+- Let the measurement be y(t) = ⟨B(t), ê⟩ (projection onto ê) or a scalar proxy proportional to it.
+- Identifiability of {B0, ϕ0} and {γ B_i} from y(t) requires:
+  • The sinusoid cos(ω t + ϕ0) is not contained in span{f_i} on [0,T], or is explicitly included and separated via orthogonality.
+  • Sufficient sampling rate (Nyquist for ω and for the bandwidth of {f_i}).
+  • Non-degenerate design matrix when solving for coefficients.
+
+4) Estimators
+- Project y(t) onto cos and sin at ω to estimate B0 and ϕ0:
+  a_c = (2/T) ∫ y(t) cos(ω t) dt,  a_s = (2/T) ∫ y(t) sin(ω t) dt.
+  B̂0 = √(a_c² + a_s²),  ϕ̂0 = atan2(−a_s, a_c).
+- Remove the principal component: r(t) = y(t) − B̂0 cos(ω t + ϕ̂0).
+- Coefficients for auxiliaries: c_i = ⟨r, f_i⟩ ⇒ γ B̂_i = c_i (if basis orthonormal). For non-orthonormal bases, solve least squares.
+
+5) Robustness and Regularization
+- If basis is large or collinear, use ridge/LASSO regularization to stabilize estimates of {γ B_i}.
+- If phase jitter σ_ϕ is present, average over sub-windows or model jitter to reduce bias in B̂0, ϕ̂0.
+- Windowing: choose T to be an integer multiple of 2π/ω when possible to minimize leakage.
+
+6) Error and Uncertainty
+- With additive white noise σ², Var(B̂0) ≈ 2σ²/T, Var(ϕ̂0) ≈ 2σ²/(T B0²) (small-noise approximation).
+- For auxiliary coefficients, Var(c_i) ≈ σ² (since ⟨f_i,f_i⟩=1). Propagate through any scaling by γ.
+- Use bootstrap over segments to obtain confidence intervals for B̂0, ϕ̂0, and {γ B̂_i}.
+
+7) Control and Shaping
+- To excite or suppress specific coefficients, design f_i(t) with minimal overlap to the principal sinusoid and to one another (low mutual coherence).
+- Use orthogonality and band-separation to minimize cross-talk; quantify leakage via ⟨cos(ω t+ϕ), f_i⟩.
+
+8) Reporting Template
+- Specify basis {f_i}, window T, sampling rate, estimator details (orthogonal projection, LS, regularization), and uncertainty method.
+- Provide estimates (B̂0, ϕ̂0) and the set {γ B̂_i} with confidence intervals; include leakage metrics and residual norms.
+
+9) Worked Symbolic Example
+- Let f_i be orthonormal sinusoids at frequencies {ν_i} disjoint from ω. Then c_i recovers the amplitude at ν_i independently of the principal mode; leakage is zero in continuous time and ideal sampling.

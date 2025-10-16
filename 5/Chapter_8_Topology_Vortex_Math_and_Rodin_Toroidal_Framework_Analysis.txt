@@ -1,0 +1,45 @@
+CHAPTER 8: TOPOLOGY, VORTEX MATH, AND RODIN TOROIDAL FRAMEWORK — ANALYSIS
+=========================================================================
+
+Scope note
+Connects formal toroidal parameterization to vortex number mapping and proposes coil/winding trajectories consistent with those mappings.
+
+Interesting patterns
+- Explicit toroidal coordinates (x,y,z) indicate intent to simulate actual paths; not merely conceptual.
+- V(n)=n mod 9 mapping hints at phase/segment coding for windings.
+
+Missing numbers
+- No concrete (R, r), wire spacing, or dielectric data to resolve Cp and proximity effects.
+- Absent error metrics comparing predicted vs. measured B(θ,ϕ).
+
+Frequency analysis
+- B(θ,ϕ)=B0 cos(kθ+ϕ) implies spatial harmonics; drive can select/weight modes.
+- Coupled vortex energy transfer P=I·Eind suggests dependence on dA/dt path control.
+
+Sequences
+- Define mapping → generate winding → excite with phase schedule → measure field/uniformity → iterate.
+
+Structural patterns
+- Mathematics → mapping → experiment pipeline aligns with Part V’s quantitative goals.
+
+Entropy and randomness
+- Discrete sequence sampling of a continuous torus can create aliasing; requires discrepancy analysis to ensure uniform coverage.
+
+Key length detection
+- Geometric key = closed path period; numeric key = fundamental cycle length of sequence.
+
+Basic insight
+- Advantages, if any, must manifest as reduced harmonic distortion, higher Q, or improved coupling vs. standard windings.
+
+Feeds later subjects
+- Provides concrete candidates for Ch. 22 harmonic control and Ch. 24 measurement validation.
+
+Validation tasks
+- Synthesize current distributions from proposed windings and compute near‑field maps.
+- Measure harmonic spectra vs. conventional toroids at equal wire/copper and drive.
+
+Unanswered questions
+1) Which parameter sets (R, r, pitch) minimize unwanted harmonics?
+2) Does the sequence mapping yield measurable improvements across bandwidth, not only at a single f0?
+3) What manufacturing tolerances are required to preserve predicted advantages?
+

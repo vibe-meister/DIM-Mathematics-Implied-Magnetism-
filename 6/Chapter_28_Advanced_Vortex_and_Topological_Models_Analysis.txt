@@ -1,0 +1,44 @@
+CHAPTER 28: ADVANCED VORTEX AND TOPOLOGICAL MODELS — ANALYSIS
+==============================================================
+
+Scope note
+From Rodin‑based experimental frameworks (28.1) through exotic field manipulations (28.2) to coherent/overunity hypotheses (28.3). Balanced, evidence‑first stance recommended.
+
+Interesting patterns
+- Numeric sequences (e.g., 1,2,4,8,7,5) used as winding/phase codings; natural tie to toroidal periodicity.
+- Scalar‑wave proposal adopts a standard wave operator; interpret cautiously given EM gauge structure.
+- Coherent‑exchange expression P=∑ J_ij (M_i·M_j) mirrors network energy models.
+
+Missing numbers
+- No explicit winding geometries (R,r,pitch) or tolerance budgets to realize proposed patterns.
+- Absent bounds on parasitics and loss to compare with conventional coils.
+- No controlled experimental datasets demonstrating net advantages.
+
+Frequency analysis
+- Sequence‑coded windings imply spatial harmonics; expect distinct spectral fingerprints vs. standard windings.
+- Scalar‑mode claim would require polarization/propagation tests orthogonal to transverse EM.
+
+Sequences
+- Define mapping → manufacture → blinded measurement vs. control → statistical analysis → iterate or falsify.
+
+Entropy and randomness
+- Manufacturing variance can overwhelm subtle effects; randomized trial order and blinding reduce bias.
+
+Key length detection
+- Symbolic cycle length vs. geometric closure length; mismatch produces beating/aliasing in spectra.
+
+Basic insight
+- Treat models as testable codes for geometry/phase; adopt pre‑registered protocols to avoid confirmation bias.
+
+Feeds into later subjects
+- Connects to harmonic control (Ch. 22) and quantum‑coherent proposals (Ch. 29) if evidence emerges.
+
+Checks
+- Compare harmonic content and Q against matched‑copper controls.
+- Map near‑field patterns; compute discrepancy vs. predicted nodes/antinodes.
+
+Unanswered questions
+1) Which geometries, if any, yield statistically significant improvements over controls?
+2) What effect sizes are plausible after accounting for parasitics and losses?
+3) Can claims be reproduced by independent labs under blinded conditions?
+

@@ -1,0 +1,127 @@
+⚛️ Patents Related to Magnetism, Aether, and Non-Hertzian Frequencies
+
+Multi-Frequency Electromagnetic Field Generator
+
+Patent Number: US7583172B2
+
+Description: Generates spiral, radial, and horizontal electromagnetic fields at various frequencies using a combination of Tesla coils, emission tubes, and antennas.
+
+Link: 
+Google Patents
+
+Electricity Generating Apparatus
+
+Patent Number: GB2390941A
+
+Description: Describes an oscillation escalating in energy content powered almost wholly by aether input, drawing energy at a rate consistent with stable operation.
+
+Link: 
+Google Patents
+
+Low-Frequency Electromagnetic Tracking
+
+Patent Number: US11022421B2
+
+Description: Method for detecting the location of a magnet associated with a medical tube within the body of a patient using static magnetic field strengths at varying distances.
+
+Link: 
+Google Patents
+
+Method and Apparatus for Altering a Region Above the Earth's Surface
+
+Patent Number: US4686605A
+
+Description: Alters a selected region above the Earth's surface by transmitting electromagnetic radiation along naturally-occurring, divergent magnetic field lines.
+
+Link: 
+Google Patents
+
+Device for Generating a Very-Low-Frequency Pulsed Magnetic Field
+
+Patent Number: ES3009101T3
+
+Description: Generates a very-low-frequency pulsed magnetic field carried by an alternating magnetic field, intended for application to areas of the human body.
+
+Link: 
+Google Patents
+
+Device for Influencing Biological Processes in Living Tissue
+
+Patent Number: 20210113847
+
+Description: Applies a pulsating magnetic field to living tissue, with pulse repetition rates between 0.01 and 1000 Hz, to influence biological processes.
+
+Link: 
+Justia Patents
+
+Systems for Producing Gravity-Neutral Regions
+
+Patent Number: US20120105181A1
+
+Description: Creates a local anti-gravity region between two counter-rotating magnetic fields, potentially enhancing process efficiency.
+
+Link: 
+Google Patents
+
+Remote Magnetic Manipulation of Nervous Systems
+
+Patent Number: US6238333
+
+Description: Manipulates nervous systems remotely using the magnetic dipole field of a rotating bar magnet, relying on modulation of spontaneous spiking patterns of sensory nerve receptors.
+
+Link: 
+Justia Patents
+
+Method and Apparatus for Motional/Vibrational Energy Harvesting
+
+Patent Number: 20110187207
+
+Description: Utilizes the non-resonant chaotic behavior of a free-rolling magnet to generate power by inducing current in surrounding coils.
+
+Link: 
+Justia Patents
+
+Magnetic Therapy Device
+
+Patent Number: US7648454B2
+
+Description: A disk-shaped magnetic therapy device, approximately four inches in diameter, designed for therapeutic applications.
+
+Link: 
+Unified Patents
+
+Quantum Kinetic Well Application Design
+
+Patent Number: 20210320523
+
+Description: Utilizes energizing and collapsing magnetic field lines to guide capacitive atomic free electrons into a circuit, enhancing energy conversion.
+
+Link: 
+Justia Patents
+
+System and Method for Mechanically-Based Magnetic-Field Transmission
+
+Patent Number: 10693524
+
+Description: Produces low-frequency magnetic-field signals to enable long-range wireless communication through conductive media by mechanically moving permanent magnets.
+
+Link: 
+Illinois Experts
+
+Detection of Very High-Frequency Magnetic Resonance
+
+Patent Number: Not specified
+
+Description: A method for detecting terahertz electromagnetic waves, which are extremely difficult to detect, potentially revolutionizing electronics.
+
+Link: 
+UCR News
+
+Multiple Frequency Electron Cyclotron Resonance Thruster
+
+Patent Number: Not specified
+
+Description: An electron cyclotron resonance (ECR) thruster that includes a magnetic field source configured to generate a magnetic field for propulsion applications.
+
+Link: 
+OSTI

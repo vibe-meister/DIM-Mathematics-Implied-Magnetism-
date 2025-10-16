@@ -1,0 +1,15 @@
+Vortex Alignment Enhancement — Compiled
+
+Extracted content (created/speculative):
+- B_vortex = B_toroid · (1 + β sin(θ_phase))
+
+Notes:
+- Phase-dependent modulation of toroidal field magnitude.
+
+Three ways to complete/exhaust the math:
+1) Parameter linkage
+   - Express β as a function of coupling k, Q, and drive amplitude; derive bounds ensuring |β| ≤ β_max from material and geometry constraints.
+2) Phase-field model
+   - Define θ_phase(θ,ϕ,t) for a coil network; compute spatial average ⟨B_vortex⟩ and harmonic content vs. phase distribution; identify optimal phase patterns.
+3) Measurement and validation
+   - Execute controlled phase sweeps; estimate β and compare to predictions; report confidence intervals and sensitivity to detuning and losses.

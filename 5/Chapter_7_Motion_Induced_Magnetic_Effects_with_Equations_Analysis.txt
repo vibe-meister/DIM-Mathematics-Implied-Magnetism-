@@ -1,0 +1,43 @@
+CHAPTER 7: MOTION‑INDUCED MAGNETIC EFFECTS WITH EQUATIONS — ANALYSIS
+===================================================================
+
+Scope note
+Extends induction to moving conductors/magnets: Lorentz force, torque, electromechanical conversion, and flux pumping. Bridges to rotating machines and levitation.
+
+Interesting patterns
+- Clear mapping from F=q(v×B) and τ=m×B to device‑level quantities (back‑EMF, torque curves).
+- Mentions flux pumping and vortex alignment, implying non‑steady effects and possible parametric gain.
+
+Missing numbers
+- No numeric B fields, speeds v, or geometries to compute forces/EMF.
+- Absent frictional/eddy drag models for realistic efficiency estimates.
+
+Frequency analysis
+- Back‑EMF ∝ ω in rotating machines; interplay with coil impedance sets operating point.
+- Periodic motion introduces sidebands and potential parametric excitation at multiples of rotation.
+
+Sequences
+- Generator: mechanical input → flux linkage modulation → EMF → load → back‑torque.
+- Motor: drive current → force/torque → acceleration → back‑EMF limiting → steady state.
+
+Entropy and randomness
+- Load fluctuations and cogging introduce randomness in torque ripple; noise spectra inform mechanical filtering needs.
+
+Key length detection
+- Mechanical key: pole pitch/circumference sets electromagnetic spatial period; electrical key: commutation timing or inverter switching period.
+
+Basic insight
+- Efficiency hinges on matching electrical and mechanical impedances; any vortex/flux‑pumping concepts must beat baseline machine metrics.
+
+Feeds later subjects
+- Supports Ch. 16 (applications) and provides counterexamples to fringe claims unless quantitatively superior.
+
+Checks
+- Compute induced EMF for given B, v, length; validate against measured waveforms.
+- Torque constant kT vs. back‑EMF constant kE equality check in SI units.
+
+Unanswered questions
+1) What are the intended operating B, v/ω, and dimensions for quantitative predictions?
+2) How large are eddy losses and mechanical drag in proposed geometries?
+3) Can flux pumping exceed conventional machine gains within thermal limits?
+

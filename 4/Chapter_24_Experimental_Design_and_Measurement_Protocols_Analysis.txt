@@ -1,0 +1,16 @@
+CHAPTER 24: EXPERIMENTAL DESIGN & MEASUREMENT PROTOCOLS — ANALYSIS
+==================================================================
+
+Scope note
+Build (24.1), measure (24.2), and validate (24.3). Fabrication tolerances, instrument chains, and reproducibility controls.
+
+Interesting patterns
+- Treats fabrication precision, metrology capability, and documentation as coupled pillars.
+- Pushes time‑synchronized acquisition and control experiments.
+
+Missing numbers
+- Tolerances for geometry, measurement accuracy, validation thresholds; sensor bandwidth/noise specs.
+
+Basic insight
+- Scientific credibility depends on reproducibility scaffolding as much as on device ingenuity.
+

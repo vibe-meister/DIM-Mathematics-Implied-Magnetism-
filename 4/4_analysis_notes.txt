@@ -1,0 +1,25 @@
+Section 4 — Structured Notes (source-grounded)
+Sources: PART IV overview and Chapters 17–25 analysis files
+
+Definitions/Terminology
+- Multi‑coil resonance, phase coherence, nonlinear phenomena, high‑Q experiments [PART IV Lines 3–28; Ch.17].
+- Tesla coil geometry/performance, energy transfer regimes, safety/metrology [PART IV Lines 29–53; Ch.18].
+- Vortex geometries: flux tubes, vortex loops, arrays; stability and synchronization [PART IV Lines 55–77; Ch.19].
+- Rodin & vortex mathematics (pre‑equations): modular cycles, node mapping, experimental relevance [PART IV Lines 79–103; Ch.20].
+- Tesla HF experiments: resonant transmission, longitudinal hypotheses, network behaviors [PART IV Lines 105–127; Ch.21].
+- Harmonic/toroidal coupling: flux confinement, phase coherence, harmonic networks, applications [PART IV Lines 129–153; Ch.22].
+- Quantum/subtle energy: low‑energy anomalies, spin coherence, detection methods [PART IV Lines 155–177; Ch.23].
+- Experimental design & validation: build, measure, reproducibility [PART IV Lines 179–203; Ch.24].
+- Transition to equations & synthesis: parametrization, harmonic decomposition, variable inventories [PART IV Lines 205–227; Ch.25].
+
+Core Equations (explicit in sources)
+- Coupled‑pair resonance split: f±≈f0√(1±k) [Ch.17 Lines 15–17].
+
+Cautions/Limitations
+- Multiple chapters highlight missing numeric targets (f0, Q, k, breakdown margins, coherence times, etc.) requiring later quantification [Ch.17 Lines 12–13; Ch.18 Lines 11–13; Ch.19 Lines 11–13; Ch.21 Lines 11–13; Ch.22 Lines 11–13; Ch.23 Lines 11–13; Ch.24 Lines 11–13; Ch.25 Lines 11–13].
+
+Separation
+- Mainstream/procedural: resonance systems, Tesla geometry/safety, harmonic networks, experimental protocols.
+- Hypotheses to test: Rodin pre‑equations encoding; Tesla longitudinal claims; subtle energy/coherence assertions; preliminary over‑unity setups.
+
+End of notes.

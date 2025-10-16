@@ -1,0 +1,17 @@
+﻿{
+    "title":  "US Patent 645,576 â€” System of Transmission of Electrical Energy",
+    "author":  "Nikola Tesla",
+    "type":  "patent",
+    "year":  1900,
+    "url":  "https://patentimages.storage.googleapis.com/pdfs/US645576.pdf",
+    "accessed":  "2025-10-13T13:36:53-05:00",
+    "sha256":  "2ddc68ee13cb72b79b948a3117d07b9a78c7f2171ba5ca8c93d0c88190a49797",
+    "file":  "primary_pdfs/us_645576_system_transmission.pdf",
+    "notes":  "Topology and resonant transmission system; grounding and coupling context.",
+    "coverage":  {
+                     "geometry":  true,
+                     "coupling":  true,
+                     "tuning":  true,
+                     "measurement":  false
+                 }
+}

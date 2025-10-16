@@ -1,0 +1,23 @@
+Section 8 — Structured Notes (source-grounded)
+Sources: PART VIII — APPLICATION AND CREATIO.txt and Chapters 30–35 analysis files
+
+Fabrication/Measurement
+- B_toroid=μNI/(2πr) for target flux; phasing enhancement B_vortex=B_toroid(1+β sin θ_phase) (created) [Lines 7–84].
+- B(t)=B0 cos(ωt+ϕ) ê_toroid + γ Σ B_i f_i(t) (created) [Lines 86–179].
+
+Energy/Amplification/Modeling
+- P_net=Σ η_ij I_i E_j; G_res=Q_eff/(1−cos Δϕ) (created) [Lines 181–310].
+- M_eff=Σ k_ij L_i L_j from patents (created) [Lines 316–386].
+- B_total=Σ B_i e^{−t/τ_i} cos ϕ_i (created) [Lines 388–471].
+- κ metric (created) [Lines 473–551].
+- V_induced(t)=−d/dt Σ Φ_i (1+λ cos θ_i) (created) [Lines 555–636].
+- Reproducibility R metric (created) [Lines 640–672].
+
+Cautions/Limitations
+- Missing tolerances, metrology specs, and parameter bounds for β, θ_phase, γ, η_ij, k_ij, τ_i, λ, δ_uncertainty (see Ch. 30–35 analyses).
+
+Separation
+- Mainstream: B_toroid relation.
+- Created/speculative: all other listed equations; use protocols from Parts IV–V and reproducibility metrics from Ch. 35 before inference.
+
+End of notes.

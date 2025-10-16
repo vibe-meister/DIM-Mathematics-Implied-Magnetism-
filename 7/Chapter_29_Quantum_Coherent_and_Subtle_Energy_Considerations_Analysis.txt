@@ -1,0 +1,46 @@
+CHAPTER 29: QUANTUM‑COHERENT AND SUBTLE ENERGY CONSIDERATIONS — ANALYSIS
+=======================================================================
+
+Scope note
+Adds quantum metrics (entanglement via concurrence) and speculative weak‑flux couplings. Treat with rigorous metrology, full error budgets, and negative controls.
+
+Interesting patterns
+- E_coh∝Σ J_ij S_i·S_j cos θ_ij mirrors Heisenberg‑type Hamiltonians; enables concrete tests in spin‑arrays.
+- K_subtle∝ln(r/a)×β_coherence introduces a geometry‑log law with a free “coherence” factor; requires careful nulling to avoid ordinary EM pickup.
+- Multi‑exponential B_fringe(t)=Σ B_n e^{−t/τ_n} cos(ω_n t+ϕ_n) suggests decomposable modes; excellent for Prony/ESPRIT fitting.
+
+Missing numbers
+- Absent T2, noise floors, temperatures, sensor specs (NV, SQUID) and shielding factors.
+- No calibration standards or blinding protocols; needed to distinguish real effects from drift/EMI.
+
+Frequency analysis
+- Quantum signals are narrowband and fragile; dynamical decoupling can extend bandwidth but complicates interpretation.
+- Weak‑flux detection should use lock‑in at known modulation; verify phase reversal on reference flip to reject crosstalk.
+
+Sequences
+- Prepare → entangle (29.1) → tomography/estimator for E → vary J_ij, θ_ij → plot E vs. control parameters.
+- Subtle flux: null run → modulated run → phase‑flip control → interleaved blinded repetitions.
+
+Entropy and randomness
+- Decoherence randomizes phase; quantify with T2* and Allan variance of sensors.
+- Environmental drifts create pseudo‑signals; randomized phase schedules and sham hardware reduce bias.
+
+Key length detection
+- Coherence length/time act as experiment keys; total run time must fit within stability windows.
+
+Basic insight
+- Without stringent controls, subtle‑energy observations are indistinguishable from instrumentation artifacts; prioritize falsification paths.
+
+Feeds later subjects
+- If robust, may inform protected modes (helicity/topological) and sensor applications; if not, results still bound claims quantitatively.
+
+Concrete tests
+- Report concurrence C and derived E with confidence intervals; verify invariance under local unitaries.
+- Lock‑in detection of modulated weak‑flux; show 180° phase flip when reference is inverted.
+- Cross‑lab replication with blinded analysis pipelines.
+
+Unanswered questions (29)
+1) Which platforms provide sufficient T2 and sensitivity for spin‑vortex protocols?
+2) What modulation/detection scheme maximizes SNR while excluding EMI and thermal drift?
+3) Which null/negative controls convincingly rule out conventional coupling paths?
+

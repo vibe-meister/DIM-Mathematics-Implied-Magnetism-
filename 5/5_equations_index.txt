@@ -1,0 +1,51 @@
+Section 5 — Equations Index (source-grounded)
+Sources: see file citations per entry
+
+Conventions
+- Entries: [File] [Lines]: Equation (ASCII)
+
+[PART V — MARKO RODIN, TESLA, AND VO.txt Lines 7–19, 25–37]
+E = − dΦB/dt,    ΦB = ∫ B · dA
+
+[PART V — MARKO RODIN, TESLA, AND VO.txt Lines 45–61]
+I_induced ∝ − dΦB/dt   (Lenz’s direction)
+
+[PART V — MARKO RODIN, TESLA, AND VO.txt Lines 73–106]
+E_self = − L dI/dt,    L = N^2 μ A / l
+
+[PART V — MARKO RODIN, TESLA, AND VO.txt Lines 109–153]
+E2 = − M dI1/dt,    M = k L1 L2   (k: coupling coefficient)
+
+[PART V — MARKO RODIN, TESLA, AND VO.txt Lines 160–175, 181–209]
+f0 = 1/(2π√(LC)),    U = ½ L I^2 + ½ C V^2
+
+[PART V — MARKO RODIN, TESLA, AND VO.txt Lines 215–269, 271–334]
+Coupled LC (two-loop form):
+L1 dI1/dt + M dI2/dt + (1/C1) ∫ I1 dt = 0
+L2 dI2/dt + M dI1/dt + (1/C2) ∫ I2 dt = 0
+
+[PART V — MARKO RODIN, TESLA, AND VO.txt Lines 341–360]
+Q = ω0 L / R   (= alternate form shown in text)
+
+[PART V — MARKO RODIN, TESLA, AND VO.txt Lines 376–385, 390–395]
+F = q (v × B),    τ = m × B
+
+[PART V — MARKO RODIN, TESLA, AND VO.txt Lines 403–416]
+E = − N dΦB/dt
+
+[PART V — MARKO RODIN, TESLA, AND VO.txt Lines 427–451]
+ΦB(t) = ∫ B(r,t) · dA(t)
+
+[PART V — MARKO RODIN, TESLA, AND VO.txt Lines 459–493]
+Toroidal coordinates: x=(R+rcosθ)cosϕ, y=(R+rcosθ)sinϕ, z=rsinθ
+
+[PART V — MARKO RODIN, TESLA, AND VO.txt Lines 501–513]
+V(n) = n mod 9
+
+[PART V — MARKO RODIN, TESLA, AND VO.txt Lines 519–543]
+B(θ,ϕ) = B0 cos(k θ + ϕ)
+
+[PART V — MARKO RODIN, TESLA, AND VO.txt Lines 548–575]
+P = I · E_induced = I · (− dA/dt)
+
+End of index.

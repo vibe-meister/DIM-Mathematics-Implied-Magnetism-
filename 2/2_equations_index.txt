@@ -1,0 +1,29 @@
+Section 2 — Equations Index (source-grounded)
+Sources: see file citations per entry
+
+Conventions
+- Entries: [File] [Lines]: Equation (ASCII)
+
+[Chapter_5_Electromagnetic_Induction_and_Flux_Dynamics_Analysis.txt Lines 61–65]
+E = -dΦ/dt
+L = N^2 μ A / l
+M = k √(L1 L2)
+P = I^2 R
+
+[Chapter_6_Resonance_Oscillations_and_Magnetic_Circuits_Analysis.txt Lines 61–65]
+f0 = 1/(2π√(LC))
+Q = ω0 L / R = (1/R) √(L/C)
+k = M / √(L1 L2)
+U = 1/2 L I^2 + 1/2 C V^2
+
+[Chapter_7_Motion_Induced_Magnetic_Effects_Analysis.txt Lines 61–65]
+F = q (v × B)
+τ = m × B
+E = -N (dΦ/dt)
+P = F·v = τ·ω
+
+[Chapter_8_Topology_and_Geometry_of_Magnetic_Fields_Analysis.txt Lines 61–63]
+Toroidal coordinates: (R + r cos θ) cos φ, (R + r cos θ) sin φ, r sin θ
+B_enhanced = B0 × enhancement_factor
+
+End of index.

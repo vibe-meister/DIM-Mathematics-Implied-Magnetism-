@@ -1,0 +1,24 @@
+Phase‑Coherent Energy Transfer — Identification Protocol Notes
+
+Objective
+- Estimate η_ij (or k_ij/M_ij) and Q_i; validate ⟨P_net⟩ predictions against measurements with uncertainty.
+
+Instrumentation
+- HV/RF probes or dividers matched to bandwidth; phase‑synchronized acquisition; calibrated loads; temperature/EMI control.
+
+Procedures
+1) Q measurement
+   - Ringdown: excite, then measure decay; fit τ ⇒ Q=π f0 τ. Cross‑check with bandwidth method.
+2) k_ij extraction (pairwise)
+   - Sweep coupled pairs; record split f_±; compute k from (f_+^2 − f_-^2)/(f_+^2 + f_-^2); map to M_ij.
+3) Phase sweep for η_ij
+   - Program phase schedules; measure P_in/out and phases; fit ⟨P_net⟩ model to estimate η_ij; verify reciprocity within error.
+
+Controls
+- Nulls (open/short/matched dummy), swapped ground, blind passes; randomize run order; track drift.
+
+Uncertainty
+- Propagate instrument/calibration errors; bootstrap over runs; report confidence intervals for η_ij, Q, and predicted vs observed ⟨P_net⟩.
+
+Acceptance
+- Define thresholds for model fit (e.g., R^2, residual spectra); document failures and deviations.

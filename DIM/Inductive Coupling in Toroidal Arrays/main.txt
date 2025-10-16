@@ -1,0 +1,15 @@
+Inductive Coupling in Toroidal Arrays — Compiled
+
+Extracted content (created/speculative):
+- M_eff = Σ_{i,j} k_ij L_i L_j
+
+Notes:
+- Effective mutual coupling across an array of toroidal inductors.
+
+Three ways to complete/exhaust the math:
+1) Coupling matrix construction
+   - Compute k_ij from geometry using analytic approximations or FEM; assemble M matrix; analyze eigenmodes and localization.
+2) Scaling laws
+   - Derive M_eff scaling with spacing, orientation, and frequency; quantify impact of parasitics; provide design rules of thumb.
+3) Experimental extraction
+   - Measure split frequencies in coupled pairs/lattices; infer k_ij; validate predicted M_eff vs. network response.
