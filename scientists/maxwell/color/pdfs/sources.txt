@@ -1,0 +1,12 @@
+# Maxwell Color Theory PDFs (authoritative/prefer archival)
+
+# Primary color papers
+https://zenodo.org/record/2041790/files/Maxwell_1855_Experiments_on_Colour.pdf
+https://web.archive.org/web/20110823104203/http://notesonphotographs.org/index.php?title=Maxwell%2C_J._Clerk._%22On_the_Theory_of_Three_Primary_Colours.%22
+https://www.gutenberg.org/ebooks/4908.html.images
+
+# Background and historical
+https://philsci-archive.pitt.edu/11279/1/young-helmholtz-maxwell-color-vision.pdf
+
+# Optional secondary explanations
+https://gbenthien.net/Maxwell/max-App_A.html

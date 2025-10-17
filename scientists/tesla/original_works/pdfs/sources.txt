@@ -1,0 +1,12 @@
+# Tesla Original Works - PDFs
+
+# Patents (already in primary_pdfs)
+../../../../primary_pdfs/us_593138_electrical_transformer.pdf
+../../../../primary_pdfs/us_645576_system_transmission.pdf
+../../../../primary_pdfs/us_649621_apparatus_transmission.pdf
+
+# 1892 London Lecture: Experiments with Alternate Currents of High Potential and High Frequency
+https://archive.org/download/tesla-experiments-alt-currents/tesla-experiments-alt-currents_text.pdf
+
+# Colorado Springs Notes (1900)
+https://archive.org/download/ColoradoSpringsNotes/ColoradoSpringsNotes_text.pdf

@@ -1,0 +1,15 @@
+# Maxwell Original Works - PDFs
+
+# 1865 A Dynamical Theory of the Electromagnetic Field
+https://royalsocietypublishing.org/doi/pdf/10.1098/rstl.1865.0008
+
+# 1861-2 On Physical Lines of Force (Proc. Royal Society / Phil. Mag reprints)
+https://archive.org/download/maxwell-physical-lines-of-force/maxwell-physical-lines-of-force_text.pdf
+
+# 1873 Treatise on Electricity and Magnetism (Vol.1 and Vol.2)
+https://archive.org/download/electricitymagnet01maxw/electricitymagnet01maxw.pdf
+https://archive.org/download/electricitymagnet02maxw/electricitymagnet02maxw.pdf
+
+# Scientific Papers of James Clerk Maxwell (Niven, 1890)
+https://archive.org/download/scientificpapers01maxw/scientificpapers01maxw.pdf
+https://archive.org/download/scientificpapers02maxw/scientificpapers02maxw.pdf
