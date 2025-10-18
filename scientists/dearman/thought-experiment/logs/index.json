@@ -1,0 +1,602 @@
+[
+  {
+    "game_id": 1,
+    "total_moves": 387,
+    "total_captures": 27,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 2,
+    "total_moves": 511,
+    "total_captures": 29,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 3,
+    "total_moves": 157,
+    "total_captures": 20,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 4,
+    "total_moves": 234,
+    "total_captures": 26,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 5,
+    "total_moves": 190,
+    "total_captures": 23,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 6,
+    "total_moves": 203,
+    "total_captures": 19,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 7,
+    "total_moves": 231,
+    "total_captures": 26,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 8,
+    "total_moves": 96,
+    "total_captures": 17,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 9,
+    "total_moves": 452,
+    "total_captures": 26,
+    "outcome": "Other draw"
+  },
+  {
+    "game_id": 10,
+    "total_moves": 364,
+    "total_captures": 29,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 11,
+    "total_moves": 152,
+    "total_captures": 23,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 12,
+    "total_moves": 573,
+    "total_captures": 29,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 13,
+    "total_moves": 319,
+    "total_captures": 29,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 14,
+    "total_moves": 423,
+    "total_captures": 26,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 15,
+    "total_moves": 490,
+    "total_captures": 27,
+    "outcome": "Other draw"
+  },
+  {
+    "game_id": 16,
+    "total_moves": 275,
+    "total_captures": 25,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 17,
+    "total_moves": 254,
+    "total_captures": 29,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 18,
+    "total_moves": 260,
+    "total_captures": 27,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 19,
+    "total_moves": 172,
+    "total_captures": 24,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 20,
+    "total_moves": 206,
+    "total_captures": 23,
+    "outcome": "Checkmate"
+  },
+  {
+    "game_id": 21,
+    "total_moves": 257,
+    "total_captures": 28,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 22,
+    "total_moves": 183,
+    "total_captures": 21,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 23,
+    "total_moves": 430,
+    "total_captures": 30,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 24,
+    "total_moves": 255,
+    "total_captures": 29,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 25,
+    "total_moves": 331,
+    "total_captures": 26,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 26,
+    "total_moves": 201,
+    "total_captures": 22,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 27,
+    "total_moves": 235,
+    "total_captures": 25,
+    "outcome": "Checkmate"
+  },
+  {
+    "game_id": 28,
+    "total_moves": 185,
+    "total_captures": 17,
+    "outcome": "Checkmate"
+  },
+  {
+    "game_id": 29,
+    "total_moves": 512,
+    "total_captures": 30,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 30,
+    "total_moves": 296,
+    "total_captures": 22,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 31,
+    "total_moves": 163,
+    "total_captures": 17,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 32,
+    "total_moves": 469,
+    "total_captures": 29,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 33,
+    "total_moves": 188,
+    "total_captures": 21,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 34,
+    "total_moves": 104,
+    "total_captures": 15,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 35,
+    "total_moves": 224,
+    "total_captures": 19,
+    "outcome": "Checkmate"
+  },
+  {
+    "game_id": 36,
+    "total_moves": 219,
+    "total_captures": 26,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 37,
+    "total_moves": 321,
+    "total_captures": 27,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 38,
+    "total_moves": 314,
+    "total_captures": 24,
+    "outcome": "Checkmate"
+  },
+  {
+    "game_id": 39,
+    "total_moves": 329,
+    "total_captures": 23,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 40,
+    "total_moves": 175,
+    "total_captures": 20,
+    "outcome": "Checkmate"
+  },
+  {
+    "game_id": 41,
+    "total_moves": 420,
+    "total_captures": 31,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 42,
+    "total_moves": 234,
+    "total_captures": 27,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 43,
+    "total_moves": 346,
+    "total_captures": 29,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 44,
+    "total_moves": 252,
+    "total_captures": 25,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 45,
+    "total_moves": 586,
+    "total_captures": 29,
+    "outcome": "Other draw"
+  },
+  {
+    "game_id": 46,
+    "total_moves": 466,
+    "total_captures": 28,
+    "outcome": "Other draw"
+  },
+  {
+    "game_id": 47,
+    "total_moves": 340,
+    "total_captures": 30,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 48,
+    "total_moves": 327,
+    "total_captures": 30,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 49,
+    "total_moves": 270,
+    "total_captures": 29,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 50,
+    "total_moves": 420,
+    "total_captures": 29,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 51,
+    "total_moves": 327,
+    "total_captures": 26,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 52,
+    "total_moves": 300,
+    "total_captures": 27,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 53,
+    "total_moves": 424,
+    "total_captures": 29,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 54,
+    "total_moves": 434,
+    "total_captures": 29,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 55,
+    "total_moves": 294,
+    "total_captures": 28,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 56,
+    "total_moves": 283,
+    "total_captures": 23,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 57,
+    "total_moves": 237,
+    "total_captures": 26,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 58,
+    "total_moves": 244,
+    "total_captures": 24,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 59,
+    "total_moves": 163,
+    "total_captures": 21,
+    "outcome": "Checkmate"
+  },
+  {
+    "game_id": 60,
+    "total_moves": 205,
+    "total_captures": 20,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 61,
+    "total_moves": 516,
+    "total_captures": 27,
+    "outcome": "Checkmate"
+  },
+  {
+    "game_id": 62,
+    "total_moves": 633,
+    "total_captures": 28,
+    "outcome": "Other draw"
+  },
+  {
+    "game_id": 63,
+    "total_moves": 364,
+    "total_captures": 28,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 64,
+    "total_moves": 454,
+    "total_captures": 29,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 65,
+    "total_moves": 269,
+    "total_captures": 22,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 66,
+    "total_moves": 406,
+    "total_captures": 29,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 67,
+    "total_moves": 174,
+    "total_captures": 26,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 68,
+    "total_moves": 101,
+    "total_captures": 16,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 69,
+    "total_moves": 216,
+    "total_captures": 13,
+    "outcome": "Checkmate"
+  },
+  {
+    "game_id": 70,
+    "total_moves": 239,
+    "total_captures": 30,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 71,
+    "total_moves": 414,
+    "total_captures": 26,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 72,
+    "total_moves": 199,
+    "total_captures": 24,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 73,
+    "total_moves": 476,
+    "total_captures": 29,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 74,
+    "total_moves": 295,
+    "total_captures": 28,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 75,
+    "total_moves": 319,
+    "total_captures": 25,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 76,
+    "total_moves": 446,
+    "total_captures": 28,
+    "outcome": "Other draw"
+  },
+  {
+    "game_id": 77,
+    "total_moves": 197,
+    "total_captures": 22,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 78,
+    "total_moves": 252,
+    "total_captures": 24,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 79,
+    "total_moves": 266,
+    "total_captures": 22,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 80,
+    "total_moves": 116,
+    "total_captures": 17,
+    "outcome": "Checkmate"
+  },
+  {
+    "game_id": 81,
+    "total_moves": 362,
+    "total_captures": 29,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 82,
+    "total_moves": 387,
+    "total_captures": 22,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 83,
+    "total_moves": 232,
+    "total_captures": 21,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 84,
+    "total_moves": 460,
+    "total_captures": 28,
+    "outcome": "Other draw"
+  },
+  {
+    "game_id": 85,
+    "total_moves": 227,
+    "total_captures": 24,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 86,
+    "total_moves": 113,
+    "total_captures": 21,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 87,
+    "total_moves": 163,
+    "total_captures": 20,
+    "outcome": "Checkmate"
+  },
+  {
+    "game_id": 88,
+    "total_moves": 504,
+    "total_captures": 28,
+    "outcome": "Other draw"
+  },
+  {
+    "game_id": 89,
+    "total_moves": 181,
+    "total_captures": 22,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 90,
+    "total_moves": 373,
+    "total_captures": 30,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 91,
+    "total_moves": 334,
+    "total_captures": 29,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 92,
+    "total_moves": 374,
+    "total_captures": 27,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 93,
+    "total_moves": 535,
+    "total_captures": 30,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 94,
+    "total_moves": 395,
+    "total_captures": 29,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 95,
+    "total_moves": 83,
+    "total_captures": 12,
+    "outcome": "Checkmate"
+  },
+  {
+    "game_id": 96,
+    "total_moves": 212,
+    "total_captures": 26,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 97,
+    "total_moves": 464,
+    "total_captures": 29,
+    "outcome": "Insufficient material"
+  },
+  {
+    "game_id": 98,
+    "total_moves": 205,
+    "total_captures": 22,
+    "outcome": "Checkmate"
+  },
+  {
+    "game_id": 99,
+    "total_moves": 326,
+    "total_captures": 24,
+    "outcome": "Stalemate"
+  },
+  {
+    "game_id": 100,
+    "total_moves": 269,
+    "total_captures": 24,
+    "outcome": "Stalemate"
+  }
+]

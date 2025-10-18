@@ -40,6 +40,23 @@ Each theory folder typically contains:
 2) For lab-linked theories, consult `main.txt` plus `datasets/README.txt` and the copied `measurement_template.json`.
 3) Use `measurement_schema.json` as a reference for structuring new measurement records.
 
+## Thought-Experiment: Magnet Chess (Dearman Implied Magnetism)
+
+Interactive rules and simulations live under `scientists/dearman/thought-experiment/`:
+
+- `magnet-chess-DIM.md` — full rules (orthogonal chains, equality captures, standard castling).
+- `overview.md`, `rules.md` — quick start.
+- `DIM Chess.py` — batch simulations; writes per-game logs to `thought-experiment/logs/`.
+- `magnet_chess_human_vs_script.py` — human (White) vs script (Black) interactive play.
+- `logs/` — `game_*.json`, `index.json`; run 100 sims by executing `DIM Chess.py`.
+
+Quick run:
+
+```bash
+cd scientists/dearman/thought-experiment
+python "DIM Chess.py"  # generates logs/game_*.json and logs/index.json
+```
+
 ## Contributing
 
 - Add new theory folders under `DIM/` following the same structure.
