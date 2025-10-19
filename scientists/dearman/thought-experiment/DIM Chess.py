@@ -1,10 +1,11 @@
+
 import chess
+import chess.svg
 import networkx as nx
 import json
 import os
 import random
 import time
-from datetime import datetime
 
 # Piece weights
 WEIGHTS = {
@@ -41,130 +42,152 @@ def is_orthogonal_adjacent(square1, square2):
 def compute_chain_strength(board, color, target_square):
     """Compute the magnetic chain strength for a piece at target_square."""
     G = nx.Graph()
-    # Add nodes for same-color pieces
     for sq in chess.SQUARES:
         piece = board.piece_at(sq)
         if piece and piece.color == color:
             G.add_node(sq, weight=WEIGHTS[piece.piece_type])
     
-    # Add edges for orthogonal adjacencies
     for s1 in list(G.nodes):
         for s2 in list(G.nodes):
             if s1 != s2 and is_orthogonal_adjacent(s1, s2):
                 G.add_edge(s1, s2)
     
-    # If target is isolated, strength is 1
     if target_square not in G.nodes or G.degree(target_square) == 0:
         return 1
     
-    # Sum weights of connected component
     component = nx.node_connected_component(G, target_square)
     return sum(G.nodes[s]["weight"] for s in component)
 
-def compute_chain_metrics(board, color, target_square):
-    """Return (strength, component_size) for target_square; solo => (1, 1)."""
-    G = nx.Graph()
-    for sq in chess.SQUARES:
-        piece = board.piece_at(sq)
-        if piece and piece.color == color:
-            G.add_node(sq, weight=WEIGHTS[piece.piece_type])
-    for s1 in list(G.nodes):
-        for s2 in list(G.nodes):
-            if s1 != s2 and is_orthogonal_adjacent(s1, s2):
-                G.add_edge(s1, s2)
-    if target_square not in G.nodes or G.degree(target_square) == 0:
-        return 1, 1
-    component = nx.node_connected_component(G, target_square)
-    strength = sum(G.nodes[s]["weight"] for s in component)
-    return strength, len(component)
-
 def simulate_capture(board, move):
-    """Simulate a capture move and return (success, updated_board, event_log)."""
+    """Simulate a capture move and return if it succeeds, and the updated board."""
     attacker_square = move.from_square
     target_square = move.to_square
     attacker_piece = board.piece_at(attacker_square)
-    defender_piece = board.piece_at(target_square)
     attacker_color = attacker_piece.color
     defender_color = not attacker_color
-    san_before = board.san(move)
-    fen_before = board.fen()
-
-    # Determine defender square (handle en passant)
+    # Determine actual defender square (handle en passant)
     if board.is_en_passant(move):
-        # Captured pawn is behind the target square relative to attacker color
         defender_square = target_square - 8 if attacker_color == chess.WHITE else target_square + 8
-        defender_piece = board.piece_at(defender_square)
     else:
         defender_square = target_square
-
-    # Defender metrics (pre-move)
-    defender_strength, defender_component_size = compute_chain_metrics(board, defender_color, defender_square)
+    defender_piece = board.piece_at(defender_square)
+    defender_strength = compute_chain_strength(board, defender_color, defender_square)
     
-    # Simulate move: Temporarily apply the move
     temp_board = board.copy()
     temp_board.push(move)
+    attacker_strength = compute_chain_strength(temp_board, attacker_color, target_square)
     
-    # Attacker metrics post-move (evaluated on the destination square)
-    attacker_strength, attacker_component_size = compute_chain_metrics(temp_board, attacker_color, target_square)
-    
-    # Outcome
-    event = {
-        "move_uci": move.uci(),
-        "move_san": san_before,
-        "attacker": PIECE_NAMES[attacker_piece.piece_type],
-        "defender": PIECE_NAMES[defender_piece.piece_type] if defender_piece else "Pawn",
-        "attacker_strength": attacker_strength,
-        "attacker_component_size": attacker_component_size,
-        "defender_strength": defender_strength,
-        "defender_component_size": defender_component_size,
-        "equality_case": attacker_strength == defender_strength,
-        "is_en_passant": board.is_en_passant(move),
-        "fen_before": fen_before,
-        "timestamp": datetime.utcnow().isoformat() + "Z",
-    }
-
     if attacker_strength >= defender_strength:
-        # Capture succeeds
-        event["result"] = "attacker_wins"
-        event["fen_after"] = temp_board.fen()
-        return True, temp_board, event
+        return True, temp_board, attacker_strength, defender_strength
     else:
-        # Capture fails, attacker captured and turn passes
         failed_board = board.copy()
         failed_board.remove_piece_at(attacker_square)
+        # Turn passes to the opponent when the attacker is removed
         failed_board.turn = not board.turn
-        event["result"] = "attacker_removed"
-        event["fen_after"] = failed_board.fen()
-        return False, failed_board, event
+        return False, failed_board, attacker_strength, defender_strength
 
-def simulate_game(max_captures=None, log_dir='logs', game_id=None):
-    """Simulate a single game up to max_captures or completion and write per-game log."""
+def display_board(board):
+    """Display the chess board in the console."""
+    print("\nCurrent Board:")
+    print(board)
+    print()
+
+def play_game(max_captures=None, log_file='game_log.json'):
+    """Play a human (White) vs script (Black) game."""
     board = chess.Board()
     move_count = 0
     capture_count = 0
-    capture_events = []
-    os.makedirs(log_dir, exist_ok=True)
+    captures = []
+    
+    print("Welcome to Magnet Chess! You are White. Enter moves in algebraic notation (e.g., 'e4', 'Bxc3'). Type 'quit' to end.")
+    display_board(board)
     
     while not board.is_game_over():
-        legal_moves = list(board.legal_moves)
-        if not legal_moves:
-            break
-        move = random.choice(legal_moves)
-        move_count += 1
-        
-        if board.is_capture(move):
-            success, new_board, event = simulate_capture(board, move)
-            if success:
-                event["move_number"] = move_count
-                capture_events.append(event)
-                capture_count += 1
+        # Human's turn (White)
+        if board.turn == chess.WHITE:
+            move_input = input("Your move (White): ").strip()
+            if move_input.lower() == 'quit':
+                return {
+                    "captures": captures,
+                    "total_moves": move_count,
+                    "outcome": "Game quit by player"
+                }
+            
+            try:
+                move = board.parse_san(move_input)
+                if move not in board.legal_moves:
+                    print("Illegal move! Try again.")
+                    continue
+            except:
+                print("Invalid move format! Use algebraic notation (e.g., 'e4', 'Bxc3').")
+                continue
+            
+            move_count += 1
+            if board.is_capture(move):
+                # Precompute defender piece for logging (handles en passant)
+                attacker_color = board.turn
+                def_sq = move.to_square if not board.is_en_passant(move) else (move.to_square - 8 if attacker_color == chess.WHITE else move.to_square + 8)
+                defender_piece_pre = board.piece_at(def_sq)
+                success, new_board, attacker_strength, defender_strength = simulate_capture(board, move)
+                if success:
+                    print(f"Capture succeeds! Attacker strength: {attacker_strength}, Defender strength: {defender_strength}")
+                    if defender_piece_pre:
+                        captures.append({
+                            "piece": PIECE_NAMES[defender_piece_pre.piece_type],
+                            "value": defender_strength,
+                            "move": move_count
+                        })
+                    capture_count += 1
+                else:
+                    print(f"Capture fails! Attacker captured. Attacker strength: {attacker_strength}, Defender strength: {defender_strength}")
+                    attacker_piece = board.piece_at(move.from_square)
+                    captures.append({
+                        "piece": PIECE_NAMES[attacker_piece.piece_type],
+                        "value": attacker_strength,
+                        "move": move_count
+                    })
+                    capture_count += 1
+                board = new_board
             else:
-                event["move_number"] = move_count
-                capture_events.append(event)
-                capture_count += 1
-            board = new_board
+                board.push(move)
         else:
-            board.push(move)
+            # Script's turn (Black)
+            legal_moves = list(board.legal_moves)
+            if not legal_moves:
+                break
+            move = random.choice(legal_moves)
+            move_count += 1
+            print(f"Script's move (Black): {board.san(move)}")
+            
+            if board.is_capture(move):
+                # Precompute defender piece for logging (handles en passant)
+                attacker_color = board.turn
+                def_sq = move.to_square if not board.is_en_passant(move) else (move.to_square - 8 if attacker_color == chess.WHITE else move.to_square + 8)
+                defender_piece_pre = board.piece_at(def_sq)
+                success, new_board, attacker_strength, defender_strength = simulate_capture(board, move)
+                if success:
+                    print(f"Script's capture succeeds! Attacker strength: {attacker_strength}, Defender strength: {defender_strength}")
+                    if defender_piece_pre:
+                        captures.append({
+                            "piece": PIECE_NAMES[defender_piece_pre.piece_type],
+                            "value": defender_strength,
+                            "move": move_count
+                        })
+                    capture_count += 1
+                else:
+                    print(f"Script's capture fails! Attacker captured. Attacker strength: {attacker_strength}, Defender strength: {defender_strength}")
+                    attacker_piece = board.piece_at(move.from_square)
+                    captures.append({
+                        "piece": PIECE_NAMES[attacker_piece.piece_type],
+                        "value": attacker_strength,
+                        "move": move_count
+                    })
+                    capture_count += 1
+                board = new_board
+            else:
+                board.push(move)
+        
+        display_board(board)
         
         if max_captures is not None and capture_count >= max_captures:
             outcome = "Incomplete (max captures reached)"
@@ -181,37 +204,50 @@ def simulate_game(max_captures=None, log_dir='logs', game_id=None):
             outcome = "Other draw"
     
     data = {
-        "game_id": game_id,
+        "captures": captures,
         "total_moves": move_count,
-        "total_captures": capture_count,
-        "outcome": outcome,
-        "final_fen": board.fen(),
-        "captures": capture_events,
+        "outcome": outcome
     }
-
-    gid = game_id if game_id is not None else int(time.time() * 1000)
-    path = os.path.join(log_dir, f"game_{gid}.json")
-    with open(path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
+    
+    with open(log_file, 'a') as f:
+        json.dump(data, f)
+        f.write('\n')
+    
     return data
 
-def run_n_simulations(num_sessions=100, log_dir='logs'):
-    """Run a number of full games and log each to its own file, plus an index."""
-    all_index = []
-    os.makedirs(log_dir, exist_ok=True)
-    for session in range(1, num_sessions + 1):
-        game_data = simulate_game(max_captures=None, log_dir=log_dir, game_id=session)
-        all_index.append({
-            "game_id": session,
-            "total_moves": game_data["total_moves"],
-            "total_captures": game_data["total_captures"],
-            "outcome": game_data["outcome"]
-        })
-    index_path = os.path.join(log_dir, 'index.json')
-    with open(index_path, 'w', encoding='utf-8') as f:
-        json.dump(all_index, f, ensure_ascii=False, indent=2)
+def run_games(stages, log_file='game_log.json'):
+    """Run multiple human vs script games across stages."""
+    if os.path.exists(log_file):
+        os.remove(log_file)
+    
+    all_data = []
+    for stage_num, (max_captures, num_sessions) in enumerate(stages, 1):
+        print(f"\n=== Stage {stage_num}: Up to {max_captures if max_captures else 'Full'} captures, {num_sessions} games ===")
+        for session in range(num_sessions):
+            print(f"\nGame {session + 1} of Stage {stage_num}")
+            game_data = play_game(max_captures=max_captures, log_file=log_file)
+            game_data["stage"] = stage_num
+            game_data["session"] = session
+            all_data.append(game_data)
+            print(f"Game ended. Outcome: {game_data['outcome']}, Total moves: {game_data['total_moves']}, Captures: {len(game_data['captures'])}")
+            time.sleep(1)
+            if game_data["outcome"] == "Game quit by player":
+                print("Player quit. Ending simulation.")
+                break
+        if game_data["outcome"] == "Game quit by player":
+            break
+    
+    with open('full_game_log.json', 'w') as f:
+        json.dump(all_data, f, indent=4)
+    
+    print("\nSimulation completed. Logs in game_log.json and full_game_log.json")
 
 if __name__ == "__main__":
-    run_n_simulations(100, log_dir='logs')
-    print("Simulation completed. Per-game logs written to logs/game_*.json and logs/index.json")
+    # Define stages: (max_captures, num_sessions)
+    stages = [
+        (3, 5),
+        (6, 5),  # Change to (6, 100) for full run
+        (9, 5),  # Change to (9, 100)
+        (None, 5)  # Change to (None, 100)
+    ]
+    run_games(stages)
