@@ -1,0 +1,62 @@
+PhD Readiness Checklist — DIM Project
+
+Scope: What remains to elevate the current theory and documentation to a defensible PhD submission.
+
+1) Evidence (Experiments and Data)
+- ESR or NMR experiment: show ω_res ≈ γ B0; amplitude scales ∝ κ at fixed B0; linewidth reflects T2 and improves with shielding/geometry (W).
+- SQUID/fluxgate (or Gouy/Evans) measurement: quantify ultra‑weak magnetization/susceptibility; lock‑in using κ modulation when feasible.
+- Nulls and detection bounds: preregister numeric thresholds (e.g., |χ| < 1e‑8 under specified H, T, geometry) and report when not met.
+- Replicates and controls: detune (frequency/B0), rotate samples, alter shielding/fixtures (W), dummy samples, temperature sweeps.
+
+2) Results Sections (Complete and Reproducible)
+- Methods: apparatus, calibration (B0, B1, magnetometer), sample prep, shielding, acquisition settings.
+- Datasets: raw CSVs, metadata (units, uncertainties), versioned.
+- Analysis: models, fits (Lorentzian/Voigt), CIs and Bayes factors, error budgets, sensitivity.
+- Figures: spectra, κ vs amplitude, ω_res vs B0, linewidth vs shielding, χ(T) curves, null plots with bounds.
+- Availability: scripts/notebooks, requirements, run instructions.
+
+3) Related Work Depth
+- Position κ‑overlap against ESR/NMR practice, torque magnetometry, SQUID bounds, Curie/Pauli/diamagnetism benchmarks.
+- Cite and contrast: how DIM’s κ and decision mapping add an operational layer not present in standard texts.
+
+4) Cohesion and Mapping
+- Map each claim of novelty to a specific result figure/table and to a falsifiable test.
+- Summarize limitations inline (B0 homogeneity, T1/T2 estimates, W‑dependence) and how they affect conclusions.
+
+5) Administrative and Scholarly Requirements
+- Conform to graduate school formatting (front matter, references, appendices).
+- At least one manuscript submitted (preprint or journal) describing the κ‑integrated ESR/NMR + SQUID results.
+
+Fast Path to a Defensible Submission
+-----------------------------------
+Step A — ESR (or NMR) Core Result
+- Pre‑register: ω_res ≈ γ B0; amplitude ∝ κ at fixed B0; linewidth ↔ T2; null detunes.
+- Execute: collect resonance sweeps at several κ values (via spectral/geometry changes), constant B0.
+- Analyze: fit centers, widths, amplitudes; regress amplitude vs κ; quantify uncertainty.
+
+Step B — SQUID/Fluxgate (or Gouy/Evans) Validation
+- Measure magnetization/susceptibility while modulating κ (and/or temperature); report bounds when null.
+- Cross‑validate χ with literature where applicable; attribute χ_dia, χ_Pauli, χ_local components.
+
+Step C — Assemble Results Package
+- Figures: ESR/NMR resonance law; amplitude‑κ scaling; linewidth vs shielding; χ(T); null/bounds panel.
+- Methods & Data: full apparatus details, calibration, raw data, scripts, environment logs.
+- Claims mapping: table linking each claim of novelty to figures and falsifiable tests.
+
+Preregistration Checklist
+- Hypotheses and thresholds: numeric detection bounds; planned contrasts (on‑resonance vs detuned; high‑κ vs low‑κ).
+- Protocols: randomized blocks, blinding where applicable, environment logging (temperature, RF noise, vibration).
+- Analysis plan: model families, exclusion rules, multiple‑comparison control if needed.
+
+Artifacts to Produce
+- Data: CSVs for spectra, κ computations, susceptibility, environment logs.
+- Code: notebooks/scripts for κ, fitting, figures; requirements.txt; run scripts.
+- Documentation: README with exact reproduction steps; instrument calibration sheets.
+
+Target Manuscripts
+- Paper 1: κ‑optimized ESR/NMR demonstrating amplitude‑κ scaling and resonance law.
+- Paper 2: κ‑modulated magnetometry establishing detection bounds and χ decomposition in weakly magnetic samples.
+
+Status Tracking
+- Use this checklist to mark completion, paste links (data, code, figures), and record dates/versions.
+
