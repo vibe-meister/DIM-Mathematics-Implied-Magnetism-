@@ -35,3 +35,19 @@ We summarize the alignment probability factors by state to unify treatment acros
 | Liquid | ~ tanh(μH/kT) (weak-field: μH/kT)                      | Thermal randomization             |
 | Gas    | ~ tanh(μH/kT) (dilute paramagnets)                     | Low density, 1/T scaling          |
 | Plasma | ~ f(n_e, T, B); diamagnetism from pressure gradients   | Density, ionization, ω_c          |
+
+Spin and Precession in DIM
+--------------------------
+Spin is intrinsic (not classical rotation). Electron spin-½ carries a magnetic moment μ = −g μ_B ŝ, producing discrete measurement outcomes (±ħ/2 projections) and a well-defined gyromagnetic ratio γ. In a static field B, spins precess at the Larmor frequency ω_L = γ B. Driven near ω_L, ensembles exhibit resonance (ESR/NMR), with amplitudes governed by equilibrium polarization and coherence. We adopt a Bloch phenomenology for macroscopic magnetization M:
+
+    dM/dt = γ (M × B) − (M_⊥/T2) − ((M_z − M_eq)/T1)
+
+This connects microscopic spin dynamics to observables.
+
+Susceptibility Decomposition and Temperature Dependence
+-------------------------------------------------------
+We decompose χ as χ_total = χ_dia + χ_Pauli + χ_local, combining diamagnetism (χ_dia < 0), Pauli paramagnetism (small, ~T-independent), and localized-moment contributions following Curie or Curie–Weiss forms. Exchange interactions shift Curie behavior to Curie–Weiss, introducing Θ that captures mean-field correlations; ordering emerges when T approaches Θ.
+
+Integration with κ-Based Implied Magnetism
+------------------------------------------
+DIM’s κ summarizes spectral/context overlap of a source with a system. We use χ̃ ∝ K_agg({κ}) as a coupling gain that modulates effective drive fields acting on spin ensembles. Predictions: (i) At fixed B0, ESR peak amplitude tracks κ; (ii) ω_res ≈ γ B0 independent of κ; (iii) linewidth encodes T2 and environment, providing a diagnostic for shielding/geometry W.
