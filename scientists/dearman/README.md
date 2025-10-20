@@ -19,3 +19,9 @@ Dearman proposes that everything possesses some form of magnetism. The core rati
 
 ## Thought-Experiment Game
 See thought-experiment/overview.md for the game overview and thought-experiment/rules.md to play.
+
+## Implied Magnetism (Working Docs)
+- definitions: `implied_magnetism_definitions.md`
+- mathematical model: `implied_magnetism_math_model.md`
+- experiments: `implied_magnetism_experiments.md`
+- DIM Chess extensions: `thought-experiment/sim_extensions.md`

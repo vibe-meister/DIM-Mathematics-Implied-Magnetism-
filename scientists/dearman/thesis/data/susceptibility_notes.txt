@@ -1,0 +1,16 @@
+Notes on Susceptibility Values (indicative; temperature and purity dependent)
+
+- water: χ ≈ −9×10^−6 (diamagnetic)
+- bismuth: χ ≈ −1.66×10^−4 (strong diamagnet)
+- pyrolytic graphite: χ ≈ −4×10^−4 (anisotropic; value is along strong axis)
+- oxygen (gas): χ ≈ +1.9×10^−6 (paramagnetic at ~300 K)
+- mercury (liquid): χ ≈ −3.3×10^−5 (diamagnetic)
+- gold: χ ≈ −3.6×10^−5 (diamagnetic)
+- silver: χ ≈ −2.4×10^−5 (diamagnetic)
+- diamond: χ ≈ −2.1×10^−5 (diamagnetic)
+- helium (gas): χ ≈ −2×10^−9 (very weak diamagnet)
+- silica (SiO2): χ ≈ −1.1×10^−5 (diamagnetic)
+- iron: χ varies strongly with field; low-field differential susceptibility can be ≫1 before saturation
+- magnetite (Fe3O4): χ ≈ 10^−2 (order of magnitude; depends on microstructure)
+
+Citations: see references.bib (Bozorth; Selwood; Kittel; Ashcroft & Mermin; Pauling on O2; McMichael on Hg; Smith on graphite anisotropy).
