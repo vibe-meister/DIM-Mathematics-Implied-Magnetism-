@@ -1,0 +1,13 @@
+Firsts Enabled by DIM (κ + spin/precession)
+
+- κ-optimized ESR/NMR of "non-magnetic" matter: Systematically tune drive spectra/geometry to maximize κ and set hard detection bounds on χ for arbitrary materials; a standardized, preregistered universal magnetism assay.
+- Closed-loop spectral shaping for spin readout: Real-time adapt the drive spectrum to maximize ESR amplitude (proxy for κ) at fixed B0, discovering sample-specific optimal overlaps.
+- Context-engineered magnetic response (W-design): Use layered shielding/fixtures to sculpt W, boosting or quenching on-resonance response without changing B0/B1; resonance by environment.
+- Multiplexed, code-division spin addressing: Drive multiple samples with orthogonal spectra; separate responses via κ and aggregation choice (L2 vs softmax) for parallel ESR with minimal cross-talk.
+- Ultra-cheap χ mapping via κ modulation: Hold weak B0 constant; modulate only κ (spectral/geometry) and lock-in the magnetometer output to map susceptibility with commodity sensors.
+- Selective non-contact micro-torque actuation: Shape drives to high-κ only for tagged/anisotropic samples, producing measurable torque/deflection in weakly magnetic polymers/biomatter at safe fields.
+- Secure magnetic taggants by spectral keys: Embed materials with known H_tag; only readers emitting matching H_reader (high κ) elicit a detectable ESR/SQUID signal; low-κ eavesdroppers get near-nulls.
+- Materials screening for hidden localized moments: Scan nominally closed-shell compounds for κ-dependent ESR amplitude at fixed B0 to uncover dilute defects/impurities missed by bulk χ.
+- New null-standard for extraordinary-claims: Publish κ-controlled null protocols (detune, rotate, re-weight W) and numeric detection thresholds; negative results are informative and portable across labs.
+- Low-power in-situ monitoring: Where high B0 is constrained, use κ engineering to keep ω_res physics (ω_res ≈ γ B0) while lifting SNR via overlap rather than brute field.
+
