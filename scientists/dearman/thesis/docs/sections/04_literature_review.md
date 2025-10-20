@@ -30,3 +30,10 @@ Empirical Studies and Measurements
 Gaps and Emphases
 -----------------
 Introductory treatments overemphasize ferromagnets while neglecting omnipresent diamagnetism. We emphasize universality: χ ≠ 0 in matter, with magnitude set by electronic structure.
+
+Positioning DIM Relative to Prior Work
+--------------------------------------
+- κ-Overlap vs. Traditional Models: Standard texts quantify χ and magnetization but do not provide a tunable spectral/context overlap scalar that directly links source spectra and geometry to response magnitude. DIM’s κ fills this operational gap by guiding experimental design and falsification.
+- Spin Integration: ESR/NMR phenomenology is well-established, but DIM’s novelty is to embed κ into the drive–response chain (B1_eff ∝ κ), predicting amplitude scaling with κ while preserving ω_res ≈ γ B0 and T1/T2 interpretations.
+- Decision Mapping: While torque magnetometry and susceptibility measurements quantify signals, DIM adds a simple decision map T(χ̃) to connect microscopic susceptibilities to macroscopic outcomes (e.g., deflection thresholds), making “implied” effects testable.
+- Scope Control: DIM adheres to classical EM and quantum spin physics, distinguishing it from fringe “vibration” or zero‑point claims by restricting to falsifiable, instrument‑calibrated predictions.
